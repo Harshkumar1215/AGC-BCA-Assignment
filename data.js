@@ -4126,6 +4126,229 @@ const ai2022A2 = {
 };
 
 // ============================================
+// COURSE OUTCOMES: Computer Networks
+// ============================================
+const cnCO = {
+    "CO1": "Identify Hardware and software components for designing network.",
+    "CO2": "Define different network technologies and their application.",
+    "CO3": "Describe the role of network reference models."
+};
+
+// ============================================
+// Computer Networks — Year 2025 — Assignment 1
+// ============================================
+const cn2025A1 = {
+    sectionA: [
+        { q:1, text:"What is the network?", co:"CO1" },
+        { q:2, text:"Write down the types of Network Topologies.", co:"CO1" },
+        { q:3, text:"Illustrate the term Message Switching.", co:"CO1" },
+        { q:4, text:"What are coaxial cables.", co:"CO1" },
+        { q:5, text:"Explain Packet Switching.", co:"CO1" },
+        { q:6, text:"Give the term Telephone lines.", co:"CO1" },
+        { q:7, text:"Elaborate the Transmission Media.", co:"CO1" },
+        { q:8, text:"Identify at least three key differences between a MAN and a WAN.", co:"CO1" },
+        { q:9, text:"Write down the advantages and disadvantages of Bus Topology.", co:"CO1" },
+        { q:10, text:"Explain Star Topology in detail with the help of diagram.", co:"CO1" },
+        { q:11, text:"What is Data Communication?", co:"CO2" },
+        { q:12, text:"Define Modem.", co:"CO2" },
+        { q:13, text:"Illustrate the term Transmission mode.", co:"CO2" },
+        { q:14, text:"Write down the three types of transmission modes.", co:"CO2" },
+        { q:15, text:"Explain half Duplex Mode.", co:"CO2" },
+        { q:16, text:"Write the concept of Carrier Sense Multiple Access (CSMA).", co:"CO2" },
+        { q:17, text:"Illustrate the term Persistence Method.", co:"CO2" },
+        { q:18, text:"Write down the advantages and disadvantages of CSMA/CD & CSMA/CA.", co:"CO2" },
+        { q:19, text:"Explain IEEE 802 Standards in detail.", co:"CO2" },
+        { q:20, text:"Explain Leaky Bucket Algorithm.", co:"CO2" },
+        { q:21, text:"What are the types of class full addressing?", co:"CO3" },
+        { q:22, text:"Define repeater?", co:"CO3" },
+        { q:23, text:"Elaborate the term FTP.", co:"CO3" },
+        { q:24, text:"Write the functions of the data Link layer.", co:"CO3" },
+        { q:25, text:"Discuss the concept of TCP/IP Model.", co:"CO3" },
+        { q:26, text:"Difference between TCP/IP & OSI Model.", co:"CO3" },
+        { q:27, text:"Explain the term IP.", co:"CO3" },
+        { q:28, text:"Difference between IPv4 and IPv6 in detail.", co:"CO3" },
+        { q:29, text:"Explain OSI Model in detail with the help of diagram.", co:"CO3" },
+        { q:30, text:"What are the responsibilities of Network Layer.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Elaborate the term Mesh Topology.", co:"CO1" },
+        { q:32, text:"Explain the categories of networks.", co:"CO1" },
+        { q:33, text:"Write down the difference between Baseband and Broadband Transmission.", co:"CO1" },
+        { q:34, text:"What is the Datagram Packet Switching?", co:"CO1" },
+        { q:35, text:"Explain the structure of a Fiber – Optic Cable in detail.", co:"CO1" },
+        { q:36, text:"Elaborate the term Switching. Write down the Phases of Circuit Switching.", co:"CO1" },
+        { q:37, text:"Define Congestion Control and write down its types in detail.", co:"CO2" },
+        { q:38, text:"Explain Routing Algorithms and its types in detail.", co:"CO2" },
+        { q:39, text:"Write down the Frame format of 802.5 (Token Ring) in detail.", co:"CO2" },
+        { q:40, text:"Explain Routing Algorithms and its types.", co:"CO2" },
+        { q:41, text:"Write the concept of Token Bus (IEEE 802.4) in detail.", co:"CO2" },
+        { q:42, text:"Explain Token bucket Algorithm.", co:"CO2" },
+        { q:43, text:"Define OSI Model. Explain the functions of transport layer in detail.", co:"CO3" },
+        { q:44, text:"Define an internetwork.", co:"CO3" },
+        { q:45, text:"What is the function of SMTP?", co:"CO3" },
+        { q:46, text:"Explain about RARP in detail.", co:"CO3" },
+        { q:47, text:"Discuss the concept of sub- netting in detail.", co:"CO3" },
+        { q:48, text:"Write short notes about repeaters, routers and gateways.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Computer Networks — Year 2024 — Assignment 1
+// ============================================
+const cn2024A1 = {
+    sectionA: [
+        { q:1, text:"Define Computer Network. What are its goals?", co:"CO1" },
+        { q:2, text:"What is a LAN? Give two examples.", co:"CO1" },
+        { q:3, text:"What is a WAN? Give two examples.", co:"CO1" },
+        { q:4, text:"What is network topology? Name any two types.", co:"CO1" },
+        { q:5, text:"Explain Bus topology with its advantages.", co:"CO1" },
+        { q:6, text:"Explain Star topology with its advantages.", co:"CO1" },
+        { q:7, text:"What is the difference between simplex and duplex communication?", co:"CO2" },
+        { q:8, text:"What is bandwidth in networking?", co:"CO2" },
+        { q:9, text:"What is a modem? What is its function?", co:"CO2" },
+        { q:10, text:"What is the difference between analog and digital signals?", co:"CO2" },
+        { q:11, text:"What is the OSI model? How many layers does it have?", co:"CO3" },
+        { q:12, text:"What is the function of the Physical layer in OSI model?", co:"CO3" },
+        { q:13, text:"What is the function of the Data Link layer?", co:"CO3" },
+        { q:14, text:"What is the TCP/IP model? Name its layers.", co:"CO3" },
+        { q:15, text:"What is the difference between OSI and TCP/IP models?", co:"CO3" },
+        { q:16, text:"What is a MAC address?", co:"CO3" },
+        { q:17, text:"What is an IP address?", co:"CO3" },
+        { q:18, text:"What is the difference between IPv4 and IPv6?", co:"CO3" },
+        { q:19, text:"What is subnetting?", co:"CO3" },
+        { q:20, text:"What is the function of a router?", co:"CO3" },
+        { q:21, text:"What is the Transport layer responsible for?", co:"CO3" },
+        { q:22, text:"What is TCP? What are its features?", co:"CO3" },
+        { q:23, text:"What is UDP? How is it different from TCP?", co:"CO3" },
+        { q:24, text:"What is a port number? Give an example.", co:"CO3" },
+        { q:25, text:"What is the Application layer in the OSI model?", co:"CO3" },
+        { q:26, text:"What is DNS? What is its purpose?", co:"CO3" },
+        { q:27, text:"What is HTTP? What is it used for?", co:"CO3" },
+        { q:28, text:"What is FTP? What is its use?", co:"CO3" },
+        { q:29, text:"What is email? Which protocol is used for sending emails?", co:"CO3" },
+        { q:30, text:"What is a firewall? What is its purpose?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the types of computer networks (LAN, MAN, WAN) with examples.", co:"CO1" },
+        { q:32, text:"Explain different network topologies with diagrams and their advantages/disadvantages.", co:"CO1" },
+        { q:33, text:"Explain simplex, half-duplex, and full-duplex communication with examples.", co:"CO2" },
+        { q:34, text:"Explain the OSI model with all seven layers and their functions.", co:"CO3" },
+        { q:35, text:"Explain the TCP/IP model with all layers and their functions.", co:"CO3" },
+        { q:36, text:"Compare OSI and TCP/IP models in detail.", co:"CO3" },
+        { q:37, text:"Explain the concept of IP addressing and classes of IP addresses.", co:"CO3" },
+        { q:38, text:"What is subnetting? Explain with an example.", co:"CO3" },
+        { q:39, text:"Explain the difference between TCP and UDP with examples.", co:"CO3" },
+        { q:40, text:"Explain the working of TCP with its features.", co:"CO3" },
+        { q:41, text:"Explain the Application layer protocols: HTTP, FTP, DNS, and SMTP.", co:"CO3" },
+        { q:42, text:"Explain the working of DNS in detail.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Computer Networks — Year 2023 — Assignment 1
+// ============================================
+const cn2023A1 = {
+    sectionA: [
+        { q:1, text:"What is a network? What are its advantages?", co:"CO1" },
+        { q:2, text:"What is a PAN? Give an example.", co:"CO1" },
+        { q:3, text:"What is a CAN? Give an example.", co:"CO1" },
+        { q:4, text:"What is the difference between a LAN and a MAN?", co:"CO1" },
+        { q:5, text:"What is Tree topology?", co:"CO1" },
+        { q:6, text:"What is Hybrid topology?", co:"CO1" },
+        { q:7, text:"What is synchronous transmission?", co:"CO2" },
+        { q:8, text:"What is asynchronous transmission?", co:"CO2" },
+        { q:9, text:"What is the difference between synchronous and asynchronous transmission?", co:"CO2" },
+        { q:10, text:"What is multiplexing? Name its types.", co:"CO2" },
+        { q:11, text:"What is the function of the Data Link layer in OSI?", co:"CO3" },
+        { q:12, text:"What is the function of the Network layer in OSI?", co:"CO3" },
+        { q:13, text:"What is the function of the Transport layer in OSI?", co:"CO3" },
+        { q:14, text:"What is the function of the Application layer in OSI?", co:"CO3" },
+        { q:15, text:"What are the differences between OSI and TCP/IP models?", co:"CO3" },
+        { q:16, text:"What is IPv4? How many addresses does it have?", co:"CO3" },
+        { q:17, text:"What is IPv6? How many addresses does it have?", co:"CO3" },
+        { q:18, text:"What is a default gateway?", co:"CO3" },
+        { q:19, text:"What is a bridge? What is its function?", co:"CO3" },
+        { q:20, text:"What is a repeater? What is its function?", co:"CO3" },
+        { q:21, text:"What is a socket in networking?", co:"CO3" },
+        { q:22, text:"What is the difference between TCP and UDP?", co:"CO3" },
+        { q:23, text:"What is congestion control?", co:"CO3" },
+        { q:24, text:"What is flow control?", co:"CO3" },
+        { q:25, text:"What is WWW?", co:"CO3" },
+        { q:26, text:"What is a URL? Give an example.", co:"CO3" },
+        { q:27, text:"What is HTML?", co:"CO3" },
+        { q:28, text:"What is a web browser? Give examples.", co:"CO3" },
+        { q:29, text:"What is a search engine? Give examples.", co:"CO3" },
+        { q:30, text:"What is e-commerce?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the types of networks (PAN, LAN, MAN, WAN) with examples.", co:"CO1" },
+        { q:32, text:"Explain Bus, Star, Ring, Mesh, and Tree topologies.", co:"CO1" },
+        { q:33, text:"Explain synchronous and asynchronous transmission with examples.", co:"CO2" },
+        { q:34, text:"Explain the OSI reference model with all layers.", co:"CO3" },
+        { q:35, text:"Explain the TCP/IP reference model with all layers.", co:"CO3" },
+        { q:36, text:"Compare OSI and TCP/IP models with differences.", co:"CO3" },
+        { q:37, text:"Explain IPv4 and IPv6 addressing with differences.", co:"CO3" },
+        { q:38, text:"Explain the functions of a router, switch, bridge, and repeater.", co:"CO3" },
+        { q:39, text:"Explain TCP and UDP with their differences and features.", co:"CO3" },
+        { q:40, text:"Explain the TCP three-way handshake.", co:"CO3" },
+        { q:41, text:"Explain HTTP, FTP, SMTP, and DNS protocols.", co:"CO3" },
+        { q:42, text:"Explain the working of the World Wide Web (WWW).", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Computer Networks — Year 2022 — Assignment 1
+// ============================================
+const cn2022A1 = {
+    sectionA: [
+        { q:1, text:"Define computer network. What are its applications?", co:"CO1" },
+        { q:2, text:"What is the difference between a LAN and a WAN?", co:"CO1" },
+        { q:3, text:"What is network topology? Name five types.", co:"CO1" },
+        { q:4, text:"What is the advantage of Star topology?", co:"CO1" },
+        { q:5, text:"What is the disadvantage of Bus topology?", co:"CO1" },
+        { q:6, text:"What is the advantage of Ring topology?", co:"CO1" },
+        { q:7, text:"What is guided media? Give examples.", co:"CO2" },
+        { q:8, text:"What is unguided media? Give examples.", co:"CO2" },
+        { q:9, text:"What is twisted pair cable?", co:"CO2" },
+        { q:10, text:"What is coaxial cable?", co:"CO2" },
+        { q:11, text:"What is the Physical layer in OSI?", co:"CO3" },
+        { q:12, text:"What is the Data Link layer in OSI?", co:"CO3" },
+        { q:13, text:"What is the Network layer in OSI?", co:"CO3" },
+        { q:14, text:"What is the Transport layer in OSI?", co:"CO3" },
+        { q:15, text:"What is the Session layer in OSI?", co:"CO3" },
+        { q:16, text:"What is a public IP address?", co:"CO3" },
+        { q:17, text:"What is a private IP address?", co:"CO3" },
+        { q:18, text:"What is NAT?", co:"CO3" },
+        { q:19, text:"What is a VPN?", co:"CO3" },
+        { q:20, text:"What is the function of a DNS server?", co:"CO3" },
+        { q:21, text:"What is the function of the Transport layer in TCP/IP?", co:"CO3" },
+        { q:22, text:"What is the function of the Network layer in TCP/IP?", co:"CO3" },
+        { q:23, text:"What is the function of the Data Link layer in TCP/IP?", co:"CO3" },
+        { q:24, text:"What is the function of the Application layer in TCP/IP?", co:"CO3" },
+        { q:25, text:"What is the Internet?", co:"CO3" },
+        { q:26, text:"What is an intranet?", co:"CO3" },
+        { q:27, text:"What is an extranet?", co:"CO3" },
+        { q:28, text:"What is the difference between internet and intranet?", co:"CO3" },
+        { q:29, text:"What is a web server?", co:"CO3" },
+        { q:30, text:"What is an email server?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain LAN, MAN, and WAN with examples and differences.", co:"CO1" },
+        { q:32, text:"Explain Bus, Star, Ring, and Mesh topologies with advantages and disadvantages.", co:"CO1" },
+        { q:33, text:"Explain guided and unguided media with examples.", co:"CO2" },
+        { q:34, text:"Explain the OSI reference model in detail with all layers.", co:"CO3" },
+        { q:35, text:"Explain the TCP/IP reference model in detail with all layers.", co:"CO3" },
+        { q:36, text:"Compare OSI and TCP/IP models.", co:"CO3" },
+        { q:37, text:"Explain IP addressing and its classes with examples.", co:"CO3" },
+        { q:38, text:"Explain NAT and VPN with their uses.", co:"CO3" },
+        { q:39, text:"Explain TCP with its features and segment format.", co:"CO3" },
+        { q:40, text:"Explain UDP with its features and datagram format.", co:"CO3" },
+        { q:41, text:"Explain the functions of the Application layer protocols.", co:"CO3" },
+        { q:42, text:"Explain the working of the Internet and its services.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -4257,6 +4480,19 @@ const subjects = {
             "2023": { "1": ai2023A1, "2": ai2023A2 },
             "2024": { "1": ai2024A1, "2": ai2024A2 },
             "2025": { "1": ai2025A1, "2": ai2025A2 }
+        }
+    },
+    "cn": {
+        semester: 3,
+        icon: "🌐",
+        name: "Computer Networks",
+        code: "BCA",
+        courseOutcomes: cnCO,
+        data: {
+            "2022": { "1": cn2022A1 },
+            "2023": { "1": cn2023A1 },
+            "2024": { "1": cn2024A1 },
+            "2025": { "1": cn2025A1 }
         }
     }
 };
