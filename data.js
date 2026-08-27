@@ -1627,6 +1627,238 @@ const evs2022A1 = {
 };
 
 // ============================================
+// Environmental Studies — Year 2025 — Assignment 2
+// ============================================
+const evs2025A2 = {
+    sectionA: [
+        { q:1, text:"Define the term biodiversity.", co:"CO4" },
+        { q:2, text:"What are the different types of biodiversity?", co:"CO4" },
+        { q:3, text:"What are the Hotspots of Biodiversity in India?", co:"CO4" },
+        { q:4, text:"What are Endangered species?", co:"CO4" },
+        { q:5, text:"What are the threats to Biodiversity?", co:"CO4" },
+        { q:6, text:"What are Endemic Species?", co:"CO4" },
+        { q:7, text:"What is In-situ conservation of Biodiversity?", co:"CO4" },
+        { q:8, text:"What is Cryo-preservation?", co:"CO4" },
+        { q:9, text:"What is Red Data Book?", co:"CO4" },
+        { q:10, text:"What does NBAGR and NBPGR stands for?", co:"CO4" },
+        { q:11, text:"What are the causes and effects of Thermal Pollution?", co:"CO5" },
+        { q:12, text:"What do you understand by Nuclear Hazards?", co:"CO5" },
+        { q:13, text:"What is Soil Pollution? How it can be controlled?", co:"CO5" },
+        { q:14, text:"What is Global Warming?", co:"CO5" },
+        { q:15, text:"Define Ozone layer Depletion? What is Ozone Hole?", co:"CO5" },
+        { q:16, text:"How is Cyclone caused? What actions should be taken during Cyclone?", co:"CO5" },
+        { q:17, text:"Define Pollution. What are Pollutants?", co:"CO5" },
+        { q:18, text:"How Green House Effect leads to Global Warming?", co:"CO5" },
+        { q:19, text:"What is Solid Waste Management?", co:"CO5" },
+        { q:20, text:"How are Floods caused? What are its effects?", co:"CO5" },
+        { q:21, text:"What is the difference between Sustainable and Unsustainable development?", co:"CO6" },
+        { q:22, text:"What is Rain water Harvesting?", co:"CO6" },
+        { q:23, text:"What is Acid Rain? How is it caused?", co:"CO6" },
+        { q:24, text:"What are the drawbacks of Forest Conservation Act, 1980?", co:"CO6" },
+        { q:25, text:"What is Women and Child Welfare Program?", co:"CO6" },
+        { q:26, text:"What are the objectives of Human Rights?", co:"CO6" },
+        { q:27, text:"What are the causes of population explosion in India?", co:"CO6" },
+        { q:28, text:"What do you understand by Watersheds?", co:"CO6" },
+        { q:29, text:"What is Family Planning?", co:"CO6" },
+        { q:30, text:"When World Population Day is celebrated? Explain the Women and Child Welfare Program in detail.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain in detail the different levels of Biodiversity.", co:"CO4" },
+        { q:32, text:"What are Endangered and Endemic species? How do they vary from each other? How are they affecting the environment?", co:"CO4" },
+        { q:33, text:"Explain the methods of conservation of biodiversity in detail.", co:"CO4" },
+        { q:34, text:"What is extinction of species? Describe the process which leads to extinction of species.", co:"CO4" },
+        { q:35, text:"Why India is called Mega Diversity Nation? Explain.", co:"CO4" },
+        { q:36, text:"What do you understand by Hotspots of Biodiversity? What are hotspots of India and the world? Explain.", co:"CO4" },
+        { q:37, text:"Define Air Pollution. What are its causes and preventive measures?", co:"CO5" },
+        { q:38, text:"In accordance to Air Pollution explain what is Acid Rain? What are its adverse effects?", co:"CO5" },
+        { q:39, text:"Explain the case study of Taj Mahal in this aspect.", co:"CO5" },
+        { q:40, text:"Define Solid Waste Management. What are the sources of solid waste? How can it control pollution?", co:"CO5" },
+        { q:41, text:"What are the main causes of Water Pollution? What are its adverse effects on water resources? How can it be prevented?", co:"CO5" },
+        { q:42, text:"Explain some details about the causes and methods of prevention of Noise Pollution and Thermal Pollution?", co:"CO5" },
+        { q:43, text:"Explain the Women and Child Welfare Program in detail.", co:"CO6" },
+        { q:44, text:"What are the adverse effects of increasing population in India? How it can be controlled?", co:"CO6" },
+        { q:45, text:"What is HIV/AIDS? What are its causes? How it can be diagnosed?", co:"CO6" },
+        { q:46, text:"What is the role of IT in protection of environment?", co:"CO6" },
+        { q:47, text:"What are the steps taken by government for the conservation of Environment. What is Rain Water Harvesting and Water Shed Management?", co:"CO6" },
+        { q:48, text:"Explain in detail the various social issues of India? What steps should be taken by the government for their control?", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Environmental Studies — Year 2024 — Assignment 2
+// ============================================
+const evs2024A2 = {
+    sectionA: [
+        { q:1, text:"What is biodiversity?", co:"CO4" },
+        { q:2, text:"What are the types of biodiversity?", co:"CO4" },
+        { q:3, text:"What are biodiversity hotspots in India?", co:"CO4" },
+        { q:4, text:"What are endangered species?", co:"CO4" },
+        { q:5, text:"What are the threats to biodiversity?", co:"CO4" },
+        { q:6, text:"What are endemic species?", co:"CO4" },
+        { q:7, text:"What is in-situ conservation?", co:"CO4" },
+        { q:8, text:"What is cryopreservation?", co:"CO4" },
+        { q:9, text:"What is the Red Data Book?", co:"CO4" },
+        { q:10, text:"What do NBAGR and NBPGR stand for?", co:"CO4" },
+        { q:11, text:"What are the causes and effects of thermal pollution?", co:"CO5" },
+        { q:12, text:"What are nuclear hazards?", co:"CO5" },
+        { q:13, text:"What is soil pollution and how can it be controlled?", co:"CO5" },
+        { q:14, text:"What is global warming?", co:"CO5" },
+        { q:15, text:"What is ozone layer depletion and ozone hole?", co:"CO5" },
+        { q:16, text:"How are cyclones caused and what actions should be taken?", co:"CO5" },
+        { q:17, text:"What is pollution and what are pollutants?", co:"CO5" },
+        { q:18, text:"How does the greenhouse effect cause global warming?", co:"CO5" },
+        { q:19, text:"What is solid waste management?", co:"CO5" },
+        { q:20, text:"How are floods caused and what are their effects?", co:"CO5" },
+        { q:21, text:"What is the difference between sustainable and unsustainable development?", co:"CO6" },
+        { q:22, text:"What is rainwater harvesting?", co:"CO6" },
+        { q:23, text:"What is acid rain and how is it caused?", co:"CO6" },
+        { q:24, text:"What are the drawbacks of the Forest Conservation Act, 1980?", co:"CO6" },
+        { q:25, text:"What is the Women and Child Welfare Program?", co:"CO6" },
+        { q:26, text:"What are the objectives of Human Rights?", co:"CO6" },
+        { q:27, text:"What are the causes of population explosion in India?", co:"CO6" },
+        { q:28, text:"What are watersheds?", co:"CO6" },
+        { q:29, text:"What is family planning?", co:"CO6" },
+        { q:30, text:"When is World Population Day celebrated? Explain the Women and Child Welfare Program.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the different levels of biodiversity.", co:"CO4" },
+        { q:32, text:"What are endangered and endemic species? How do they differ and affect the environment?", co:"CO4" },
+        { q:33, text:"Explain the methods of biodiversity conservation.", co:"CO4" },
+        { q:34, text:"What is species extinction? Describe the process leading to extinction.", co:"CO4" },
+        { q:35, text:"Why is India called a mega-diversity nation?", co:"CO4" },
+        { q:36, text:"What are biodiversity hotspots? Explain the hotspots in India and the world.", co:"CO4" },
+        { q:37, text:"What is air pollution? Explain its causes and preventive measures.", co:"CO5" },
+        { q:38, text:"What is acid rain and what are its adverse effects?", co:"CO5" },
+        { q:39, text:"Explain the Taj Mahal case study related to air pollution.", co:"CO5" },
+        { q:40, text:"What is solid waste management? What are its sources and how can it control pollution?", co:"CO5" },
+        { q:41, text:"What are the causes and effects of water pollution? How can it be prevented?", co:"CO5" },
+        { q:42, text:"Explain the causes and prevention of noise pollution and thermal pollution.", co:"CO5" },
+        { q:43, text:"Explain the Women and Child Welfare Program in detail.", co:"CO6" },
+        { q:44, text:"What are the adverse effects of population growth in India and how can it be controlled?", co:"CO6" },
+        { q:45, text:"What is HIV/AIDS? What are its causes and how is it diagnosed?", co:"CO6" },
+        { q:46, text:"What is the role of IT in environmental protection?", co:"CO6" },
+        { q:47, text:"What steps has the government taken for environmental conservation? Explain rainwater harvesting and watershed management.", co:"CO6" },
+        { q:48, text:"Explain the social issues of India and the steps taken by the government to control them.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Environmental Studies — Year 2023 — Assignment 2
+// ============================================
+const evs2023A2 = {
+    sectionA: [
+        { q:1, text:"What is biodiversity?", co:"CO4" },
+        { q:2, text:"What are the levels of biodiversity?", co:"CO4" },
+        { q:3, text:"What are biodiversity hotspots?", co:"CO4" },
+        { q:4, text:"What are endangered species?", co:"CO4" },
+        { q:5, text:"What are the major threats to biodiversity?", co:"CO4" },
+        { q:6, text:"What are endemic species?", co:"CO4" },
+        { q:7, text:"What is in-situ conservation?", co:"CO4" },
+        { q:8, text:"What is cryopreservation?", co:"CO4" },
+        { q:9, text:"What is the Red Data Book?", co:"CO4" },
+        { q:10, text:"What is the full form of NBAGR and NBPGR?", co:"CO4" },
+        { q:11, text:"What is thermal pollution and what are its effects?", co:"CO5" },
+        { q:12, text:"What are nuclear hazards?", co:"CO5" },
+        { q:13, text:"What is soil pollution and how can it be prevented?", co:"CO5" },
+        { q:14, text:"What is global warming?", co:"CO5" },
+        { q:15, text:"What is ozone layer depletion?", co:"CO5" },
+        { q:16, text:"How are cyclones caused?", co:"CO5" },
+        { q:17, text:"What are pollutants?", co:"CO5" },
+        { q:18, text:"How does the greenhouse effect cause global warming?", co:"CO5" },
+        { q:19, text:"What is solid waste management?", co:"CO5" },
+        { q:20, text:"What are floods and their effects?", co:"CO5" },
+        { q:21, text:"What is the difference between sustainable and unsustainable development?", co:"CO6" },
+        { q:22, text:"What is rainwater harvesting?", co:"CO6" },
+        { q:23, text:"What is acid rain and its causes?", co:"CO6" },
+        { q:24, text:"What are the drawbacks of the Forest Conservation Act, 1980?", co:"CO6" },
+        { q:25, text:"What is the Women and Child Welfare Program?", co:"CO6" },
+        { q:26, text:"What are Human Rights?", co:"CO6" },
+        { q:27, text:"Why is India's population growing so fast?", co:"CO6" },
+        { q:28, text:"What are watersheds?", co:"CO6" },
+        { q:29, text:"What is family planning?", co:"CO6" },
+        { q:30, text:"When is World Population Day celebrated?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the different levels of biodiversity in detail.", co:"CO4" },
+        { q:32, text:"What are endangered and endemic species? How do they affect the environment?", co:"CO4" },
+        { q:33, text:"What are the methods of biodiversity conservation?", co:"CO4" },
+        { q:34, text:"What causes species extinction?", co:"CO4" },
+        { q:35, text:"Why is India called a mega-diversity nation?", co:"CO4" },
+        { q:36, text:"What are biodiversity hotspots in India and the world?", co:"CO4" },
+        { q:37, text:"What is air pollution, its causes, and preventive measures?", co:"CO5" },
+        { q:38, text:"What is acid rain and its adverse effects?", co:"CO5" },
+        { q:39, text:"Explain the Taj Mahal case study.", co:"CO5" },
+        { q:40, text:"What is solid waste management and its sources?", co:"CO5" },
+        { q:41, text:"What are the causes and effects of water pollution and how can it be prevented?", co:"CO5" },
+        { q:42, text:"Explain the causes and prevention of noise and thermal pollution.", co:"CO5" },
+        { q:43, text:"Explain the Women and Child Welfare Program.", co:"CO6" },
+        { q:44, text:"What are the effects of population growth and how can it be controlled?", co:"CO6" },
+        { q:45, text:"What is HIV/AIDS, its causes, and diagnosis?", co:"CO6" },
+        { q:46, text:"How can IT help in environmental protection?", co:"CO6" },
+        { q:47, text:"What are the government's steps for environmental conservation? Explain rainwater harvesting and watershed management.", co:"CO6" },
+        { q:48, text:"What are the social issues in India and the government's steps to control them?", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Environmental Studies — Year 2022 — Assignment 2
+// ============================================
+const evs2022A2 = {
+    sectionA: [
+        { q:1, text:"What is biodiversity?", co:"CO4" },
+        { q:2, text:"What are the types of biodiversity?", co:"CO4" },
+        { q:3, text:"What are India's biodiversity hotspots?", co:"CO4" },
+        { q:4, text:"What are endangered species?", co:"CO4" },
+        { q:5, text:"What are the threats to biodiversity?", co:"CO4" },
+        { q:6, text:"What are endemic species?", co:"CO4" },
+        { q:7, text:"What is in-situ conservation?", co:"CO4" },
+        { q:8, text:"What is cryopreservation?", co:"CO4" },
+        { q:9, text:"What is the Red Data Book?", co:"CO4" },
+        { q:10, text:"What do NBAGR and NBPGR stand for?", co:"CO4" },
+        { q:11, text:"What is thermal pollution?", co:"CO5" },
+        { q:12, text:"What are nuclear hazards?", co:"CO5" },
+        { q:13, text:"What is soil pollution and its control?", co:"CO5" },
+        { q:14, text:"What is global warming?", co:"CO5" },
+        { q:15, text:"What is ozone layer depletion?", co:"CO5" },
+        { q:16, text:"How are cyclones caused?", co:"CO5" },
+        { q:17, text:"What is pollution and what are pollutants?", co:"CO5" },
+        { q:18, text:"How does the greenhouse effect cause global warming?", co:"CO5" },
+        { q:19, text:"What is solid waste management?", co:"CO5" },
+        { q:20, text:"What are floods and their effects?", co:"CO5" },
+        { q:21, text:"What is the difference between sustainable and unsustainable development?", co:"CO6" },
+        { q:22, text:"What is rainwater harvesting?", co:"CO6" },
+        { q:23, text:"What is acid rain and its causes?", co:"CO6" },
+        { q:24, text:"What are the drawbacks of the Forest Conservation Act, 1980?", co:"CO6" },
+        { q:25, text:"What is the Women and Child Welfare Program?", co:"CO6" },
+        { q:26, text:"What are the objectives of Human Rights?", co:"CO6" },
+        { q:27, text:"What are the causes of population explosion in India?", co:"CO6" },
+        { q:28, text:"What are watersheds?", co:"CO6" },
+        { q:29, text:"What is family planning?", co:"CO6" },
+        { q:30, text:"When is World Population Day celebrated?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the different levels of biodiversity.", co:"CO4" },
+        { q:32, text:"What are endangered and endemic species and how do they affect the environment?", co:"CO4" },
+        { q:33, text:"Explain the methods of biodiversity conservation.", co:"CO4" },
+        { q:34, text:"What is species extinction and what causes it?", co:"CO4" },
+        { q:35, text:"Why is India called a mega-diversity nation?", co:"CO4" },
+        { q:36, text:"What are biodiversity hotspots in India and the world?", co:"CO4" },
+        { q:37, text:"What is air pollution, its causes, and prevention?", co:"CO5" },
+        { q:38, text:"What is acid rain and its adverse effects?", co:"CO5" },
+        { q:39, text:"Explain the Taj Mahal case study.", co:"CO5" },
+        { q:40, text:"What is solid waste management and its sources?", co:"CO5" },
+        { q:41, text:"What are the causes and effects of water pollution and how can it be prevented?", co:"CO5" },
+        { q:42, text:"Explain the causes and prevention of noise and thermal pollution.", co:"CO5" },
+        { q:43, text:"Explain the Women and Child Welfare Program.", co:"CO6" },
+        { q:44, text:"What are the effects of population growth and how can it be controlled?", co:"CO6" },
+        { q:45, text:"What is HIV/AIDS, its causes, and diagnosis?", co:"CO6" },
+        { q:46, text:"What is the role of IT in environmental protection?", co:"CO6" },
+        { q:47, text:"What are the government's steps for environmental conservation? Explain rainwater harvesting and watershed management.", co:"CO6" },
+        { q:48, text:"What are the social issues in India and the government's steps to control them?", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -1689,10 +1921,10 @@ const subjects = {
         code: "VAC-24201",
         courseOutcomes: evsCO,
         data: {
-            "2022": { "1": evs2022A1 },
-            "2023": { "1": evs2023A1 },
-            "2024": { "1": evs2024A1 },
-            "2025": { "1": evs2025A1 }
+            "2022": { "1": evs2022A1, "2": evs2022A2 },
+            "2023": { "1": evs2023A1, "2": evs2023A2 },
+            "2024": { "1": evs2024A1, "2": evs2024A2 },
+            "2025": { "1": evs2025A1, "2": evs2025A2 }
         }
     }
 };
