@@ -895,6 +895,131 @@ const cLang2022A2 = {
 };
 
 // ============================================
+// Fundamentals of Computer and IT — COs
+// ============================================
+const fcitCO = {
+    "CO1": "Identify of input and output devices of Computers.",
+    "CO2": "Utilize the functioning of various components of computer system.",
+    "CO3": "Explain the different levels of languages, Operating system and features of Word processing."
+};
+
+// ============================================
+// Fundamentals of Computer and IT — Year 2024 — Assignment 1
+// ============================================
+const fcit2024A1 = {
+    sectionA: [
+        { q:1, text:"Give the five main hardware components in a computer system.", co:"CO1" },
+        { q:2, text:"Difference between Data and information.", co:"CO1" },
+        { q:3, text:"Write the full forms of USB, MIDI, SCSI, BIOS.", co:"CO1" },
+        { q:4, text:"What is ALU?", co:"CO1" },
+        { q:5, text:"Define software.", co:"CO1" },
+        { q:6, text:"Define the computer and its uses.", co:"CO1" },
+        { q:7, text:"Elaborate the term CPU.", co:"CO1" },
+        { q:8, text:"Illustrate the term system Software.", co:"CO1" },
+        { q:9, text:"Mention types of Registers.", co:"CO1" },
+        { q:10, text:"Elaborate the term Cache Memory.", co:"CO1" },
+        { q:11, text:"Give the types of ROM.", co:"CO2" },
+        { q:12, text:"Draw the table of Number System.", co:"CO2" },
+        { q:13, text:"Convert (632)₈ to decimal.", co:"CO2" },
+        { q:14, text:"In one Bytes how many bits there?", co:"CO2" },
+        { q:15, text:"Convert from Binary to Decimal: (10001011)₂.", co:"CO2" },
+        { q:16, text:"Difference between RAM and ROM.", co:"CO2" },
+        { q:17, text:"What is Information Technology?", co:"CO2" },
+        { q:18, text:"Write the full forms of OCR, OMR, VDU, LCD.", co:"CO2" },
+        { q:19, text:"Solve the Binary Addition: 10001 + 11101.", co:"CO2" },
+        { q:20, text:"Define Bit.", co:"CO2" },
+        { q:21, text:"Write the concept of Spell Checking.", co:"CO3" },
+        { q:22, text:"Write the elements of GUI.", co:"CO3" },
+        { q:23, text:"Give the concept of MS-Office.", co:"CO3" },
+        { q:24, text:"Describe the term Utility Program.", co:"CO3" },
+        { q:25, text:"Define mail merge.", co:"CO3" },
+        { q:26, text:"Give the classification of High-Level Languages.", co:"CO3" },
+        { q:27, text:"Elaborate the term opcode.", co:"CO3" },
+        { q:28, text:"Illustrate the term machine language.", co:"CO3" },
+        { q:29, text:"Write the types of User Interface.", co:"CO3" },
+        { q:30, text:"What is Assembler?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define the term central processing unit. Elaborate the main components of central processing unit with the help of Diagram.", co:"CO1" },
+        { q:32, text:"Draw and explain the Block Diagram of Computer. Write its applications.", co:"CO1" },
+        { q:33, text:"Describe the short notes on: a) Serial Port b) Parallel Port.", co:"CO1" },
+        { q:34, text:"Explain the concept of data bus and address bus in detail.", co:"CO1" },
+        { q:35, text:"Write the concept of adapter card. Explain the adapter card in detail.", co:"CO1" },
+        { q:36, text:"What is memory? Explain the types of memory in detail.", co:"CO1" },
+        { q:37, text:"Write the Short note on: Representing Numbers. Conversion of hexadecimal to decimal. Convert (F4C)₁₆ to decimal.", co:"CO2" },
+        { q:38, text:"Write the difference between Primary and Secondary Memory.", co:"CO2" },
+        { q:39, text:"Write the short notes on: a) Hard disks b) Optical disks.", co:"CO2" },
+        { q:40, text:"What is memory? Explain the types of memory in detail.", co:"CO2" },
+        { q:41, text:"Give the difference between OCR and OMR.", co:"CO2" },
+        { q:42, text:"Explain Input and Output devices in detail with the help of diagram.", co:"CO2" },
+        { q:43, text:"Write the uses of MS-Word. Describe in detail Font Dialogue Box, Paragraph Dialogue Box.", co:"CO3" },
+        { q:44, text:"What is the role of an Operating System? Briefly discuss the features of different types of Operating System.", co:"CO3" },
+        { q:45, text:"Discuss in detail the evolution of computer system.", co:"CO3" },
+        { q:46, text:"Define Low Level Language? Write its Advantages and disadvantages.", co:"CO3" },
+        { q:47, text:"Write the difference between desktop and window.", co:"CO3" },
+        { q:48, text:"What is command line interface? Write its command and Description also.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Computer and IT — Year 2025/2023/2022 — Assignment 1
+// ============================================
+const fcit2025A1 = {
+    sectionA: [
+        { q:1, text:"What is a computer? Explain its characteristics.", co:"CO1" },
+        { q:2, text:"What is hardware? Give examples.", co:"CO1" },
+        { q:3, text:"What is software? Give examples.", co:"CO1" },
+        { q:4, text:"What is CPU? Explain its components.", co:"CO1" },
+        { q:5, text:"What is the difference between data and information?", co:"CO1" },
+        { q:6, text:"What are the uses of computers in daily life?", co:"CO1" },
+        { q:7, text:"What is ALU? Explain its function.", co:"CO1" },
+        { q:8, text:"What is CU? Explain its function.", co:"CO1" },
+        { q:9, text:"What is memory? Explain its types.", co:"CO1" },
+        { q:10, text:"What is cache memory? Explain its advantages.", co:"CO1" },
+        { q:11, text:"What is ROM? Explain its types.", co:"CO2" },
+        { q:12, text:"What is RAM? Explain its types.", co:"CO2" },
+        { q:13, text:"What is a number system? Explain its types.", co:"CO2" },
+        { q:14, text:"Convert (1011)₂ to decimal.", co:"CO2" },
+        { q:15, text:"Convert (25)₁₀ to binary.", co:"CO2" },
+        { q:16, text:"What is the difference between primary and secondary memory?", co:"CO2" },
+        { q:17, text:"What is a bit and a byte?", co:"CO2" },
+        { q:18, text:"What is OCR? Explain its uses.", co:"CO2" },
+        { q:19, text:"What is OMR? Explain its uses.", co:"CO2" },
+        { q:20, text:"What is an input device? Give examples.", co:"CO2" },
+        { q:21, text:"What is an output device? Give examples.", co:"CO2" },
+        { q:22, text:"What is an operating system? Explain its functions.", co:"CO3" },
+        { q:23, text:"What are the types of operating systems?", co:"CO3" },
+        { q:24, text:"What is MS-Word? Explain its features.", co:"CO3" },
+        { q:25, text:"What is MS-Excel? Explain its features.", co:"CO3" },
+        { q:26, text:"What is MS-PowerPoint? Explain its features.", co:"CO3" },
+        { q:27, text:"What is the difference between system software and application software?", co:"CO3" },
+        { q:28, text:"What is a compiler? Explain.", co:"CO3" },
+        { q:29, text:"What is an interpreter? Explain.", co:"CO3" },
+        { q:30, text:"What is an assembler? Explain.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the block diagram of a computer system with a diagram.", co:"CO1" },
+        { q:32, text:"Explain the functional units of a computer with a block diagram.", co:"CO1" },
+        { q:33, text:"Explain the types of memory with their hierarchy.", co:"CO1" },
+        { q:34, text:"Explain the concept of data bus, address bus, and control bus.", co:"CO1" },
+        { q:35, text:"Explain input devices in detail with examples.", co:"CO1" },
+        { q:36, text:"Explain output devices in detail with examples.", co:"CO1" },
+        { q:37, text:"Explain the number systems: Binary, Octal, Decimal, and Hexadecimal.", co:"CO2" },
+        { q:38, text:"Convert (F4C)₁₆ to decimal.", co:"CO2" },
+        { q:39, text:"Convert (101101)₂ to decimal.", co:"CO2" },
+        { q:40, text:"Convert (75)₁₀ to binary.", co:"CO2" },
+        { q:41, text:"What is the difference between OCR and OMR?", co:"CO2" },
+        { q:42, text:"Explain the types of printers in detail.", co:"CO2" },
+        { q:43, text:"Write a note on MS-Word and its formatting features.", co:"CO3" },
+        { q:44, text:"Write a note on MS-Excel and its functions.", co:"CO3" },
+        { q:45, text:"Write a note on MS-PowerPoint and its features.", co:"CO3" },
+        { q:46, text:"Explain the evolution of computer systems.", co:"CO3" },
+        { q:47, text:"Explain low-level and high-level languages with their advantages and disadvantages.", co:"CO3" },
+        { q:48, text:"Explain the types of operating systems in detail.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -918,6 +1043,17 @@ const subjects = {
             "2023": { "1": eng2023A1, "2": eng2023A2 },
             "2024": { "1": eng2024A1, "2": eng2024A2 },
             "2025": { "1": eng2025A1, "2": eng2025A2 }
+        }
+    },
+    "fcit": {
+        name: "Fundamentals of Computer and IT",
+        code: "UGCA1902",
+        courseOutcomes: fcitCO,
+        data: {
+            "2022": { "1": fcit2025A1 },
+            "2023": { "1": fcit2025A1 },
+            "2024": { "1": fcit2024A1 },
+            "2025": { "1": fcit2025A1 }
         }
     }
 };
