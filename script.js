@@ -112,7 +112,8 @@ function buildSubjectTabs() {
 // --- Build Assignment Tabs dynamically ---
 function buildAssignmentTabs() {
     const subj = subjects[state.subject];
-    const yearData = subj.data[state.year];
+    const yearData = subj ? subj.data[state.year] : null;
+    if (!yearData) return;
     const assignKeys = Object.keys(yearData).sort();
 
     assignmentTabsEl.innerHTML = assignKeys.map(k =>
@@ -131,8 +132,16 @@ function buildAssignmentTabs() {
             assignmentTabsEl.querySelectorAll('.assign-tab').forEach(t => t.classList.remove('active'));
             tab.classList.add('active');
             state.assignment = tab.dataset.assign;
+            
+            // State reset on assignment switch
             state.activeCO = null;
+            state.section = "all";
+            sectionChips.forEach(c => c.classList.remove('active'));
+            const allChip = document.querySelector('#sectionChips .chip[data-section="all"]');
+            if (allChip) allChip.classList.add('active');
+
             buildCOChips();
+            buildCOGrid();
             render();
         });
     });
@@ -154,13 +163,18 @@ function buildCOChips() {
 
     let cosToDisplay = [];
     if (state.assignment === "1") {
-        // Assignment 1 -> Only show CO1, CO2, CO3
+        // Assignment 1 -> Only CO1, CO2, CO3
         cosToDisplay = allCOs.filter(co => ["CO1", "CO2", "CO3"].includes(co));
     } else if (state.assignment === "2") {
-        // Assignment 2 -> Only show CO4, CO5, CO6
+        // Assignment 2 -> Only CO4, CO5, CO6
         cosToDisplay = allCOs.filter(co => ["CO4", "CO5", "CO6"].includes(co));
     } else {
         cosToDisplay = allCOs;
+    }
+
+    // Ensure state.activeCO is valid for displayed COs
+    if (state.activeCO && !cosToDisplay.includes(state.activeCO)) {
+        state.activeCO = null;
     }
 
     coChips.innerHTML = cosToDisplay.map(co =>
@@ -171,15 +185,25 @@ function buildCOChips() {
 // --- Build CO Grid ---
 function buildCOGrid() {
     const subj = subjects[state.subject];
-    const cos = Object.entries(subj.courseOutcomes);
+    if (!subj || !subj.courseOutcomes) return;
+    
+    let cos = Object.entries(subj.courseOutcomes);
+    if (state.assignment === "1") {
+        cos = cos.filter(([key]) => ["CO1", "CO2", "CO3"].includes(key));
+    } else if (state.assignment === "2") {
+        cos = cos.filter(([key]) => ["CO4", "CO5", "CO6"].includes(key));
+    }
+
     const label = subj.code ? `${subj.name} (${subj.code})` : subj.name;
-    coSubtitle.textContent = `${label} — Learning objectives mapped to each question`;
-    coGrid.innerHTML = cos.map(([key, desc], i) => `
+    coSubtitle.textContent = `${label} — Assignment ${state.assignment} Learning Objectives`;
+    coGrid.innerHTML = cos.map(([key, desc]) => {
+        const i = parseInt(key.replace('CO', '')) || 1;
+        return `
         <div class="co-card">
-            <div class="co-badge co${i + 1}-badge">${key}</div>
+            <div class="co-badge co${i}-badge">${key}</div>
             <div class="co-card-text">${desc}</div>
         </div>
-    `).join('');
+    `}).join('');
 }
 
 // --- Events ---
