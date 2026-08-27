@@ -5536,6 +5536,482 @@ const se2022A2 = {
 };
 
 // ============================================
+// COURSE OUTCOMES: Web Designing
+// ============================================
+const wdCO = {
+    "CO1": "Understand the basics of Internet.",
+    "CO2": "Create pages with simple tags in HTML.",
+    "CO3": "Design webpages with multiple sections or frames & Explain how to link webpages through hypertext.",
+    "CO4": "Organise data in tabular form using HTML tables & Design forms with special controls using HTML.",
+    "CO5": "Understand basic concepts of javascript.",
+    "CO6": "Outline the key web designing concepts using java script."
+};
+
+// ============================================
+// Web Designing — Year 2025 — Assignment 1
+// ============================================
+const wd2025A1 = {
+    sectionA: [
+        { q:1, text:"Define the term Internet.", co:"CO1" },
+        { q:2, text:"List various applications of Internet.", co:"CO1" },
+        { q:3, text:"Explain the term Internet Service Providers.", co:"CO1" },
+        { q:4, text:"Justify the use of URL.", co:"CO1" },
+        { q:5, text:"Discuss the role of SSL/TLS Certificates in securing communication.", co:"CO1" },
+        { q:6, text:"Describe the role of client IP address in establishing connectivity.", co:"CO1" },
+        { q:7, text:"Differentiate between IPv4 and IPv6.", co:"CO1" },
+        { q:8, text:"Illustrate the three-way handshake protocol used in establishing a TCP connection.", co:"CO1" },
+        { q:9, text:"Compare Public and Private IP addresses.", co:"CO1" },
+        { q:10, text:"Demonstrate how comments are written in HTML code.", co:"CO1" },
+        { q:11, text:"List key features of HTML.", co:"CO2" },
+        { q:12, text:"Identify various applications of HTML.", co:"CO2" },
+        { q:13, text:"Construct the syntax of an anchor tag and explain its use.", co:"CO2" },
+        { q:14, text:"Classify container tags and provide 2 examples.", co:"CO2" },
+        { q:15, text:"Differentiate between subscripted and superscripted text.", co:"CO2" },
+        { q:16, text:"Define attributes in HTML.", co:"CO2" },
+        { q:17, text:"Explain formatting in HTML.", co:"CO2" },
+        { q:18, text:"Differentiate between <b> and <strong> tags.", co:"CO2" },
+        { q:19, text:"Demonstrate how to embed an image directly into an HTML page.", co:"CO2" },
+        { q:20, text:"Compare the difference between <div> and <span> tags.", co:"CO2" },
+        { q:21, text:"Describe frames in HTML.", co:"CO3" },
+        { q:22, text:"Differentiate between the <frameset> tag and the <frame> tag.", co:"CO3" },
+        { q:23, text:"Identify the HTML tag used to define an internal style sheet.", co:"CO3" },
+        { q:24, text:"Illustrate how to link a document to a webpage.", co:"CO3" },
+        { q:25, text:"Construct the syntax of the <iframe> tag.", co:"CO3" },
+        { q:26, text:"Define the term DHTML.", co:"CO3" },
+        { q:27, text:"Construct the syntax for adding external CSS in a web document.", co:"CO3" },
+        { q:28, text:"List the types of CSS used in web designing.", co:"CO3" },
+        { q:29, text:"Explain hyperlinking and discuss its benefits.", co:"CO3" },
+        { q:30, text:"Illustrate how a style sheet can be linked to a webpage.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Review the methods of communication on the Internet.", co:"CO1" },
+        { q:32, text:"Explain the term web browser and describe the facilities it provides to the user.", co:"CO1" },
+        { q:33, text:"Identify and analyze the skills a good Web Developer should have.", co:"CO1" },
+        { q:34, text:"Define a Search Engine and explain its working in detail.", co:"CO1" },
+        { q:35, text:"Demonstrate how to obtain a domain name and justify the importance of selecting a domain name provider.", co:"CO1" },
+        { q:36, text:"Describe a Web Server and list commonly used web servers with their functions.", co:"CO1" },
+        { q:37, text:"Define HTML, construct a sample HTML program, and describe its structure.", co:"CO2" },
+        { q:38, text:"Classify the types of lists in HTML with suitable examples.", co:"CO2" },
+        { q:39, text:"Design a webpage using CSS with the following specifications: Center text with width 60%, Add line spacing, Use color code #0000FF, Italics.", co:"CO2" },
+        { q:40, text:"Create an HTML page displaying the following specifications: Alignment, Text Color, Background Color, Line break.", co:"CO2" },
+        { q:41, text:"Design a webpage named HTML TUTORIAL with the following specifications: Formatting styles: Bold, Underline, and any two headings, Marquee: Moving text, Other tags: <br>, <hr>, <p>, <a>, <img>.", co:"CO2" },
+        { q:42, text:"Define a nested list and design a webpage in HTML using the concept of nested lists.", co:"CO2" },
+        { q:43, text:"Discuss various attributes of the <frameset> tag in detail.", co:"CO3" },
+        { q:44, text:"Illustrate various methods of inserting CSS in a webpage.", co:"CO3" },
+        { q:45, text:"Define CSS and describe the benefits of using CSS in an HTML document.", co:"CO3" },
+        { q:46, text:"Create a webpage displaying vertical frames using HTML.", co:"CO3" },
+        { q:47, text:"Write HTML code to display a navigation menu with links.", co:"CO3" },
+        { q:48, text:"Create a webpage displaying horizontal frames using HTML.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Web Designing — Year 2025 — Assignment 2
+// ============================================
+const wd2025A2 = {
+    sectionA: [
+        { q:1, text:"Describe the role of table in HTML.", co:"CO4" },
+        { q:2, text:"What is the placeholder attribute used for in form inputs?", co:"CO4" },
+        { q:3, text:"Differentiate between <th> and <td>.", co:"CO4" },
+        { q:4, text:"How do you create a dropdown menu (select box) in an HTML form?", co:"CO4" },
+        { q:5, text:"How can we merge cells vertically and horizontally in table?", co:"CO4" },
+        { q:6, text:"How do you create a checkbox and a radio button in an HTML form?", co:"CO4" },
+        { q:7, text:"How would you change the background color of a table row?", co:"CO4" },
+        { q:8, text:"How we can style table using CSS?", co:"CO4" },
+        { q:9, text:"What is the difference between the GET and POST methods in the <form> tag?", co:"CO4" },
+        { q:10, text:"What is the role of action method in HTML form?", co:"CO4" },
+        { q:11, text:"What is JavaScript and how is it used in HTML?", co:"CO5" },
+        { q:12, text:"What is the purpose of the alert() function in JavaScript?", co:"CO5" },
+        { q:13, text:"What is the document.getElementById() method in JavaScript?", co:"CO5" },
+        { q:14, text:"How do you create a function in JavaScript?", co:"CO5" },
+        { q:15, text:"How do you define a variable in JavaScript?", co:"CO5" },
+        { q:16, text:"What is the if statement in JavaScript, and how is it used?", co:"CO5" },
+        { q:17, text:"Write the purpose of the alert() function in JavaScript?", co:"CO5" },
+        { q:18, text:"Discuss the role of console.log() method in JavaScript?", co:"CO5" },
+        { q:19, text:"List various types of data types in JavaScript.", co:"CO5" },
+        { q:20, text:"Illustrate the term type conversion.", co:"CO5" },
+        { q:21, text:"Provide an example of declaring an array in JavaScript.", co:"CO6" },
+        { q:22, text:"How do you add and remove elements from an array in JavaScript?", co:"CO6" },
+        { q:23, text:"How we can use typeof to check if a variable is a string.", co:"CO6" },
+        { q:24, text:"Write the code to create a JavaScript Date object representing March 10, 2025.", co:"CO6" },
+        { q:25, text:"Write a JavaScript code to add the number 0 to the beginning of the array: let arr = [1, 2, 3, 4];", co:"CO6" },
+        { q:26, text:"Write a JavaScript code to remove the element at index 2 from the following array: let arr = [10, 20, 30, 40, 50];", co:"CO6" },
+        { q:27, text:"What is strict mode in JavaScript? How do you enable it in your code?", co:"CO6" },
+        { q:28, text:"What is JSON in JavaScript? Explain its uses and provide an example.", co:"CO6" },
+        { q:29, text:"What is the purpose of the slice() method in JavaScript? How does it differ from splice()?", co:"CO6" },
+        { q:30, text:"How logical error is different from syntax error?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Write a HTML Document to draw the following table.", co:"CO4" },
+        { q:32, text:"Write a HTML Document to draw the following table.", co:"CO4" },
+        { q:33, text:"Explain the concept of HTML tables with the help of suitable example.", co:"CO4" },
+        { q:34, text:"Design a HTML form to see result of candidate.", co:"CO4" },
+        { q:35, text:"Design the following form.", co:"CO4" },
+        { q:36, text:"Explain the concept of HTML Forms with the help of suitable example.", co:"CO4" },
+        { q:37, text:"What is JavaScript? What are the features of JavaScript?", co:"CO5" },
+        { q:38, text:"Design A JavaScript to display whether given number is prime or not.", co:"CO5" },
+        { q:39, text:"Design a form using JavaScript to validate data as follows: • Name should have 10 characters and it should not have any numbers • Address should have 50 characters and it should not have any special characters. • Credit card number is a 16-digit integers.", co:"CO5" },
+        { q:40, text:"Explain about Function definition, Function calling, Function parameter, return type with a suitable example in JavaScript.", co:"CO5" },
+        { q:41, text:"Explain various operators and data types available in java script with examples.", co:"CO5" },
+        { q:42, text:"Build a JavaScript program to convert temperature from Celsius to Fahrenheit and vice versa.", co:"CO5" },
+        { q:43, text:"Explain the different ways to create a string in JavaScript with the help of suitable examples.", co:"CO6" },
+        { q:44, text:"Describe various types of errors in JavaScript with the help of suitable example.", co:"CO6" },
+        { q:45, text:"What is the use of Number Object in JavaScript? Discuss the common Number Object Methods used in JavaScript with example.", co:"CO6" },
+        { q:46, text:"Explain the different array methods and operations in JavaScript with the help of suitable examples.", co:"CO6" },
+        { q:47, text:"Discuss the common Math objects and method in JavaScript with the help of suitable example.", co:"CO6" },
+        { q:48, text:"What is an API in the context of JavaScript, and how can it be used to fetch data from a server? Provide an example of how you would use the fetch() method to retrieve data from an API.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Web Designing — Year 2024 — Assignment 1
+// ============================================
+const wd2024A1 = {
+    sectionA: [
+        { q:1, text:"What is the Internet?", co:"CO1" },
+        { q:2, text:"What are the applications of the Internet?", co:"CO1" },
+        { q:3, text:"What is an ISP?", co:"CO1" },
+        { q:4, text:"What is a URL?", co:"CO1" },
+        { q:5, text:"What are SSL/TLS Certificates?", co:"CO1" },
+        { q:6, text:"What is a client IP address?", co:"CO1" },
+        { q:7, text:"Differentiate between IPv4 and IPv6.", co:"CO1" },
+        { q:8, text:"What is TCP 3-way handshake?", co:"CO1" },
+        { q:9, text:"Differentiate between public and private IP addresses.", co:"CO1" },
+        { q:10, text:"How are comments written in HTML?", co:"CO1" },
+        { q:11, text:"What are the features of HTML?", co:"CO2" },
+        { q:12, text:"What are the applications of HTML?", co:"CO2" },
+        { q:13, text:"Write the syntax of an anchor tag.", co:"CO2" },
+        { q:14, text:"What are container tags? Give examples.", co:"CO2" },
+        { q:15, text:"What is the difference between subscript and superscript?", co:"CO2" },
+        { q:16, text:"What are attributes in HTML?", co:"CO2" },
+        { q:17, text:"Explain formatting in HTML.", co:"CO2" },
+        { q:18, text:"What is the difference between <b> and <strong>?", co:"CO2" },
+        { q:19, text:"How to embed an image in HTML?", co:"CO2" },
+        { q:20, text:"What is the difference between <div> and <span>?", co:"CO2" },
+        { q:21, text:"What are frames in HTML?", co:"CO3" },
+        { q:22, text:"What is the difference between <frameset> and <frame>?", co:"CO3" },
+        { q:23, text:"Which tag is used for internal style sheet?", co:"CO3" },
+        { q:24, text:"How to link a document to a webpage?", co:"CO3" },
+        { q:25, text:"Write the syntax of <iframe>.", co:"CO3" },
+        { q:26, text:"What is DHTML?", co:"CO3" },
+        { q:27, text:"How to add external CSS?", co:"CO3" },
+        { q:28, text:"What are the types of CSS?", co:"CO3" },
+        { q:29, text:"What is hyperlinking?", co:"CO3" },
+        { q:30, text:"How to link a style sheet to a webpage?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Internet communication methods.", co:"CO1" },
+        { q:32, text:"Explain web browser and its facilities.", co:"CO1" },
+        { q:33, text:"What are the skills of a web developer?", co:"CO1" },
+        { q:34, text:"Explain search engine with its working.", co:"CO1" },
+        { q:35, text:"How to obtain a domain name?", co:"CO1" },
+        { q:36, text:"Explain web server with examples.", co:"CO1" },
+        { q:37, text:"Explain HTML structure with an example.", co:"CO2" },
+        { q:38, text:"Explain types of lists in HTML.", co:"CO2" },
+        { q:39, text:"Design a webpage using CSS with given specifications.", co:"CO2" },
+        { q:40, text:"Create an HTML page with alignment, text color, background color, line break.", co:"CO2" },
+        { q:41, text:"Design a webpage named HTML TUTORIAL with formatting, marquee, and tags.", co:"CO2" },
+        { q:42, text:"Design a webpage with nested lists.", co:"CO2" },
+        { q:43, text:"Explain <frameset> attributes.", co:"CO3" },
+        { q:44, text:"Explain CSS insertion methods.", co:"CO3" },
+        { q:45, text:"Define CSS and its benefits.", co:"CO3" },
+        { q:46, text:"Create a webpage with vertical frames.", co:"CO3" },
+        { q:47, text:"Create a webpage with a navigation menu.", co:"CO3" },
+        { q:48, text:"Create a webpage with horizontal frames.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Web Designing — Year 2024 — Assignment 2
+// ============================================
+const wd2024A2 = {
+    sectionA: [
+        { q:1, text:"What is the purpose of HTML tables in web design?", co:"CO4" },
+        { q:2, text:"What does the placeholder attribute do in HTML forms?", co:"CO4" },
+        { q:3, text:"Compare and contrast <th> and <td> tags in HTML.", co:"CO4" },
+        { q:4, text:"Write the HTML code to create a dropdown list with three options.", co:"CO4" },
+        { q:5, text:"Explain how to merge two cells horizontally and vertically in an HTML table.", co:"CO4" },
+        { q:6, text:"Write HTML code to create a checkbox group for selecting multiple hobbies.", co:"CO4" },
+        { q:7, text:"Write the CSS code to change the background color of the second row of a table.", co:"CO4" },
+        { q:8, text:"List three CSS properties used to style an HTML table.", co:"CO4" },
+        { q:9, text:"When would you use GET method over POST method in an HTML form?", co:"CO4" },
+        { q:10, text:"What is the function of the action attribute in an HTML form?", co:"CO4" },
+        { q:11, text:"What is JavaScript? How do you embed JavaScript code in an HTML document?", co:"CO5" },
+        { q:12, text:"Write the syntax for the alert() function and explain its purpose.", co:"CO5" },
+        { q:13, text:"What is the use of document.getElementById() method in JavaScript?", co:"CO5" },
+        { q:14, text:"Write a JavaScript function that takes two numbers and returns their sum.", co:"CO5" },
+        { q:15, text:"How do you declare a variable in JavaScript using var, let, and const?", co:"CO5" },
+        { q:16, text:"Write an if-else statement in JavaScript to check if a number is positive or negative.", co:"CO5" },
+        { q:17, text:"What is the alert() function used for in JavaScript?", co:"CO5" },
+        { q:18, text:"Explain the use of console.log() with an example.", co:"CO5" },
+        { q:19, text:"List and explain the primitive data types in JavaScript.", co:"CO5" },
+        { q:20, text:"What is type conversion in JavaScript? Give an example.", co:"CO5" },
+        { q:21, text:"Write the syntax to declare an array in JavaScript with five elements.", co:"CO6" },
+        { q:22, text:"How do you add an element to the end of an array using push()?", co:"CO6" },
+        { q:23, text:"Write code to check if a variable is a string using typeof.", co:"CO6" },
+        { q:24, text:"Write JavaScript code to create a Date object for December 25, 2024.", co:"CO6" },
+        { q:25, text:"Write JavaScript code to add 100 to the beginning of the array: let scores = [50, 60, 70];", co:"CO6" },
+        { q:26, text:"Write JavaScript code to remove the last element from the array: let colors = [\"red\", \"blue\", \"green\", \"yellow\"];", co:"CO6" },
+        { q:27, text:"What is strict mode in JavaScript and how do you enable it?", co:"CO6" },
+        { q:28, text:"What is JSON? Write an example of JSON data for a student object.", co:"CO6" },
+        { q:29, text:"What is the difference between slice() and splice() methods in JavaScript?", co:"CO6" },
+        { q:30, text:"What is the difference between a syntax error and a logical error in JavaScript?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Create an HTML table with 3 columns and 4 rows showing a class timetable.", co:"CO4" },
+        { q:32, text:"Create an HTML table with merged cells showing a student mark sheet.", co:"CO4" },
+        { q:33, text:"Explain the structure of HTML tables with examples of rowspan and colspan.", co:"CO4" },
+        { q:34, text:"Design an HTML form to register a student with fields: name, email, phone, gender, city.", co:"CO4" },
+        { q:35, text:"Design an HTML form for a library membership with validation attributes.", co:"CO4" },
+        { q:36, text:"Explain HTML forms with examples of input types: text, password, email, radio, checkbox, submit.", co:"CO4" },
+        { q:37, text:"What is JavaScript? Explain its features with examples.", co:"CO5" },
+        { q:38, text:"Write a JavaScript program to check whether a given number is prime or not.", co:"CO5" },
+        { q:39, text:"Design a registration form with JavaScript validation: Name (letters only), Email (valid format), Phone (10 digits).", co:"CO5" },
+        { q:40, text:"Write a JavaScript program to demonstrate function definition, function call, parameters, and return type.", co:"CO5" },
+        { q:41, text:"Explain JavaScript operators (arithmetic, relational, logical) and data types with examples.", co:"CO5" },
+        { q:42, text:"Write a JavaScript program to convert Fahrenheit to Celsius and vice versa.", co:"CO5" },
+        { q:43, text:"Explain different ways to create strings in JavaScript with examples.", co:"CO6" },
+        { q:44, text:"Explain the types of errors in JavaScript with examples (syntax, runtime, logical).", co:"CO6" },
+        { q:45, text:"Explain the Number Object and its methods (toFixed(), parseInt(), isNaN()) with examples.", co:"CO6" },
+        { q:46, text:"Explain JavaScript array methods: push(), pop(), shift(), unshift(), splice(), slice() with examples.", co:"CO6" },
+        { q:47, text:"Explain Math Object methods: Math.random(), Math.round(), Math.sqrt(), Math.pow() with examples.", co:"CO6" },
+        { q:48, text:"What is an API in JavaScript? Write code to fetch data from a JSON API using fetch() method.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Web Designing — Year 2023 — Assignment 1
+// ============================================
+const wd2023A1 = {
+    sectionA: [
+        { q:1, text:"Define Internet.", co:"CO1" },
+        { q:2, text:"List uses of the Internet.", co:"CO1" },
+        { q:3, text:"What is an ISP?", co:"CO1" },
+        { q:4, text:"What is the purpose of a URL?", co:"CO1" },
+        { q:5, text:"What is SSL/TLS?", co:"CO1" },
+        { q:6, text:"What is an IP address?", co:"CO1" },
+        { q:7, text:"Compare IPv4 and IPv6.", co:"CO1" },
+        { q:8, text:"Explain TCP 3-way handshake.", co:"CO1" },
+        { q:9, text:"What is the difference between public and private IP?", co:"CO1" },
+        { q:10, text:"How to comment in HTML?", co:"CO1" },
+        { q:11, text:"What are HTML features?", co:"CO2" },
+        { q:12, text:"What are HTML applications?", co:"CO2" },
+        { q:13, text:"Syntax of anchor tag.", co:"CO2" },
+        { q:14, text:"What are container tags?", co:"CO2" },
+        { q:15, text:"Subscript vs Superscript.", co:"CO2" },
+        { q:16, text:"What are HTML attributes?", co:"CO2" },
+        { q:17, text:"Explain HTML formatting.", co:"CO2" },
+        { q:18, text:"<b> vs <strong>.", co:"CO2" },
+        { q:19, text:"How to add an image in HTML?", co:"CO2" },
+        { q:20, text:"<div> vs <span>.", co:"CO2" },
+        { q:21, text:"What are frames?", co:"CO3" },
+        { q:22, text:"<frameset> vs <frame>.", co:"CO3" },
+        { q:23, text:"Tag for internal CSS.", co:"CO3" },
+        { q:24, text:"How to link a document?", co:"CO3" },
+        { q:25, text:"Syntax of <iframe>.", co:"CO3" },
+        { q:26, text:"What is DHTML?", co:"CO3" },
+        { q:27, text:"How to add external CSS?", co:"CO3" },
+        { q:28, text:"Types of CSS.", co:"CO3" },
+        { q:29, text:"What is hyperlinking?", co:"CO3" },
+        { q:30, text:"How to link CSS to HTML?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Internet communication methods.", co:"CO1" },
+        { q:32, text:"Explain web browser features.", co:"CO1" },
+        { q:33, text:"What are web developer skills?", co:"CO1" },
+        { q:34, text:"Explain search engine working.", co:"CO1" },
+        { q:35, text:"How to get a domain name?", co:"CO1" },
+        { q:36, text:"Explain web server with examples.", co:"CO1" },
+        { q:37, text:"Explain HTML structure with code.", co:"CO2" },
+        { q:38, text:"Explain HTML lists with examples.", co:"CO2" },
+        { q:39, text:"Design CSS webpage with specifications.", co:"CO2" },
+        { q:40, text:"Create HTML page with formatting.", co:"CO2" },
+        { q:41, text:"Design HTML TUTORIAL webpage.", co:"CO2" },
+        { q:42, text:"Design nested list webpage.", co:"CO2" },
+        { q:43, text:"Explain <frameset> attributes.", co:"CO3" },
+        { q:44, text:"Explain CSS insertion methods.", co:"CO3" },
+        { q:45, text:"Explain CSS benefits.", co:"CO3" },
+        { q:46, text:"Create vertical frames webpage.", co:"CO3" },
+        { q:47, text:"Create navigation menu webpage.", co:"CO3" },
+        { q:48, text:"Create horizontal frames webpage.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Web Designing — Year 2023 — Assignment 2
+// ============================================
+const wd2023A2 = {
+    sectionA: [
+        { q:1, text:"Why are tables used in HTML documents?", co:"CO4" },
+        { q:2, text:"Explain the use of the placeholder attribute in HTML forms with an example.", co:"CO4" },
+        { q:3, text:"What is the difference between <th> and <td> in HTML tables?", co:"CO4" },
+        { q:4, text:"Write the HTML code to create a dropdown menu for selecting a country.", co:"CO4" },
+        { q:5, text:"How do you merge two columns and two rows in an HTML table?", co:"CO4" },
+        { q:6, text:"Write HTML code to create radio buttons for selecting a gender.", co:"CO4" },
+        { q:7, text:"How can you change the background color of alternate rows in a table using CSS?", co:"CO4" },
+        { q:8, text:"Write CSS code to add borders and padding to an HTML table.", co:"CO4" },
+        { q:9, text:"Explain the difference between GET and POST methods with examples.", co:"CO4" },
+        { q:10, text:"What is the purpose of the method attribute in an HTML form?", co:"CO4" },
+        { q:11, text:"What is JavaScript and why is it used in web development?", co:"CO5" },
+        { q:12, text:"Explain the alert() function with an example.", co:"CO5" },
+        { q:13, text:"What does document.getElementById() do in JavaScript?", co:"CO5" },
+        { q:14, text:"Write a JavaScript function to check if a number is even or odd.", co:"CO5" },
+        { q:15, text:"What are the different ways to declare variables in JavaScript?", co:"CO5" },
+        { q:16, text:"Write an if-else statement to check if a person is eligible to vote.", co:"CO5" },
+        { q:17, text:"What is the use of the alert() method in JavaScript?", co:"CO5" },
+        { q:18, text:"How can you use console.log() to debug a JavaScript program?", co:"CO5" },
+        { q:19, text:"List the data types supported by JavaScript with examples.", co:"CO5" },
+        { q:20, text:"Explain type conversion in JavaScript with an example.", co:"CO5" },
+        { q:21, text:"How do you declare and initialize an array in JavaScript?", co:"CO6" },
+        { q:22, text:"How do you add elements to an array using push() and unshift()?", co:"CO6" },
+        { q:23, text:"Write JavaScript code to check if a variable is a number using typeof.", co:"CO6" },
+        { q:24, text:"Write JavaScript code to create a Date object for January 1, 2023.", co:"CO6" },
+        { q:25, text:"Write JavaScript code to add 5 to the beginning of the array: let nums = [10, 20, 30, 40];", co:"CO6" },
+        { q:26, text:"Write JavaScript code to remove the first element from the array: let fruits = [\"apple\", \"banana\", \"orange\"];", co:"CO6" },
+        { q:27, text:"What is strict mode in JavaScript and why is it used?", co:"CO6" },
+        { q:28, text:"Explain JSON and write an example of a JSON object.", co:"CO6" },
+        { q:29, text:"What is the difference between slice() and splice() in JavaScript?", co:"CO6" },
+        { q:30, text:"Differentiate between syntax error and runtime error in JavaScript.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Write HTML code to create a table showing a weekly schedule with 5 columns and 6 rows.", co:"CO4" },
+        { q:32, text:"Write HTML code to create a table with rowspan and colspan showing a student report card.", co:"CO4" },
+        { q:33, text:"Explain HTML tables with examples of table attributes like border, cellpadding, cellspacing.", co:"CO4" },
+        { q:34, text:"Design an HTML form to collect user information: name, email, password, date of birth.", co:"CO4" },
+        { q:35, text:"Design an HTML form for an online booking system with validation.", co:"CO4" },
+        { q:36, text:"Explain HTML forms with examples of different input types and form attributes.", co:"CO4" },
+        { q:37, text:"What is JavaScript? Explain its features and advantages.", co:"CO5" },
+        { q:38, text:"Write a JavaScript program to find whether a number is prime or not.", co:"CO5" },
+        { q:39, text:"Create a login form with JavaScript validation: username (required), password (min length 6).", co:"CO5" },
+        { q:40, text:"Explain JavaScript functions with examples of function declaration, calling, and return values.", co:"CO5" },
+        { q:41, text:"Explain JavaScript operators and data types with code examples.", co:"CO5" },
+        { q:42, text:"Write a JavaScript program to convert temperature between Celsius and Fahrenheit.", co:"CO5" },
+        { q:43, text:"Explain different ways to create and manipulate strings in JavaScript.", co:"CO6" },
+        { q:44, text:"Explain different types of errors in JavaScript with examples.", co:"CO6" },
+        { q:45, text:"Explain Number Object methods in JavaScript with code examples.", co:"CO6" },
+        { q:46, text:"Explain array methods like push(), pop(), shift(), unshift(), splice() with examples.", co:"CO6" },
+        { q:47, text:"Explain Math Object methods with code examples.", co:"CO6" },
+        { q:48, text:"Explain API calls in JavaScript using the fetch() method with an example.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Web Designing — Year 2022 — Assignment 1
+// ============================================
+const wd2022A1 = {
+    sectionA: [
+        { q:1, text:"What is the Internet?", co:"CO1" },
+        { q:2, text:"What are Internet applications?", co:"CO1" },
+        { q:3, text:"Define ISP.", co:"CO1" },
+        { q:4, text:"What is a URL?", co:"CO1" },
+        { q:5, text:"What are SSL/TLS certificates?", co:"CO1" },
+        { q:6, text:"What is a client IP address?", co:"CO1" },
+        { q:7, text:"Differentiate IPv4 and IPv6.", co:"CO1" },
+        { q:8, text:"What is TCP handshake?", co:"CO1" },
+        { q:9, text:"Public vs Private IP.", co:"CO1" },
+        { q:10, text:"HTML comments syntax.", co:"CO1" },
+        { q:11, text:"HTML features.", co:"CO2" },
+        { q:12, text:"HTML applications.", co:"CO2" },
+        { q:13, text:"Anchor tag syntax.", co:"CO2" },
+        { q:14, text:"Container tags examples.", co:"CO2" },
+        { q:15, text:"Subscript vs Superscript.", co:"CO2" },
+        { q:16, text:"HTML attributes.", co:"CO2" },
+        { q:17, text:"HTML formatting.", co:"CO2" },
+        { q:18, text:"<b> vs <strong>.", co:"CO2" },
+        { q:19, text:"Image embedding in HTML.", co:"CO2" },
+        { q:20, text:"<div> vs <span>.", co:"CO2" },
+        { q:21, text:"HTML frames.", co:"CO3" },
+        { q:22, text:"<frameset> vs <frame>.", co:"CO3" },
+        { q:23, text:"Internal CSS tag.", co:"CO3" },
+        { q:24, text:"Linking documents.", co:"CO3" },
+        { q:25, text:"<iframe> syntax.", co:"CO3" },
+        { q:26, text:"DHTML definition.", co:"CO3" },
+        { q:27, text:"External CSS syntax.", co:"CO3" },
+        { q:28, text:"CSS types.", co:"CO3" },
+        { q:29, text:"Hyperlinking benefits.", co:"CO3" },
+        { q:30, text:"Linking style sheets.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Internet communication methods.", co:"CO1" },
+        { q:32, text:"Web browser features.", co:"CO1" },
+        { q:33, text:"Web developer skills.", co:"CO1" },
+        { q:34, text:"Search engine working.", co:"CO1" },
+        { q:35, text:"Domain name acquisition.", co:"CO1" },
+        { q:36, text:"Web server examples.", co:"CO1" },
+        { q:37, text:"HTML structure with example.", co:"CO2" },
+        { q:38, text:"HTML list types.", co:"CO2" },
+        { q:39, text:"CSS webpage design.", co:"CO2" },
+        { q:40, text:"HTML page with formatting.", co:"CO2" },
+        { q:41, text:"HTML TUTORIAL webpage.", co:"CO2" },
+        { q:42, text:"Nested list webpage.", co:"CO2" },
+        { q:43, text:"<frameset> attributes.", co:"CO3" },
+        { q:44, text:"CSS insertion methods.", co:"CO3" },
+        { q:45, text:"CSS benefits.", co:"CO3" },
+        { q:46, text:"Vertical frames webpage.", co:"CO3" },
+        { q:47, text:"Navigation menu webpage.", co:"CO3" },
+        { q:48, text:"Horizontal frames webpage.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Web Designing — Year 2022 — Assignment 2
+// ============================================
+const wd2022A2 = {
+    sectionA: [
+        { q:1, text:"What is the purpose of using tables in a webpage?", co:"CO4" },
+        { q:2, text:"What is the placeholder attribute and how is it used in HTML forms?", co:"CO4" },
+        { q:3, text:"Differentiate between <th> and <td> tags with examples.", co:"CO4" },
+        { q:4, text:"Write HTML code to create a select box with options: Apple, Banana, Mango.", co:"CO4" },
+        { q:5, text:"Explain the use of colspan and rowspan attributes in HTML tables.", co:"CO4" },
+        { q:6, text:"Write HTML code to create a checkbox for accepting terms and conditions.", co:"CO4" },
+        { q:7, text:"How can you style a table using CSS to make it look more attractive?", co:"CO4" },
+        { q:8, text:"Write CSS code to create a striped table with alternating row colors.", co:"CO4" },
+        { q:9, text:"Compare GET and POST methods in HTML forms with examples.", co:"CO4" },
+        { q:10, text:"What is the role of the action attribute in an HTML form?", co:"CO4" },
+        { q:11, text:"What is JavaScript? How is it integrated with HTML?", co:"CO5" },
+        { q:12, text:"Explain the alert() method with a suitable example.", co:"CO5" },
+        { q:13, text:"What is the use of document.getElementById() in JavaScript?", co:"CO5" },
+        { q:14, text:"Write a JavaScript function to find the square of a number.", co:"CO5" },
+        { q:15, text:"How do you declare variables in JavaScript? Explain var, let, and const.", co:"CO5" },
+        { q:16, text:"Write a JavaScript if-else statement to check if a number is divisible by 5.", co:"CO5" },
+        { q:17, text:"What is the purpose of the alert() function?", co:"CO5" },
+        { q:18, text:"Explain the importance of console.log() in JavaScript debugging.", co:"CO5" },
+        { q:19, text:"List and explain the different data types in JavaScript.", co:"CO5" },
+        { q:20, text:"What is type conversion in JavaScript? Give an example.", co:"CO5" },
+        { q:21, text:"How do you create an array in JavaScript with 5 elements?", co:"CO6" },
+        { q:22, text:"Explain the push() and pop() methods in JavaScript with examples.", co:"CO6" },
+        { q:23, text:"Write code to check if a variable is a number using typeof.", co:"CO6" },
+        { q:24, text:"Write JavaScript code to create a Date object for your birthday.", co:"CO6" },
+        { q:25, text:"Write JavaScript code to add 10 to the beginning of the array: let marks = [20, 30, 40];", co:"CO6" },
+        { q:26, text:"Write JavaScript code to remove the element at index 1 from the array: let items = [\"pen\", \"book\", \"eraser\"];", co:"CO6" },
+        { q:27, text:"What is strict mode in JavaScript? How is it enabled?", co:"CO6" },
+        { q:28, text:"What is JSON? Write a JSON object with name, age, and city.", co:"CO6" },
+        { q:29, text:"What is the difference between slice() and splice() methods?", co:"CO6" },
+        { q:30, text:"What is the difference between syntax error and logical error?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Create an HTML table to display a company employee list with name, department, and salary.", co:"CO4" },
+        { q:32, text:"Create an HTML table using rowspan and colspan to display a school timetable.", co:"CO4" },
+        { q:33, text:"Explain HTML tables with attributes like border, width, align, cellpadding, and cellspacing.", co:"CO4" },
+        { q:34, text:"Design an HTML registration form with fields: username, password, email, phone, address.", co:"CO4" },
+        { q:35, text:"Design an HTML form for ordering food items with checkboxes, radio buttons, and dropdown.", co:"CO4" },
+        { q:36, text:"Explain HTML forms with examples of form elements and validation.", co:"CO4" },
+        { q:37, text:"Explain JavaScript with its features and uses in web development.", co:"CO5" },
+        { q:38, text:"Write a JavaScript program to check if a number is even or odd.", co:"CO5" },
+        { q:39, text:"Design a feedback form with JavaScript validation: name required, email valid, rating selected.", co:"CO5" },
+        { q:40, text:"Explain JavaScript functions with examples of function declaration and calling.", co:"CO5" },
+        { q:41, text:"Explain the different operators and data types in JavaScript with code examples.", co:"CO5" },
+        { q:42, text:"Write a JavaScript program to convert inches to centimeters and vice versa.", co:"CO5" },
+        { q:43, text:"Explain string manipulation in JavaScript with suitable examples.", co:"CO6" },
+        { q:44, text:"Explain the different types of errors in JavaScript with examples.", co:"CO6" },
+        { q:45, text:"Explain the Number Object and its methods with code examples.", co:"CO6" },
+        { q:46, text:"Explain array methods in JavaScript with code examples.", co:"CO6" },
+        { q:47, text:"Explain Math Object methods with code examples.", co:"CO6" },
+        { q:48, text:"Explain how to fetch data from an API using the fetch() method in JavaScript.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -5706,6 +6182,19 @@ const subjects = {
             "2023": { "1": se2023A1, "2": se2023A2 },
             "2024": { "1": se2024A1, "2": se2024A2 },
             "2025": { "1": se2025A1, "2": se2025A2 }
+        }
+    },
+    "wd": {
+        semester: 4,
+        icon: "🎨",
+        name: "Web Designing",
+        code: "BCA24303",
+        courseOutcomes: wdCO,
+        data: {
+            "2022": { "1": wd2022A1, "2": wd2022A2 },
+            "2023": { "1": wd2023A1, "2": wd2023A2 },
+            "2024": { "1": wd2024A1, "2": wd2024A2 },
+            "2025": { "1": wd2025A1, "2": wd2025A2 }
         }
     }
 };
