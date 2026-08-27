@@ -132,7 +132,7 @@ function buildAssignmentTabs() {
             tab.classList.add('active');
             state.assignment = tab.dataset.assign;
             state.activeCO = null;
-            document.querySelectorAll('.co-chip').forEach(c => c.classList.remove('active'));
+            buildCOChips();
             render();
         });
     });
@@ -140,10 +140,43 @@ function buildAssignmentTabs() {
 
 // --- Build CO chips ---
 function buildCOChips() {
+    if (!state.subject) {
+        coChips.innerHTML = '';
+        return;
+    }
     const subj = subjects[state.subject];
-    const cos = Object.keys(subj.courseOutcomes);
-    coChips.innerHTML = cos.map(co =>
-        `<button class="co-chip" data-co="${co}">${co}</button>`
+    if (!subj || !subj.courseOutcomes) {
+        coChips.innerHTML = '';
+        return;
+    }
+
+    const allCOs = Object.keys(subj.courseOutcomes);
+    const yearData = subj.data ? subj.data[state.year] : null;
+    const presentCOs = new Set();
+    if (yearData && yearData[state.assignment]) {
+        const assignData = yearData[state.assignment];
+        (assignData.sectionA || []).forEach(q => q.co && presentCOs.add(q.co));
+        (assignData.sectionB || []).forEach(q => q.co && presentCOs.add(q.co));
+    }
+
+    let cosToDisplay = [];
+    if (state.assignment === "1") {
+        // Assignment 1: Only CO1, CO2, CO3
+        cosToDisplay = allCOs.filter(co => ["CO1", "CO2", "CO3"].includes(co));
+    } else if (state.assignment === "2") {
+        // Assignment 2: Only CO4, CO5, CO6 (or CO3 if present in assignment 2 questions)
+        if (presentCOs.has("CO3")) {
+            cosToDisplay = allCOs.filter(co => ["CO3", "CO4", "CO5", "CO6"].includes(co));
+        } else {
+            cosToDisplay = allCOs.filter(co => ["CO4", "CO5", "CO6"].includes(co));
+        }
+    } else {
+        // Fallback for other assignments
+        cosToDisplay = presentCOs.size > 0 ? allCOs.filter(co => presentCOs.has(co)) : allCOs;
+    }
+
+    coChips.innerHTML = cosToDisplay.map(co =>
+        `<button class="co-chip${state.activeCO === co ? ' active' : ''}" data-co="${co}">${co}</button>`
     ).join('');
 }
 
@@ -182,8 +215,8 @@ function setupEvents() {
             tab.classList.add('active');
             state.year = tab.dataset.year;
             state.activeCO = null;
-            document.querySelectorAll('.co-chip').forEach(c => c.classList.remove('active'));
             buildAssignmentTabs();
+            buildCOChips();
             render();
         });
     });
