@@ -5060,6 +5060,247 @@ const ds2022A2 = {
 };
 
 // ============================================
+// COURSE OUTCOMES: Software Engineering
+// ============================================
+const seCO = {
+    "CO1": "Highlight the need of software engineering.",
+    "CO2": "Outline the phases and activities involved in the conventional software life cycle models.",
+    "CO3": "Design documents for various phases of software life cycle."
+};
+
+// ============================================
+// Software Engineering — Year 2025 — Assignment 1
+// ============================================
+const se2025A1 = {
+    sectionA: [
+        { q:1, text:"Define and explain the meaning of term \"Software Engineering\"?", co:"CO1" },
+        { q:2, text:"What is waterfall model?", co:"CO1" },
+        { q:3, text:"Define Characteristics of Software Engineering.", co:"CO1" },
+        { q:4, text:"What are the different phases of Unified Process?", co:"CO1" },
+        { q:5, text:"Specify the reasons for the failure of waterfall model?", co:"CO1" },
+        { q:6, text:"Discuss the meaning of prototyping.", co:"CO1" },
+        { q:7, text:"What are the differences between waterfall and prototype models?", co:"CO1" },
+        { q:8, text:"List out the prescriptive process models for the development of software?", co:"CO1" },
+        { q:9, text:"Explain the steps involved in the prototyping.", co:"CO1" },
+        { q:10, text:"Differentiate between application and system software.", co:"CO1" },
+        { q:11, text:"Explain the concept of decision tree.", co:"CO2" },
+        { q:12, text:"State Properties of a good SRS document.", co:"CO2" },
+        { q:13, text:"Describe the Role of System Analyst.", co:"CO2" },
+        { q:14, text:"What are Software Requirements?", co:"CO2" },
+        { q:15, text:"Give general structure of SRS document.", co:"CO2" },
+        { q:16, text:"What do you know about SRS?", co:"CO2" },
+        { q:17, text:"Describe the term decision table.", co:"CO2" },
+        { q:18, text:"Simplify non-functional requirements?", co:"CO2" },
+        { q:19, text:"Elaborate the Functional Requirement?", co:"CO2" },
+        { q:20, text:"Describe SRS? What is the purpose of writing SRS and who write SRS?", co:"CO2" },
+        { q:21, text:"Define software cost estimation.", co:"CO3" },
+        { q:22, text:"Discuss the advantages and disadvantages of FRS.", co:"CO3" },
+        { q:23, text:"List two commonly used techniques for software cost estimation and briefly describe each.", co:"CO3" },
+        { q:24, text:"Briefly explain the difference between top-down and bottom-up estimation approaches.", co:"CO3" },
+        { q:25, text:"Define Formal Requirement Specification (FRS).", co:"CO3" },
+        { q:26, text:"State the primary objective of FRS in Software development.", co:"CO3" },
+        { q:27, text:"Compare and contrast parametric estimation and analogous estimation technique.", co:"CO3" },
+        { q:28, text:"Discuss the 'Expert Based Estimation' technique in software cost estimation.", co:"CO3" },
+        { q:29, text:"What is the purpose of the Delphi Technique in software cost estimation?", co:"CO3" },
+        { q:30, text:"Define the 'Three-Point Estimation' technique in the context of software project cost estimation.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the nature of software engineering.", co:"CO1" },
+        { q:32, text:"Write the needs of software engineering?", co:"CO1" },
+        { q:33, text:"Explain spiral model for software life cycle and write its phases?", co:"CO1" },
+        { q:34, text:"Discuss the Waterfall model of software development in detail. What are the problems associated with the Waterfall model?", co:"CO1" },
+        { q:35, text:"Explain the specialized process models in detail.", co:"CO1" },
+        { q:36, text:"Describe the rapid application development (RAD) model. Discuss each phase in detail.", co:"CO1" },
+        { q:37, text:"What is requirement analysis? What are functional and non-functional requirements?", co:"CO2" },
+        { q:38, text:"Explain the properties of a good SRS document?", co:"CO2" },
+        { q:39, text:"Paraphrase software requirement engineering? Explain SRS document? What are qualities of good SRS document? Outline its layout.", co:"CO2" },
+        { q:40, text:"Illustrate the concept of functional requirements in software development. Provide a detailed example of a functional requirement.", co:"CO2" },
+        { q:41, text:"Discuss the difference between the following: a. Functional and non-functional requirement b. User and system requirement.", co:"CO2" },
+        { q:42, text:"Define the concept of a decision tree in software engineering. How does it help in representing decision logic and outcomes in a structured manner? Provide a simple example.", co:"CO2" },
+        { q:43, text:"What do you mean by software cost estimation? Discuss the COCOMO model for cost estimation in detail.", co:"CO3" },
+        { q:44, text:"Explain Formal Requirement Specification and its types with suitable example.", co:"CO3" },
+        { q:45, text:"What is Cost Estimation? Explain different cost estimation models.", co:"CO3" },
+        { q:46, text:"Specify the purpose of Formal Requirement in software engineering.", co:"CO3" },
+        { q:47, text:"Define the 'Expert Judgment' technique in software cost estimation. How it is used and what are its advantages?", co:"CO3" },
+        { q:48, text:"Illustrate all the software cost estimation techniques in detail.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Software Engineering — Year 2024 — Assignment 1
+// ============================================
+const se2024A1 = {
+    sectionA: [
+        { q:1, text:"What is Software Engineering?", co:"CO1" },
+        { q:2, text:"What is the waterfall model?", co:"CO1" },
+        { q:3, text:"What are the characteristics of Software Engineering?", co:"CO1" },
+        { q:4, text:"What are the phases of the Unified Process?", co:"CO1" },
+        { q:5, text:"Why does the waterfall model fail?", co:"CO1" },
+        { q:6, text:"What is prototyping?", co:"CO1" },
+        { q:7, text:"Differentiate between waterfall and prototype models.", co:"CO1" },
+        { q:8, text:"What are prescriptive process models?", co:"CO1" },
+        { q:9, text:"What are the steps in prototyping?", co:"CO1" },
+        { q:10, text:"Differentiate between application and system software.", co:"CO1" },
+        { q:11, text:"What is a decision tree?", co:"CO2" },
+        { q:12, text:"What are the properties of a good SRS?", co:"CO2" },
+        { q:13, text:"What is the role of a system analyst?", co:"CO2" },
+        { q:14, text:"What are software requirements?", co:"CO2" },
+        { q:15, text:"What is the structure of an SRS document?", co:"CO2" },
+        { q:16, text:"What is SRS?", co:"CO2" },
+        { q:17, text:"What is a decision table?", co:"CO2" },
+        { q:18, text:"What are non-functional requirements?", co:"CO2" },
+        { q:19, text:"What are functional requirements?", co:"CO2" },
+        { q:20, text:"What is SRS? Who writes it?", co:"CO2" },
+        { q:21, text:"What is software cost estimation?", co:"CO3" },
+        { q:22, text:"What are the advantages and disadvantages of FRS?", co:"CO3" },
+        { q:23, text:"What are the techniques for software cost estimation?", co:"CO3" },
+        { q:24, text:"What is the difference between top-down and bottom-up estimation?", co:"CO3" },
+        { q:25, text:"What is FRS?", co:"CO3" },
+        { q:26, text:"What is the objective of FRS?", co:"CO3" },
+        { q:27, text:"Compare parametric and analogous estimation.", co:"CO3" },
+        { q:28, text:"What is expert-based estimation?", co:"CO3" },
+        { q:29, text:"What is the Delphi technique?", co:"CO3" },
+        { q:30, text:"What is three-point estimation?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the nature of software engineering.", co:"CO1" },
+        { q:32, text:"Why do we need software engineering?", co:"CO1" },
+        { q:33, text:"Explain the spiral model with phases.", co:"CO1" },
+        { q:34, text:"Explain the waterfall model and its problems.", co:"CO1" },
+        { q:35, text:"Explain specialized process models.", co:"CO1" },
+        { q:36, text:"Explain RAD model with phases.", co:"CO1" },
+        { q:37, text:"What is requirement analysis? Explain functional and non-functional requirements.", co:"CO2" },
+        { q:38, text:"Explain the properties of a good SRS.", co:"CO2" },
+        { q:39, text:"Explain SRS with its qualities and layout.", co:"CO2" },
+        { q:40, text:"Explain functional requirements with an example.", co:"CO2" },
+        { q:41, text:"Differentiate between functional/non-functional and user/system requirements.", co:"CO2" },
+        { q:42, text:"Explain decision tree with an example.", co:"CO2" },
+        { q:43, text:"Explain COCOMO model for cost estimation.", co:"CO3" },
+        { q:44, text:"Explain FRS and its types with examples.", co:"CO3" },
+        { q:45, text:"Explain cost estimation models.", co:"CO3" },
+        { q:46, text:"What is the purpose of FRS?", co:"CO3" },
+        { q:47, text:"Explain expert judgment technique with advantages.", co:"CO3" },
+        { q:48, text:"Explain software cost estimation techniques.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Software Engineering — Year 2023 — Assignment 1
+// ============================================
+const se2023A1 = {
+    sectionA: [
+        { q:1, text:"Define Software Engineering.", co:"CO1" },
+        { q:2, text:"What is the Waterfall model?", co:"CO1" },
+        { q:3, text:"What are the features of Software Engineering?", co:"CO1" },
+        { q:4, text:"What are the phases of the Unified Process?", co:"CO1" },
+        { q:5, text:"What are the drawbacks of the Waterfall model?", co:"CO1" },
+        { q:6, text:"Define prototyping.", co:"CO1" },
+        { q:7, text:"Compare Waterfall and Prototype models.", co:"CO1" },
+        { q:8, text:"List prescriptive process models.", co:"CO1" },
+        { q:9, text:"What are the stages of prototyping?", co:"CO1" },
+        { q:10, text:"What is the difference between application and system software?", co:"CO1" },
+        { q:11, text:"What is a decision tree?", co:"CO2" },
+        { q:12, text:"What are the characteristics of a good SRS?", co:"CO2" },
+        { q:13, text:"What is the responsibility of a system analyst?", co:"CO2" },
+        { q:14, text:"What are software requirements?", co:"CO2" },
+        { q:15, text:"What is the format of an SRS document?", co:"CO2" },
+        { q:16, text:"What does SRS stand for?", co:"CO2" },
+        { q:17, text:"What is a decision table?", co:"CO2" },
+        { q:18, text:"What are non-functional requirements?", co:"CO2" },
+        { q:19, text:"What are functional requirements?", co:"CO2" },
+        { q:20, text:"What is SRS? Who writes it?", co:"CO2" },
+        { q:21, text:"What is software cost estimation?", co:"CO3" },
+        { q:22, text:"What are the pros and cons of FRS?", co:"CO3" },
+        { q:23, text:"Name cost estimation techniques.", co:"CO3" },
+        { q:24, text:"Differentiate top-down and bottom-up estimation.", co:"CO3" },
+        { q:25, text:"What is FRS?", co:"CO3" },
+        { q:26, text:"What is the aim of FRS?", co:"CO3" },
+        { q:27, text:"Compare parametric and analogous estimation.", co:"CO3" },
+        { q:28, text:"What is expert-based estimation?", co:"CO3" },
+        { q:29, text:"What is the Delphi technique?", co:"CO3" },
+        { q:30, text:"What is three-point estimation?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the nature of software engineering.", co:"CO1" },
+        { q:32, text:"Why is software engineering needed?", co:"CO1" },
+        { q:33, text:"Explain the Spiral model with its phases.", co:"CO1" },
+        { q:34, text:"Explain the Waterfall model in detail and its limitations.", co:"CO1" },
+        { q:35, text:"Explain specialized process models.", co:"CO1" },
+        { q:36, text:"Explain RAD model in detail.", co:"CO1" },
+        { q:37, text:"What is requirement analysis? Explain functional and non-functional requirements.", co:"CO2" },
+        { q:38, text:"Explain the qualities of a good SRS.", co:"CO2" },
+        { q:39, text:"Explain SRS with its qualities and structure.", co:"CO2" },
+        { q:40, text:"Explain functional requirements with an example.", co:"CO2" },
+        { q:41, text:"Differentiate between functional/non-functional and user/system requirements.", co:"CO2" },
+        { q:42, text:"Explain decision tree with a simple example.", co:"CO2" },
+        { q:43, text:"Explain the COCOMO model for cost estimation.", co:"CO3" },
+        { q:44, text:"Explain FRS and its types with examples.", co:"CO3" },
+        { q:45, text:"Explain cost estimation models.", co:"CO3" },
+        { q:46, text:"What is the purpose of FRS?", co:"CO3" },
+        { q:47, text:"Explain expert judgment technique with its advantages.", co:"CO3" },
+        { q:48, text:"Explain software cost estimation techniques in detail.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Software Engineering — Year 2022 — Assignment 1
+// ============================================
+const se2022A1 = {
+    sectionA: [
+        { q:1, text:"What is Software Engineering?", co:"CO1" },
+        { q:2, text:"What is Waterfall Model?", co:"CO1" },
+        { q:3, text:"What are the characteristics of Software Engineering?", co:"CO1" },
+        { q:4, text:"What are Unified Process phases?", co:"CO1" },
+        { q:5, text:"Why does the Waterfall model fail?", co:"CO1" },
+        { q:6, text:"What is prototyping?", co:"CO1" },
+        { q:7, text:"Difference between Waterfall and Prototype models?", co:"CO1" },
+        { q:8, text:"What are prescriptive process models?", co:"CO1" },
+        { q:9, text:"What are the steps of prototyping?", co:"CO1" },
+        { q:10, text:"What is the difference between application and system software?", co:"CO1" },
+        { q:11, text:"What is a decision tree?", co:"CO2" },
+        { q:12, text:"What are the properties of a good SRS?", co:"CO2" },
+        { q:13, text:"What is the role of a system analyst?", co:"CO2" },
+        { q:14, text:"What are software requirements?", co:"CO2" },
+        { q:15, text:"What is the structure of an SRS?", co:"CO2" },
+        { q:16, text:"What is SRS?", co:"CO2" },
+        { q:17, text:"What is a decision table?", co:"CO2" },
+        { q:18, text:"What are non-functional requirements?", co:"CO2" },
+        { q:19, text:"What are functional requirements?", co:"CO2" },
+        { q:20, text:"What is SRS and who writes it?", co:"CO2" },
+        { q:21, text:"What is software cost estimation?", co:"CO3" },
+        { q:22, text:"What are the advantages and disadvantages of FRS?", co:"CO3" },
+        { q:23, text:"What are software cost estimation techniques?", co:"CO3" },
+        { q:24, text:"What is the difference between top-down and bottom-up estimation?", co:"CO3" },
+        { q:25, text:"What is FRS?", co:"CO3" },
+        { q:26, text:"What is the objective of FRS?", co:"CO3" },
+        { q:27, text:"Compare parametric and analogous estimation.", co:"CO3" },
+        { q:28, text:"What is expert-based estimation?", co:"CO3" },
+        { q:29, text:"What is the Delphi technique?", co:"CO3" },
+        { q:30, text:"What is three-point estimation?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the nature of software engineering.", co:"CO1" },
+        { q:32, text:"Write the needs of software engineering?", co:"CO1" },
+        { q:33, text:"Explain the Spiral model with phases.", co:"CO1" },
+        { q:34, text:"Explain the Waterfall model and its problems.", co:"CO1" },
+        { q:35, text:"Explain specialized process models.", co:"CO1" },
+        { q:36, text:"Explain the RAD model with phases.", co:"CO1" },
+        { q:37, text:"What is requirement analysis? Explain functional and non-functional requirements.", co:"CO2" },
+        { q:38, text:"Explain the properties of a good SRS.", co:"CO2" },
+        { q:39, text:"Explain SRS with qualities and structure.", co:"CO2" },
+        { q:40, text:"Explain functional requirements with an example.", co:"CO2" },
+        { q:41, text:"Differentiate functional/non-functional and user/system requirements.", co:"CO2" },
+        { q:42, text:"Explain decision tree with an example.", co:"CO2" },
+        { q:43, text:"Explain the COCOMO model for cost estimation.", co:"CO3" },
+        { q:44, text:"Explain FRS and its types with examples.", co:"CO3" },
+        { q:45, text:"Explain software cost estimation models.", co:"CO3" },
+        { q:46, text:"What is the purpose of FRS?", co:"CO3" },
+        { q:47, text:"Explain expert judgment with advantages.", co:"CO3" },
+        { q:48, text:"Explain all software cost estimation techniques in detail.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -5217,6 +5458,19 @@ const subjects = {
             "2023": { "1": ds2023A1, "2": ds2023A2 },
             "2024": { "1": ds2024A1, "2": ds2024A2 },
             "2025": { "1": ds2025A1, "2": ds2025A2 }
+        }
+    },
+    "se": {
+        semester: 4,
+        icon: "⚙️",
+        name: "Software Engineering",
+        code: "BCA24308",
+        courseOutcomes: seCO,
+        data: {
+            "2022": { "1": se2022A1 },
+            "2023": { "1": se2023A1 },
+            "2024": { "1": se2024A1 },
+            "2025": { "1": se2025A1 }
         }
     }
 };
