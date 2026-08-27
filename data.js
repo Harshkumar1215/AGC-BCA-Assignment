@@ -3418,6 +3418,238 @@ const stat2022A1 = {
 };
 
 // ============================================
+// Fundamentals of Statistics — Year 2025 — Assignment 2
+// ============================================
+const stat2025A2 = {
+    sectionA: [
+        { q:1, text:"What do you mean by Arithmetic Mean?", co:"CO4" },
+        { q:2, text:"Explain Positional Averages.", co:"CO4" },
+        { q:3, text:"State two merits of Mean.", co:"CO4" },
+        { q:4, text:"What do mean by Harmonic Mean.", co:"CO4" },
+        { q:5, text:"A brief note on Mode.", co:"CO4" },
+        { q:6, text:"Write two demerits of Mode.", co:"CO4" },
+        { q:7, text:"Write any two features of Median.", co:"CO4" },
+        { q:8, text:"What do you mean by Median?", co:"CO4" },
+        { q:9, text:"Discuss two limitations of Median.", co:"CO4" },
+        { q:10, text:"Enumerate Inspection Method in case of Mode.", co:"CO4" },
+        { q:11, text:"What do mean term Dispersion?", co:"CO5" },
+        { q:12, text:"What is the coefficient of Range?", co:"CO5" },
+        { q:13, text:"What do you mean by Range?", co:"CO5" },
+        { q:14, text:"Brief note on Quartile Deviation.", co:"CO5" },
+        { q:15, text:"Calculate the Range: 24,20,25,30,35,26,67,69,78,99.", co:"CO5" },
+        { q:16, text:"Calculate Quartile Deviation from the given data.", co:"CO5" },
+        { q:17, text:"Explain Mean Deviation.", co:"CO5" },
+        { q:18, text:"Calculate Mean Deviation from Median: 20,22,25,39,48,50,65,70,45.", co:"CO5" },
+        { q:19, text:"Give two merits and demerits of Range.", co:"CO5" },
+        { q:20, text:"Calculate Coefficient of Range from the given data.", co:"CO5" },
+        { q:21, text:"What do you mean by Standard Deviation?", co:"CO6" },
+        { q:22, text:"Difference between Standard Deviation and Mean Deviation.", co:"CO6" },
+        { q:23, text:"Calculate Standard Deviation: 7,10,12,14,15,20,22,29,35.", co:"CO6" },
+        { q:24, text:"Describe the term Mean Deviation.", co:"CO6" },
+        { q:25, text:"Calculate MD from Mode: 20,24,25,12,40,50,65,74,75.", co:"CO6" },
+        { q:26, text:"Calculate MD from Median: 20,24,25,38,44,50,65,70,80.", co:"CO6" },
+        { q:27, text:"Define the term Coefficient of Variation.", co:"CO6" },
+        { q:28, text:"What are the different formulas of calculating the Variation?", co:"CO6" },
+        { q:29, text:"Write the uses of Variation.", co:"CO6" },
+        { q:30, text:"Give two merits and demerits of Variation.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"What do you mean by Central Tendency? State important measures of it.", co:"CO4" },
+        { q:32, text:"Explain in detail the merits and demerits of central Tendency.", co:"CO4" },
+        { q:33, text:"Calculate the mean from the following data (Step deviation method).", co:"CO4" },
+        { q:34, text:"From the following data, calculate Arithmetic Mean.", co:"CO4" },
+        { q:35, text:"Calculate Median from the following Data.", co:"CO4" },
+        { q:36, text:"Find the Mode from the following.", co:"CO4" },
+        { q:37, text:"Define measures of Dispersion.", co:"CO5" },
+        { q:38, text:"Define Range and Inter-quartile Range. Give its Merits and Demerits.", co:"CO5" },
+        { q:39, text:"What do you mean Dispersion and its Objectives?", co:"CO5" },
+        { q:40, text:"Calculate Range and Inter-Quartile Range.", co:"CO5" },
+        { q:41, text:"Calculate Range and Inter-Quartile Range, Coefficient of Q.D. from the following data.", co:"CO5" },
+        { q:42, text:"Calculate Quartile Deviation and its Coefficient.", co:"CO5" },
+        { q:43, text:"Define Standard Deviation. Also mention its Merits and Demerits.", co:"CO6" },
+        { q:44, text:"Calculate Standard Deviation from the following Data.", co:"CO6" },
+        { q:45, text:"Calculate Mean Deviation from Mean and its coefficient for the following Data.", co:"CO6" },
+        { q:46, text:"Calculate Mean Deviation from Median and its coefficient for the following Data (Use Short Cut Method).", co:"CO6" },
+        { q:47, text:"Batsman X and Y scored following runs. Which is better scorer? Who is more consistent?", co:"CO6" },
+        { q:48, text:"Calculate coefficient in each case and discuss relative consistency of two brick-layers.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Statistics — Year 2024 — Assignment 2
+// ============================================
+const stat2024A2 = {
+    sectionA: [
+        { q:1, text:"Define Arithmetic Mean.", co:"CO4" },
+        { q:2, text:"What are Positional Averages?", co:"CO4" },
+        { q:3, text:"What are the merits of Mean?", co:"CO4" },
+        { q:4, text:"Define Harmonic Mean.", co:"CO4" },
+        { q:5, text:"Write a note on Mode.", co:"CO4" },
+        { q:6, text:"What are the demerits of Mode?", co:"CO4" },
+        { q:7, text:"What are the features of Median?", co:"CO4" },
+        { q:8, text:"Define Median.", co:"CO4" },
+        { q:9, text:"What are the limitations of Median?", co:"CO4" },
+        { q:10, text:"What is the Inspection Method for Mode?", co:"CO4" },
+        { q:11, text:"What is Dispersion?", co:"CO5" },
+        { q:12, text:"What is Coefficient of Range?", co:"CO5" },
+        { q:13, text:"Define Range.", co:"CO5" },
+        { q:14, text:"What is Quartile Deviation?", co:"CO5" },
+        { q:15, text:"Calculate Range: 24,20,25,30,35,26,67,69,78,99.", co:"CO5" },
+        { q:16, text:"Calculate Quartile Deviation from given frequency distribution.", co:"CO5" },
+        { q:17, text:"Explain Mean Deviation.", co:"CO5" },
+        { q:18, text:"Calculate Mean Deviation from Median: 20,22,25,39,48,50,65,70,45.", co:"CO5" },
+        { q:19, text:"What are the merits and demerits of Range?", co:"CO5" },
+        { q:20, text:"Calculate Coefficient of Range from given grouped data.", co:"CO5" },
+        { q:21, text:"Define Standard Deviation.", co:"CO6" },
+        { q:22, text:"Differentiate between Standard Deviation and Mean Deviation.", co:"CO6" },
+        { q:23, text:"Calculate Standard Deviation: 7,10,12,14,15,20,22,29,35.", co:"CO6" },
+        { q:24, text:"Define Mean Deviation.", co:"CO6" },
+        { q:25, text:"Calculate MD from Mode: 20,24,25,12,40,50,65,74,75.", co:"CO6" },
+        { q:26, text:"Calculate MD from Median: 20,24,25,38,44,50,65,70,80.", co:"CO6" },
+        { q:27, text:"Define Coefficient of Variation.", co:"CO6" },
+        { q:28, text:"What are the formulas for calculating Variation?", co:"CO6" },
+        { q:29, text:"What are the uses of Variation?", co:"CO6" },
+        { q:30, text:"What are the merits and demerits of Variation?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"What is Central Tendency? Explain its measures.", co:"CO4" },
+        { q:32, text:"Explain the merits and demerits of Central Tendency.", co:"CO4" },
+        { q:33, text:"Calculate Mean using Step Deviation Method.", co:"CO4" },
+        { q:34, text:"Calculate Arithmetic Mean from given data.", co:"CO4" },
+        { q:35, text:"Calculate Median from grouped data.", co:"CO4" },
+        { q:36, text:"Calculate Mode from grouped data.", co:"CO4" },
+        { q:37, text:"Define Dispersion and its measures.", co:"CO5" },
+        { q:38, text:"Define Range and Inter-quartile Range with merits and demerits.", co:"CO5" },
+        { q:39, text:"What is Dispersion? What are its objectives?", co:"CO5" },
+        { q:40, text:"Calculate Range and Inter-Quartile Range.", co:"CO5" },
+        { q:41, text:"Calculate Range, Inter-Quartile Range, and Coefficient of Q.D.", co:"CO5" },
+        { q:42, text:"Calculate Quartile Deviation and its Coefficient.", co:"CO5" },
+        { q:43, text:"Define Standard Deviation with merits and demerits.", co:"CO6" },
+        { q:44, text:"Calculate Standard Deviation from grouped data.", co:"CO6" },
+        { q:45, text:"Calculate Mean Deviation from Mean and its coefficient.", co:"CO6" },
+        { q:46, text:"Calculate Mean Deviation from Median using Short Cut Method.", co:"CO6" },
+        { q:47, text:"Compare two batsmen and determine better scorer and consistency.", co:"CO6" },
+        { q:48, text:"Calculate Coefficient of Variation and discuss consistency of two brick-layers.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Statistics — Year 2023 — Assignment 2
+// ============================================
+const stat2023A2 = {
+    sectionA: [
+        { q:1, text:"What is Arithmetic Mean? Give its formula.", co:"CO4" },
+        { q:2, text:"What are Positional Averages? Name them.", co:"CO4" },
+        { q:3, text:"Write two advantages of Mean.", co:"CO4" },
+        { q:4, text:"What is Harmonic Mean?", co:"CO4" },
+        { q:5, text:"Define Mode with an example.", co:"CO4" },
+        { q:6, text:"What are the disadvantages of Mode?", co:"CO4" },
+        { q:7, text:"What are the characteristics of Median?", co:"CO4" },
+        { q:8, text:"Define Median with an example.", co:"CO4" },
+        { q:9, text:"What are the drawbacks of Median?", co:"CO4" },
+        { q:10, text:"What is the Inspection Method for calculating Mode?", co:"CO4" },
+        { q:11, text:"What is meant by Dispersion?", co:"CO5" },
+        { q:12, text:"What is Coefficient of Range?", co:"CO5" },
+        { q:13, text:"Define Range with an example.", co:"CO5" },
+        { q:14, text:"What is Quartile Deviation?", co:"CO5" },
+        { q:15, text:"Find the Range: 24,20,25,30,35,26,67,69,78,99.", co:"CO5" },
+        { q:16, text:"Compute Quartile Deviation from frequency distribution.", co:"CO5" },
+        { q:17, text:"Explain Mean Deviation and its calculation.", co:"CO5" },
+        { q:18, text:"Compute Mean Deviation from Median: 20,22,25,39,48,50,65,70,45.", co:"CO5" },
+        { q:19, text:"List merits and demerits of Range.", co:"CO5" },
+        { q:20, text:"Compute Coefficient of Range from grouped data.", co:"CO5" },
+        { q:21, text:"What is Standard Deviation?", co:"CO6" },
+        { q:22, text:"Differentiate between Standard Deviation and Mean Deviation.", co:"CO6" },
+        { q:23, text:"Calculate Standard Deviation: 7,10,12,14,15,20,22,29,35.", co:"CO6" },
+        { q:24, text:"What is Mean Deviation? Explain.", co:"CO6" },
+        { q:25, text:"Calculate MD from Mode: 20,24,25,12,40,50,65,74,75.", co:"CO6" },
+        { q:26, text:"Calculate MD from Median: 20,24,25,38,44,50,65,70,80.", co:"CO6" },
+        { q:27, text:"Define Coefficient of Variation.", co:"CO6" },
+        { q:28, text:"What are the different formulas of Variation?", co:"CO6" },
+        { q:29, text:"What is the significance of Variation?", co:"CO6" },
+        { q:30, text:"What are the pros and cons of Variation?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"What is Central Tendency? Explain its measures in detail.", co:"CO4" },
+        { q:32, text:"Discuss the merits and demerits of Central Tendency.", co:"CO4" },
+        { q:33, text:"Calculate Mean using Step Deviation Method.", co:"CO4" },
+        { q:34, text:"Calculate Arithmetic Mean from frequency distribution.", co:"CO4" },
+        { q:35, text:"Calculate Median from grouped frequency distribution.", co:"CO4" },
+        { q:36, text:"Calculate Mode from grouped frequency distribution.", co:"CO4" },
+        { q:37, text:"Define Dispersion. What are its objectives?", co:"CO5" },
+        { q:38, text:"Explain Range and Inter-quartile Range with merits and demerits.", co:"CO5" },
+        { q:39, text:"What is Dispersion and why is it measured?", co:"CO5" },
+        { q:40, text:"Calculate Range and Inter-Quartile Range from ungrouped data.", co:"CO5" },
+        { q:41, text:"Calculate Range, Inter-Quartile Range, and Coefficient of Q.D.", co:"CO5" },
+        { q:42, text:"Calculate Quartile Deviation and its Coefficient from grouped data.", co:"CO5" },
+        { q:43, text:"Define Standard Deviation. Explain its merits and demerits.", co:"CO6" },
+        { q:44, text:"Calculate Standard Deviation from grouped frequency distribution.", co:"CO6" },
+        { q:45, text:"Calculate Mean Deviation from Mean and its coefficient.", co:"CO6" },
+        { q:46, text:"Calculate Mean Deviation from Median using Short Cut Method.", co:"CO6" },
+        { q:47, text:"Compare two batsmen using coefficient of variation.", co:"CO6" },
+        { q:48, text:"Calculate and compare consistency of two brick-layers.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Statistics — Year 2022 — Assignment 2
+// ============================================
+const stat2022A2 = {
+    sectionA: [
+        { q:1, text:"Define Arithmetic Mean and give its formula.", co:"CO4" },
+        { q:2, text:"What are Positional Averages? Explain.", co:"CO4" },
+        { q:3, text:"Write any two merits of Mean.", co:"CO4" },
+        { q:4, text:"What is Harmonic Mean? When is it used?", co:"CO4" },
+        { q:5, text:"Write a short note on Mode.", co:"CO4" },
+        { q:6, text:"What are the demerits of Mode?", co:"CO4" },
+        { q:7, text:"Write the features of Median.", co:"CO4" },
+        { q:8, text:"Define Median and give its formula.", co:"CO4" },
+        { q:9, text:"What are the limitations of Median?", co:"CO4" },
+        { q:10, text:"What is Inspection Method in Mode?", co:"CO4" },
+        { q:11, text:"What is Dispersion?", co:"CO5" },
+        { q:12, text:"What is Coefficient of Range?", co:"CO5" },
+        { q:13, text:"What is Range? Give its formula.", co:"CO5" },
+        { q:14, text:"Define Quartile Deviation.", co:"CO5" },
+        { q:15, text:"Find Range: 24,20,25,30,35,26,67,69,78,99.", co:"CO5" },
+        { q:16, text:"Compute Quartile Deviation from given frequency table.", co:"CO5" },
+        { q:17, text:"Explain Mean Deviation and its calculation.", co:"CO5" },
+        { q:18, text:"Find Mean Deviation from Median: 20,22,25,39,48,50,65,70,45.", co:"CO5" },
+        { q:19, text:"What are the merits and demerits of Range?", co:"CO5" },
+        { q:20, text:"Find Coefficient of Range from grouped data.", co:"CO5" },
+        { q:21, text:"What is Standard Deviation?", co:"CO6" },
+        { q:22, text:"Distinguish between Standard Deviation and Mean Deviation.", co:"CO6" },
+        { q:23, text:"Find Standard Deviation: 7,10,12,14,15,20,22,29,35.", co:"CO6" },
+        { q:24, text:"What is Mean Deviation?", co:"CO6" },
+        { q:25, text:"Find MD from Mode: 20,24,25,12,40,50,65,74,75.", co:"CO6" },
+        { q:26, text:"Find MD from Median: 20,24,25,38,44,50,65,70,80.", co:"CO6" },
+        { q:27, text:"Define Coefficient of Variation.", co:"CO6" },
+        { q:28, text:"What are the formulas for computing Variation?", co:"CO6" },
+        { q:29, text:"Write the applications of Variation.", co:"CO6" },
+        { q:30, text:"What are the merits and demerits of Variation?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"What is Central Tendency? Explain its different measures.", co:"CO4" },
+        { q:32, text:"Explain the merits and demerits of Central Tendency.", co:"CO4" },
+        { q:33, text:"Calculate Mean using Step Deviation Method from frequency table.", co:"CO4" },
+        { q:34, text:"Compute Arithmetic Mean from frequency distribution.", co:"CO4" },
+        { q:35, text:"Find Median from grouped frequency distribution.", co:"CO4" },
+        { q:36, text:"Find Mode from grouped frequency distribution.", co:"CO4" },
+        { q:37, text:"What is Dispersion? Explain its objectives.", co:"CO5" },
+        { q:38, text:"Explain Range and Inter-quartile Range with merits and demerits.", co:"CO5" },
+        { q:39, text:"What is Dispersion and why is it studied?", co:"CO5" },
+        { q:40, text:"Find Range and Inter-Quartile Range from ungrouped data.", co:"CO5" },
+        { q:41, text:"Find Range, Inter-Quartile Range, and Coefficient of Q.D.", co:"CO5" },
+        { q:42, text:"Compute Quartile Deviation and its Coefficient.", co:"CO5" },
+        { q:43, text:"Define Standard Deviation and discuss its merits and demerits.", co:"CO6" },
+        { q:44, text:"Compute Standard Deviation from grouped data.", co:"CO6" },
+        { q:45, text:"Find Mean Deviation from Mean and its coefficient.", co:"CO6" },
+        { q:46, text:"Find Mean Deviation from Median using Short Cut Method.", co:"CO6" },
+        { q:47, text:"Compare two batsmen and find who is better and more consistent.", co:"CO6" },
+        { q:48, text:"Calculate and compare consistency of two brick-layers.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -3532,10 +3764,10 @@ const subjects = {
         code: "BCA-24205",
         courseOutcomes: statCO,
         data: {
-            "2022": { "1": stat2022A1 },
-            "2023": { "1": stat2023A1 },
-            "2024": { "1": stat2024A1 },
-            "2025": { "1": stat2025A1 }
+            "2022": { "1": stat2022A1, "2": stat2022A2 },
+            "2023": { "1": stat2023A1, "2": stat2023A2 },
+            "2024": { "1": stat2024A1, "2": stat2024A2 },
+            "2025": { "1": stat2025A1, "2": stat2025A2 }
         }
     }
 };
