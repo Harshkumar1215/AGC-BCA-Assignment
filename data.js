@@ -2942,6 +2942,238 @@ const csa2022A1 = {
 };
 
 // ============================================
+// Computer System Architecture — Year 2025 — Assignment 2
+// ============================================
+const csa2025A2 = {
+    sectionA: [
+        { q:1, text:"Define a clock signal.", co:"CO4" },
+        { q:2, text:"What is meant by sequential circuits?", co:"CO4" },
+        { q:3, text:"Difference between latch and flip flop.", co:"CO4" },
+        { q:4, text:"What do you mean by edge triggering?", co:"CO4" },
+        { q:5, text:"What is race around condition?", co:"CO4" },
+        { q:6, text:"How we can remove the race around condition?", co:"CO4" },
+        { q:7, text:"What are the applications of flip flops?", co:"CO4" },
+        { q:8, text:"Comparison of combinational and sequential circuits.", co:"CO4" },
+        { q:9, text:"Why is a gated D latch called a transparent latch?", co:"CO4" },
+        { q:10, text:"What do you mean by toggling?", co:"CO4" },
+        { q:11, text:"What do you mean by computer organization?", co:"CO5" },
+        { q:12, text:"Difference between RAM and ROM.", co:"CO5" },
+        { q:13, text:"Explain the advantages of cache memory?", co:"CO5" },
+        { q:14, text:"Write the disadvantages of von Neumann architecture.", co:"CO5" },
+        { q:15, text:"What are advantages of Harvard architecture?", co:"CO5" },
+        { q:16, text:"Compare Harvard and von Neumann architecture.", co:"CO5" },
+        { q:17, text:"List the features of RISC processor.", co:"CO5" },
+        { q:18, text:"Write the disadvantages of CISC processor.", co:"CO5" },
+        { q:19, text:"What is the stored program concept?", co:"CO5" },
+        { q:20, text:"Compare RISC and CISC processor.", co:"CO5" },
+        { q:21, text:"What is the function of control bus?", co:"CO6" },
+        { q:22, text:"Define the term opcode.", co:"CO6" },
+        { q:23, text:"What do you mean by micro-operation?", co:"CO6" },
+        { q:24, text:"What is the role of data bus?", co:"CO6" },
+        { q:25, text:"Elaborate the term registers.", co:"CO6" },
+        { q:26, text:"Draw the instruction format for memory reference instructions.", co:"CO6" },
+        { q:27, text:"What do you mean by instruction?", co:"CO6" },
+        { q:28, text:"Explain the term instruction format?", co:"CO6" },
+        { q:29, text:"Write the steps used in instruction cycle.", co:"CO6" },
+        { q:30, text:"What are the functions of the computer bus?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Discuss the working of clocked T flip flop.", co:"CO4" },
+        { q:32, text:"Elaborate the working of clocked D flip flop.", co:"CO4" },
+        { q:33, text:"Explain the working of master slave J-K flip flop?", co:"CO4" },
+        { q:34, text:"Elaborate the working of clocked J-K flip flop.", co:"CO4" },
+        { q:35, text:"Explain the working of clocked S-R flip flop?", co:"CO4" },
+        { q:36, text:"State and explain the triggering methods used for flip flops.", co:"CO4" },
+        { q:37, text:"Explain the CISC architecture in detail?", co:"CO5" },
+        { q:38, text:"Write a short note on RISC architecture.", co:"CO5" },
+        { q:39, text:"Discuss von Neumann architecture in detail.", co:"CO5" },
+        { q:40, text:"Write a short note on Harvard architecture in detail.", co:"CO5" },
+        { q:41, text:"Explain the components of computer in detail?", co:"CO5" },
+        { q:42, text:"Difference between computer architecture and computer organisation.", co:"CO5" },
+        { q:43, text:"Discuss the memory reference instructions in detail.", co:"CO6" },
+        { q:44, text:"Explain the concept of 16-bit common bus system in computer?", co:"CO6" },
+        { q:45, text:"Explain the types and functions of computer registers in detail?", co:"CO6" },
+        { q:46, text:"Explain the register reference instructions in detail?", co:"CO6" },
+        { q:47, text:"Describe various input output instructions in detail.", co:"CO6" },
+        { q:48, text:"Discuss the types of computer bus in detail.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Computer System Architecture — Year 2024 — Assignment 2
+// ============================================
+const csa2024A2 = {
+    sectionA: [
+        { q:1, text:"What is a clock signal?", co:"CO4" },
+        { q:2, text:"What are sequential circuits?", co:"CO4" },
+        { q:3, text:"Differentiate between latch and flip-flop.", co:"CO4" },
+        { q:4, text:"What is edge triggering?", co:"CO4" },
+        { q:5, text:"What is race around condition?", co:"CO4" },
+        { q:6, text:"How is race around condition avoided?", co:"CO4" },
+        { q:7, text:"What are the applications of flip-flops?", co:"CO4" },
+        { q:8, text:"Compare combinational and sequential circuits.", co:"CO4" },
+        { q:9, text:"Why is a gated D latch called transparent?", co:"CO4" },
+        { q:10, text:"What does toggling mean in flip-flops?", co:"CO4" },
+        { q:11, text:"What is computer organization?", co:"CO5" },
+        { q:12, text:"Differentiate between RAM and ROM.", co:"CO5" },
+        { q:13, text:"What are the advantages of cache memory?", co:"CO5" },
+        { q:14, text:"What are the disadvantages of von Neumann architecture?", co:"CO5" },
+        { q:15, text:"What are the advantages of Harvard architecture?", co:"CO5" },
+        { q:16, text:"Compare Harvard and von Neumann architectures.", co:"CO5" },
+        { q:17, text:"What are the features of RISC processor?", co:"CO5" },
+        { q:18, text:"What are the disadvantages of CISC processor?", co:"CO5" },
+        { q:19, text:"What is the stored program concept?", co:"CO5" },
+        { q:20, text:"Compare RISC and CISC processors.", co:"CO5" },
+        { q:21, text:"What is the function of the control bus?", co:"CO6" },
+        { q:22, text:"What is an opcode?", co:"CO6" },
+        { q:23, text:"What is a micro-operation?", co:"CO6" },
+        { q:24, text:"What is the function of the data bus?", co:"CO6" },
+        { q:25, text:"What are registers?", co:"CO6" },
+        { q:26, text:"Draw the instruction format for memory reference instructions.", co:"CO6" },
+        { q:27, text:"What is an instruction?", co:"CO6" },
+        { q:28, text:"Explain the instruction format.", co:"CO6" },
+        { q:29, text:"Write the steps of the instruction cycle.", co:"CO6" },
+        { q:30, text:"What are the functions of the computer bus?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the working of a clocked T flip-flop.", co:"CO4" },
+        { q:32, text:"Explain the working of a clocked D flip-flop.", co:"CO4" },
+        { q:33, text:"Explain the working of a master-slave J-K flip-flop.", co:"CO4" },
+        { q:34, text:"Explain the working of a clocked J-K flip-flop.", co:"CO4" },
+        { q:35, text:"Explain the working of a clocked S-R flip-flop.", co:"CO4" },
+        { q:36, text:"Explain the triggering methods used in flip-flops.", co:"CO4" },
+        { q:37, text:"Explain CISC architecture in detail.", co:"CO5" },
+        { q:38, text:"Write a note on RISC architecture.", co:"CO5" },
+        { q:39, text:"Explain von Neumann architecture in detail.", co:"CO5" },
+        { q:40, text:"Write a note on Harvard architecture.", co:"CO5" },
+        { q:41, text:"Explain the components of a computer system.", co:"CO5" },
+        { q:42, text:"Differentiate between computer architecture and computer organization.", co:"CO5" },
+        { q:43, text:"Explain memory reference instructions in detail.", co:"CO6" },
+        { q:44, text:"Explain the 16-bit common bus system.", co:"CO6" },
+        { q:45, text:"Explain the types and functions of computer registers.", co:"CO6" },
+        { q:46, text:"Explain register reference instructions.", co:"CO6" },
+        { q:47, text:"Explain input-output instructions.", co:"CO6" },
+        { q:48, text:"Explain the types of computer buses.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Computer System Architecture — Year 2023 — Assignment 2
+// ============================================
+const csa2023A2 = {
+    sectionA: [
+        { q:1, text:"What is a clock signal in digital circuits?", co:"CO4" },
+        { q:2, text:"Define sequential circuits with examples.", co:"CO4" },
+        { q:3, text:"Differentiate between latch and flip-flop.", co:"CO4" },
+        { q:4, text:"Explain the concept of edge triggering.", co:"CO4" },
+        { q:5, text:"What is race around condition in JK flip-flop?", co:"CO4" },
+        { q:6, text:"How can race around condition be eliminated?", co:"CO4" },
+        { q:7, text:"State the applications of flip-flops.", co:"CO4" },
+        { q:8, text:"Distinguish between combinational and sequential circuits.", co:"CO4" },
+        { q:9, text:"Why is a gated D latch called transparent?", co:"CO4" },
+        { q:10, text:"What is meant by toggling in flip-flops?", co:"CO4" },
+        { q:11, text:"What is computer organization?", co:"CO5" },
+        { q:12, text:"Differentiate between RAM and ROM.", co:"CO5" },
+        { q:13, text:"What are the benefits of cache memory?", co:"CO5" },
+        { q:14, text:"List the drawbacks of von Neumann architecture.", co:"CO5" },
+        { q:15, text:"What are the benefits of Harvard architecture?", co:"CO5" },
+        { q:16, text:"Compare Harvard and von Neumann architecture.", co:"CO5" },
+        { q:17, text:"What are the characteristics of RISC?", co:"CO5" },
+        { q:18, text:"What are the drawbacks of CISC?", co:"CO5" },
+        { q:19, text:"Explain the stored program concept.", co:"CO5" },
+        { q:20, text:"Differentiate between RISC and CISC.", co:"CO5" },
+        { q:21, text:"What is the purpose of the control bus?", co:"CO6" },
+        { q:22, text:"What is an opcode?", co:"CO6" },
+        { q:23, text:"Define micro-operation.", co:"CO6" },
+        { q:24, text:"What is the role of the data bus?", co:"CO6" },
+        { q:25, text:"What are registers and their types?", co:"CO6" },
+        { q:26, text:"Draw the instruction format for memory reference instructions.", co:"CO6" },
+        { q:27, text:"What is an instruction in computer architecture?", co:"CO6" },
+        { q:28, text:"Define instruction format.", co:"CO6" },
+        { q:29, text:"What are the steps of the instruction cycle?", co:"CO6" },
+        { q:30, text:"What are the functions of a computer bus?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Discuss the working of a clocked T flip-flop.", co:"CO4" },
+        { q:32, text:"Explain the working of a clocked D flip-flop.", co:"CO4" },
+        { q:33, text:"Explain the master-slave JK flip-flop with its working.", co:"CO4" },
+        { q:34, text:"Explain the working of a clocked JK flip-flop.", co:"CO4" },
+        { q:35, text:"Explain the working of a clocked SR flip-flop.", co:"CO4" },
+        { q:36, text:"Explain the different triggering methods used in flip-flops.", co:"CO4" },
+        { q:37, text:"Explain CISC architecture with its features.", co:"CO5" },
+        { q:38, text:"Write a note on RISC architecture with its features.", co:"CO5" },
+        { q:39, text:"Explain the von Neumann architecture with a diagram.", co:"CO5" },
+        { q:40, text:"Write a note on Harvard architecture.", co:"CO5" },
+        { q:41, text:"Explain the major components of a computer.", co:"CO5" },
+        { q:42, text:"Differentiate between computer architecture and organization.", co:"CO5" },
+        { q:43, text:"Explain memory reference instructions with examples.", co:"CO6" },
+        { q:44, text:"Explain the 16-bit common bus system with a diagram.", co:"CO6" },
+        { q:45, text:"Explain the types of registers and their functions.", co:"CO6" },
+        { q:46, text:"Explain register reference instructions.", co:"CO6" },
+        { q:47, text:"Explain input-output reference instructions.", co:"CO6" },
+        { q:48, text:"Explain the types of computer buses in detail.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Computer System Architecture — Year 2022 — Assignment 2
+// ============================================
+const csa2022A2 = {
+    sectionA: [
+        { q:1, text:"Define a clock signal.", co:"CO4" },
+        { q:2, text:"What are sequential logic circuits?", co:"CO4" },
+        { q:3, text:"What is the difference between a latch and a flip-flop?", co:"CO4" },
+        { q:4, text:"What is edge triggering and level triggering?", co:"CO4" },
+        { q:5, text:"What is race around condition in JK flip-flop?", co:"CO4" },
+        { q:6, text:"How can race around condition be prevented?", co:"CO4" },
+        { q:7, text:"What are the uses of flip-flops?", co:"CO4" },
+        { q:8, text:"Compare combinational and sequential circuits.", co:"CO4" },
+        { q:9, text:"Why is a gated D latch known as a transparent latch?", co:"CO4" },
+        { q:10, text:"What is toggling in digital circuits?", co:"CO4" },
+        { q:11, text:"What is computer organization?", co:"CO5" },
+        { q:12, text:"Differentiate between RAM and ROM.", co:"CO5" },
+        { q:13, text:"What are the advantages of cache memory?", co:"CO5" },
+        { q:14, text:"What are the disadvantages of von Neumann architecture?", co:"CO5" },
+        { q:15, text:"What are the advantages of Harvard architecture?", co:"CO5" },
+        { q:16, text:"Compare Harvard and von Neumann architecture.", co:"CO5" },
+        { q:17, text:"List the features of RISC architecture.", co:"CO5" },
+        { q:18, text:"List the disadvantages of CISC architecture.", co:"CO5" },
+        { q:19, text:"What is the stored program concept?", co:"CO5" },
+        { q:20, text:"Compare RISC and CISC.", co:"CO5" },
+        { q:21, text:"What is the function of the control bus?", co:"CO6" },
+        { q:22, text:"Define opcode.", co:"CO6" },
+        { q:23, text:"What is a micro-operation?", co:"CO6" },
+        { q:24, text:"What is the role of the data bus?", co:"CO6" },
+        { q:25, text:"Explain the term registers.", co:"CO6" },
+        { q:26, text:"Draw the instruction format for memory reference instructions.", co:"CO6" },
+        { q:27, text:"What is an instruction?", co:"CO6" },
+        { q:28, text:"Explain the term instruction format.", co:"CO6" },
+        { q:29, text:"List the steps of the instruction cycle.", co:"CO6" },
+        { q:30, text:"What are the functions of the computer bus?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Discuss the working of a clocked T flip-flop.", co:"CO4" },
+        { q:32, text:"Explain the working of a clocked D flip-flop.", co:"CO4" },
+        { q:33, text:"Explain the working of a master-slave JK flip-flop.", co:"CO4" },
+        { q:34, text:"Explain the working of a clocked JK flip-flop.", co:"CO4" },
+        { q:35, text:"Explain the working of a clocked SR flip-flop.", co:"CO4" },
+        { q:36, text:"Explain the triggering methods used for flip-flops.", co:"CO4" },
+        { q:37, text:"Explain CISC architecture in detail.", co:"CO5" },
+        { q:38, text:"Write a short note on RISC architecture.", co:"CO5" },
+        { q:39, text:"Discuss von Neumann architecture in detail.", co:"CO5" },
+        { q:40, text:"Write a short note on Harvard architecture.", co:"CO5" },
+        { q:41, text:"Explain the components of a computer in detail.", co:"CO5" },
+        { q:42, text:"Differentiate between computer architecture and computer organization.", co:"CO5" },
+        { q:43, text:"Discuss memory reference instructions in detail.", co:"CO6" },
+        { q:44, text:"Explain the 16-bit common bus system.", co:"CO6" },
+        { q:45, text:"Explain the types and functions of computer registers.", co:"CO6" },
+        { q:46, text:"Explain register reference instructions.", co:"CO6" },
+        { q:47, text:"Explain input-output instructions.", co:"CO6" },
+        { q:48, text:"Discuss the types of computer buses.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -3043,10 +3275,10 @@ const subjects = {
         code: "BCA-24202",
         courseOutcomes: csaCO,
         data: {
-            "2022": { "1": csa2022A1 },
-            "2023": { "1": csa2023A1 },
-            "2024": { "1": csa2024A1 },
-            "2025": { "1": csa2025A1 }
+            "2022": { "1": csa2022A1, "2": csa2022A2 },
+            "2023": { "1": csa2023A1, "2": csa2023A2 },
+            "2024": { "1": csa2024A1, "2": csa2024A2 },
+            "2025": { "1": csa2025A1, "2": csa2025A2 }
         }
     }
 };
