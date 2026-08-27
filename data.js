@@ -3657,7 +3657,8 @@ const aiCO = {
     "CO2": "Outline the advantages and disadvantages of various search techniques.",
     "CO3": "Identify various Expert Systems and AI applications.",
     "CO4": "Define the role of AI in different areas like NLP, Pattern Recognition etc.",
-    "CO5": "Select the right AI tool for different AI based applications."
+    "CO5": "Select the right AI tool for different AI based applications.",
+    "CO6": "Understand advanced concepts of AI such as Machine Learning, NLP, and Robotics."
 };
 
 // ============================================
@@ -3893,6 +3894,238 @@ const ai2022A1 = {
 };
 
 // ============================================
+// Introduction to Artificial Intelligence — Year 2025 — Assignment 2
+// ============================================
+const ai2025A2 = {
+    sectionA: [
+        { q:1, text:"Define Propositional Logic. Give one example.", co:"CO4" },
+        { q:2, text:"Differentiate between propositional logic and first-order predicate logic (any two points).", co:"CO4" },
+        { q:3, text:"Define Conjunction (AND) (∧) along with its truth table.", co:"CO4" },
+        { q:4, text:"Discuss Key components of First-Order Logic.", co:"CO4" },
+        { q:5, text:"What is a predicate in first-order logic? Write an example.", co:"CO4" },
+        { q:6, text:"Explain the concept of quantifiers in first-order logic with suitable examples.", co:"CO4" },
+        { q:7, text:"List various applications of lifting.", co:"CO4" },
+        { q:8, text:"Define unification.", co:"CO4" },
+        { q:9, text:"What is lifting?", co:"CO4" },
+        { q:10, text:"Describe different conditions of unification.", co:"CO4" },
+        { q:11, text:"Define forward chaining in artificial intelligence.", co:"CO5" },
+        { q:12, text:"What is backward chaining?", co:"CO5" },
+        { q:13, text:"Define resolution in logical inference.", co:"CO5" },
+        { q:14, text:"What is a Truth Maintenance System (TMS)?", co:"CO5" },
+        { q:15, text:"What is AI Planning?", co:"CO5" },
+        { q:16, text:"Explain how forward chaining differs from backward chaining.", co:"CO5" },
+        { q:17, text:"Describe the purpose of a Truth Maintenance System in reasoning systems.", co:"CO5" },
+        { q:18, text:"Explain the main objective of AI Planning with a simple example.", co:"CO5" },
+        { q:19, text:"Illustrate the Blocks World problem by naming its basic components (states, actions, and goals).", co:"CO5" },
+        { q:20, text:"Mention any two operations that can be performed in the Blocks World problem and explain their effect briefly.", co:"CO5" },
+        { q:21, text:"Explain the concept of Robotics in AI.", co:"CO6" },
+        { q:22, text:"Define Machine Learning.", co:"CO6" },
+        { q:23, text:"What is Computer Vision?", co:"CO6" },
+        { q:24, text:"What is Natural Language Processing (NLP)?", co:"CO6" },
+        { q:25, text:"Define Deep Neural Networks (DNNs).", co:"CO6" },
+        { q:26, text:"Give two main applications of Machine Learning in everyday life.", co:"CO6" },
+        { q:27, text:"How does Computer Vision helpful in real world?", co:"CO6" },
+        { q:28, text:"What are the key techniques used in Computer vision?", co:"CO6" },
+        { q:29, text:"What is the primary role of Robotics in manufacturing, and how does it improve productivity?", co:"CO6" },
+        { q:30, text:"What are the main components of an expert system, and what is its primary role?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Define Propositional Logic and list its main logical connectives. Give one example for each connective.", co:"CO4" },
+        { q:32, text:"Explain the concept of First-Order Predicate Logic (FOPL) also explain with the help of example.", co:"CO4" },
+        { q:33, text:"Explain Propositional Logic with an example. Represent the following statements in propositional form and determine their truth values: a) \"If it rains, then the ground gets wet.\" b) \"It is not raining or it is sunny.\"", co:"CO4" },
+        { q:34, text:"(a) Analyze the process of Unification with the help of algorithm. (b) Unify the below statements: P(x, a) and P(b, y).", co:"CO4" },
+        { q:35, text:"Explain step-by-step how forward chaining operates in a rule-based system and how it is used in diagnostic systems like medical expert systems.", co:"CO5" },
+        { q:36, text:"Describe backward chaining with its advantages and disadvantages.", co:"CO5" },
+        { q:37, text:"(a) Elaborate working of Resolution Algorithm. (b) Using the resolution principle, prove that the given set of clauses is unsatisfiable (i.e., leads to a contradiction). Given: (V=OR) A: P V Q V R, B: ¬P V R, C: ¬Q, D: ¬R. Show the step-by-step resolution process and conclude the result.", co:"CO5" },
+        { q:38, text:"Explain Truth Maintenance System (TMS) with its architecture also explain its types.", co:"CO5" },
+        { q:39, text:"Highlight the important states in planning and discuss its types in detail.", co:"CO5" },
+        { q:40, text:"What is the Blocks World problem? List the sequence of actions with the help of detailed example.", co:"CO5" },
+        { q:41, text:"Explain step-by-step how forward chaining operates in a rule-based system and how it is used in diagnostic systems like medical expert systems.", co:"CO5" },
+        { q:42, text:"Describe backward chaining with its advantages and disadvantages.", co:"CO5" },
+        { q:43, text:"Explain Machine Learning and discuss common types of Machine Learning by giving one example of each.", co:"CO6" },
+        { q:44, text:"Explain the concept of Computer Vision with its future trends in detail.", co:"CO6" },
+        { q:45, text:"Explain the concept of Robotics in AI and list which AI techniques are used in Robotics also give examples of its application daily life.", co:"CO6" },
+        { q:46, text:"Discuss Natural Language Processing (NLP) along with its main components and algorithms used.", co:"CO6" },
+        { q:47, text:"Describe Deep Neural Networks (DNNs) and explain how they are applied in image and speech recognition.", co:"CO6" },
+        { q:48, text:"Explain the architecture of expert systems and discuss the role of knowledge base and inference engine in decision-making.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Introduction to Artificial Intelligence — Year 2024 — Assignment 2
+// ============================================
+const ai2024A2 = {
+    sectionA: [
+        { q:1, text:"What is Propositional Logic? Give an example.", co:"CO4" },
+        { q:2, text:"What is the difference between propositional logic and first-order logic? (any two)", co:"CO4" },
+        { q:3, text:"What is conjunction (AND)? Write its truth table.", co:"CO4" },
+        { q:4, text:"What are the components of First-Order Logic?", co:"CO4" },
+        { q:5, text:"What is a predicate in first-order logic? Give an example.", co:"CO4" },
+        { q:6, text:"What are quantifiers in first-order logic? Give examples.", co:"CO4" },
+        { q:7, text:"What is lifting?", co:"CO4" },
+        { q:8, text:"What is unification?", co:"CO4" },
+        { q:9, text:"What are the applications of lifting?", co:"CO4" },
+        { q:10, text:"What are the conditions for unification?", co:"CO4" },
+        { q:11, text:"Define forward chaining.", co:"CO5" },
+        { q:12, text:"Define backward chaining.", co:"CO5" },
+        { q:13, text:"What is resolution in logical inference?", co:"CO5" },
+        { q:14, text:"What is a Truth Maintenance System?", co:"CO5" },
+        { q:15, text:"What is AI Planning?", co:"CO5" },
+        { q:16, text:"How does forward chaining differ from backward chaining?", co:"CO5" },
+        { q:17, text:"What is the purpose of TMS?", co:"CO5" },
+        { q:18, text:"What is the objective of AI Planning? Give an example.", co:"CO5" },
+        { q:19, text:"What is the Blocks World problem?", co:"CO5" },
+        { q:20, text:"What are the operations in Blocks World?", co:"CO5" },
+        { q:21, text:"What is Robotics in AI?", co:"CO6" },
+        { q:22, text:"Define Machine Learning.", co:"CO6" },
+        { q:23, text:"What is Computer Vision?", co:"CO6" },
+        { q:24, text:"What is Natural Language Processing?", co:"CO6" },
+        { q:25, text:"What are Deep Neural Networks?", co:"CO6" },
+        { q:26, text:"What are the applications of Machine Learning?", co:"CO6" },
+        { q:27, text:"How does Computer Vision help in real life?", co:"CO6" },
+        { q:28, text:"What are the techniques used in Computer Vision?", co:"CO6" },
+        { q:29, text:"How does Robotics improve manufacturing?", co:"CO6" },
+        { q:30, text:"What are the components of an expert system?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Propositional Logic with its connectives and examples.", co:"CO4" },
+        { q:32, text:"Explain First-Order Predicate Logic with an example.", co:"CO4" },
+        { q:33, text:"Represent statements in propositional form and find their truth values.", co:"CO4" },
+        { q:34, text:"Explain unification with its algorithm. Unify P(x, a) and P(b, y).", co:"CO4" },
+        { q:35, text:"Explain forward chaining with an example in medical diagnosis.", co:"CO5" },
+        { q:36, text:"Explain backward chaining with its advantages and disadvantages.", co:"CO5" },
+        { q:37, text:"Explain the resolution algorithm with an example.", co:"CO5" },
+        { q:38, text:"Explain TMS with its architecture and types.", co:"CO5" },
+        { q:39, text:"Explain states in planning and their types.", co:"CO5" },
+        { q:40, text:"Explain the Blocks World problem with a detailed example.", co:"CO5" },
+        { q:41, text:"Explain forward chaining in rule-based systems.", co:"CO5" },
+        { q:42, text:"Explain backward chaining with its advantages and disadvantages.", co:"CO5" },
+        { q:43, text:"Explain Machine Learning and its types with examples.", co:"CO6" },
+        { q:44, text:"Explain Computer Vision with its future trends.", co:"CO6" },
+        { q:45, text:"Explain Robotics in AI with techniques and examples.", co:"CO6" },
+        { q:46, text:"Explain NLP with its components and algorithms.", co:"CO6" },
+        { q:47, text:"Explain DNNs and their applications in image and speech recognition.", co:"CO6" },
+        { q:48, text:"Explain expert system architecture with knowledge base and inference engine.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Introduction to Artificial Intelligence — Year 2023 — Assignment 2
+// ============================================
+const ai2023A2 = {
+    sectionA: [
+        { q:1, text:"Define Propositional Logic. Give an example.", co:"CO4" },
+        { q:2, text:"Differentiate between propositional and first-order logic.", co:"CO4" },
+        { q:3, text:"What is conjunction? Write its truth table.", co:"CO4" },
+        { q:4, text:"What are the key components of FOL?", co:"CO4" },
+        { q:5, text:"What is a predicate? Give an example.", co:"CO4" },
+        { q:6, text:"Explain quantifiers with examples.", co:"CO4" },
+        { q:7, text:"What is lifting in AI?", co:"CO4" },
+        { q:8, text:"Define unification with an example.", co:"CO4" },
+        { q:9, text:"What are the applications of lifting?", co:"CO4" },
+        { q:10, text:"What are the conditions for unification?", co:"CO4" },
+        { q:11, text:"What is forward chaining?", co:"CO5" },
+        { q:12, text:"What is backward chaining?", co:"CO5" },
+        { q:13, text:"Define resolution in AI.", co:"CO5" },
+        { q:14, text:"What is a Truth Maintenance System?", co:"CO5" },
+        { q:15, text:"What is AI planning?", co:"CO5" },
+        { q:16, text:"Compare forward and backward chaining.", co:"CO5" },
+        { q:17, text:"What is the purpose of TMS?", co:"CO5" },
+        { q:18, text:"Explain AI planning with an example.", co:"CO5" },
+        { q:19, text:"What is the Blocks World problem?", co:"CO5" },
+        { q:20, text:"What are the operations in Blocks World?", co:"CO5" },
+        { q:21, text:"What is Robotics in AI?", co:"CO6" },
+        { q:22, text:"What is Machine Learning?", co:"CO6" },
+        { q:23, text:"What is Computer Vision?", co:"CO6" },
+        { q:24, text:"What is NLP?", co:"CO6" },
+        { q:25, text:"What are Deep Neural Networks?", co:"CO6" },
+        { q:26, text:"Give two applications of ML.", co:"CO6" },
+        { q:27, text:"How is Computer Vision used in real life?", co:"CO6" },
+        { q:28, text:"What are the key techniques in Computer Vision?", co:"CO6" },
+        { q:29, text:"What is the role of Robotics in manufacturing?", co:"CO6" },
+        { q:30, text:"What are the components of an expert system?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Propositional Logic with its connectives and examples.", co:"CO4" },
+        { q:32, text:"Explain First-Order Predicate Logic with an example.", co:"CO4" },
+        { q:33, text:"Represent \"If it rains, the ground is wet\" and \"It is not raining or it is sunny\" in propositional form.", co:"CO4" },
+        { q:34, text:"Explain unification with algorithm and unify P(x, a) and P(b, y).", co:"CO4" },
+        { q:35, text:"Explain forward chaining with an example in medical diagnosis.", co:"CO5" },
+        { q:36, text:"Explain backward chaining with its advantages and disadvantages.", co:"CO5" },
+        { q:37, text:"Explain the resolution algorithm with the given clauses.", co:"CO5" },
+        { q:38, text:"Explain TMS with its architecture and types.", co:"CO5" },
+        { q:39, text:"Explain the important states in planning and their types.", co:"CO5" },
+        { q:40, text:"Explain Blocks World with a sequence of actions.", co:"CO5" },
+        { q:41, text:"Explain forward chaining in a rule-based system.", co:"CO5" },
+        { q:42, text:"Explain backward chaining with its advantages and disadvantages.", co:"CO5" },
+        { q:43, text:"Explain Machine Learning and its types with examples.", co:"CO6" },
+        { q:44, text:"Explain Computer Vision with future trends.", co:"CO6" },
+        { q:45, text:"Explain Robotics in AI with techniques and real-life applications.", co:"CO6" },
+        { q:46, text:"Explain NLP with its components and algorithms.", co:"CO6" },
+        { q:47, text:"Explain DNNs and their use in image and speech recognition.", co:"CO6" },
+        { q:48, text:"Explain expert system architecture and the role of knowledge base and inference engine.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Introduction to Artificial Intelligence — Year 2022 — Assignment 2
+// ============================================
+const ai2022A2 = {
+    sectionA: [
+        { q:1, text:"What is Propositional Logic? Give an example.", co:"CO4" },
+        { q:2, text:"What is the difference between propositional and first-order logic?", co:"CO4" },
+        { q:3, text:"What is conjunction? Write its truth table.", co:"CO4" },
+        { q:4, text:"What are the components of First-Order Logic?", co:"CO4" },
+        { q:5, text:"What is a predicate? Give an example.", co:"CO4" },
+        { q:6, text:"What are quantifiers? Explain with examples.", co:"CO4" },
+        { q:7, text:"What is lifting?", co:"CO4" },
+        { q:8, text:"What is unification?", co:"CO4" },
+        { q:9, text:"List applications of lifting.", co:"CO4" },
+        { q:10, text:"What are the conditions for unification?", co:"CO4" },
+        { q:11, text:"What is forward chaining?", co:"CO5" },
+        { q:12, text:"What is backward chaining?", co:"CO5" },
+        { q:13, text:"What is resolution in inference?", co:"CO5" },
+        { q:14, text:"What is a Truth Maintenance System?", co:"CO5" },
+        { q:15, text:"What is AI Planning?", co:"CO5" },
+        { q:16, text:"What is the difference between forward and backward chaining?", co:"CO5" },
+        { q:17, text:"What is the purpose of TMS?", co:"CO5" },
+        { q:18, text:"What is AI Planning? Give an example.", co:"CO5" },
+        { q:19, text:"What is the Blocks World problem?", co:"CO5" },
+        { q:20, text:"What are the operations in Blocks World?", co:"CO5" },
+        { q:21, text:"What is Robotics in AI?", co:"CO6" },
+        { q:22, text:"What is Machine Learning?", co:"CO6" },
+        { q:23, text:"What is Computer Vision?", co:"CO6" },
+        { q:24, text:"What is NLP?", co:"CO6" },
+        { q:25, text:"What are Deep Neural Networks?", co:"CO6" },
+        { q:26, text:"What are the applications of ML?", co:"CO6" },
+        { q:27, text:"How does Computer Vision help?", co:"CO6" },
+        { q:28, text:"What are the key techniques in Computer Vision?", co:"CO6" },
+        { q:29, text:"What is the role of Robotics in manufacturing?", co:"CO6" },
+        { q:30, text:"What are the components of an expert system?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Propositional Logic with its connectives and examples.", co:"CO4" },
+        { q:32, text:"Explain First-Order Predicate Logic with an example.", co:"CO4" },
+        { q:33, text:"Explain propositional logic with examples and truth values.", co:"CO4" },
+        { q:34, text:"Explain unification with algorithm and unify P(x, a) and P(b, y).", co:"CO4" },
+        { q:35, text:"Explain forward chaining with a medical diagnosis example.", co:"CO5" },
+        { q:36, text:"Explain backward chaining with advantages and disadvantages.", co:"CO5" },
+        { q:37, text:"Explain the resolution algorithm with an example.", co:"CO5" },
+        { q:38, text:"Explain TMS with its architecture and types.", co:"CO5" },
+        { q:39, text:"Explain planning states and their types.", co:"CO5" },
+        { q:40, text:"Explain Blocks World with a sequence of actions.", co:"CO5" },
+        { q:41, text:"Explain forward chaining in rule-based systems.", co:"CO5" },
+        { q:42, text:"Explain backward chaining with its advantages and disadvantages.", co:"CO5" },
+        { q:43, text:"Explain Machine Learning and its types with examples.", co:"CO6" },
+        { q:44, text:"Explain Computer Vision with future trends.", co:"CO6" },
+        { q:45, text:"Explain Robotics in AI with techniques and real-life examples.", co:"CO6" },
+        { q:46, text:"Explain NLP with its components and algorithms.", co:"CO6" },
+        { q:47, text:"Explain DNNs and their applications in image and speech recognition.", co:"CO6" },
+        { q:48, text:"Explain the architecture of expert systems.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -4020,10 +4253,10 @@ const subjects = {
         code: "BCA24307",
         courseOutcomes: aiCO,
         data: {
-            "2022": { "1": ai2022A1 },
-            "2023": { "1": ai2023A1 },
-            "2024": { "1": ai2024A1 },
-            "2025": { "1": ai2025A1 }
+            "2022": { "1": ai2022A1, "2": ai2022A2 },
+            "2023": { "1": ai2023A1, "2": ai2023A2 },
+            "2024": { "1": ai2024A1, "2": ai2024A2 },
+            "2025": { "1": ai2025A1, "2": ai2025A2 }
         }
     }
 };
