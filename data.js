@@ -900,7 +900,10 @@ const cLang2022A2 = {
 const fcitCO = {
     "CO1": "Identify of input and output devices of Computers.",
     "CO2": "Utilize the functioning of various components of computer system.",
-    "CO3": "Explain the different levels of languages, Operating system and features of Word processing."
+    "CO3": "Explain the different levels of languages, Operating system and features of Word processing.",
+    "CO4": "Prepare documents using Spreadsheet and Presentation Graphics Software's.",
+    "CO5": "Illustrate the various e-payment systems.",
+    "CO6": "Highlight the various computing techniques."
 };
 
 // ============================================
@@ -1020,6 +1023,122 @@ const fcit2025A1 = {
 };
 
 // ============================================
+// Fundamentals of Computer and IT — Year 2024 — Assignment 2
+// ============================================
+const fcit2024A2 = {
+    sectionA: [
+        { q:1, text:"Which short key is used to open the existing presentation?", co:"CO4" },
+        { q:2, text:"How do I freeze panes in Excel?", co:"CO4" },
+        { q:3, text:"What is the difference between a workbook and a worksheet in Excel?", co:"CO4" },
+        { q:4, text:"How do you filter data?", co:"CO4" },
+        { q:5, text:"List the factors of Effective Power Point Presentation.", co:"CO4" },
+        { q:6, text:"Difference between Slide layout and Slide Design.", co:"CO4" },
+        { q:7, text:"What is cell?", co:"CO4" },
+        { q:8, text:"List some difference between sorting and filtering.", co:"CO4" },
+        { q:9, text:"What are the different types of charts available in Excel?", co:"CO4" },
+        { q:10, text:"Elaborate the term cell References.", co:"CO4" },
+        { q:11, text:"Illustrate the concept of Digital Signature.", co:"CO5" },
+        { q:12, text:"How do electronic checks differ from paper checks?", co:"CO5" },
+        { q:13, text:"Define the term Bit coin.", co:"CO5" },
+        { q:14, text:"What kind of security is used with eCheck payments?", co:"CO5" },
+        { q:15, text:"List the types of Electronic Fund Transfer.", co:"CO5" },
+        { q:16, text:"What is the significance of UPI?", co:"CO5" },
+        { q:17, text:"Difference between Credit Card and Debit Card.", co:"CO5" },
+        { q:18, text:"Discuss the term Smart card.", co:"CO5" },
+        { q:19, text:"Can eCheck acceptance help a business increase revenue?", co:"CO5" },
+        { q:20, text:"What is Digital Cash?", co:"CO5" },
+        { q:21, text:"Give the different fields where data mining is used?", co:"CO6" },
+        { q:22, text:"Elaborate the term Big Data.", co:"CO6" },
+        { q:23, text:"What are the different disadvantages of Mobile Computing?", co:"CO6" },
+        { q:24, text:"List the components of an embedded system.", co:"CO6" },
+        { q:25, text:"Illustrate the term SIM Card.", co:"CO6" },
+        { q:26, text:"Why can Bluetooth equipment integrate easily in TCP/IP network?", co:"CO6" },
+        { q:27, text:"Explain the characteristics of IoT.", co:"CO6" },
+        { q:28, text:"Write the five V's of Big Data.", co:"CO6" },
+        { q:29, text:"Write the advantages Embedded System.", co:"CO6" },
+        { q:30, text:"Write the types of Big Data.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain short notes on the following: a) Slide transition b) Custom animation c) Custom show.", co:"CO4" },
+        { q:32, text:"Define the Pivots Tables. Give the concept of charts and graphs used in Ms-Excel.", co:"CO4" },
+        { q:33, text:"Elaborate the term data types in MS-Excel. Discuss in detail the types of data types in MS-Excel.", co:"CO4" },
+        { q:34, text:"Write the procedure of doing the following in PowerPoint: (a) Inserting image (b) Inserting table.", co:"CO4" },
+        { q:35, text:"What are the different types of COUNT Function in Excel? Explain in detail.", co:"CO4" },
+        { q:36, text:"Illustrate the term Operators. Discuss the different types of operators used in MS-Excel.", co:"CO4" },
+        { q:37, text:"Write a short note on: (a) UPI ID and Pin. (b) Sending Money Vs Receiving Money.", co:"CO5" },
+        { q:38, text:"Explain the concept of Certification Authority with the help of Diagram and write its uses.", co:"CO5" },
+        { q:39, text:"Define Secure Electronic Transaction. Explain its process and requirements of Secure Electronic Transaction.", co:"CO5" },
+        { q:40, text:"Discuss in detail Electronic Fund Transfer.", co:"CO5" },
+        { q:41, text:"Define Cryptography and its benefits? Describe Secret Key Cryptography and Public Key Cryptography? How are they unique to each other?", co:"CO5" },
+        { q:42, text:"What are the main objectives of the IMPS service? Write its Advantages and disadvantages of the IMPS services?", co:"CO5" },
+        { q:43, text:"Explain the Characteristics of Big Data in detail with the help of Diagram.", co:"CO6" },
+        { q:44, text:"Describe the basic Structure of an Embedded System. Write the Characteristics of an Embedded System.", co:"CO6" },
+        { q:45, text:"What is Cloud Computing? Discuss various types of Deployment Model and Services model in Cloud Computing.", co:"CO6" },
+        { q:46, text:"Explain the concept of Internet of Things. Describe the key features of internet of thing with the help of diagram.", co:"CO6" },
+        { q:47, text:"Explain the concept of Internet of Things. Describe the key features of internet of thing with help of diagram.", co:"CO6" },
+        { q:48, text:"What is Pairing and Bluetooth dongle? How does Bluetooth fit in with WiFi?", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Computer and IT — Year 2025/2023/2022 — Assignment 2
+// ============================================
+const fcit2025A2 = {
+    sectionA: [
+        { q:1, text:"What is MS-Excel? Explain its features.", co:"CO4" },
+        { q:2, text:"What is a cell in Excel?", co:"CO4" },
+        { q:3, text:"What is the difference between a row and a column in Excel?", co:"CO4" },
+        { q:4, text:"What is a chart in Excel?", co:"CO4" },
+        { q:5, text:"What is a formula in Excel? Give an example.", co:"CO4" },
+        { q:6, text:"What is a function in Excel? Give an example.", co:"CO4" },
+        { q:7, text:"What is sorting in Excel?", co:"CO4" },
+        { q:8, text:"What is filtering in Excel?", co:"CO4" },
+        { q:9, text:"What is MS-PowerPoint? Explain its features.", co:"CO4" },
+        { q:10, text:"What is a slide in PowerPoint?", co:"CO4" },
+        { q:11, text:"What is a digital signature?", co:"CO5" },
+        { q:12, text:"What is a credit card?", co:"CO5" },
+        { q:13, text:"What is a debit card?", co:"CO5" },
+        { q:14, text:"What is the difference between credit card and debit card?", co:"CO5" },
+        { q:15, text:"What is UPI? Explain its importance.", co:"CO5" },
+        { q:16, text:"What is an e-wallet? Give examples.", co:"CO5" },
+        { q:17, text:"What is net banking?", co:"CO5" },
+        { q:18, text:"What is the difference between online and offline payment?", co:"CO5" },
+        { q:19, text:"What is cryptography?", co:"CO5" },
+        { q:20, text:"What is a smart card?", co:"CO5" },
+        { q:21, text:"What is data mining?", co:"CO6" },
+        { q:22, text:"What is Big Data?", co:"CO6" },
+        { q:23, text:"What is mobile computing?", co:"CO6" },
+        { q:24, text:"What is an embedded system?", co:"CO6" },
+        { q:25, text:"What is IoT? Explain with examples.", co:"CO6" },
+        { q:26, text:"What is cloud computing?", co:"CO6" },
+        { q:27, text:"What is Bluetooth?", co:"CO6" },
+        { q:28, text:"What is WiFi?", co:"CO6" },
+        { q:29, text:"What is the difference between Bluetooth and WiFi?", co:"CO6" },
+        { q:30, text:"What is a SIM card?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the features of MS-Excel in detail.", co:"CO4" },
+        { q:32, text:"Explain the features of MS-PowerPoint in detail.", co:"CO4" },
+        { q:33, text:"Explain the types of charts in MS-Excel.", co:"CO4" },
+        { q:34, text:"Explain the procedure to insert images and tables in PowerPoint.", co:"CO4" },
+        { q:35, text:"Explain the types of operators used in MS-Excel.", co:"CO4" },
+        { q:36, text:"Explain the functions used in MS-Excel.", co:"CO4" },
+        { q:37, text:"Explain the concept of UPI and its advantages.", co:"CO5" },
+        { q:38, text:"Explain the concept of digital signature and its uses.", co:"CO5" },
+        { q:39, text:"Explain the concept of electronic fund transfer.", co:"CO5" },
+        { q:40, text:"Explain the concept of cryptography and its types.", co:"CO5" },
+        { q:41, text:"Explain the concept of IMPS and its advantages.", co:"CO5" },
+        { q:42, text:"Explain the concept of e-commerce and its types.", co:"CO5" },
+        { q:43, text:"Explain the characteristics of Big Data.", co:"CO6" },
+        { q:44, text:"Explain the architecture of an embedded system.", co:"CO6" },
+        { q:45, text:"Explain cloud computing and its service models.", co:"CO6" },
+        { q:46, text:"Explain the features of IoT with a diagram.", co:"CO6" },
+        { q:47, text:"Explain the applications of IoT.", co:"CO6" },
+        { q:48, text:"Explain how Bluetooth works with WiFi.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -1046,14 +1165,14 @@ const subjects = {
         }
     },
     "fcit": {
-        name: "Fundamentals of Computer and IT",
-        code: "UGCA1902",
+        name: "Computer & IT (Fundamentals/Intro)",
+        code: "UGCA1902 / BCA24102",
         courseOutcomes: fcitCO,
         data: {
-            "2022": { "1": fcit2025A1 },
-            "2023": { "1": fcit2025A1 },
-            "2024": { "1": fcit2024A1 },
-            "2025": { "1": fcit2025A1 }
+            "2022": { "1": fcit2025A1, "2": fcit2025A2 },
+            "2023": { "1": fcit2025A1, "2": fcit2025A2 },
+            "2024": { "1": fcit2024A1, "2": fcit2024A2 },
+            "2025": { "1": fcit2025A1, "2": fcit2025A2 }
         }
     }
 };
