@@ -4131,7 +4131,10 @@ const ai2022A2 = {
 const cnCO = {
     "CO1": "Identify Hardware and software components for designing network.",
     "CO2": "Define different network technologies and their application.",
-    "CO3": "Describe the role of network reference models."
+    "CO3": "Describe the role of network reference models.",
+    "CO4": "Describe the different services that data link layer offer to network layer.",
+    "CO5": "Explain the different transport layer functions.",
+    "CO6": "Identify different applications in presentation layer and application layer."
 };
 
 // ============================================
@@ -4349,6 +4352,238 @@ const cn2022A1 = {
 };
 
 // ============================================
+// Computer Networks — Year 2025 — Assignment 2
+// ============================================
+const cn2025A2 = {
+    sectionA: [
+        { q:1, text:"List the key responsibilities of the Data Link Layer.", co:"CO4" },
+        { q:2, text:"Define framing and list its different types.", co:"CO4" },
+        { q:3, text:"Name the sublayers of the Data Link Layer.", co:"CO4" },
+        { q:4, text:"Apply the stop-and-wait protocol to a scenario and identify its limitations.", co:"CO4" },
+        { q:5, text:"Explain different approaches used for flow control in the Data Link Layer.", co:"CO4" },
+        { q:6, text:"How we can detect errors in data link layer.", co:"CO4" },
+        { q:7, text:"Explain the concept of Hamming Code and how it is used for error correction.", co:"CO4" },
+        { q:8, text:"Evaluate the effectiveness of using a buffer at the receiver end during flow control operations.", co:"CO4" },
+        { q:9, text:"Analyze the working of the checksum technique and explain how it helps in error detection.", co:"CO4" },
+        { q:10, text:"Describe the Sliding Window Flow Control mechanism with an example.", co:"CO4" },
+        { q:11, text:"Define the term Gateway in the context of networking.", co:"CO5" },
+        { q:12, text:"Describe the core characteristics and working of the UDP protocol.", co:"CO5" },
+        { q:13, text:"State the maximum and minimum sizes of a UDP datagram.", co:"CO5" },
+        { q:14, text:"Give advantages of UDP over TCP.", co:"CO5" },
+        { q:15, text:"Explain how source and destination port addresses are used to route messages to correct processes.", co:"CO5" },
+        { q:16, text:"Describe what is meant by a socket address in networking.", co:"CO5" },
+        { q:17, text:"Discuss the flags used in TCP Header.", co:"CO5" },
+        { q:18, text:"Evaluate the mechanisms used by TCP in the transport layer to ensure reliable and ordered delivery.", co:"CO5" },
+        { q:19, text:"What is the principle between connectionless and connection-oriented communication?", co:"CO5" },
+        { q:20, text:"Apply the concept of port numbers in identifying processes in transport layer services.", co:"CO5" },
+        { q:21, text:"Discuss the various components of cryptography.", co:"CO6" },
+        { q:22, text:"Enlist the various Lossless data compression techniques.", co:"CO6" },
+        { q:23, text:"Describe the role and functions of the Application Layer in the OSI model.", co:"CO6" },
+        { q:24, text:"Explain the concept of cloud service?", co:"CO6" },
+        { q:25, text:"Differentiate between Lossless and Lossy data compression.", co:"CO6" },
+        { q:26, text:"Define the term WWW.", co:"CO6" },
+        { q:27, text:"Describe the concept of a peer-to-peer (P2P) network and apply it to a real-world sharing scenario.", co:"CO6" },
+        { q:28, text:"Explain the concept of web documents and their types.", co:"CO6" },
+        { q:29, text:"Explain the importance and role of the Presentation Layer in data translation and encryption.", co:"CO6" },
+        { q:30, text:"Define Remote Procedure Call (RPC) and state its purpose in networking.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Analyze and differentiate between error detection and correction techniques used in networks.", co:"CO4" },
+        { q:32, text:"What is overall function of data link layer in OSI model? Discuss the major responsibilities of data link layer.", co:"CO4" },
+        { q:33, text:"Draw a sketch of sliding window flow control and discuss its advantages and disadvantages in detail.", co:"CO4" },
+        { q:34, text:"Generate CRC code for 10110. The divisor is 1101. Also check receiver side whether any error exist or not by appending.", co:"CO4" },
+        { q:35, text:"Explain the concept of checksum error detection method. Determine the 8-bit checksum method for following 32-bit message: 10001001 00011001 10101001 00100100.", co:"CO4" },
+        { q:36, text:"Checksum is widely used as a part of internet protocol. Why do you think checksum might have been selected rather than other two error detection techniques?", co:"CO4" },
+        { q:37, text:"Apply knowledge of the transport layer to explain its core services in a networking environment.", co:"CO5" },
+        { q:38, text:"Compare and contrast the difference between TCP/UDP.", co:"CO5" },
+        { q:39, text:"Discuss the frame format of Transmission Control Protocol.", co:"CO5" },
+        { q:40, text:"Explain the UDP segment format and describe how it functions in data transmission.", co:"CO5" },
+        { q:41, text:"Analyze the working of the three-way handshake mechanism used to establish TCP connections.", co:"CO5" },
+        { q:42, text:"Elaborate \"transport layer is known as heart of OSI model\".", co:"CO5" },
+        { q:43, text:"Define cryptography and list its key components (plaintext, cipher text, keys, algorithms, etc.).", co:"CO6" },
+        { q:44, text:"Explain the various cloud service models and how they are used in networking.", co:"CO6" },
+        { q:45, text:"Explain Client Server computing architecture with the help of suitable diagram.", co:"CO6" },
+        { q:46, text:"Analyze the working of the presentation layer and identify key design challenges it addresses.", co:"CO6" },
+        { q:47, text:"What is electronic mail? Describe the format of electronic mail thoroughly.", co:"CO6" },
+        { q:48, text:"Evaluate the structure and operation of e-mail systems.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Computer Networks — Year 2024 — Assignment 2
+// ============================================
+const cn2024A2 = {
+    sectionA: [
+        { q:1, text:"What are the functions of the Data Link Layer?", co:"CO4" },
+        { q:2, text:"What is framing? What are its types?", co:"CO4" },
+        { q:3, text:"What are the sublayers of Data Link Layer?", co:"CO4" },
+        { q:4, text:"What is the Stop-and-Wait protocol? What are its limitations?", co:"CO4" },
+        { q:5, text:"What are the flow control techniques in Data Link Layer?", co:"CO4" },
+        { q:6, text:"How are errors detected in Data Link Layer?", co:"CO4" },
+        { q:7, text:"What is Hamming Code? How is it used for error correction?", co:"CO4" },
+        { q:8, text:"Why is buffering important in flow control?", co:"CO4" },
+        { q:9, text:"Explain checksum technique for error detection.", co:"CO4" },
+        { q:10, text:"Explain Sliding Window Protocol with an example.", co:"CO4" },
+        { q:11, text:"What is a Gateway in networking?", co:"CO5" },
+        { q:12, text:"What are the features of UDP?", co:"CO5" },
+        { q:13, text:"What is the size of a UDP datagram?", co:"CO5" },
+        { q:14, text:"What are the advantages of UDP over TCP?", co:"CO5" },
+        { q:15, text:"How do port addresses help in routing messages?", co:"CO5" },
+        { q:16, text:"What is a socket address?", co:"CO5" },
+        { q:17, text:"What are the flags in TCP header?", co:"CO5" },
+        { q:18, text:"How does TCP ensure reliable delivery?", co:"CO5" },
+        { q:19, text:"What is the difference between connectionless and connection-oriented communication?", co:"CO5" },
+        { q:20, text:"How are port numbers used in transport layer?", co:"CO5" },
+        { q:21, text:"What are the components of cryptography?", co:"CO6" },
+        { q:22, text:"What are lossless data compression techniques?", co:"CO6" },
+        { q:23, text:"What is the role of the Application Layer in OSI model?", co:"CO6" },
+        { q:24, text:"What is cloud service?", co:"CO6" },
+        { q:25, text:"What is the difference between lossless and lossy compression?", co:"CO6" },
+        { q:26, text:"What is WWW?", co:"CO6" },
+        { q:27, text:"What is a P2P network? Give an example.", co:"CO6" },
+        { q:28, text:"What are web documents? What are their types?", co:"CO6" },
+        { q:29, text:"What is the role of Presentation Layer?", co:"CO6" },
+        { q:30, text:"What is RPC? What is its purpose?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Differentiate between error detection and error correction techniques.", co:"CO4" },
+        { q:32, text:"Explain the responsibilities of Data Link Layer in OSI model.", co:"CO4" },
+        { q:33, text:"Explain Sliding Window Protocol with its advantages and disadvantages.", co:"CO4" },
+        { q:34, text:"Generate CRC code for data 10110 with divisor 1101.", co:"CO4" },
+        { q:35, text:"Calculate 8-bit checksum for the message: 10001001 00011001 10101001 00100100.", co:"CO4" },
+        { q:36, text:"Why is checksum preferred over other error detection techniques in IP?", co:"CO4" },
+        { q:37, text:"Explain the services provided by Transport Layer.", co:"CO5" },
+        { q:38, text:"Compare TCP and UDP protocols.", co:"CO5" },
+        { q:39, text:"Explain TCP header format.", co:"CO5" },
+        { q:40, text:"Explain UDP header format.", co:"CO5" },
+        { q:41, text:"Explain TCP 3-way handshake.", co:"CO5" },
+        { q:42, text:"Why is Transport Layer called the heart of OSI model?", co:"CO5" },
+        { q:43, text:"Define cryptography and list its components.", co:"CO6" },
+        { q:44, text:"Explain cloud service models.", co:"CO6" },
+        { q:45, text:"Explain Client-Server architecture with a diagram.", co:"CO6" },
+        { q:46, text:"Explain Presentation Layer with its design challenges.", co:"CO6" },
+        { q:47, text:"What is email? Explain its format.", co:"CO6" },
+        { q:48, text:"Explain the working of email systems.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Computer Networks — Year 2023 — Assignment 2
+// ============================================
+const cn2023A2 = {
+    sectionA: [
+        { q:1, text:"What are the duties of Data Link Layer?", co:"CO4" },
+        { q:2, text:"Define framing and its types.", co:"CO4" },
+        { q:3, text:"Name the sublayers of LLC and MAC.", co:"CO4" },
+        { q:4, text:"Explain Stop-and-Wait protocol with its limitations.", co:"CO4" },
+        { q:5, text:"What is flow control? Explain different methods.", co:"CO4" },
+        { q:6, text:"How does error detection work in Data Link Layer?", co:"CO4" },
+        { q:7, text:"What is Hamming Code? Explain its use in error correction.", co:"CO4" },
+        { q:8, text:"What is the purpose of buffering in flow control?", co:"CO4" },
+        { q:9, text:"How does checksum detect errors?", co:"CO4" },
+        { q:10, text:"Explain Sliding Window Protocol in detail.", co:"CO4" },
+        { q:11, text:"What is a Gateway in networking?", co:"CO5" },
+        { q:12, text:"What is UDP? Explain its characteristics.", co:"CO5" },
+        { q:13, text:"What is the minimum and maximum size of UDP datagram?", co:"CO5" },
+        { q:14, text:"What are the advantages of UDP?", co:"CO5" },
+        { q:15, text:"How do port addresses help in communication?", co:"CO5" },
+        { q:16, text:"What is a socket address?", co:"CO5" },
+        { q:17, text:"What are the flags in TCP header?", co:"CO5" },
+        { q:18, text:"How does TCP ensure reliable data delivery?", co:"CO5" },
+        { q:19, text:"Explain connectionless and connection-oriented services.", co:"CO5" },
+        { q:20, text:"What is the role of port numbers?", co:"CO5" },
+        { q:21, text:"What is cryptography?", co:"CO6" },
+        { q:22, text:"Name lossless compression techniques.", co:"CO6" },
+        { q:23, text:"What are the functions of Application Layer?", co:"CO6" },
+        { q:24, text:"What is cloud computing?", co:"CO6" },
+        { q:25, text:"Differentiate lossless and lossy compression.", co:"CO6" },
+        { q:26, text:"What is WWW?", co:"CO6" },
+        { q:27, text:"What is P2P network? Give an example.", co:"CO6" },
+        { q:28, text:"What are web documents?", co:"CO6" },
+        { q:29, text:"Explain the role of Presentation Layer.", co:"CO6" },
+        { q:30, text:"What is RPC?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Compare error detection and correction methods.", co:"CO4" },
+        { q:32, text:"Explain Data Link Layer responsibilities.", co:"CO4" },
+        { q:33, text:"Explain Sliding Window Protocol with pros and cons.", co:"CO4" },
+        { q:34, text:"Generate CRC code for 10110 with divisor 1101.", co:"CO4" },
+        { q:35, text:"Calculate 8-bit checksum: 10001001 00011001 10101001 00100100.", co:"CO4" },
+        { q:36, text:"Why is checksum used in IP?", co:"CO4" },
+        { q:37, text:"Explain Transport Layer services.", co:"CO5" },
+        { q:38, text:"Compare TCP and UDP protocols.", co:"CO5" },
+        { q:39, text:"Explain TCP header format.", co:"CO5" },
+        { q:40, text:"Explain UDP header format.", co:"CO5" },
+        { q:41, text:"Explain TCP connection establishment (3-way handshake).", co:"CO5" },
+        { q:42, text:"Why is Transport Layer called the heart of OSI model?", co:"CO5" },
+        { q:43, text:"Explain cryptography and its components.", co:"CO6" },
+        { q:44, text:"Explain cloud service models.", co:"CO6" },
+        { q:45, text:"Explain Client-Server model with diagram.", co:"CO6" },
+        { q:46, text:"Explain Presentation Layer design issues.", co:"CO6" },
+        { q:47, text:"Explain email format.", co:"CO6" },
+        { q:48, text:"Explain email system architecture.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Computer Networks — Year 2022 — Assignment 2
+// ============================================
+const cn2022A2 = {
+    sectionA: [
+        { q:1, text:"What are the functions of Data Link Layer?", co:"CO4" },
+        { q:2, text:"Define framing. What are its different types?", co:"CO4" },
+        { q:3, text:"What are LLC and MAC sublayers?", co:"CO4" },
+        { q:4, text:"Explain Stop-and-Wait protocol.", co:"CO4" },
+        { q:5, text:"What is flow control? List its techniques.", co:"CO4" },
+        { q:6, text:"What is error detection in Data Link Layer?", co:"CO4" },
+        { q:7, text:"Explain Hamming Code error correction.", co:"CO4" },
+        { q:8, text:"What is the use of buffering in flow control?", co:"CO4" },
+        { q:9, text:"Explain checksum error detection.", co:"CO4" },
+        { q:10, text:"What is Sliding Window Protocol?", co:"CO4" },
+        { q:11, text:"Define Gateway in networking.", co:"CO5" },
+        { q:12, text:"What is UDP? Explain its features.", co:"CO5" },
+        { q:13, text:"What is the size of UDP datagram?", co:"CO5" },
+        { q:14, text:"What are the advantages of UDP over TCP?", co:"CO5" },
+        { q:15, text:"What are port addresses? How are they used?", co:"CO5" },
+        { q:16, text:"What is a socket address?", co:"CO5" },
+        { q:17, text:"Explain TCP header flags.", co:"CO5" },
+        { q:18, text:"How does TCP ensure reliability?", co:"CO5" },
+        { q:19, text:"What is connection-oriented communication?", co:"CO5" },
+        { q:20, text:"What is connectionless communication?", co:"CO5" },
+        { q:21, text:"What is cryptography?", co:"CO6" },
+        { q:22, text:"Name lossless compression techniques.", co:"CO6" },
+        { q:23, text:"Explain Application Layer functions.", co:"CO6" },
+        { q:24, text:"What is cloud service?", co:"CO6" },
+        { q:25, text:"Difference between lossless and lossy compression.", co:"CO6" },
+        { q:26, text:"What is WWW?", co:"CO6" },
+        { q:27, text:"What is P2P network?", co:"CO6" },
+        { q:28, text:"What are web documents?", co:"CO6" },
+        { q:29, text:"What is Presentation Layer?", co:"CO6" },
+        { q:30, text:"What is RPC?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Compare error detection and error correction.", co:"CO4" },
+        { q:32, text:"Explain Data Link Layer responsibilities in detail.", co:"CO4" },
+        { q:33, text:"Explain Sliding Window Protocol with advantages and disadvantages.", co:"CO4" },
+        { q:34, text:"Generate CRC code for 10110 with divisor 1101.", co:"CO4" },
+        { q:35, text:"Calculate 8-bit checksum for the given 32-bit message.", co:"CO4" },
+        { q:36, text:"Why is checksum preferred over other error detection techniques?", co:"CO4" },
+        { q:37, text:"Explain Transport Layer services in detail.", co:"CO5" },
+        { q:38, text:"Compare TCP and UDP protocols.", co:"CO5" },
+        { q:39, text:"Explain TCP segment format.", co:"CO5" },
+        { q:40, text:"Explain UDP segment format.", co:"CO5" },
+        { q:41, text:"Explain TCP 3-way handshake.", co:"CO5" },
+        { q:42, text:"Why is Transport Layer called the heart of OSI model?", co:"CO5" },
+        { q:43, text:"Define cryptography and explain its components.", co:"CO6" },
+        { q:44, text:"Explain cloud service models in detail.", co:"CO6" },
+        { q:45, text:"Explain Client-Server architecture with diagram.", co:"CO6" },
+        { q:46, text:"Explain Presentation Layer and its design issues.", co:"CO6" },
+        { q:47, text:"Explain email format and structure.", co:"CO6" },
+        { q:48, text:"Explain email system architecture.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -4489,10 +4724,10 @@ const subjects = {
         code: "BCA",
         courseOutcomes: cnCO,
         data: {
-            "2022": { "1": cn2022A1 },
-            "2023": { "1": cn2023A1 },
-            "2024": { "1": cn2024A1 },
-            "2025": { "1": cn2025A1 }
+            "2022": { "1": cn2022A1, "2": cn2022A2 },
+            "2023": { "1": cn2023A1, "2": cn2023A2 },
+            "2024": { "1": cn2024A1, "2": cn2024A2 },
+            "2025": { "1": cn2025A1, "2": cn2025A2 }
         }
     }
 };
