@@ -4584,6 +4584,482 @@ const cn2022A2 = {
 };
 
 // ============================================
+// COURSE OUTCOMES: Data Structures
+// ============================================
+const dsCO = {
+    "CO1": "Differentiate between various types of data structure.",
+    "CO2": "Apply appropriate constructs of Programming language, coding standards for application development.",
+    "CO3": "Select appropriate data structures for problem solving and programming.",
+    "CO4": "Illustrate the outcome of various operations on data structures.",
+    "CO5": "Illustrate concept of Graphs, Directed Graph & Weighted Graph.",
+    "CO6": "Identify appropriate searching and/or sorting techniques for wide range of problems and data types."
+};
+
+// ============================================
+// Data Structures — Year 2025 — Assignment 1
+// ============================================
+const ds2025A1 = {
+    sectionA: [
+        { q:1, text:"Describe the term Algorithm.", co:"CO1" },
+        { q:2, text:"State the definition of a linear data structure.", co:"CO1" },
+        { q:3, text:"Explain Problem analysis.", co:"CO1" },
+        { q:4, text:"In what ways is a flowchart different from an algorithm?", co:"CO1" },
+        { q:5, text:"Define dynamic memory allocation.", co:"CO1" },
+        { q:6, text:"List the key features of a function.", co:"CO1" },
+        { q:7, text:"Give a brief definition of recursion.", co:"CO1" },
+        { q:8, text:"In your own words, explain what time-space trade-off means.", co:"CO1" },
+        { q:9, text:"Explain the meaning of Big O notation.", co:"CO1" },
+        { q:10, text:"Define non-primitive data structure.", co:"CO1" },
+        { q:11, text:"Summarize the concept of a pointer.", co:"CO2" },
+        { q:12, text:"State the definition of a one-dimensional array.", co:"CO2" },
+        { q:13, text:"Explain string function strcmp().", co:"CO2" },
+        { q:14, text:"Identify the operations performed on Array.", co:"CO2" },
+        { q:15, text:"Explain the term multi-dimensional array.", co:"CO2" },
+        { q:16, text:"How address to a pointer can be assigned?", co:"CO2" },
+        { q:17, text:"State what operators are used to define Pointer and to access data from pointer?", co:"CO2" },
+        { q:18, text:"Define the term pointers to structures.", co:"CO2" },
+        { q:19, text:"Give a short definition of function calling.", co:"CO2" },
+        { q:20, text:"Explain string function strchr().", co:"CO2" },
+        { q:21, text:"Give a brief definition of stack.", co:"CO3" },
+        { q:22, text:"State the meaning of prefix and Postfix notations.", co:"CO3" },
+        { q:23, text:"Write a short definition of enqueue.", co:"CO3" },
+        { q:24, text:"Define Dequeue.", co:"CO3" },
+        { q:25, text:"State what happens during a POP operation on a stack.", co:"CO3" },
+        { q:26, text:"Describe how a circular queue works.", co:"CO3" },
+        { q:27, text:"How to represent stack using array?", co:"CO3" },
+        { q:28, text:"Convert the infix equation \"A*B+C/D-E*F\" to Prefix and Postfix.", co:"CO3" },
+        { q:29, text:"State the meaning of operator precedence and associativity.", co:"CO3" },
+        { q:30, text:"Explain Ascending Priority Queue.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Enhance the term \"data structures\". And categorize various types of data structures.", co:"CO1" },
+        { q:32, text:"Write an algorithm, to find greatest among three numbers.", co:"CO1" },
+        { q:33, text:"Using flowchart symbols, design a flow chart to find greatest among three numbers.", co:"CO1" },
+        { q:34, text:"Using flowchart symbols, design a flow chart to print a table of any number 'n'.", co:"CO1" },
+        { q:35, text:"Differentiate static and dynamic memory allocation.", co:"CO1" },
+        { q:36, text:"Write an algorithm to find greatest among two numbers.", co:"CO1" },
+        { q:37, text:"Explain string and its functions.", co:"CO2" },
+        { q:38, text:"Write an algorithm to create a matrix of 'n' rows and 'm' columns.", co:"CO2" },
+        { q:39, text:"Write an algorithm to add sequence of 'n' numbers using Pointers.", co:"CO2" },
+        { q:40, text:"Write an algorithm to Multiply two arrays.", co:"CO2" },
+        { q:41, text:"Design an algorithm to display the elements of an array in reverse order.", co:"CO2" },
+        { q:42, text:"Write an algorithm to multiply two matrices.", co:"CO2" },
+        { q:43, text:"Convert following two infix notations into Postfix and Prefix Notations: 1. (A * (B + C)) / DE 2. A * (B ^ C / D) + EF.", co:"CO3" },
+        { q:44, text:"Write in your own words about LIFO and FIFO. Which one is suitable for stack and queue.", co:"CO3" },
+        { q:45, text:"Define PUSH operation on stack with example and algorithm.", co:"CO3" },
+        { q:46, text:"Write an algorithm to insert an element in queue.", co:"CO3" },
+        { q:47, text:"Convert this infix notation A ^ (B-C) / (D * E) + F into Postfix notation using Stack infix to postfix notation algorithm.", co:"CO3" },
+        { q:48, text:"Construct an algorithm to add an element into a circular queue.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Data Structures — Year 2024 — Assignment 1
+// ============================================
+const ds2024A1 = {
+    sectionA: [
+        { q:1, text:"What is an algorithm? Give its characteristics.", co:"CO1" },
+        { q:2, text:"What is a linear data structure? Give examples.", co:"CO1" },
+        { q:3, text:"What is problem analysis?", co:"CO1" },
+        { q:4, text:"What is the difference between an algorithm and a flowchart?", co:"CO1" },
+        { q:5, text:"What is dynamic memory allocation?", co:"CO1" },
+        { q:6, text:"What are the features of a function?", co:"CO1" },
+        { q:7, text:"Define recursion with an example.", co:"CO1" },
+        { q:8, text:"What is time-space trade-off?", co:"CO1" },
+        { q:9, text:"What is Big O notation?", co:"CO1" },
+        { q:10, text:"What is a non-primitive data structure?", co:"CO1" },
+        { q:11, text:"What is a pointer? How is it declared?", co:"CO2" },
+        { q:12, text:"What is a one-dimensional array?", co:"CO2" },
+        { q:13, text:"What is strcmp() function? Give an example.", co:"CO2" },
+        { q:14, text:"What are the operations on an array?", co:"CO2" },
+        { q:15, text:"What is a multi-dimensional array?", co:"CO2" },
+        { q:16, text:"How is an address assigned to a pointer?", co:"CO2" },
+        { q:17, text:"What operators are used for pointers?", co:"CO2" },
+        { q:18, text:"What is a pointer to a structure?", co:"CO2" },
+        { q:19, text:"What is function calling?", co:"CO2" },
+        { q:20, text:"What is strchr() function? Give an example.", co:"CO2" },
+        { q:21, text:"Define stack.", co:"CO3" },
+        { q:22, text:"What are prefix and postfix notations?", co:"CO3" },
+        { q:23, text:"What is enqueue operation?", co:"CO3" },
+        { q:24, text:"What is dequeue operation?", co:"CO3" },
+        { q:25, text:"What happens during a pop operation?", co:"CO3" },
+        { q:26, text:"Explain circular queue.", co:"CO3" },
+        { q:27, text:"How is a stack represented using an array?", co:"CO3" },
+        { q:28, text:"Convert A*B+C/D-E*F to prefix and postfix.", co:"CO3" },
+        { q:29, text:"What is operator precedence and associativity?", co:"CO3" },
+        { q:30, text:"What is ascending priority queue?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define data structures and classify them with examples.", co:"CO1" },
+        { q:32, text:"Write an algorithm to find the greatest among three numbers.", co:"CO1" },
+        { q:33, text:"Draw a flowchart to find the greatest among three numbers.", co:"CO1" },
+        { q:34, text:"Draw a flowchart to print the table of a number n.", co:"CO1" },
+        { q:35, text:"Differentiate between static and dynamic memory allocation.", co:"CO1" },
+        { q:36, text:"Write an algorithm to find the greatest among two numbers.", co:"CO1" },
+        { q:37, text:"Explain string and its functions with examples.", co:"CO2" },
+        { q:38, text:"Write an algorithm to create a matrix of n rows and m columns.", co:"CO2" },
+        { q:39, text:"Write an algorithm to add n numbers using pointers.", co:"CO2" },
+        { q:40, text:"Write an algorithm to multiply two arrays.", co:"CO2" },
+        { q:41, text:"Write an algorithm to reverse an array.", co:"CO2" },
+        { q:42, text:"Write an algorithm to multiply two matrices.", co:"CO2" },
+        { q:43, text:"Convert (A(B+C))/DE and A(B^C/D)+EF to postfix and prefix.", co:"CO3" },
+        { q:44, text:"Explain LIFO and FIFO. Which is used for stack and queue?", co:"CO3" },
+        { q:45, text:"Explain push operation with algorithm and example.", co:"CO3" },
+        { q:46, text:"Write an algorithm to insert an element in a queue.", co:"CO3" },
+        { q:47, text:"Convert A^(B-C)/(D*E)+F to postfix using stack.", co:"CO3" },
+        { q:48, text:"Write an algorithm to insert an element in a circular queue.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Data Structures — Year 2023 — Assignment 1
+// ============================================
+const ds2023A1 = {
+    sectionA: [
+        { q:1, text:"Define algorithm. What are its properties?", co:"CO1" },
+        { q:2, text:"Define linear data structure with examples.", co:"CO1" },
+        { q:3, text:"What is problem analysis in data structures?", co:"CO1" },
+        { q:4, text:"Differentiate between algorithm and flowchart.", co:"CO1" },
+        { q:5, text:"What is dynamic memory allocation? Give example.", co:"CO1" },
+        { q:6, text:"What are the characteristics of a function?", co:"CO1" },
+        { q:7, text:"Define recursion with an example.", co:"CO1" },
+        { q:8, text:"Explain time-space trade-off in data structures.", co:"CO1" },
+        { q:9, text:"What is Big O notation? Give an example.", co:"CO1" },
+        { q:10, text:"What is non-primitive data structure? Give examples.", co:"CO1" },
+        { q:11, text:"Define pointer and its syntax.", co:"CO2" },
+        { q:12, text:"What is a one-dimensional array? Give an example.", co:"CO2" },
+        { q:13, text:"Explain strcmp() with an example.", co:"CO2" },
+        { q:14, text:"What are the basic operations on arrays?", co:"CO2" },
+        { q:15, text:"What is a multi-dimensional array? Give an example.", co:"CO2" },
+        { q:16, text:"How is a pointer assigned an address?", co:"CO2" },
+        { q:17, text:"What are the operators used in pointers?", co:"CO2" },
+        { q:18, text:"Define pointer to structure.", co:"CO2" },
+        { q:19, text:"What is function calling?", co:"CO2" },
+        { q:20, text:"Explain strchr() with an example.", co:"CO2" },
+        { q:21, text:"Define stack and its operations.", co:"CO3" },
+        { q:22, text:"What are prefix and postfix notations?", co:"CO3" },
+        { q:23, text:"Define enqueue operation.", co:"CO3" },
+        { q:24, text:"Define dequeue operation.", co:"CO3" },
+        { q:25, text:"Explain pop operation on stack.", co:"CO3" },
+        { q:26, text:"What is a circular queue?", co:"CO3" },
+        { q:27, text:"How is a stack implemented using an array?", co:"CO3" },
+        { q:28, text:"Convert A*B+C/D-E*F to prefix and postfix.", co:"CO3" },
+        { q:29, text:"Explain operator precedence and associativity.", co:"CO3" },
+        { q:30, text:"Define ascending priority queue.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain data structures and their classification.", co:"CO1" },
+        { q:32, text:"Write an algorithm to find the greatest of three numbers.", co:"CO1" },
+        { q:33, text:"Draw a flowchart to find the greatest of three numbers.", co:"CO1" },
+        { q:34, text:"Draw a flowchart to print the multiplication table of n.", co:"CO1" },
+        { q:35, text:"Compare static and dynamic memory allocation.", co:"CO1" },
+        { q:36, text:"Write an algorithm to find the greatest of two numbers.", co:"CO1" },
+        { q:37, text:"Explain strings and string functions in detail.", co:"CO2" },
+        { q:38, text:"Write an algorithm to create a matrix.", co:"CO2" },
+        { q:39, text:"Write an algorithm to add n numbers using pointers.", co:"CO2" },
+        { q:40, text:"Write an algorithm for array multiplication.", co:"CO2" },
+        { q:41, text:"Write an algorithm to reverse an array.", co:"CO2" },
+        { q:42, text:"Write an algorithm for matrix multiplication.", co:"CO2" },
+        { q:43, text:"Convert (A(B+C))/DE to postfix and prefix.", co:"CO3" },
+        { q:44, text:"Explain LIFO and FIFO. Which is used for stack and queue?", co:"CO3" },
+        { q:45, text:"Explain push operation with algorithm and example.", co:"CO3" },
+        { q:46, text:"Write an algorithm for queue insertion.", co:"CO3" },
+        { q:47, text:"Convert A^(B-C)/(D*E)+F to postfix.", co:"CO3" },
+        { q:48, text:"Write an algorithm for circular queue insertion.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Data Structures — Year 2022 — Assignment 1
+// ============================================
+const ds2022A1 = {
+    sectionA: [
+        { q:1, text:"Define algorithm. What are its characteristics?", co:"CO1" },
+        { q:2, text:"What is a linear data structure? Give two examples.", co:"CO1" },
+        { q:3, text:"What is problem analysis?", co:"CO1" },
+        { q:4, text:"What is the difference between an algorithm and a flowchart?", co:"CO1" },
+        { q:5, text:"Define dynamic memory allocation.", co:"CO1" },
+        { q:6, text:"List the features of a function.", co:"CO1" },
+        { q:7, text:"Define recursion with an example.", co:"CO1" },
+        { q:8, text:"Explain time-space trade-off.", co:"CO1" },
+        { q:9, text:"What is Big O notation?", co:"CO1" },
+        { q:10, text:"What is a non-primitive data structure?", co:"CO1" },
+        { q:11, text:"What is a pointer? Give its syntax.", co:"CO2" },
+        { q:12, text:"What is a one-dimensional array?", co:"CO2" },
+        { q:13, text:"What is strcmp()? Give an example.", co:"CO2" },
+        { q:14, text:"What are array operations?", co:"CO2" },
+        { q:15, text:"What is a multi-dimensional array?", co:"CO2" },
+        { q:16, text:"How to assign an address to a pointer?", co:"CO2" },
+        { q:17, text:"What operators are used in pointers?", co:"CO2" },
+        { q:18, text:"What is a pointer to structure?", co:"CO2" },
+        { q:19, text:"What is function calling?", co:"CO2" },
+        { q:20, text:"What is strchr()? Give an example.", co:"CO2" },
+        { q:21, text:"Define stack and its operations.", co:"CO3" },
+        { q:22, text:"What are prefix and postfix notations?", co:"CO3" },
+        { q:23, text:"What is enqueue?", co:"CO3" },
+        { q:24, text:"What is dequeue?", co:"CO3" },
+        { q:25, text:"What is pop operation?", co:"CO3" },
+        { q:26, text:"Explain circular queue.", co:"CO3" },
+        { q:27, text:"How is stack represented using array?", co:"CO3" },
+        { q:28, text:"Convert A*B+C/D-E*F to prefix and postfix.", co:"CO3" },
+        { q:29, text:"Explain operator precedence and associativity.", co:"CO3" },
+        { q:30, text:"What is ascending priority queue?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define data structures and classify them.", co:"CO1" },
+        { q:32, text:"Write an algorithm to find the greatest among three numbers.", co:"CO1" },
+        { q:33, text:"Draw a flowchart to find the greatest among three numbers.", co:"CO1" },
+        { q:34, text:"Draw a flowchart to print the table of n.", co:"CO1" },
+        { q:35, text:"Differentiate between static and dynamic memory allocation.", co:"CO1" },
+        { q:36, text:"Write an algorithm to find the greatest among two numbers.", co:"CO1" },
+        { q:37, text:"Explain string functions with examples.", co:"CO2" },
+        { q:38, text:"Write an algorithm to create a matrix.", co:"CO2" },
+        { q:39, text:"Write an algorithm to add n numbers using pointers.", co:"CO2" },
+        { q:40, text:"Write an algorithm to multiply two arrays.", co:"CO2" },
+        { q:41, text:"Write an algorithm to reverse an array.", co:"CO2" },
+        { q:42, text:"Write an algorithm to multiply two matrices.", co:"CO2" },
+        { q:43, text:"Convert (A(B+C))/DE and A(B^C/D)+EF to postfix and prefix.", co:"CO3" },
+        { q:44, text:"Explain LIFO and FIFO with stack and queue.", co:"CO3" },
+        { q:45, text:"Explain push operation with algorithm and example.", co:"CO3" },
+        { q:46, text:"Write an algorithm to insert an element in a queue.", co:"CO3" },
+        { q:47, text:"Convert A^(B-C)/(D*E)+F to postfix.", co:"CO3" },
+        { q:48, text:"Write an algorithm to insert an element in a circular queue.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Data Structures — Year 2025 — Assignment 2
+// ============================================
+const ds2025A2 = {
+    sectionA: [
+        { q:1, text:"Name various AVL tree rotations one can perform.", co:"CO4" },
+        { q:2, text:"Enumerate operations of Doubly linked list.", co:"CO4" },
+        { q:3, text:"List the properties of a balanced tree.", co:"CO4" },
+        { q:4, text:"Draw double linked list of array A = [22,3,4,6,1,88,12].", co:"CO4" },
+        { q:5, text:"Delineate process of in-order traversing in Tree.", co:"CO4" },
+        { q:6, text:"Write in your own words about \"parent node\" and \"Sibling nodes\" in a tree structure.", co:"CO4" },
+        { q:7, text:"Illustrate the term B Tree.", co:"CO4" },
+        { q:8, text:"Draw circular linked list of an array = [12,21,24,32,62,52,7].", co:"CO4" },
+        { q:9, text:"Sketch binary search tree of elements 15,3,8,22,13,34,96,83.", co:"CO4" },
+        { q:10, text:"Is tree a linear or nonlinear data structure? Write various operations performed on tree.", co:"CO4" },
+        { q:11, text:"Write definition of Complete graph and Simple graph.", co:"CO5" },
+        { q:12, text:"Enumerate various graphs in data structures.", co:"CO5" },
+        { q:13, text:"Write various operations performed on Graph.", co:"CO5" },
+        { q:14, text:"Bring into light \"Adjacent Vertices\".", co:"CO5" },
+        { q:15, text:"Write characteristics of an adjacent matrix.", co:"CO5" },
+        { q:16, text:"Draw \"Null Graph\" and \"Labeled Graph\".", co:"CO5" },
+        { q:17, text:"Sketch \"Trivial Graph\" and \"Directed Graph\".", co:"CO5" },
+        { q:18, text:"State the purpose of Dijkstra's algorithm.", co:"CO5" },
+        { q:19, text:"Define the term \"Backtracking\" used in Graphs.", co:"CO5" },
+        { q:20, text:"Using the graph in Fig.1: with Vertices : {A,B,C,D,E}. Write order, and size of graph.", co:"CO5" },
+        { q:21, text:"Highlight the term 'hashing' in data structures.", co:"CO6" },
+        { q:22, text:"Write best and worst time complexity of Linear search algorithm.", co:"CO6" },
+        { q:23, text:"Put in your own words 'Searching'. How is it different from sorting?", co:"CO6" },
+        { q:24, text:"Name the various algorithms used to search an element in an array.", co:"CO6" },
+        { q:25, text:"Highlight the term Collision in Hashing.", co:"CO6" },
+        { q:26, text:"Write the importance of hash function in data structures.", co:"CO6" },
+        { q:27, text:"Write down time complexity of Binary search algorithm.", co:"CO6" },
+        { q:28, text:"\"Divide and Conquer approach affects time complexity in sorting\". Demonstrate with your own words.", co:"CO6" },
+        { q:29, text:"Scrutinize Collision Resolution Techniques in Hashing.", co:"CO6" },
+        { q:30, text:"Define sorting and identify at least three sorting algorithms.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain AVL rotations in detail? Draw an AVL tree from an array with numbers: 11, 18, 12, 8, 4, 19, 25.", co:"CO4" },
+        { q:32, text:"Highlight the properties of Binary Search Tree. Step by step, draw a binary search tree of elements from an array: 45, 10, 7, 90, 12, 50, 13, 39, 57.", co:"CO4" },
+        { q:33, text:"Draw the B-tree of order t=3 and insert the following data as per sequence: 92, 24, 6, 7, 11, 8, 22, 4, 5, 16, 19, 20, 78.", co:"CO4" },
+        { q:34, text:"Is linked list a linear or non-linear data structure? Write an algorithm to insert an element \"item\" at position \"pos\" in a Linked List.", co:"CO4" },
+        { q:35, text:"Draw a circular linked list and perform the following operations step by step: 1. Insert five elements into the list in order: 22, 33, 44, 55, 66. 2. Delete any two elements from the list. 3. Insert three more elements in order: 77, 88, 99.", co:"CO4" },
+        { q:36, text:"Using the given Tree, traverse the tree in all various traversing ways. Write the sequence of nodes visited for each traversal. Show your step-by-step working and indicate the order clearly.", co:"CO4" },
+        { q:37, text:"Write an algorithm of BFS. Using BFS algorithm, traverse all nodes of Graph from starting node \"A\" from the following diagram.", co:"CO5" },
+        { q:38, text:"Bring into light about the term 'Traversing' in Graph. Name the various traversing algorithms are used to traverse the graph. By drawing a graph with Vertices and Edges, explain any one traversing technique.", co:"CO5" },
+        { q:39, text:"Write an algorithm of DFS. Using DFS algorithm, traverse the Graph from starting node \"A\" from the following diagram.", co:"CO5" },
+        { q:40, text:"Write an algorithm of Dijkstra algorithm. Find the shortest path using the diagram from source node \"A\" to destination node \"G\".", co:"CO5" },
+        { q:41, text:"Discuss the concept of a graph in data structures. Explain its key components, describe the different types of graphs and illustrate each type with a labeled diagram.", co:"CO5" },
+        { q:42, text:"Evaluate whether Dijkstra's algorithm is the most suitable choice for finding the shortest path in the given diagram. Justify your answer.", co:"CO5" },
+        { q:43, text:"Write an algorithm of Linear Search. Using linear search algorithm, search the location of an element \"32\" from an array a[] = [65,15,27,45,25,32,49,88].", co:"CO6" },
+        { q:44, text:"Compare binary search and linear search. Using binary search algorithm find the element \"42\" from an array a[] = [11,20,14,42,26,27,36,47,43,32].", co:"CO6" },
+        { q:45, text:"Write an algorithm of Bubble sort. Sort an array a[] = [42,71,52,37,10] using Bubble sort algorithm.", co:"CO6" },
+        { q:46, text:"Using the Hashing technique, arrange the following four students {\"abcdef\", \"bcdefa\", \"cdefab\", \"defabc\"} in an order, that there should be no collision between two or more students.", co:"CO6" },
+        { q:47, text:"Compare Merge Sort and Selection Sort. Sort an array a[] = [38,19,15,31,26,28,35,52,64,32] using Merge sort Algorithm.", co:"CO6" },
+        { q:48, text:"Find the collision state of the following list [1,2,8,11,15,22,28,35,36,42,47,51]. If collision occurs, resolve the collision.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Data Structures — Year 2024 — Assignment 2
+// ============================================
+const ds2024A2 = {
+    sectionA: [
+        { q:1, text:"What are AVL tree rotations? Name them.", co:"CO4" },
+        { q:2, text:"What are the operations on a doubly linked list?", co:"CO4" },
+        { q:3, text:"What are the properties of a balanced tree?", co:"CO4" },
+        { q:4, text:"Draw a doubly linked list for A = [22,3,4,6,1,88,12].", co:"CO4" },
+        { q:5, text:"What is in-order traversal in a tree?", co:"CO4" },
+        { q:6, text:"What are parent and sibling nodes in a tree?", co:"CO4" },
+        { q:7, text:"What is a B-tree?", co:"CO4" },
+        { q:8, text:"Draw a circular linked list for [12,21,24,32,62,52,7].", co:"CO4" },
+        { q:9, text:"Draw a BST for 15,3,8,22,13,34,96,83.", co:"CO4" },
+        { q:10, text:"Is a tree linear or non-linear? What are tree operations?", co:"CO4" },
+        { q:11, text:"Define complete graph and simple graph.", co:"CO5" },
+        { q:12, text:"What are the types of graphs?", co:"CO5" },
+        { q:13, text:"What are graph operations?", co:"CO5" },
+        { q:14, text:"What are adjacent vertices?", co:"CO5" },
+        { q:15, text:"What are the characteristics of an adjacency matrix?", co:"CO5" },
+        { q:16, text:"Draw null and labeled graphs.", co:"CO5" },
+        { q:17, text:"Draw trivial and directed graphs.", co:"CO5" },
+        { q:18, text:"What is Dijkstra's algorithm used for?", co:"CO5" },
+        { q:19, text:"What is backtracking in graphs?", co:"CO5" },
+        { q:20, text:"Find order and size of the given graph.", co:"CO5" },
+        { q:21, text:"What is hashing?", co:"CO6" },
+        { q:22, text:"What is the time complexity of linear search?", co:"CO6" },
+        { q:23, text:"What is searching? How is it different from sorting?", co:"CO6" },
+        { q:24, text:"What are searching algorithms?", co:"CO6" },
+        { q:25, text:"What is collision in hashing?", co:"CO6" },
+        { q:26, text:"What is the importance of a hash function?", co:"CO6" },
+        { q:27, text:"What is the time complexity of binary search?", co:"CO6" },
+        { q:28, text:"How does divide and conquer affect sorting complexity?", co:"CO6" },
+        { q:29, text:"What are collision resolution techniques?", co:"CO6" },
+        { q:30, text:"Define sorting. Name three sorting algorithms.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain AVL rotations with an example.", co:"CO4" },
+        { q:32, text:"Explain BST properties and draw BST for 45,10,7,90,12,50,13,39,57.", co:"CO4" },
+        { q:33, text:"Draw B-tree of order 3 for 92,24,6,7,11,8,22,4,5,16,19,20,78.", co:"CO4" },
+        { q:34, text:"Is linked list linear or non-linear? Write insertion algorithm.", co:"CO4" },
+        { q:35, text:"Draw circular linked list and perform insert/delete operations.", co:"CO4" },
+        { q:36, text:"Traverse the given tree using all traversal methods.", co:"CO4" },
+        { q:37, text:"Write BFS algorithm and traverse from node A.", co:"CO5" },
+        { q:38, text:"Explain graph traversing with examples.", co:"CO5" },
+        { q:39, text:"Write DFS algorithm and traverse from node A.", co:"CO5" },
+        { q:40, text:"Write Dijkstra's algorithm and find shortest path from A to G.", co:"CO5" },
+        { q:41, text:"Explain graph types with diagrams.", co:"CO5" },
+        { q:42, text:"Is Dijkstra suitable for the given graph? Justify.", co:"CO5" },
+        { q:43, text:"Write linear search algorithm and search 32 from [65,15,27,45,25,32,49,88].", co:"CO6" },
+        { q:44, text:"Compare binary and linear search. Find 42 from [11,20,14,42,26,27,36,47,43,32].", co:"CO6" },
+        { q:45, text:"Write bubble sort algorithm and sort [42,71,52,37,10].", co:"CO6" },
+        { q:46, text:"Arrange students using hashing without collision.", co:"CO6" },
+        { q:47, text:"Compare merge and selection sort. Sort [38,19,15,31,26,28,35,52,64,32] using merge sort.", co:"CO6" },
+        { q:48, text:"Find collision state and resolve collision.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Data Structures — Year 2023 — Assignment 2
+// ============================================
+const ds2023A2 = {
+    sectionA: [
+        { q:1, text:"What are AVL tree rotations?", co:"CO4" },
+        { q:2, text:"List doubly linked list operations.", co:"CO4" },
+        { q:3, text:"What are the properties of balanced trees?", co:"CO4" },
+        { q:4, text:"Draw doubly linked list for [22,3,4,6,1,88,12].", co:"CO4" },
+        { q:5, text:"Explain in-order traversal.", co:"CO4" },
+        { q:6, text:"Define parent and sibling nodes.", co:"CO4" },
+        { q:7, text:"What is a B-tree?", co:"CO4" },
+        { q:8, text:"Draw circular linked list for [12,21,24,32,62,52,7].", co:"CO4" },
+        { q:9, text:"Draw BST for 15,3,8,22,13,34,96,83.", co:"CO4" },
+        { q:10, text:"Is tree linear or non-linear? List tree operations.", co:"CO4" },
+        { q:11, text:"Define complete and simple graphs.", co:"CO5" },
+        { q:12, text:"What are the types of graphs?", co:"CO5" },
+        { q:13, text:"List graph operations.", co:"CO5" },
+        { q:14, text:"Explain adjacent vertices.", co:"CO5" },
+        { q:15, text:"What are the features of an adjacency matrix?", co:"CO5" },
+        { q:16, text:"Draw null and labeled graphs.", co:"CO5" },
+        { q:17, text:"Draw trivial and directed graphs.", co:"CO5" },
+        { q:18, text:"What is Dijkstra's algorithm?", co:"CO5" },
+        { q:19, text:"What is backtracking in graphs?", co:"CO5" },
+        { q:20, text:"Find order and size of the given graph.", co:"CO5" },
+        { q:21, text:"What is hashing?", co:"CO6" },
+        { q:22, text:"Time complexity of linear search?", co:"CO6" },
+        { q:23, text:"What is searching? How is it different from sorting?", co:"CO6" },
+        { q:24, text:"Name searching algorithms.", co:"CO6" },
+        { q:25, text:"What is collision in hashing?", co:"CO6" },
+        { q:26, text:"Why is hash function important?", co:"CO6" },
+        { q:27, text:"Time complexity of binary search?", co:"CO6" },
+        { q:28, text:"How does divide and conquer affect sorting?", co:"CO6" },
+        { q:29, text:"What are collision resolution techniques?", co:"CO6" },
+        { q:30, text:"Define sorting and name three algorithms.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain AVL rotations with an example.", co:"CO4" },
+        { q:32, text:"Explain BST and draw BST for given elements.", co:"CO4" },
+        { q:33, text:"Draw B-tree of order 3 for given elements.", co:"CO4" },
+        { q:34, text:"Is linked list linear or non-linear? Write insertion algorithm.", co:"CO4" },
+        { q:35, text:"Draw circular linked list with insert/delete operations.", co:"CO4" },
+        { q:36, text:"Traverse the given tree using all traversal methods.", co:"CO4" },
+        { q:37, text:"Write BFS algorithm and traverse from node A.", co:"CO5" },
+        { q:38, text:"Explain graph traversing with example.", co:"CO5" },
+        { q:39, text:"Write DFS algorithm and traverse from node A.", co:"CO5" },
+        { q:40, text:"Write Dijkstra's algorithm and find shortest path.", co:"CO5" },
+        { q:41, text:"Explain graph types with diagrams.", co:"CO5" },
+        { q:42, text:"Is Dijkstra suitable? Justify.", co:"CO5" },
+        { q:43, text:"Write linear search and find 32.", co:"CO6" },
+        { q:44, text:"Compare binary and linear search. Find 42.", co:"CO6" },
+        { q:45, text:"Write bubble sort and sort given array.", co:"CO6" },
+        { q:46, text:"Arrange students using hashing.", co:"CO6" },
+        { q:47, text:"Compare merge and selection sort. Sort using merge sort.", co:"CO6" },
+        { q:48, text:"Find and resolve collision.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Data Structures — Year 2022 — Assignment 2
+// ============================================
+const ds2022A2 = {
+    sectionA: [
+        { q:1, text:"What are AVL tree rotations?", co:"CO4" },
+        { q:2, text:"What are the operations on a doubly linked list?", co:"CO4" },
+        { q:3, text:"What are balanced tree properties?", co:"CO4" },
+        { q:4, text:"Draw doubly linked list for [22,3,4,6,1,88,12].", co:"CO4" },
+        { q:5, text:"Explain in-order traversal.", co:"CO4" },
+        { q:6, text:"Define parent and sibling nodes.", co:"CO4" },
+        { q:7, text:"What is a B-tree?", co:"CO4" },
+        { q:8, text:"Draw circular linked list for [12,21,24,32,62,52,7].", co:"CO4" },
+        { q:9, text:"Draw BST for 15,3,8,22,13,34,96,83.", co:"CO4" },
+        { q:10, text:"Is tree linear or non-linear? List tree operations.", co:"CO4" },
+        { q:11, text:"Define complete and simple graphs.", co:"CO5" },
+        { q:12, text:"List graph types.", co:"CO5" },
+        { q:13, text:"List graph operations.", co:"CO5" },
+        { q:14, text:"What are adjacent vertices?", co:"CO5" },
+        { q:15, text:"What are adjacency matrix characteristics?", co:"CO5" },
+        { q:16, text:"Draw null and labeled graphs.", co:"CO5" },
+        { q:17, text:"Draw trivial and directed graphs.", co:"CO5" },
+        { q:18, text:"What is Dijkstra's algorithm?", co:"CO5" },
+        { q:19, text:"What is backtracking in graphs?", co:"CO5" },
+        { q:20, text:"Find order and size of the graph.", co:"CO5" },
+        { q:21, text:"What is hashing?", co:"CO6" },
+        { q:22, text:"Time complexity of linear search?", co:"CO6" },
+        { q:23, text:"What is searching? Compare with sorting.", co:"CO6" },
+        { q:24, text:"List searching algorithms.", co:"CO6" },
+        { q:25, text:"What is collision in hashing?", co:"CO6" },
+        { q:26, text:"Importance of hash function?", co:"CO6" },
+        { q:27, text:"Time complexity of binary search?", co:"CO6" },
+        { q:28, text:"How does divide and conquer affect sorting?", co:"CO6" },
+        { q:29, text:"What are collision resolution techniques?", co:"CO6" },
+        { q:30, text:"Define sorting and name three algorithms.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain AVL rotations with an example.", co:"CO4" },
+        { q:32, text:"Explain BST and draw BST for given elements.", co:"CO4" },
+        { q:33, text:"Draw B-tree of order 3 for given elements.", co:"CO4" },
+        { q:34, text:"Is linked list linear or non-linear? Write insertion algorithm.", co:"CO4" },
+        { q:35, text:"Draw circular linked list with insert/delete operations.", co:"CO4" },
+        { q:36, text:"Traverse tree using all traversal methods.", co:"CO4" },
+        { q:37, text:"Write BFS algorithm and traverse from node A.", co:"CO5" },
+        { q:38, text:"Explain graph traversing with example.", co:"CO5" },
+        { q:39, text:"Write DFS algorithm and traverse from node A.", co:"CO5" },
+        { q:40, text:"Write Dijkstra's algorithm and find shortest path.", co:"CO5" },
+        { q:41, text:"Explain graph types with diagrams.", co:"CO5" },
+        { q:42, text:"Is Dijkstra suitable? Justify.", co:"CO5" },
+        { q:43, text:"Write linear search and find 32.", co:"CO6" },
+        { q:44, text:"Compare binary and linear search. Find 42.", co:"CO6" },
+        { q:45, text:"Write bubble sort and sort given array.", co:"CO6" },
+        { q:46, text:"Arrange students using hashing.", co:"CO6" },
+        { q:47, text:"Compare merge and selection sort. Sort using merge sort.", co:"CO6" },
+        { q:48, text:"Find and resolve collision.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -4728,6 +5204,19 @@ const subjects = {
             "2023": { "1": cn2023A1, "2": cn2023A2 },
             "2024": { "1": cn2024A1, "2": cn2024A2 },
             "2025": { "1": cn2025A1, "2": cn2025A2 }
+        }
+    },
+    "ds": {
+        semester: 3,
+        icon: "🗄️",
+        name: "Data Structures",
+        code: "BCA24302",
+        courseOutcomes: dsCO,
+        data: {
+            "2022": { "1": ds2022A1, "2": ds2022A2 },
+            "2023": { "1": ds2023A1, "2": ds2023A2 },
+            "2024": { "1": ds2024A1, "2": ds2024A2 },
+            "2025": { "1": ds2025A1, "2": ds2025A2 }
         }
     }
 };
