@@ -663,18 +663,250 @@ const eng2025A1 = {
 };
 
 // ============================================
+// C Language — Year 2024 — Assignment 2
+// ============================================
+const cLang2024A2 = {
+    sectionA: [
+        { q:1, text:"Simplify the use of Arrays in C program with an example.", co:"CO4" },
+        { q:2, text:"Demonstrate the classification of functions?", co:"CO4" },
+        { q:3, text:"What is default value of array elements in C?", co:"CO4" },
+        { q:4, text:"Define Function. Give its example.", co:"CO4" },
+        { q:5, text:"Elaborate the user defined function?", co:"CO4" },
+        { q:6, text:"Describe recursion?", co:"CO4" },
+        { q:7, text:"Explain function with no argument but return value.", co:"CO4" },
+        { q:8, text:"Discuss the categories of functions in detail.", co:"CO4" },
+        { q:9, text:"Illustrate Function prototyping? Explain it.", co:"CO4" },
+        { q:10, text:"Define the two dimensional array?", co:"CO4" },
+        { q:11, text:"How the individual elements of a structure can be accessed?", co:"CO5" },
+        { q:12, text:"Describe structure?", co:"CO5" },
+        { q:13, text:"Illustrate Union in detail.", co:"CO5" },
+        { q:14, text:"Explain structure Pointer.", co:"CO5" },
+        { q:15, text:"Discuss that how the union members are accessed?", co:"CO5" },
+        { q:16, text:"Explain the rules for declaring a structure.", co:"CO5" },
+        { q:17, text:"What is nested structure? How it is declared and accessed?", co:"CO5" },
+        { q:18, text:"Describe the size of structure in C?", co:"CO5" },
+        { q:19, text:"State the syntax for pointer to structure?", co:"CO5" },
+        { q:20, text:"How the structure variable is passed as a parameter to a function?", co:"CO5" },
+        { q:21, text:"Elaborate pointer operator? Give an example.", co:"CO6" },
+        { q:22, text:"Compare malloc() with calloc()?", co:"CO6" },
+        { q:23, text:"How to declare a pointer?", co:"CO6" },
+        { q:24, text:"Define dynamic memory management?", co:"CO6" },
+        { q:25, text:"Write the difference between text file and binary file?", co:"CO6" },
+        { q:26, text:"Simplify pointer to pointer?", co:"CO6" },
+        { q:27, text:"State basic file operation in 'C'.", co:"CO6" },
+        { q:28, text:"State the various steps to access a variable through its pointer?", co:"CO6" },
+        { q:29, text:"How is file closed?", co:"CO6" },
+        { q:30, text:"Define dangling pointer?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Describe the difference between Call by value and Call by reference.", co:"CO4" },
+        { q:32, text:"Define array. Explain with suitable example how to declare and initialize 1D array.", co:"CO4" },
+        { q:33, text:"Illustrate multidimensional array. How the elements are accessed from multidimensional array?", co:"CO4" },
+        { q:34, text:"Elaborate the term function? Explain the difference between user defined and library functions.", co:"CO4" },
+        { q:35, text:"Write short note on passing array to function. Give an example.", co:"CO4" },
+        { q:36, text:"Demonstrate the actual parameters and formal parameters? Illustrate with example.", co:"CO4" },
+        { q:37, text:"Mention the difference between structure and union with example.", co:"CO5" },
+        { q:38, text:"List the two ways of passing structure to a function?", co:"CO5" },
+        { q:39, text:"What do you mean by unions? How memory is allocated to unions? How unions are declared and initialized?", co:"CO5" },
+        { q:40, text:"Write the significance of structure and union in C.", co:"CO5" },
+        { q:41, text:"Specify the different ways to access members in a structure?", co:"CO5" },
+        { q:42, text:"Define a structure? Write the syntax for structure declaration with an example.", co:"CO5" },
+        { q:43, text:"Explain the following file function with example: a) Fseek() b) Fopen() c) Fclose() d) Ftell()", co:"CO6" },
+        { q:44, text:"Write notes on the following: a) Pointers b) Processing a data file", co:"CO6" },
+        { q:45, text:"How are pointers declared and initialized?", co:"CO6" },
+        { q:46, text:"Explain the operating modes of files.", co:"CO6" },
+        { q:47, text:"Write the various file handling functions in C language?", co:"CO6" },
+        { q:48, text:"List the various types of errors occurs during file operations.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// C Language — Year 2025 — Assignment 2
+// ============================================
+const cLang2025A2 = {
+    sectionA: [
+        { q:1, text:"What is an array? How to declare and initialize a 1D array?", co:"CO4" },
+        { q:2, text:"What is a function? Explain its syntax.", co:"CO4" },
+        { q:3, text:"What is the default value of array elements in C?", co:"CO4" },
+        { q:4, text:"What is the difference between library function and user-defined function?", co:"CO4" },
+        { q:5, text:"Explain recursion with an example.", co:"CO4" },
+        { q:6, text:"What is function prototype? Why is it used?", co:"CO4" },
+        { q:7, text:"What is the difference between call by value and call by reference?", co:"CO4" },
+        { q:8, text:"What is a multidimensional array? Give an example.", co:"CO4" },
+        { q:9, text:"What is the use of return statement in a function?", co:"CO4" },
+        { q:10, text:"Explain the concept of passing array to a function.", co:"CO4" },
+        { q:11, text:"What is a structure? How is it declared?", co:"CO5" },
+        { q:12, text:"How are structure members accessed?", co:"CO5" },
+        { q:13, text:"What is a union? How is it different from a structure?", co:"CO5" },
+        { q:14, text:"What is the size of a structure? How is it calculated?", co:"CO5" },
+        { q:15, text:"What is a pointer to a structure?", co:"CO5" },
+        { q:16, text:"How is a structure passed to a function?", co:"CO5" },
+        { q:17, text:"What is the difference between structure and array?", co:"CO5" },
+        { q:18, text:"What is the typedef keyword in C? How is it used with structures?", co:"CO5" },
+        { q:19, text:"How are union members accessed?", co:"CO5" },
+        { q:20, text:"What is a self-referential structure?", co:"CO5" },
+        { q:21, text:"What is a pointer? How is it declared?", co:"CO6" },
+        { q:22, text:"What is the difference between malloc() and calloc()?", co:"CO6" },
+        { q:23, text:"What is dynamic memory allocation?", co:"CO6" },
+        { q:24, text:"What are file operations in C?", co:"CO6" },
+        { q:25, text:"What are the different file opening modes in C?", co:"CO6" },
+        { q:26, text:"What is a file pointer?", co:"CO6" },
+        { q:27, text:"How to read data from a file in C?", co:"CO6" },
+        { q:28, text:"How to write data to a file in C?", co:"CO6" },
+        { q:29, text:"What is the difference between text file and binary file?", co:"CO6" },
+        { q:30, text:"What is the use of pre-processor directives?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Write a program to add two matrices using arrays.", co:"CO4" },
+        { q:32, text:"Write a program to find the factorial of a number using recursion.", co:"CO4" },
+        { q:33, text:"Write a program to find the sum of n numbers using functions.", co:"CO4" },
+        { q:34, text:"Write a program to find the largest element in an array.", co:"CO4" },
+        { q:35, text:"Write a program to reverse a string using recursion.", co:"CO4" },
+        { q:36, text:"Write a program to sort an array in ascending order.", co:"CO4" },
+        { q:37, text:"Write a program to store and display employee details using structure.", co:"CO5" },
+        { q:38, text:"Write a program to demonstrate the use of union.", co:"CO5" },
+        { q:39, text:"Write a program to pass structure to a function.", co:"CO5" },
+        { q:40, text:"Write a program to demonstrate the use of pointers.", co:"CO5" },
+        { q:41, text:"Write a program to swap two numbers using pointers.", co:"CO5" },
+        { q:42, text:"Write a program to demonstrate pointer to structure.", co:"CO5" },
+        { q:43, text:"Write a program to read data from a file and display it on screen.", co:"CO6" },
+        { q:44, text:"Write a program to save employee details in a file using file handling.", co:"CO6" },
+        { q:45, text:"Write a program to append data to an existing file.", co:"CO6" },
+        { q:46, text:"Write a program to copy data from one file to another.", co:"CO6" },
+        { q:47, text:"Write a program to count the number of characters, words and lines in a file.", co:"CO6" },
+        { q:48, text:"Write a program to demonstrate fseek() and ftell() functions.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// C Language — Year 2023 — Assignment 2
+// ============================================
+const cLang2023A2 = {
+    sectionA: [
+        { q:1, text:"What is an array? Explain its syntax.", co:"CO4" },
+        { q:2, text:"What is a function? Explain its syntax.", co:"CO4" },
+        { q:3, text:"What are the different types of functions in C?", co:"CO4" },
+        { q:4, text:"What is recursion? Give an example.", co:"CO4" },
+        { q:5, text:"What is a function prototype?", co:"CO4" },
+        { q:6, text:"What is the difference between formal and actual parameters?", co:"CO4" },
+        { q:7, text:"What is the use of return statement in a function?", co:"CO4" },
+        { q:8, text:"What is a two-dimensional array? Give an example.", co:"CO4" },
+        { q:9, text:"How to pass an array to a function?", co:"CO4" },
+        { q:10, text:"What is the scope of a variable in C?", co:"CO4" },
+        { q:11, text:"What is structure in C? Explain.", co:"CO5" },
+        { q:12, text:"How to declare a structure?", co:"CO5" },
+        { q:13, text:"What is union in C? Explain.", co:"CO5" },
+        { q:14, text:"What is the difference between structure and union?", co:"CO5" },
+        { q:15, text:"How to access structure members?", co:"CO5" },
+        { q:16, text:"What is a pointer to a structure?", co:"CO5" },
+        { q:17, text:"How to pass a structure to a function?", co:"CO5" },
+        { q:18, text:"What is the size of a structure?", co:"CO5" },
+        { q:19, text:"What is a nested structure?", co:"CO5" },
+        { q:20, text:"What is a self-referential structure?", co:"CO5" },
+        { q:21, text:"What is a pointer? Explain with syntax.", co:"CO6" },
+        { q:22, text:"What is dynamic memory allocation in C?", co:"CO6" },
+        { q:23, text:"What is the difference between malloc() and calloc()?", co:"CO6" },
+        { q:24, text:"What is a file in C?", co:"CO6" },
+        { q:25, text:"What are the different file opening modes?", co:"CO6" },
+        { q:26, text:"What is a file pointer?", co:"CO6" },
+        { q:27, text:"What are the basic file operations in C?", co:"CO6" },
+        { q:28, text:"How to read and write data from a file?", co:"CO6" },
+        { q:29, text:"What is the difference between text file and binary file?", co:"CO6" },
+        { q:30, text:"What is the use of pre-processor directives?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Write a program to add two matrices using arrays.", co:"CO4" },
+        { q:32, text:"Write a program to find the factorial of a number using recursion.", co:"CO4" },
+        { q:33, text:"Write a program to find the sum of n numbers using functions.", co:"CO4" },
+        { q:34, text:"Write a program to find the largest element in an array.", co:"CO4" },
+        { q:35, text:"Write a program to reverse a string using recursion.", co:"CO4" },
+        { q:36, text:"Write a program to sort an array in ascending order.", co:"CO4" },
+        { q:37, text:"Write a program to store and display employee details using structure.", co:"CO5" },
+        { q:38, text:"Write a program to demonstrate the use of union.", co:"CO5" },
+        { q:39, text:"Write a program to pass structure to a function.", co:"CO5" },
+        { q:40, text:"Write a program to demonstrate the use of pointers.", co:"CO5" },
+        { q:41, text:"Write a program to swap two numbers using pointers.", co:"CO5" },
+        { q:42, text:"Write a program to demonstrate pointer to structure.", co:"CO5" },
+        { q:43, text:"Write a program to read data from a file and display it on screen.", co:"CO6" },
+        { q:44, text:"Write a program to save employee details in a file using file handling.", co:"CO6" },
+        { q:45, text:"Write a program to append data to an existing file.", co:"CO6" },
+        { q:46, text:"Write a program to copy data from one file to another.", co:"CO6" },
+        { q:47, text:"Write a program to count the number of characters, words and lines in a file.", co:"CO6" },
+        { q:48, text:"Write a program to demonstrate fseek() and ftell() functions.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// C Language — Year 2022 — Assignment 2
+// ============================================
+const cLang2022A2 = {
+    sectionA: [
+        { q:1, text:"What is an array? Explain with syntax.", co:"CO4" },
+        { q:2, text:"What is a function? Explain with syntax.", co:"CO4" },
+        { q:3, text:"What are the advantages of functions in C?", co:"CO4" },
+        { q:4, text:"What is recursion? Explain with an example.", co:"CO4" },
+        { q:5, text:"What is a function prototype?", co:"CO4" },
+        { q:6, text:"What is the difference between call by value and call by reference?", co:"CO4" },
+        { q:7, text:"What is a multidimensional array?", co:"CO4" },
+        { q:8, text:"How are arrays passed to functions?", co:"CO4" },
+        { q:9, text:"What is the use of return statement?", co:"CO4" },
+        { q:10, text:"What is the scope of variables in C?", co:"CO4" },
+        { q:11, text:"What is structure in C?", co:"CO5" },
+        { q:12, text:"How to declare a structure?", co:"CO5" },
+        { q:13, text:"What is union in C?", co:"CO5" },
+        { q:14, text:"What is the difference between structure and union?", co:"CO5" },
+        { q:15, text:"How to access structure members?", co:"CO5" },
+        { q:16, text:"What is a pointer to structure?", co:"CO5" },
+        { q:17, text:"How to pass structure to a function?", co:"CO5" },
+        { q:18, text:"What is the size of a structure?", co:"CO5" },
+        { q:19, text:"What is typedef in C?", co:"CO5" },
+        { q:20, text:"What is a nested structure?", co:"CO5" },
+        { q:21, text:"What is a pointer?", co:"CO6" },
+        { q:22, text:"What is dynamic memory allocation?", co:"CO6" },
+        { q:23, text:"What is malloc() and calloc()?", co:"CO6" },
+        { q:24, text:"What is file handling in C?", co:"CO6" },
+        { q:25, text:"What are the modes of opening a file?", co:"CO6" },
+        { q:26, text:"What is a file pointer?", co:"CO6" },
+        { q:27, text:"How to read data from a file?", co:"CO6" },
+        { q:28, text:"How to write data to a file?", co:"CO6" },
+        { q:29, text:"What is the difference between text file and binary file?", co:"CO6" },
+        { q:30, text:"What are pre-processor directives?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Write a program to add two matrices using arrays.", co:"CO4" },
+        { q:32, text:"Write a program to find the factorial of a number using recursion.", co:"CO4" },
+        { q:33, text:"Write a program to find the sum of n numbers using functions.", co:"CO4" },
+        { q:34, text:"Write a program to find the largest element in an array.", co:"CO4" },
+        { q:35, text:"Write a program to reverse a string using recursion.", co:"CO4" },
+        { q:36, text:"Write a program to sort an array in ascending order.", co:"CO4" },
+        { q:37, text:"Write a program to store and display employee details using structure.", co:"CO5" },
+        { q:38, text:"Write a program to demonstrate the use of union.", co:"CO5" },
+        { q:39, text:"Write a program to pass structure to a function.", co:"CO5" },
+        { q:40, text:"Write a program to demonstrate the use of pointers.", co:"CO5" },
+        { q:41, text:"Write a program to swap two numbers using pointers.", co:"CO5" },
+        { q:42, text:"Write a program to demonstrate pointer to structure.", co:"CO5" },
+        { q:43, text:"Write a program to read data from a file and display it on screen.", co:"CO6" },
+        { q:44, text:"Write a program to save employee details in a file using file handling.", co:"CO6" },
+        { q:45, text:"Write a program to append data to an existing file.", co:"CO6" },
+        { q:46, text:"Write a program to copy data from one file to another.", co:"CO6" },
+        { q:47, text:"Write a program to count the number of characters, words and lines in a file.", co:"CO6" },
+        { q:48, text:"Write a program to demonstrate fseek() and ftell() functions.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
     "c-language": {
-        name: "C Language",
-        code: "",
+        name: "Problem Solving using C",
+        code: "UGCA 1903",
         courseOutcomes: cLanguageCO,
         data: {
-            "2022": { "1": cLangA1, "2": cLangA2 },
-            "2023": { "1": cLangA1, "2": cLangA2 },
-            "2024": { "1": cLangA1, "2": cLangA2 },
-            "2025": { "1": cLangA1, "2": cLangA2 }
+            "2022": { "1": cLangA1, "2": cLang2022A2 },
+            "2023": { "1": cLangA1, "2": cLang2023A2 },
+            "2024": { "1": cLangA1, "2": cLang2024A2 },
+            "2025": { "1": cLangA1, "2": cLang2025A2 }
         }
     },
     "english": {
