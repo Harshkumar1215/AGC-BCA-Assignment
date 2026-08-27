@@ -47,21 +47,23 @@
     <nav class="filter-bar" id="filterBar">
         <div class="container">
             <div class="filter-row filter-row-top">
-                <div class="filter-group">
+                <div class="filter-group" style="width: 100%;">
+                    <label class="filter-label">Select Semester</label>
+                    <div class="semester-tabs" id="semesterTabs">
+                        <button class="semester-tab active" data-semester="1">Semester 1</button>
+                        <button class="semester-tab" data-semester="2">Semester 2</button>
+                        <button class="semester-tab" data-semester="3">Semester 3</button>
+                        <button class="semester-tab" data-semester="4">Semester 4</button>
+                        <button class="semester-tab" data-semester="5">Semester 5</button>
+                        <button class="semester-tab" data-semester="6">Semester 6</button>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-row filter-row-top">
+                <div class="filter-group" style="flex: 1;">
                     <label class="filter-label">Subject</label>
                     <div class="subject-tabs" id="subjectTabs">
-                        <button class="subject-tab active" data-subject="c-language">
-                            <span class="subject-icon">💻</span> Problem Solving using C
-                        </button>
-                        <button class="subject-tab" data-subject="english">
-                            <span class="subject-icon">📝</span> English-I
-                        </button>
-                        <button class="subject-tab" data-subject="fcit">
-                            <span class="subject-icon">🖥️</span> Computer Fundamentals
-                        </button>
-                        <button class="subject-tab" data-subject="hvpe">
-                            <span class="subject-icon">🌱</span> Human Values
-                        </button>
+                        <!-- Filled by JS based on semester -->
                     </div>
                 </div>
                 <div class="filter-group">

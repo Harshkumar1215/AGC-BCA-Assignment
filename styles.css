@@ -308,8 +308,8 @@ body {
     font-size: 1rem;
 }
 
-/* --- Year & Assignment Tabs --- */
-.year-tabs, .assignment-tabs {
+/* --- Year, Semester & Assignment Tabs --- */
+.year-tabs, .assignment-tabs, .semester-tabs {
     display: flex;
     gap: 4px;
     background: var(--bg-glass);
@@ -318,7 +318,7 @@ body {
     padding: 4px;
 }
 
-.year-tab, .assign-tab {
+.year-tab, .assign-tab, .semester-tab {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -335,12 +335,12 @@ body {
     white-space: nowrap;
 }
 
-.year-tab:hover, .assign-tab:hover {
+.year-tab:hover, .assign-tab:hover, .semester-tab:hover {
     color: var(--text-primary);
     background: var(--bg-glass-hover);
 }
 
-.year-tab.active {
+.year-tab.active, .semester-tab.active {
     background: var(--accent-primary);
     color: #fff;
     box-shadow: 0 2px 12px var(--accent-glow);
@@ -943,7 +943,7 @@ body {
         width: 100%;
     }
 
-    .subject-tabs, .year-tabs, .assignment-tabs, .section-chips { 
+    .subject-tabs, .year-tabs, .assignment-tabs, .section-chips, .semester-tabs { 
         overflow-x: auto; 
         -webkit-overflow-scrolling: touch;
         flex-wrap: nowrap;
@@ -953,7 +953,8 @@ body {
     .subject-tabs::-webkit-scrollbar, 
     .year-tabs::-webkit-scrollbar, 
     .assignment-tabs::-webkit-scrollbar,
-    .section-chips::-webkit-scrollbar {
+    .section-chips::-webkit-scrollbar,
+    .semester-tabs::-webkit-scrollbar {
         display: none; /* Safari and Chrome */
     }
 
@@ -984,7 +985,7 @@ body {
     .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     .stat-card { width: 100%; }
     
-    .year-tab, .assign-tab, .subject-tab, .chip { padding: 8px 14px; font-size: 0.8rem; }
+    .year-tab, .assign-tab, .subject-tab, .chip, .semester-tab { padding: 8px 14px; font-size: 0.8rem; }
     .q-text { font-size: 0.95rem; }
     .section-title { font-size: 1.6rem; }
 }

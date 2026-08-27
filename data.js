@@ -1387,6 +1387,8 @@ const hvpe2025A2 = {
 // ============================================
 const subjects = {
     "c-language": {
+        semester: 1,
+        icon: "💻",
         name: "Problem Solving using C",
         code: "UGCA 1903",
         courseOutcomes: cLanguageCO,
@@ -1398,6 +1400,8 @@ const subjects = {
         }
     },
     "english": {
+        semester: 1,
+        icon: "📝",
         name: "Foundation Course in English-I",
         code: "AEC-24101",
         courseOutcomes: englishCO,
@@ -1409,6 +1413,8 @@ const subjects = {
         }
     },
     "fcit": {
+        semester: 1,
+        icon: "🖥️",
         name: "Computer & IT (Fundamentals/Intro)",
         code: "UGCA1902 / BCA24102",
         courseOutcomes: fcitCO,
@@ -1420,6 +1426,8 @@ const subjects = {
         }
     },
     "hvpe": {
+        semester: 1,
+        icon: "🌱",
         name: "Human Values",
         code: "HVPE 101-18",
         courseOutcomes: hvpeCO,

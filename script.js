@@ -5,6 +5,7 @@
 
 // --- State ---
 let state = {
+    semester: 1,
     subject: "c-language",
     year: "2022",
     assignment: "1",
@@ -15,7 +16,8 @@ let state = {
 
 // --- DOM refs ---
 const $ = id => document.getElementById(id);
-const subjectTabs = document.querySelectorAll('.subject-tab');
+const semesterTabs = document.querySelectorAll('.semester-tab');
+const subjectTabsEl = $('subjectTabs');
 const yearTabs = document.querySelectorAll('.year-tab');
 const sectionChips = document.querySelectorAll('#sectionChips .chip');
 const searchInput = $('searchInput');
@@ -35,9 +37,7 @@ const assignmentTabsEl = $('assignmentTabs');
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
     createParticles();
-    buildAssignmentTabs();
-    buildCOChips();
-    buildCOGrid();
+    buildSubjectTabs();
     render();
     setupEvents();
 });
@@ -53,6 +53,60 @@ function createParticles() {
         p.style.width = p.style.height = (2 + Math.random() * 3) + 'px';
         bgParticles.appendChild(p);
     }
+}
+
+// --- Build Subject Tabs dynamically ---
+function buildSubjectTabs() {
+    const semester = parseInt(state.semester);
+    let html = '';
+    let foundActive = false;
+    
+    // Filter subjects by semester
+    const availableSubjects = Object.keys(subjects).filter(k => subjects[k].semester === semester);
+    
+    if (availableSubjects.length === 0) {
+        subjectTabsEl.innerHTML = '<span class="filter-label" style="padding:8px">No subjects available for this semester yet.</span>';
+        state.subject = null;
+        return;
+    }
+    
+    availableSubjects.forEach(k => {
+        const subj = subjects[k];
+        const isActive = (k === state.subject);
+        if (isActive) foundActive = true;
+        
+        html += `<button class="subject-tab ${isActive ? 'active' : ''}" data-subject="${k}">
+                    <span class="subject-icon">${subj.icon}</span> ${subj.name}
+                 </button>`;
+    });
+    
+    subjectTabsEl.innerHTML = html;
+    
+    if (!foundActive) {
+        state.subject = availableSubjects[0];
+        subjectTabsEl.querySelector(`[data-subject="${state.subject}"]`).classList.add('active');
+    }
+    
+    // Bind events
+    subjectTabsEl.querySelectorAll('.subject-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            subjectTabsEl.querySelectorAll('.subject-tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            state.subject = tab.dataset.subject;
+            state.activeCO = null;
+            state.section = "all";
+            sectionChips.forEach(c => c.classList.remove('active'));
+            document.querySelector('#sectionChips .chip[data-section="all"]').classList.add('active');
+            buildAssignmentTabs();
+            buildCOChips();
+            buildCOGrid();
+            render();
+        });
+    });
+    
+    buildAssignmentTabs();
+    buildCOChips();
+    buildCOGrid();
 }
 
 // --- Build Assignment Tabs dynamically ---
@@ -109,19 +163,14 @@ function buildCOGrid() {
 
 // --- Events ---
 function setupEvents() {
-    // Subject tabs
-    subjectTabs.forEach(tab => {
+    // Semester tabs
+    semesterTabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            subjectTabs.forEach(t => t.classList.remove('active'));
+            semesterTabs.forEach(t => t.classList.remove('active'));
             tab.classList.add('active');
-            state.subject = tab.dataset.subject;
+            state.semester = parseInt(tab.dataset.semester);
             state.activeCO = null;
-            state.section = "all";
-            sectionChips.forEach(c => c.classList.remove('active'));
-            document.querySelector('#sectionChips .chip[data-section="all"]').classList.add('active');
-            buildAssignmentTabs();
-            buildCOChips();
-            buildCOGrid();
+            buildSubjectTabs();
             render();
         });
     });
@@ -199,6 +248,15 @@ function setupEvents() {
 
 // --- Render ---
 function render() {
+    if (!state.subject) {
+        questionsContainer.innerHTML = '';
+        noResults.style.display = 'block';
+        infoTitle.textContent = `No Data`;
+        metaSubject.innerHTML = '';
+        metaYear.innerHTML = '';
+        return;
+    }
+    
     const subj = subjects[state.subject];
     const yearData = subj.data[state.year];
     if (!yearData || !yearData[state.assignment]) {
