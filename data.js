@@ -2347,6 +2347,125 @@ const cpp2022A1 = {
 };
 
 // ============================================
+// Foundation Course in English II — Year 2025 — Assignment 2
+// ============================================
+const english22025A2 = {
+    sectionA: [
+        { q:1, text:"What do you mean by Idioms? Give two examples with meaning.", co:"CO4" },
+        { q:2, text:"Give one word substitution of the following: a) One who studies the stars b) One who does not believe in God c) That which cannot be avoided d) One who writes play.", co:"CO4" },
+        { q:3, text:"Write the meaning and sentence of following: a) Brake/break b) Accept/except.", co:"CO4" },
+        { q:4, text:"Give meaning and sentence of following: a) All in the same boat b) Piece of cake.", co:"CO4" },
+        { q:5, text:"What do you mean by Homonyms? Explain with one example.", co:"CO4" },
+        { q:6, text:"Use Correct word: a) He was a medieval ____ (Knight, night). b) Fishermen make their living from the [sea/see]. c) They weren't [allowed/aloud] to take their dog into the store. d) He chopped the onions on the cutting [board/bored].", co:"CO4" },
+        { q:7, text:"Steel, Steal (Use the pair of words in sentences).", co:"CO4" },
+        { q:8, text:"What do you mean by Homophones? Explain with one example.", co:"CO4" },
+        { q:9, text:"What do you mean by One-word substitution? What is its purpose?", co:"CO4" },
+        { q:10, text:"Give meaning and sentence of following: a) Under the weather b) Once in a blue moon.", co:"CO4" },
+        { q:11, text:"Mention two key differences between a personal letter and a business letter.", co:"CO5" },
+        { q:12, text:"What is the purpose of a complaint letter, and when is it used?", co:"CO5" },
+        { q:13, text:"Explain the difference between salutation and closing in a business letter.", co:"CO5" },
+        { q:14, text:"What are the key components of a business letter?", co:"CO5" },
+        { q:15, text:"Why is the subject line important in a business letter?", co:"CO5" },
+        { q:16, text:"Write the format of business letter.", co:"CO5" },
+        { q:17, text:"What do you mean by Complimentary Close in Business letter?", co:"CO5" },
+        { q:18, text:"List any four purposes of a business letter.", co:"CO5" },
+        { q:19, text:"What do you mean by business letter?", co:"CO5" },
+        { q:20, text:"What is the function of the closing paragraph in a business letter?", co:"CO5" },
+        { q:21, text:"What does the poet mean by \"Where the mind is without fear and the head is held high\"?", co:"CO6" },
+        { q:22, text:"What kind of freedom does Tagore pray for in the poem?", co:"CO6" },
+        { q:23, text:"What was the headmistress's philosophy about education?", co:"CO6" },
+        { q:24, text:"Why do you think practical experience is more effective in teaching sympathy than just reading about it?", co:"CO6" },
+        { q:25, text:"How does the poet emphasize the importance of knowledge in the poem?", co:"CO6" },
+        { q:26, text:"Write the theme of the poem 'Where the mind is without fear'.", co:"CO6" },
+        { q:27, text:"Why were the children at the school pretending to be blind, deaf, or lame?", co:"CO6" },
+        { q:28, text:"How can the lessons have taught in the school help students in real life?", co:"CO6" },
+        { q:29, text:"Which day in the school was most difficult for the students and why?", co:"CO6" },
+        { q:30, text:"What does Tagore mean by \"Truth has not lost its way into dreary desert sand of dead habit\"?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Give one word substitution of the following and also make sentences of the words: a) One who runs away from justice or the law b) One who looks at the bright side of things c) One who dies for a noble cause or to protect his country d) One who journeys on foot e) One who takes over after another in office or position f) One who kills secretly or by surprise.", co:"CO4" },
+        { q:32, text:"Make sentences using the following Homophones, such that their meaning becomes clear: piece- peace, board- bored, here-hear, principal-principle, break-brake, weather-whether.", co:"CO4" },
+        { q:33, text:"Give meaning of the following idioms and make sentences using them: a) Call it a day b) Under the weather c) Once in a blue moon d) Easier said than done e) Take the cake f) Crocodile tears.", co:"CO4" },
+        { q:34, text:"Give meaning and make sentences for each of the following Homonyms: Light-Light, Bat-Bat, Bank-Bank, Ring-Ring, Spring-Spring, Park-Park.", co:"CO4" },
+        { q:35, text:"Make sentences with the one-word substitutions of the following: a) A place where clothes are washed and ironed b) A place where pieces of historical importance and art are kept and exhibited c) A professional rider in horse races d) One who performs gymnastic tricks e) One who does not drink alcohol f) A place where dead bodies are buried.", co:"CO4" },
+        { q:36, text:"Define following terms with examples: a) Homophones b) One-Word Substitutions c) Idioms d) Homographs.", co:"CO4" },
+        { q:37, text:"You are Sahil Tuteja, the Sports Secretary of your school. Write a letter to Globe Enterprises, New Delhi, a leading firm dealing in sports goods, requesting them to supply their trade catalogue. You may mention the items you intend to buy and ask for a discount on the catalogue prices.", co:"CO5" },
+        { q:38, text:"You are the member of a youth club. Recently your club has purchased some furniture from Nawab Furniture Depot, Kanpur. But after a week you have noticed some defects in the furniture. Write a letter to the Manager of Nawab Furniture asking him to replace it. You are Akbar/Amina.", co:"CO5" },
+        { q:39, text:"You are Keerti/Karishma of 26, Mehdipatnam, Hyderabad. Last week you bought an automatic 'VIP' Washing Machine from Mis Tirupati Stores, Nampalli, Hyderabad. Now you find that the machine is not cleaning clothes properly and making an unbearable noise. Write a letter to the dealer complaining about the same and requesting him to change the washing machine at the earliest.", co:"CO5" },
+        { q:40, text:"The Computer Hub, Chanakyapuri, New Delhi has advertised a discount of 20% on all types of computers and related hardware. You are Rahul, owner of Soft Point Innovations, 110-111, Nehru Place, New Delhi. Place an order for suitable items for your company.", co:"CO5" },
+        { q:41, text:"You are the Librarian at Devi charitable school, Lucknow. Place an order of school books and other story books for the school library with Chitrakoot book shop, Mall Road, Lucknow.", co:"CO5" },
+        { q:42, text:"You are Kushal living at 123, Gaur City, Bengaluru. The continuous leaking of drain pipes in your colony is causing diseases and health complications for the residents. Write a complaint letter to the Municipal Commissioner to take necessary actions regarding the same.", co:"CO5" },
+        { q:43, text:"What lesson does the narrator learn from his visit to the school? Do you think this method of teaching should be adopted in real schools? Why or why not?", co:"CO6" },
+        { q:44, text:"How does the headmistress's philosophy shape the students' character in \"The School for Sympathy\"?", co:"CO6" },
+        { q:45, text:"Give Reference to the context: Where the mind is without fear and the head is held high Where knowledge is free Where the world has not been broken up into fragments by narrow domestic walls; Where words come out from the depths of truth; Where tireless striving stretches its arms towards perfection.", co:"CO6" },
+        { q:46, text:"Give Reference to the context: Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit; Where the mind is led forward by thee into ever widening thought and action into that heaven of freedom, my father, let my country awake.", co:"CO6" },
+        { q:47, text:"Explain the poet's vision of an ideal nation as described in \"Where the Mind is Without Fear.\"", co:"CO6" },
+        { q:48, text:"Discuss the effectiveness of Miss Beam's unique educational approach.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Foundation Course in English II — Year 2024 — Assignment 2
+// ============================================
+const english22024A2 = {
+    sectionA: [
+        { q:1, text:"What are idioms? Give two examples with meaning.", co:"CO4" },
+        { q:2, text:"Give one word substitution: a) One who studies the stars b) One who does not believe in God c) That which cannot be avoided d) One who writes plays.", co:"CO4" },
+        { q:3, text:"Write the meaning and sentence: a) Brake/break b) Accept/except.", co:"CO4" },
+        { q:4, text:"Give meaning and sentence: a) All in the same boat b) Piece of cake.", co:"CO4" },
+        { q:5, text:"What are homonyms? Explain with an example.", co:"CO4" },
+        { q:6, text:"Use correct word: a) He was a medieval ____ (Knight/night) b) Fishermen make their living from the ____ (sea/see) c) They weren't ____ (allowed/aloud) to take their dog d) He chopped onions on the cutting ____ (board/bored).", co:"CO4" },
+        { q:7, text:"Use steel and steal in sentences.", co:"CO4" },
+        { q:8, text:"What are homophones? Explain with an example.", co:"CO4" },
+        { q:9, text:"What is one-word substitution? What is its purpose?", co:"CO4" },
+        { q:10, text:"Give meaning and sentence: a) Under the weather b) Once in a blue moon.", co:"CO4" },
+        { q:11, text:"What are the differences between a personal letter and a business letter?", co:"CO5" },
+        { q:12, text:"What is a complaint letter? When is it used?", co:"CO5" },
+        { q:13, text:"Differentiate between salutation and closing in a business letter.", co:"CO5" },
+        { q:14, text:"What are the components of a business letter?", co:"CO5" },
+        { q:15, text:"Why is the subject line important in a business letter?", co:"CO5" },
+        { q:16, text:"Write the format of a business letter.", co:"CO5" },
+        { q:17, text:"What is a complimentary close in a business letter?", co:"CO5" },
+        { q:18, text:"What are the purposes of a business letter?", co:"CO5" },
+        { q:19, text:"What is a business letter?", co:"CO5" },
+        { q:20, text:"What is the function of the closing paragraph in a business letter?", co:"CO5" },
+        { q:21, text:"What does \"Where the mind is without fear and the head is held high\" mean?", co:"CO6" },
+        { q:22, text:"What freedom does Tagore pray for?", co:"CO6" },
+        { q:23, text:"What was the headmistress's philosophy about education?", co:"CO6" },
+        { q:24, text:"Why is practical experience more effective in teaching sympathy?", co:"CO6" },
+        { q:25, text:"How does the poet emphasize knowledge in the poem?", co:"CO6" },
+        { q:26, text:"What is the theme of \"Where the mind is without fear\"?", co:"CO6" },
+        { q:27, text:"Why were children pretending to be blind, deaf, or lame?", co:"CO6" },
+        { q:28, text:"How can the school's lessons help students in real life?", co:"CO6" },
+        { q:29, text:"Which day was most difficult for students and why?", co:"CO6" },
+        { q:30, text:"What does \"Truth has not lost its way into dreary desert sand of dead habit\" mean?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Give one word substitution and make sentences: a) Fugitive b) Optimist c) Martyr d) Pedestrian e) Successor f) Assassin.", co:"CO4" },
+        { q:32, text:"Make sentences using homophones: piece-peace, board-bored, here-hear, principal-principle, break-brake, weather-whether.", co:"CO4" },
+        { q:33, text:"Give meaning and sentences for idioms: a) Call it a day b) Under the weather c) Once in a blue moon d) Easier said than done e) Take the cake f) Crocodile tears.", co:"CO4" },
+        { q:34, text:"Give meaning and sentences for homonyms: Light, Bat, Bank, Ring, Spring, Park.", co:"CO4" },
+        { q:35, text:"Make sentences with one-word substitutions: a) Laundry b) Museum c) Jockey d) Acrobat e) Teetotaler f) Cemetery.", co:"CO4" },
+        { q:36, text:"Define with examples: a) Homophones b) One-Word Substitutions c) Idioms d) Homographs.", co:"CO4" },
+        { q:37, text:"Write a letter to Globe Enterprises for sports goods catalogue.", co:"CO5" },
+        { q:38, text:"Write a complaint letter to Nawab Furniture Depot for defective furniture.", co:"CO5" },
+        { q:39, text:"Write a complaint letter about a defective washing machine.", co:"CO5" },
+        { q:40, text:"Write an order letter to Computer Hub for computers.", co:"CO5" },
+        { q:41, text:"Write an order letter for school books.", co:"CO5" },
+        { q:42, text:"Write a complaint letter about drain pipes to Municipal Commissioner.", co:"CO5" },
+        { q:43, text:"What lesson does the narrator learn from the school visit? Should this teaching method be adopted?", co:"CO6" },
+        { q:44, text:"How does the headmistress's philosophy shape students' character?", co:"CO6" },
+        { q:45, text:"Reference to context: \"Where the mind is without fear...\"", co:"CO6" },
+        { q:46, text:"Reference to context: \"Where the clear stream of reason...\"", co:"CO6" },
+        { q:47, text:"Explain Tagore's vision of an ideal nation.", co:"CO6" },
+        { q:48, text:"Discuss the effectiveness of Miss Beam's educational approach.", co:"CO6" }
+    ]
+};
+
+const english22023A2 = english22024A2;
+const english22022A2 = english22024A2;
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -2422,10 +2541,10 @@ const subjects = {
         code: "AEC-24201",
         courseOutcomes: english2CO,
         data: {
-            "2022": { "1": english22022A1 },
-            "2023": { "1": english22023A1 },
-            "2024": { "1": english22024A1 },
-            "2025": { "1": english22025A1 }
+            "2022": { "1": english22022A1, "2": english22022A2 },
+            "2023": { "1": english22023A1, "2": english22023A2 },
+            "2024": { "1": english22024A1, "2": english22024A2 },
+            "2025": { "1": english22025A1, "2": english22025A2 }
         }
     },
     "cpp": {
