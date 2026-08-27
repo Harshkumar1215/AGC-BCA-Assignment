@@ -227,13 +227,12 @@ body {
 
 /* --- Filter Bar --- */
 .filter-bar {
-    position: sticky;
-    top: 0;
+    position: relative;
     z-index: 100;
     background: rgba(10, 10, 15, 0.9);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
-    padding: 12px 0;
+    padding: 8px 0;
     transition: box-shadow 0.3s ease;
 }
 
@@ -249,7 +248,7 @@ body {
 }
 
 .filter-row-top {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .filter-group {

@@ -33,7 +33,6 @@ const filterBar = $('filterBar');
 const backToTop = $('backToTop');
 const bgParticles = $('bgParticles');
 const assignmentTabsEl = $('assignmentTabs');
-const heroBadge = $('heroBadge');
 
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -171,10 +170,6 @@ function setupEvents() {
             tab.classList.add('active');
             state.semester = parseInt(tab.dataset.semester);
             state.activeCO = null;
-            if (heroBadge) {
-                const ordinals = ["", "1st", "2nd", "3rd", "4th", "5th", "6th"];
-                heroBadge.textContent = `📚 BCA ${ordinals[state.semester]} Semester`;
-            }
             buildSubjectTabs();
             render();
         });
