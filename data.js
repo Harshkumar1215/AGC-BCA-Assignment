@@ -2698,6 +2698,250 @@ const cpp2022A2 = {
 };
 
 // ============================================
+// COURSE OUTCOMES: Computer System Architecture
+// ============================================
+const csaCO = {
+    "CO1": "Introduction of basics of digital circuits and logic gates.",
+    "CO2": "Knowledge of Boolean expression minimization with Boolean algebra and k-map techniques.",
+    "CO3": "To be able to design combinational circuits.",
+    "CO4": "Understanding the working of sequential circuits such as various types of flip-flops.",
+    "CO5": "Identify the various internal and peripheral components of computer system.",
+    "CO6": "To understand register transfer, micro-operations and common bus system in computer system."
+};
+
+// ============================================
+// Computer System Architecture — Year 2025 — Assignment 1
+// ============================================
+const csa2025A1 = {
+    sectionA: [
+        { q:1, text:"What are the logic gates?", co:"CO1" },
+        { q:2, text:"Explain the positive logic system?", co:"CO1" },
+        { q:3, text:"Which gate is called an all or nothing gate? Why?", co:"CO1" },
+        { q:4, text:"Prove that bubbled OR gate is equivalent to NAND gate using truth table.", co:"CO1" },
+        { q:5, text:"What is a truth table?", co:"CO1" },
+        { q:6, text:"Which gate is called any or all gate? Why?", co:"CO1" },
+        { q:7, text:"Write the truth table for 3-input AND gate.", co:"CO1" },
+        { q:8, text:"What is the maximum number of outputs a logic gate can have?", co:"CO1" },
+        { q:9, text:"Draw the symbol and write the truth table for 3-input OR gate.", co:"CO1" },
+        { q:10, text:"Brief the AND gate application as a switch.", co:"CO1" },
+        { q:11, text:"Find the minterm of A'BCD.", co:"CO2" },
+        { q:12, text:"What are maxterms?", co:"CO2" },
+        { q:13, text:"State the limitation of Karnaugh's map.", co:"CO2" },
+        { q:14, text:"What is meant by SOP form?", co:"CO2" },
+        { q:15, text:"Simplify (A+B)(A+B').", co:"CO2" },
+        { q:16, text:"What do you mean by POS form?", co:"CO2" },
+        { q:17, text:"Discuss duality theorem.", co:"CO2" },
+        { q:18, text:"What is a k-map?", co:"CO2" },
+        { q:19, text:"Reduce the expression AB+A'B+A'B'.", co:"CO2" },
+        { q:20, text:"Convert Y=minterms(1,3,5) into standard SOP form.", co:"CO2" },
+        { q:21, text:"Define the combinational circuit.", co:"CO3" },
+        { q:22, text:"Difference between mux and demux.", co:"CO3" },
+        { q:23, text:"Elaborate the term decoder.", co:"CO3" },
+        { q:24, text:"What are the applications of mux?", co:"CO3" },
+        { q:25, text:"List the types of encoders.", co:"CO3" },
+        { q:26, text:"Draw the diagram of binary adder/subtractor.", co:"CO3" },
+        { q:27, text:"Write the truth table of half subtractor.", co:"CO3" },
+        { q:28, text:"Draw the 1:4 demux with its truth table.", co:"CO3" },
+        { q:29, text:"Compare encoder and decoder.", co:"CO3" },
+        { q:30, text:"How many select lines are there for 32:1 mux?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Realize basic gates using NAND gates only.", co:"CO1" },
+        { q:32, text:"Realize basic gates using NOR gates only.", co:"CO1" },
+        { q:33, text:"Explain NAND, NOR, XOR and XNOR logic gates in detail?", co:"CO1" },
+        { q:34, text:"Discuss AND, OR and NOT logic gates with their symbol, Boolean expression and truth table.", co:"CO1" },
+        { q:35, text:"Explain the universal gates in detail?", co:"CO1" },
+        { q:36, text:"Implement all basic gates with NAND and NOR gates.", co:"CO1" },
+        { q:37, text:"State and prove Demorgan's theorem.", co:"CO2" },
+        { q:38, text:"Explain the Boolean laws in detail?", co:"CO2" },
+        { q:39, text:"Prove that AB+A'C=(A+C)(A'+B).", co:"CO2" },
+        { q:40, text:"Simplify the Boolean expression Y(A,B,C,D)=minterms(3,5,6,7,8,11,12,13,14,15) using k-map.", co:"CO2" },
+        { q:41, text:"Simplify the Boolean expression F(A,B,C,D)=minterms(2,9,10,12,13)+d(1,5,14,15) using k-map.", co:"CO2" },
+        { q:42, text:"Simplify the Boolean expression F(A,B,C,D)=maxterms(3,4,10,11,14,15).d(5,7,8,9) using k-map.", co:"CO2" },
+        { q:43, text:"Design and implement half adder circuit.", co:"CO3" },
+        { q:44, text:"Implement a full adder circuit using two 4:1 multiplexers.", co:"CO3" },
+        { q:45, text:"Draw and explain the working of 2 to 4 line decoder.", co:"CO3" },
+        { q:46, text:"Design and implement 4-bit priority encoder.", co:"CO3" },
+        { q:47, text:"Implement the given logic function using 8:1 multiplexer f(A,B,C,D)=minterms(0,1,3,4,6,8,12,14,15).", co:"CO3" },
+        { q:48, text:"Design and implement half subtractor circuit.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Computer System Architecture — Year 2024 — Assignment 1
+// ============================================
+const csa2024A1 = {
+    sectionA: [
+        { q:1, text:"What is a logic gate? Name the basic gates.", co:"CO1" },
+        { q:2, text:"What is positive and negative logic?", co:"CO1" },
+        { q:3, text:"Why is NAND gate called a universal gate?", co:"CO1" },
+        { q:4, text:"Prove that bubbled OR is equivalent to NAND.", co:"CO1" },
+        { q:5, text:"What is a truth table?", co:"CO1" },
+        { q:6, text:"Why is OR gate called \"any or all\" gate?", co:"CO1" },
+        { q:7, text:"Draw the truth table for 3-input AND gate.", co:"CO1" },
+        { q:8, text:"How many outputs can a logic gate have?", co:"CO1" },
+        { q:9, text:"Draw 3-input OR gate symbol and truth table.", co:"CO1" },
+        { q:10, text:"Explain AND gate as a switch.", co:"CO1" },
+        { q:11, text:"What is a minterm? Give an example.", co:"CO2" },
+        { q:12, text:"What is a maxterm?", co:"CO2" },
+        { q:13, text:"What are the limitations of K-map?", co:"CO2" },
+        { q:14, text:"What is SOP form?", co:"CO2" },
+        { q:15, text:"Simplify (A+B)(A+B').", co:"CO2" },
+        { q:16, text:"What is POS form?", co:"CO2" },
+        { q:17, text:"State duality theorem.", co:"CO2" },
+        { q:18, text:"What is a Karnaugh map?", co:"CO2" },
+        { q:19, text:"Simplify AB+A'B+A'B'.", co:"CO2" },
+        { q:20, text:"Convert Y=Σm(1,3,5) to SOP form.", co:"CO2" },
+        { q:21, text:"What is a combinational circuit?", co:"CO3" },
+        { q:22, text:"Differentiate between multiplexer and demultiplexer.", co:"CO3" },
+        { q:23, text:"What is a decoder?", co:"CO3" },
+        { q:24, text:"What are the applications of a multiplexer?", co:"CO3" },
+        { q:25, text:"What are encoders? List their types.", co:"CO3" },
+        { q:26, text:"Draw a binary adder/subtractor circuit.", co:"CO3" },
+        { q:27, text:"Write the truth table for half subtractor.", co:"CO3" },
+        { q:28, text:"Draw 1:4 demultiplexer with truth table.", co:"CO3" },
+        { q:29, text:"Compare encoder and decoder.", co:"CO3" },
+        { q:30, text:"How many select lines for 32:1 multiplexer?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Implement basic gates using NAND gates.", co:"CO1" },
+        { q:32, text:"Implement basic gates using NOR gates.", co:"CO1" },
+        { q:33, text:"Explain NAND, NOR, XOR, XNOR gates in detail.", co:"CO1" },
+        { q:34, text:"Explain AND, OR, NOT with symbol, expression, and truth table.", co:"CO1" },
+        { q:35, text:"Explain universal gates with examples.", co:"CO1" },
+        { q:36, text:"Implement all basic gates using NAND and NOR.", co:"CO1" },
+        { q:37, text:"State and prove De Morgan's theorems.", co:"CO2" },
+        { q:38, text:"Explain Boolean laws in detail.", co:"CO2" },
+        { q:39, text:"Prove AB+A'C = (A+C)(A'+B).", co:"CO2" },
+        { q:40, text:"Simplify Y=Σm(3,5,6,7,8,11,12,13,14,15) using K-map.", co:"CO2" },
+        { q:41, text:"Simplify F=Σm(2,9,10,12,13)+d(1,5,14,15) using K-map.", co:"CO2" },
+        { q:42, text:"Simplify F=ΠM(3,4,10,11,14,15).d(5,7,8,9) using K-map.", co:"CO2" },
+        { q:43, text:"Design a half adder circuit.", co:"CO3" },
+        { q:44, text:"Implement full adder using two 4:1 multiplexers.", co:"CO3" },
+        { q:45, text:"Explain 2-to-4 line decoder.", co:"CO3" },
+        { q:46, text:"Design a 4-bit priority encoder.", co:"CO3" },
+        { q:47, text:"Implement f(A,B,C,D)=Σm(0,1,3,4,6,8,12,14,15) using 8:1 MUX.", co:"CO3" },
+        { q:48, text:"Design a half subtractor circuit.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Computer System Architecture — Year 2023 — Assignment 1
+// ============================================
+const csa2023A1 = {
+    sectionA: [
+        { q:1, text:"Define logic gate. Draw the symbol of basic gates.", co:"CO1" },
+        { q:2, text:"Explain the concept of positive and negative logic with example.", co:"CO1" },
+        { q:3, text:"Which gate is called a universal gate and why?", co:"CO1" },
+        { q:4, text:"What is the difference between NAND and NOR gate?", co:"CO1" },
+        { q:5, text:"Define truth table. Write the truth table for NOT gate.", co:"CO1" },
+        { q:6, text:"Explain the application of OR gate in digital circuits.", co:"CO1" },
+        { q:7, text:"Draw the truth table for 2-input XOR gate.", co:"CO1" },
+        { q:8, text:"What is the output of a NAND gate if both inputs are high?", co:"CO1" },
+        { q:9, text:"Draw the symbol and truth table for 2-input NOR gate.", co:"CO1" },
+        { q:10, text:"What is the function of a NOT gate?", co:"CO1" },
+        { q:11, text:"What is a minterm in Boolean algebra?", co:"CO2" },
+        { q:12, text:"What is a maxterm in Boolean algebra?", co:"CO2" },
+        { q:13, text:"What are the advantages of K-map?", co:"CO2" },
+        { q:14, text:"What is the difference between SOP and POS forms?", co:"CO2" },
+        { q:15, text:"Simplify the Boolean expression using laws: A + A'B.", co:"CO2" },
+        { q:16, text:"What is the purpose of duality theorem?", co:"CO2" },
+        { q:17, text:"State and explain duality theorem.", co:"CO2" },
+        { q:18, text:"What is a Karnaugh map and its use?", co:"CO2" },
+        { q:19, text:"Simplify using Boolean algebra: X + XY.", co:"CO2" },
+        { q:20, text:"Convert the expression Y = Σ(0,1,2) to SOP form.", co:"CO2" },
+        { q:21, text:"What is a combinational logic circuit? Give examples.", co:"CO3" },
+        { q:22, text:"What is the difference between combinational and sequential circuits?", co:"CO3" },
+        { q:23, text:"What is a multiplexer?", co:"CO3" },
+        { q:24, text:"What are the advantages of using a decoder?", co:"CO3" },
+        { q:25, text:"What is the difference between encoder and decoder?", co:"CO3" },
+        { q:26, text:"Draw the circuit diagram of a full adder.", co:"CO3" },
+        { q:27, text:"Write the truth table for half adder.", co:"CO3" },
+        { q:28, text:"Explain a 1:4 demultiplexer.", co:"CO3" },
+        { q:29, text:"Compare half adder and full adder.", co:"CO3" },
+        { q:30, text:"How many select lines does an 8:1 multiplexer need?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Implement NOT, AND, OR gates using NAND gates.", co:"CO1" },
+        { q:32, text:"Implement NOT, AND, OR gates using NOR gates.", co:"CO1" },
+        { q:33, text:"Explain all logic gates with their symbols, truth tables, and Boolean expressions.", co:"CO1" },
+        { q:34, text:"Explain universal gates with their applications.", co:"CO1" },
+        { q:35, text:"Explain the working of XOR and XNOR gates with truth tables.", co:"CO1" },
+        { q:36, text:"Implement all logic gates using only NAND and NOR gates.", co:"CO1" },
+        { q:37, text:"State and prove De Morgan's theorem with examples.", co:"CO2" },
+        { q:38, text:"Explain the laws of Boolean algebra.", co:"CO2" },
+        { q:39, text:"Simplify the expression using Boolean laws: A'BC + AB'C + ABC.", co:"CO2" },
+        { q:40, text:"Simplify F(A,B,C,D)=Σm(1,3,5,7,9,11,13,15) using K-map.", co:"CO2" },
+        { q:41, text:"Simplify F(A,B,C,D)=Σm(0,2,4,6,8,10,12,14)+d(1,5,9,13) using K-map.", co:"CO2" },
+        { q:42, text:"Simplify F(A,B,C,D)=ΠM(0,2,5,7,10,12,15) using K-map.", co:"CO2" },
+        { q:43, text:"Design a half adder circuit with truth table and logic diagram.", co:"CO3" },
+        { q:44, text:"Design a full adder circuit with truth table and logic diagram.", co:"CO3" },
+        { q:45, text:"Explain the working of a 2-to-4 line decoder.", co:"CO3" },
+        { q:46, text:"Design a 4-to-2 line encoder.", co:"CO3" },
+        { q:47, text:"Implement a full subtractor using basic gates.", co:"CO3" },
+        { q:48, text:"Explain the working of a demultiplexer with a block diagram.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Computer System Architecture — Year 2022 — Assignment 1
+// ============================================
+const csa2022A1 = {
+    sectionA: [
+        { q:1, text:"What is digital logic? Give examples of logic gates.", co:"CO1" },
+        { q:2, text:"Explain positive and negative logic with examples.", co:"CO1" },
+        { q:3, text:"What is the difference between NAND and NOR gates?", co:"CO1" },
+        { q:4, text:"Why are NAND and NOR gates called universal gates?", co:"CO1" },
+        { q:5, text:"What is a truth table? Write the truth table for AND gate.", co:"CO1" },
+        { q:6, text:"What is the application of AND gate?", co:"CO1" },
+        { q:7, text:"Draw the symbol and truth table of XOR gate.", co:"CO1" },
+        { q:8, text:"What is the Boolean expression for NAND gate?", co:"CO1" },
+        { q:9, text:"What is the output of a NOR gate when both inputs are low?", co:"CO1" },
+        { q:10, text:"Explain the working of a NOT gate.", co:"CO1" },
+        { q:11, text:"Define minterm with an example.", co:"CO2" },
+        { q:12, text:"Define maxterm with an example.", co:"CO2" },
+        { q:13, text:"What are the disadvantages of K-map method?", co:"CO2" },
+        { q:14, text:"What is the difference between SOP and POS?", co:"CO2" },
+        { q:15, text:"Simplify the Boolean expression: A(A+B).", co:"CO2" },
+        { q:16, text:"State the duality principle in Boolean algebra.", co:"CO2" },
+        { q:17, text:"Explain the duality theorem with an example.", co:"CO2" },
+        { q:18, text:"What is K-map and how is it used for simplification?", co:"CO2" },
+        { q:19, text:"Reduce the expression using laws: AB + A'C.", co:"CO2" },
+        { q:20, text:"Convert the Boolean function F = Σ(2,4,6) to SOP form.", co:"CO2" },
+        { q:21, text:"What is a combinational logic circuit?", co:"CO3" },
+        { q:22, text:"What is the difference between a multiplexer and a demultiplexer?", co:"CO3" },
+        { q:23, text:"Define a decoder with its applications.", co:"CO3" },
+        { q:24, text:"What is an encoder?", co:"CO3" },
+        { q:25, text:"Draw the block diagram of a full adder.", co:"CO3" },
+        { q:26, text:"Write the truth table for a full subtractor.", co:"CO3" },
+        { q:27, text:"Explain a half subtractor circuit.", co:"CO3" },
+        { q:28, text:"Draw a 1:8 demultiplexer.", co:"CO3" },
+        { q:29, text:"What is the difference between a half adder and a full adder?", co:"CO3" },
+        { q:30, text:"How many select lines are needed for a 16:1 multiplexer?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Implement all basic gates using NAND gates only.", co:"CO1" },
+        { q:32, text:"Implement all basic gates using NOR gates only.", co:"CO1" },
+        { q:33, text:"Explain all logic gates with their truth tables and Boolean expressions.", co:"CO1" },
+        { q:34, text:"Explain universal gates and their significance.", co:"CO1" },
+        { q:35, text:"Explain the working of XOR and XNOR gates with truth tables.", co:"CO1" },
+        { q:36, text:"Design all basic gates using NAND and NOR gates.", co:"CO1" },
+        { q:37, text:"State and prove De Morgan's theorem with truth tables.", co:"CO2" },
+        { q:38, text:"Explain the laws of Boolean algebra with proofs.", co:"CO2" },
+        { q:39, text:"Simplify using Boolean laws: (A+B)(A'+C).", co:"CO2" },
+        { q:40, text:"Simplify F(A,B,C,D)=Σm(0,1,4,5,8,9,12,13) using K-map.", co:"CO2" },
+        { q:41, text:"Simplify F(A,B,C,D)=Σm(1,3,7,11,15)+d(2,6,10,14) using K-map.", co:"CO2" },
+        { q:42, text:"Simplify F(A,B,C,D)=ΠM(1,3,5,7,9,11,13) using K-map.", co:"CO2" },
+        { q:43, text:"Design and implement a half adder circuit.", co:"CO3" },
+        { q:44, text:"Design and implement a full adder circuit.", co:"CO3" },
+        { q:45, text:"Explain the working of a 3-to-8 line decoder.", co:"CO3" },
+        { q:46, text:"Design a priority encoder circuit.", co:"CO3" },
+        { q:47, text:"Implement a full subtractor using basic gates.", co:"CO3" },
+        { q:48, text:"Explain the working of a multiplexer with a block diagram.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -2790,6 +3034,19 @@ const subjects = {
             "2023": { "1": cpp2023A1, "2": cpp2023A2 },
             "2024": { "1": cpp2024A1, "2": cpp2024A2 },
             "2025": { "1": cpp2025A1, "2": cpp2025A2 }
+        }
+    },
+    "csa": {
+        semester: 2,
+        icon: "🖥️",
+        name: "Computer System Architecture",
+        code: "BCA-24202",
+        courseOutcomes: csaCO,
+        data: {
+            "2022": { "1": csa2022A1 },
+            "2023": { "1": csa2023A1 },
+            "2024": { "1": csa2024A1 },
+            "2025": { "1": csa2025A1 }
         }
     }
 };
