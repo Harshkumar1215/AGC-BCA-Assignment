@@ -1267,6 +1267,122 @@ const hvpe2025A1 = {
 };
 
 // ============================================
+// Human Values — Year 2024 — Assignment 2
+// ============================================
+const hvpe2024A2 = {
+    sectionA: [
+        { q:1, text:"What is Sanyam?", co:"CO4" },
+        { q:2, text:"Identify some problems on the level of family?", co:"CO4" },
+        { q:3, text:"What is the base of a good relationship?", co:"CO4" },
+        { q:4, text:"Define Sanyam and Swasthya.", co:"CO4" },
+        { q:5, text:"What are the ways to nurture our body?", co:"CO4" },
+        { q:6, text:"What is the correct appraisal for our physical needs?", co:"CO4" },
+        { q:7, text:"How recognizing and fulfilling leads to mutual happiness?", co:"CO4" },
+        { q:8, text:"What is the responsibility of Self towards body?", co:"CO4" },
+        { q:9, text:"What are the foundational values of relationship?", co:"CO4" },
+        { q:10, text:"How can Sanyam ensure Harmony in body?", co:"CO4" },
+        { q:11, text:"Define Justice? What are its four elements?", co:"CO5" },
+        { q:12, text:"What is the meaning of Respect?", co:"CO5" },
+        { q:13, text:"Define Love.", co:"CO5" },
+        { q:14, text:"What do you understand by Trust?", co:"CO5" },
+        { q:15, text:"Name the four orders of Nature.", co:"CO5" },
+        { q:16, text:"What is the difference between Respect and Differentiation?", co:"CO5" },
+        { q:17, text:"What do you understand by the term Reverence?", co:"CO5" },
+        { q:18, text:"Is Justice a continuous or temporary need? Comment.", co:"CO5" },
+        { q:19, text:"How do we disrespect others due to lack of Right Understanding?", co:"CO5" },
+        { q:20, text:"What is Svabhava (natural characteristic) of a unit?", co:"CO5" },
+        { q:21, text:"What do you mean by professional Ethics?", co:"CO6" },
+        { q:22, text:"Define Ethics.", co:"CO6" },
+        { q:23, text:"Differentiate between Units and Space.", co:"CO6" },
+        { q:24, text:"What is Holistic Technology?", co:"CO6" },
+        { q:25, text:"What is Utility value and Artistic Value?", co:"CO6" },
+        { q:26, text:"What do you mean by Co-existence?", co:"CO6" },
+        { q:27, text:"How is definitiveness of ethical human conduct desirable?", co:"CO6" },
+        { q:28, text:"What do you understand by definitiveness of Ethical Human Conduct?", co:"CO6" },
+        { q:29, text:"Comment on the statement:\" Nature is limited and space is unlimited.\"", co:"CO6" },
+        { q:30, text:"When there is no utility there is no scope for art too.'Comment.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"What are the programs for ensuring health in body?", co:"CO4" },
+        { q:32, text:"How do we differentiate human beings on the basis of Body? Explain.", co:"CO4" },
+        { q:33, text:"How is Sanyam necessary for maintaining Swasthya?", co:"CO4" },
+        { q:34, text:"Can our body sustain without Right Understanding? Comment.", co:"CO4" },
+        { q:35, text:"How do we differentiate in relationships on the basis of body, physical facilities or beliefs? What problems do we face due to such differentiations?", co:"CO4" },
+        { q:36, text:"How can we say that Human Body is a Self organized unit?", co:"CO4" },
+        { q:37, text:"Briefly explain the four orders of nature.", co:"CO5" },
+        { q:38, text:"Write the program to attain comprehensive Human Goal.", co:"CO5" },
+        { q:39, text:"What is the meaning of Justice in human relationships? How does it follow from family to world family?", co:"CO5" },
+        { q:40, text:"Differentiate between Intention and Competence with examples.", co:"CO5" },
+        { q:41, text:"List down the Foundation Value and Complete Value in Human Relationship.", co:"CO5" },
+        { q:42, text:"Enlist the similarities and differences between the Human Order or Animal Order.", co:"CO5" },
+        { q:43, text:"Explain the concept of holistic perception of Harmony in Existence.", co:"CO6" },
+        { q:44, text:"Show that Existence is in the form of Co-existence?", co:"CO6" },
+        { q:45, text:"What are the values in interaction of Human Beings with the material things?", co:"CO6" },
+        { q:46, text:"How can we say the Nature is submerged in space?", co:"CO6" },
+        { q:47, text:"\"Existence is Co-existence.\" Give your opinion.", co:"CO6" },
+        { q:48, text:"What do you mean by competence in Professional Ethics?", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Human Values — Year 2025/2023/2022 — Assignment 2
+// ============================================
+const hvpe2025A2 = {
+    sectionA: [
+        { q:1, text:"What is Sanyam?", co:"CO4" },
+        { q:2, text:"What are the problems at the family level?", co:"CO4" },
+        { q:3, text:"What is the foundation of a good relationship?", co:"CO4" },
+        { q:4, text:"Define Sanyam and Swasthya.", co:"CO4" },
+        { q:5, text:"How can we nurture our body?", co:"CO4" },
+        { q:6, text:"What is the correct appraisal of physical needs?", co:"CO4" },
+        { q:7, text:"How does recognizing and fulfilling lead to mutual happiness?", co:"CO4" },
+        { q:8, text:"What is the responsibility of the self towards the body?", co:"CO4" },
+        { q:9, text:"What are the foundational values of a relationship?", co:"CO4" },
+        { q:10, text:"How does Sanyam ensure harmony in the body?", co:"CO4" },
+        { q:11, text:"Define justice. What are its four elements?", co:"CO5" },
+        { q:12, text:"What is respect?", co:"CO5" },
+        { q:13, text:"Define love.", co:"CO5" },
+        { q:14, text:"What is trust?", co:"CO5" },
+        { q:15, text:"What are the four orders of nature?", co:"CO5" },
+        { q:16, text:"What is the difference between respect and differentiation?", co:"CO5" },
+        { q:17, text:"What is reverence?", co:"CO5" },
+        { q:18, text:"Is justice a continuous or temporary need? Comment.", co:"CO5" },
+        { q:19, text:"How do we disrespect others due to lack of right understanding?", co:"CO5" },
+        { q:20, text:"What is Svabhava (natural characteristic) of a unit?", co:"CO5" },
+        { q:21, text:"What is professional ethics?", co:"CO6" },
+        { q:22, text:"Define ethics.", co:"CO6" },
+        { q:23, text:"Differentiate between units and space.", co:"CO6" },
+        { q:24, text:"What is holistic technology?", co:"CO6" },
+        { q:25, text:"What is utility value and artistic value?", co:"CO6" },
+        { q:26, text:"What is co-existence?", co:"CO6" },
+        { q:27, text:"Why is definitiveness of ethical human conduct desirable?", co:"CO6" },
+        { q:28, text:"What is definitiveness of ethical human conduct?", co:"CO6" },
+        { q:29, text:"\"Nature is limited and space is unlimited.\" Comment.", co:"CO6" },
+        { q:30, text:"\"When there is no utility, there is no scope for art.\" Comment.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"What are the programs for ensuring health in the body?", co:"CO4" },
+        { q:32, text:"How do we differentiate human beings based on the body? Explain.", co:"CO4" },
+        { q:33, text:"How is Sanyam necessary for maintaining Swasthya?", co:"CO4" },
+        { q:34, text:"Can our body sustain without right understanding? Comment.", co:"CO4" },
+        { q:35, text:"How do we differentiate in relationships based on body, physical facilities, or beliefs? What problems arise?", co:"CO4" },
+        { q:36, text:"How is the human body a self-organized unit?", co:"CO4" },
+        { q:37, text:"Briefly explain the four orders of nature.", co:"CO5" },
+        { q:38, text:"Write the program to attain comprehensive human goal.", co:"CO5" },
+        { q:39, text:"What is justice in human relationships? How does it extend from family to world family?", co:"CO5" },
+        { q:40, text:"Differentiate between intention and competence with examples.", co:"CO5" },
+        { q:41, text:"What are the foundation value and complete value in human relationships?", co:"CO5" },
+        { q:42, text:"What are the similarities and differences between human order and animal order?", co:"CO5" },
+        { q:43, text:"Explain the concept of holistic perception of harmony in existence.", co:"CO6" },
+        { q:44, text:"Show that existence is in the form of co-existence.", co:"CO6" },
+        { q:45, text:"What are the values in the interaction of human beings with material things?", co:"CO6" },
+        { q:46, text:"How is nature submerged in space?", co:"CO6" },
+        { q:47, text:"\"Existence is co-existence.\" Give your opinion.", co:"CO6" },
+        { q:48, text:"What is competence in professional ethics?", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -1308,10 +1424,10 @@ const subjects = {
         code: "HVPE 101-18",
         courseOutcomes: hvpeCO,
         data: {
-            "2022": { "1": hvpe2025A1 },
-            "2023": { "1": hvpe2025A1 },
-            "2024": { "1": hvpe2024A1 },
-            "2025": { "1": hvpe2025A1 }
+            "2022": { "1": hvpe2025A1, "2": hvpe2025A2 },
+            "2023": { "1": hvpe2025A1, "2": hvpe2025A2 },
+            "2024": { "1": hvpe2024A1, "2": hvpe2024A2 },
+            "2025": { "1": hvpe2025A1, "2": hvpe2025A2 }
         }
     }
 };
