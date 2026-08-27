@@ -3650,6 +3650,249 @@ const stat2022A2 = {
 };
 
 // ============================================
+// COURSE OUTCOMES: Introduction to Artificial Intelligence
+// ============================================
+const aiCO = {
+    "CO1": "Highlight the significance and domains of Artificial Intelligence and knowledge representation.",
+    "CO2": "Outline the advantages and disadvantages of various search techniques.",
+    "CO3": "Identify various Expert Systems and AI applications.",
+    "CO4": "Define the role of AI in different areas like NLP, Pattern Recognition etc.",
+    "CO5": "Select the right AI tool for different AI based applications."
+};
+
+// ============================================
+// Introduction to Artificial Intelligence — Year 2025 — Assignment 1
+// ============================================
+const ai2025A1 = {
+    sectionA: [
+        { q:1, text:"Define Artificial Intelligence in simple terms.", co:"CO1" },
+        { q:2, text:"What is an intelligent agent in AI?", co:"CO1" },
+        { q:3, text:"Name any two types of environments in which agents operate.", co:"CO1" },
+        { q:4, text:"What does \"rationality\" mean in the context of intelligent agents?", co:"CO1" },
+        { q:5, text:"Mention two characteristics of a rational agent.", co:"CO1" },
+        { q:6, text:"Explain the structure of intelligent agent.", co:"CO1" },
+        { q:7, text:"What are the main components of an agent's structure?", co:"CO1" },
+        { q:8, text:"Elucidate knowledge-based agent?", co:"CO1" },
+        { q:9, text:"Give two examples of problems that can be solved using problem-solving agents.", co:"CO1" },
+        { q:10, text:"List the difference between single agent and multi agent.", co:"CO1" },
+        { q:11, text:"Differentiate informed and uninformed search?", co:"CO2" },
+        { q:12, text:"Define Depth First Search (DFS).", co:"CO2" },
+        { q:13, text:"List any two advantages of Breadth First Search (BFS).", co:"CO2" },
+        { q:14, text:"What is the main advantage of Iterative Deepening Search over DFS and BFS?", co:"CO2" },
+        { q:15, text:"Name any two uninformed search algorithms.", co:"CO2" },
+        { q:16, text:"Define Best-First Search and mention one application.", co:"CO2" },
+        { q:17, text:"What is the heuristic function and its formula in A* search?", co:"CO2" },
+        { q:18, text:"Outline any two advantages of A* search over BFS.", co:"CO2" },
+        { q:19, text:"What does AO* search algorithm solve that A* cannot?", co:"CO2" },
+        { q:20, text:"Give one real-life example where AO* search can be applied.", co:"CO2" },
+        { q:21, text:"What is adversarial search in AI?", co:"CO3" },
+        { q:22, text:"Define the minimax search algorithm.", co:"CO3" },
+        { q:23, text:"What is the main purpose of alpha-beta pruning in game search?", co:"CO3" },
+        { q:24, text:"List two advantages of using alpha-beta pruning in minimax search.", co:"CO3" },
+        { q:25, text:"What is a constraint satisfaction problem (CSP)? Give one example.", co:"CO3" },
+        { q:26, text:"What are the components required to define a CSP?", co:"CO3" },
+        { q:27, text:"What is backtracking search in CSP solving?", co:"CO3" },
+        { q:28, text:"Mention one advantage and one disadvantage of backtracking search.", co:"CO3" },
+        { q:29, text:"Explain the two examples of real-world problems that can be modeled as CSPs.", co:"CO3" },
+        { q:30, text:"How does alpha-beta pruning improve the efficiency of minimax search?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define Artificial Intelligence and describe any two real-life applications of AI.", co:"CO1" },
+        { q:32, text:"Explain the concept of an intelligent agent and describe its relationship with the environment.", co:"CO1" },
+        { q:33, text:"Discuss the concept of rationality in AI? Give an example of a rational agent in a real-world scenario.", co:"CO1" },
+        { q:34, text:"Write down the four properties that determine the nature of an environment in which agents operate.", co:"CO1" },
+        { q:35, text:"What is a knowledge-based agent? Explain its main components.", co:"CO1" },
+        { q:36, text:"Elaborate the working of a problem-solving agent with the help of a suitable example.", co:"CO1" },
+        { q:37, text:"Distinguish BFS and DFS with one example of each.", co:"CO2" },
+        { q:38, text:"Describe the working of Depth-First Search (DFS) and list two of its advantages and disadvantages.", co:"CO2" },
+        { q:39, text:"Explain Breadth-First Search (BFS) with an example and discuss its time and space complexity.", co:"CO2" },
+        { q:40, text:"What is Iterative Deepening Search? Explain why it is preferred in certain situations over DFS and BFS.", co:"CO2" },
+        { q:41, text:"(A) Describe the working of A* search algorithm. (B) Explain the Best first search technique.", co:"CO2" },
+        { q:42, text:"What is AO* search? Describe a scenario where it is more suitable than A*.", co:"CO2" },
+        { q:43, text:"Explain the minimax search algorithm with an example in detail.", co:"CO3" },
+        { q:44, text:"What is alpha-beta pruning? Describe how it improves the performance of minimax search.", co:"CO3" },
+        { q:45, text:"Define a constraint satisfaction problem (CSP) and explain its three main components with examples.", co:"CO3" },
+        { q:46, text:"Describe the backtracking search method for solving CSPs and give one real-life application.", co:"CO3" },
+        { q:47, text:"Compare minimax search and alpha-beta pruning in terms of efficiency and outcome.", co:"CO3" },
+        { q:48, text:"Explain how a real-world problem such as a Sudoku puzzle can be modeled and solved as a CSP.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Introduction to Artificial Intelligence — Year 2024 — Assignment 1
+// ============================================
+const ai2024A1 = {
+    sectionA: [
+        { q:1, text:"What is Artificial Intelligence?", co:"CO1" },
+        { q:2, text:"What is an agent in AI?", co:"CO1" },
+        { q:3, text:"What are the types of environments in AI?", co:"CO1" },
+        { q:4, text:"Define rationality in AI.", co:"CO1" },
+        { q:5, text:"What are the characteristics of a rational agent?", co:"CO1" },
+        { q:6, text:"Explain the structure of an AI agent.", co:"CO1" },
+        { q:7, text:"What are the components of an agent?", co:"CO1" },
+        { q:8, text:"What is a knowledge-based agent?", co:"CO1" },
+        { q:9, text:"Give examples of problem-solving agents.", co:"CO1" },
+        { q:10, text:"Differentiate between single-agent and multi-agent systems.", co:"CO1" },
+        { q:11, text:"What is the difference between informed and uninformed search?", co:"CO2" },
+        { q:12, text:"What is Depth First Search?", co:"CO2" },
+        { q:13, text:"What are the advantages of Breadth First Search?", co:"CO2" },
+        { q:14, text:"What is Iterative Deepening Search?", co:"CO2" },
+        { q:15, text:"Name uninformed search algorithms.", co:"CO2" },
+        { q:16, text:"What is Best-First Search?", co:"CO2" },
+        { q:17, text:"What is a heuristic function in A* search?", co:"CO2" },
+        { q:18, text:"What are the advantages of A* search?", co:"CO2" },
+        { q:19, text:"What is AO* search?", co:"CO2" },
+        { q:20, text:"Give an example of AO* search application.", co:"CO2" },
+        { q:21, text:"What is adversarial search?", co:"CO3" },
+        { q:22, text:"What is the minimax algorithm?", co:"CO3" },
+        { q:23, text:"What is alpha-beta pruning?", co:"CO3" },
+        { q:24, text:"What are the advantages of alpha-beta pruning?", co:"CO3" },
+        { q:25, text:"What is a Constraint Satisfaction Problem?", co:"CO3" },
+        { q:26, text:"What are the components of a CSP?", co:"CO3" },
+        { q:27, text:"What is backtracking search?", co:"CO3" },
+        { q:28, text:"What are the pros and cons of backtracking?", co:"CO3" },
+        { q:29, text:"Give examples of real-world CSPs.", co:"CO3" },
+        { q:30, text:"How does alpha-beta pruning improve minimax?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define AI and explain its real-life applications.", co:"CO1" },
+        { q:32, text:"Explain intelligent agents and their environment relationship.", co:"CO1" },
+        { q:33, text:"Discuss rationality in AI with a real-world example.", co:"CO1" },
+        { q:34, text:"What are the properties that define an environment in AI?", co:"CO1" },
+        { q:35, text:"Explain knowledge-based agents and their components.", co:"CO1" },
+        { q:36, text:"Explain problem-solving agents with an example.", co:"CO1" },
+        { q:37, text:"Compare BFS and DFS with examples.", co:"CO2" },
+        { q:38, text:"Explain DFS with its advantages and disadvantages.", co:"CO2" },
+        { q:39, text:"Explain BFS with time and space complexity.", co:"CO2" },
+        { q:40, text:"Explain Iterative Deepening Search and its benefits.", co:"CO2" },
+        { q:41, text:"Explain A* search and Best-First Search.", co:"CO2" },
+        { q:42, text:"Explain AO* search with an example.", co:"CO2" },
+        { q:43, text:"Explain the minimax algorithm with an example.", co:"CO3" },
+        { q:44, text:"Explain alpha-beta pruning and its benefits.", co:"CO3" },
+        { q:45, text:"Define CSP and explain its components with examples.", co:"CO3" },
+        { q:46, text:"Explain backtracking search in CSPs with an application.", co:"CO3" },
+        { q:47, text:"Compare minimax and alpha-beta pruning.", co:"CO3" },
+        { q:48, text:"Explain how Sudoku is solved as a CSP.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Introduction to Artificial Intelligence — Year 2023 — Assignment 1
+// ============================================
+const ai2023A1 = {
+    sectionA: [
+        { q:1, text:"Define AI and its goals.", co:"CO1" },
+        { q:2, text:"What is an intelligent agent?", co:"CO1" },
+        { q:3, text:"What are the types of agent environments?", co:"CO1" },
+        { q:4, text:"What is rationality in AI?", co:"CO1" },
+        { q:5, text:"What are the properties of a rational agent?", co:"CO1" },
+        { q:6, text:"Explain the architecture of an intelligent agent.", co:"CO1" },
+        { q:7, text:"What are the parts of an agent program?", co:"CO1" },
+        { q:8, text:"What is a knowledge-based agent? Explain.", co:"CO1" },
+        { q:9, text:"What are problem-solving agents? Give examples.", co:"CO1" },
+        { q:10, text:"What is the difference between single-agent and multi-agent systems?", co:"CO1" },
+        { q:11, text:"What is the difference between informed and uninformed search?", co:"CO2" },
+        { q:12, text:"Explain Depth-First Search.", co:"CO2" },
+        { q:13, text:"What are the benefits of Breadth-First Search?", co:"CO2" },
+        { q:14, text:"What is Iterative Deepening Depth-First Search?", co:"CO2" },
+        { q:15, text:"Name uninformed search strategies.", co:"CO2" },
+        { q:16, text:"What is Best-First Search? Give an application.", co:"CO2" },
+        { q:17, text:"What is a heuristic function? Give the formula for A*.", co:"CO2" },
+        { q:18, text:"What are the benefits of A* search?", co:"CO2" },
+        { q:19, text:"What is AO* search? What does it solve?", co:"CO2" },
+        { q:20, text:"Give a real-world example of AO* search.", co:"CO2" },
+        { q:21, text:"What is adversarial search?", co:"CO3" },
+        { q:22, text:"Explain the minimax algorithm.", co:"CO3" },
+        { q:23, text:"What is alpha-beta pruning?", co:"CO3" },
+        { q:24, text:"What are the advantages of alpha-beta pruning?", co:"CO3" },
+        { q:25, text:"What is a Constraint Satisfaction Problem? Give an example.", co:"CO3" },
+        { q:26, text:"What are the elements of a CSP?", co:"CO3" },
+        { q:27, text:"What is backtracking in CSP?", co:"CO3" },
+        { q:28, text:"What are the pros and cons of backtracking?", co:"CO3" },
+        { q:29, text:"Give examples of real-world CSPs.", co:"CO3" },
+        { q:30, text:"How does alpha-beta pruning improve minimax?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"What is AI? Explain its applications in daily life.", co:"CO1" },
+        { q:32, text:"Explain intelligent agents and their interaction with the environment.", co:"CO1" },
+        { q:33, text:"Discuss the concept of rationality with an example.", co:"CO1" },
+        { q:34, text:"What are the properties that define an AI environment?", co:"CO1" },
+        { q:35, text:"What is a knowledge-based agent? Explain its architecture.", co:"CO1" },
+        { q:36, text:"Explain how a problem-solving agent works with an example.", co:"CO1" },
+        { q:37, text:"Differentiate between BFS and DFS with examples.", co:"CO2" },
+        { q:38, text:"Explain DFS with its strengths and weaknesses.", co:"CO2" },
+        { q:39, text:"Explain BFS with its complexity analysis.", co:"CO2" },
+        { q:40, text:"Explain Iterative Deepening Search and when it is used.", co:"CO2" },
+        { q:41, text:"Explain A* algorithm and Best-First Search.", co:"CO2" },
+        { q:42, text:"Explain AO* algorithm with a suitable example.", co:"CO2" },
+        { q:43, text:"Explain the minimax algorithm with a detailed example.", co:"CO3" },
+        { q:44, text:"Explain alpha-beta pruning and how it optimizes minimax.", co:"CO3" },
+        { q:45, text:"Define CSP and explain its components with examples.", co:"CO3" },
+        { q:46, text:"Explain backtracking search for CSPs with a real-life application.", co:"CO3" },
+        { q:47, text:"Compare minimax and alpha-beta pruning in terms of efficiency.", co:"CO3" },
+        { q:48, text:"Explain how a Sudoku puzzle can be solved as a CSP.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Introduction to Artificial Intelligence — Year 2022 — Assignment 1
+// ============================================
+const ai2022A1 = {
+    sectionA: [
+        { q:1, text:"What is Artificial Intelligence? Explain its objectives.", co:"CO1" },
+        { q:2, text:"Define an intelligent agent in AI.", co:"CO1" },
+        { q:3, text:"What are the different types of environments in AI?", co:"CO1" },
+        { q:4, text:"What does rationality mean in AI?", co:"CO1" },
+        { q:5, text:"What are the features of a rational agent?", co:"CO1" },
+        { q:6, text:"Explain the structure of an AI agent.", co:"CO1" },
+        { q:7, text:"What are the components of an agent architecture?", co:"CO1" },
+        { q:8, text:"What is a knowledge-based agent? Explain.", co:"CO1" },
+        { q:9, text:"What are problem-solving agents? Give examples.", co:"CO1" },
+        { q:10, text:"What is the difference between a single-agent and a multi-agent system?", co:"CO1" },
+        { q:11, text:"What is the difference between informed and uninformed search strategies?", co:"CO2" },
+        { q:12, text:"Explain Depth-First Search algorithm.", co:"CO2" },
+        { q:13, text:"What are the advantages of Breadth-First Search?", co:"CO2" },
+        { q:14, text:"What is Iterative Deepening Search? Why is it useful?", co:"CO2" },
+        { q:15, text:"List some uninformed search algorithms.", co:"CO2" },
+        { q:16, text:"What is Best-First Search? Give an example of its use.", co:"CO2" },
+        { q:17, text:"What is a heuristic function? Write the formula for A* search.", co:"CO2" },
+        { q:18, text:"What are the benefits of using A* search?", co:"CO2" },
+        { q:19, text:"What is AO* search? How is it different from A*?", co:"CO2" },
+        { q:20, text:"Give a real-life application of AO* search.", co:"CO2" },
+        { q:21, text:"What is adversarial search in AI?", co:"CO3" },
+        { q:22, text:"Explain the minimax algorithm.", co:"CO3" },
+        { q:23, text:"What is alpha-beta pruning? Why is it used?", co:"CO3" },
+        { q:24, text:"What are the benefits of alpha-beta pruning?", co:"CO3" },
+        { q:25, text:"What is a Constraint Satisfaction Problem? Give an example.", co:"CO3" },
+        { q:26, text:"What are the components of a CSP?", co:"CO3" },
+        { q:27, text:"What is backtracking search in CSPs?", co:"CO3" },
+        { q:28, text:"What are the advantages and disadvantages of backtracking?", co:"CO3" },
+        { q:29, text:"Give two real-world examples of CSPs.", co:"CO3" },
+        { q:30, text:"How does alpha-beta pruning improve the minimax algorithm?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define AI. Explain any two real-world applications of AI.", co:"CO1" },
+        { q:32, text:"Explain intelligent agents and their relationship with the environment.", co:"CO1" },
+        { q:33, text:"Discuss the concept of rationality in AI with a real-world example.", co:"CO1" },
+        { q:34, text:"What are the four properties that define an AI environment?", co:"CO1" },
+        { q:35, text:"What is a knowledge-based agent? Explain its components.", co:"CO1" },
+        { q:36, text:"Explain the working of a problem-solving agent with an example.", co:"CO1" },
+        { q:37, text:"Compare BFS and DFS with suitable examples.", co:"CO2" },
+        { q:38, text:"Explain DFS with its advantages and disadvantages.", co:"CO2" },
+        { q:39, text:"Explain BFS with its time and space complexity.", co:"CO2" },
+        { q:40, text:"Explain Iterative Deepening Search and its benefits.", co:"CO2" },
+        { q:41, text:"Explain the A* search algorithm and Best-First Search.", co:"CO2" },
+        { q:42, text:"Explain the AO* search algorithm with a scenario where it is used.", co:"CO2" },
+        { q:43, text:"Explain the minimax search algorithm with a detailed example.", co:"CO3" },
+        { q:44, text:"Explain alpha-beta pruning and how it improves minimax search.", co:"CO3" },
+        { q:45, text:"Define CSP and explain its components with examples.", co:"CO3" },
+        { q:46, text:"Explain backtracking search for CSPs with a real-life application.", co:"CO3" },
+        { q:47, text:"Compare minimax and alpha-beta pruning in terms of efficiency.", co:"CO3" },
+        { q:48, text:"Explain how a Sudoku puzzle is modeled and solved as a CSP.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -3768,6 +4011,19 @@ const subjects = {
             "2023": { "1": stat2023A1, "2": stat2023A2 },
             "2024": { "1": stat2024A1, "2": stat2024A2 },
             "2025": { "1": stat2025A1, "2": stat2025A2 }
+        }
+    },
+    "ai": {
+        semester: 3,
+        icon: "🤖",
+        name: "Introduction to Artificial Intelligence",
+        code: "BCA24307",
+        courseOutcomes: aiCO,
+        data: {
+            "2022": { "1": ai2022A1 },
+            "2023": { "1": ai2023A1 },
+            "2024": { "1": ai2024A1 },
+            "2025": { "1": ai2025A1 }
         }
     }
 };
