@@ -5065,7 +5065,10 @@ const ds2022A2 = {
 const seCO = {
     "CO1": "Highlight the need of software engineering.",
     "CO2": "Outline the phases and activities involved in the conventional software life cycle models.",
-    "CO3": "Design documents for various phases of software life cycle."
+    "CO3": "Design documents for various phases of software life cycle.",
+    "CO4": "Compute the complexity of the software based on multiple metrics.",
+    "CO5": "Identify the tools needed for different types of documents required in software testing.",
+    "CO6": "Identify the tools needed for different types of documents required in software metrics."
 };
 
 // ============================================
@@ -5301,6 +5304,238 @@ const se2022A1 = {
 };
 
 // ============================================
+// Software Engineering — Year 2025 — Assignment 2
+// ============================================
+const se2025A2 = {
+    sectionA: [
+        { q:1, text:"Define software design.", co:"CO4" },
+        { q:2, text:"Differentiate between Preliminary design and detailed design in software engineering.", co:"CO4" },
+        { q:3, text:"Describe the various features of a design documents.", co:"CO4" },
+        { q:4, text:"What are the key characteristics of a good software design?", co:"CO4" },
+        { q:5, text:"Describe the term ERD?", co:"CO4" },
+        { q:6, text:"What are the principles of good design?", co:"CO4" },
+        { q:7, text:"Difference between coupling and cohesion.", co:"CO4" },
+        { q:8, text:"Describe DFD.", co:"CO4" },
+        { q:9, text:"What is the purpose of a class diagram in UML? Provide a brief explanation.", co:"CO4" },
+        { q:10, text:"Discuss the concept of object-oriented design.", co:"CO4" },
+        { q:11, text:"Define software Testing.", co:"CO5" },
+        { q:12, text:"What is the primary goal of unit testing?", co:"CO5" },
+        { q:13, text:"Define software testing and explain why it's essential in software development.", co:"CO5" },
+        { q:14, text:"What is the difference between top-down and bottom-up integration testing approaches?", co:"CO5" },
+        { q:15, text:"Define integration testing and describe its purpose in the software development lifecycle.", co:"CO5" },
+        { q:16, text:"What is the purpose of testing?", co:"CO5" },
+        { q:17, text:"Define software maintenance and briefly discuss its importance in the software lifecycle.", co:"CO5" },
+        { q:18, text:"Define Black box testing.", co:"CO5" },
+        { q:19, text:"Describe White box testing.", co:"CO5" },
+        { q:20, text:"Discuss the concept of reengineering in software engineering and its role in improving software quality.", co:"CO5" },
+        { q:21, text:"Define the term Metric.", co:"CO6" },
+        { q:22, text:"Name two types of software metrics commonly used in software engineering.", co:"CO6" },
+        { q:23, text:"Define the term \"measurement\" in the context of software engineering.", co:"CO6" },
+        { q:24, text:"Define the term indicator in software engineering.", co:"CO6" },
+        { q:25, text:"What is cyclomatic complexity?", co:"CO6" },
+        { q:26, text:"Difference between software metrics and software measurement.", co:"CO6" },
+        { q:27, text:"How will you compute cyclomatic complexity?", co:"CO6" },
+        { q:28, text:"Describe the software requirement model metrics use example.", co:"CO6" },
+        { q:29, text:"What is function point metric and how they are used in software engineering.", co:"CO6" },
+        { q:30, text:"Discuss various types in measurement.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"What is software design? Explain the Preliminary design activities and detailed design activities in software engineering.", co:"CO4" },
+        { q:32, text:"Explain the concept of cohesion and coupling in software design. Discuss why it is important to achieve high cohesion and low coupling in software systems.", co:"CO4" },
+        { q:33, text:"What do you mean by Structured Analysis? Explain various tools in detail.", co:"CO4" },
+        { q:34, text:"What do you mean by Data Flow Diagram (DFD)? Discuss various symbols required to draw a DFD. Explain with suitable example.", co:"CO4" },
+        { q:35, text:"Explain the different Functional design approaches?", co:"CO4" },
+        { q:36, text:"Define Module Coupling and Cohesion and explain different types of cohesion.", co:"CO4" },
+        { q:37, text:"What do you mean by testing? Explain various types of testing.", co:"CO5" },
+        { q:38, text:"Illustrate between unit testing and integration testing with an example.", co:"CO5" },
+        { q:39, text:"What is the system testing? Explain different types of system testing?", co:"CO5" },
+        { q:40, text:"Discuss the concepts of maintenance and reengineering in software engineering and explain their significance in the software development lifecycle.", co:"CO5" },
+        { q:41, text:"Explain the concept of validation testing and discuss its importance in the software development lifecycle.", co:"CO5" },
+        { q:42, text:"Explain about unit testing with an example.", co:"CO5" },
+        { q:43, text:"Explain the concept of cyclomatic complexity in software design. How is it calculated.", co:"CO6" },
+        { q:44, text:"Explain in detail about metrics for requirement model.", co:"CO6" },
+        { q:45, text:"What are the metrics for software maintenance? Explain.", co:"CO6" },
+        { q:46, text:"Explain the metrics for design model with example.", co:"CO6" },
+        { q:47, text:"What is the importance of metrics and measurements in software engineering? Discuss the various types of software metrics.", co:"CO6" },
+        { q:48, text:"What are the metrics for software Testing? Explain.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Software Engineering — Year 2024 — Assignment 2
+// ============================================
+const se2024A2 = {
+    sectionA: [
+        { q:1, text:"What is software design?", co:"CO4" },
+        { q:2, text:"Differentiate between preliminary and detailed design.", co:"CO4" },
+        { q:3, text:"What are the features of a design document?", co:"CO4" },
+        { q:4, text:"What are the characteristics of good software design?", co:"CO4" },
+        { q:5, text:"What is ERD?", co:"CO4" },
+        { q:6, text:"What are the principles of good design?", co:"CO4" },
+        { q:7, text:"Differentiate between coupling and cohesion.", co:"CO4" },
+        { q:8, text:"What is DFD?", co:"CO4" },
+        { q:9, text:"What is the purpose of a class diagram in UML?", co:"CO4" },
+        { q:10, text:"What is object-oriented design?", co:"CO4" },
+        { q:11, text:"What is software testing?", co:"CO5" },
+        { q:12, text:"What is unit testing?", co:"CO5" },
+        { q:13, text:"Why is testing essential in software development?", co:"CO5" },
+        { q:14, text:"Differentiate top-down and bottom-up integration testing.", co:"CO5" },
+        { q:15, text:"What is integration testing?", co:"CO5" },
+        { q:16, text:"What is the purpose of testing?", co:"CO5" },
+        { q:17, text:"What is software maintenance?", co:"CO5" },
+        { q:18, text:"What is black-box testing?", co:"CO5" },
+        { q:19, text:"What is white-box testing?", co:"CO5" },
+        { q:20, text:"What is reengineering in software engineering?", co:"CO5" },
+        { q:21, text:"What is a metric?", co:"CO6" },
+        { q:22, text:"Name two types of software metrics.", co:"CO6" },
+        { q:23, text:"What is measurement in software engineering?", co:"CO6" },
+        { q:24, text:"What is an indicator in software engineering?", co:"CO6" },
+        { q:25, text:"What is cyclomatic complexity?", co:"CO6" },
+        { q:26, text:"Differentiate between software metrics and measurement.", co:"CO6" },
+        { q:27, text:"How is cyclomatic complexity computed?", co:"CO6" },
+        { q:28, text:"Give an example of requirement model metrics.", co:"CO6" },
+        { q:29, text:"What is function point metric?", co:"CO6" },
+        { q:30, text:"What are the types of measurement?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain preliminary and detailed design activities.", co:"CO4" },
+        { q:32, text:"Explain cohesion and coupling with importance.", co:"CO4" },
+        { q:33, text:"Explain structured analysis and its tools.", co:"CO4" },
+        { q:34, text:"Explain DFD with symbols and example.", co:"CO4" },
+        { q:35, text:"Explain functional design approaches.", co:"CO4" },
+        { q:36, text:"Explain types of cohesion.", co:"CO4" },
+        { q:37, text:"Explain types of testing.", co:"CO5" },
+        { q:38, text:"Differentiate unit and integration testing with example.", co:"CO5" },
+        { q:39, text:"Explain system testing and its types.", co:"CO5" },
+        { q:40, text:"Explain maintenance and reengineering.", co:"CO5" },
+        { q:41, text:"Explain validation testing.", co:"CO5" },
+        { q:42, text:"Explain unit testing with an example.", co:"CO5" },
+        { q:43, text:"Explain cyclomatic complexity with calculation.", co:"CO6" },
+        { q:44, text:"Explain metrics for requirement model.", co:"CO6" },
+        { q:45, text:"Explain metrics for software maintenance.", co:"CO6" },
+        { q:46, text:"Explain metrics for design model with example.", co:"CO6" },
+        { q:47, text:"Explain importance and types of software metrics.", co:"CO6" },
+        { q:48, text:"Explain metrics for software testing.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Software Engineering — Year 2023 — Assignment 2
+// ============================================
+const se2023A2 = {
+    sectionA: [
+        { q:1, text:"Define software design.", co:"CO4" },
+        { q:2, text:"Differentiate preliminary and detailed design.", co:"CO4" },
+        { q:3, text:"List features of design documents.", co:"CO4" },
+        { q:4, text:"What are the qualities of good software design?", co:"CO4" },
+        { q:5, text:"What is an ERD?", co:"CO4" },
+        { q:6, text:"What are design principles?", co:"CO4" },
+        { q:7, text:"Compare coupling and cohesion.", co:"CO4" },
+        { q:8, text:"What is DFD?", co:"CO4" },
+        { q:9, text:"What is a class diagram in UML?", co:"CO4" },
+        { q:10, text:"Define object-oriented design.", co:"CO4" },
+        { q:11, text:"Define software testing.", co:"CO5" },
+        { q:12, text:"What is the goal of unit testing?", co:"CO5" },
+        { q:13, text:"Why is software testing important?", co:"CO5" },
+        { q:14, text:"Differentiate top-down and bottom-up integration.", co:"CO5" },
+        { q:15, text:"What is integration testing?", co:"CO5" },
+        { q:16, text:"What is the purpose of testing?", co:"CO5" },
+        { q:17, text:"What is software maintenance?", co:"CO5" },
+        { q:18, text:"What is black-box testing?", co:"CO5" },
+        { q:19, text:"What is white-box testing?", co:"CO5" },
+        { q:20, text:"What is reengineering?", co:"CO5" },
+        { q:21, text:"What is a metric?", co:"CO6" },
+        { q:22, text:"Name software metric types.", co:"CO6" },
+        { q:23, text:"Define measurement.", co:"CO6" },
+        { q:24, text:"Define indicator.", co:"CO6" },
+        { q:25, text:"What is cyclomatic complexity?", co:"CO6" },
+        { q:26, text:"Differentiate metrics and measurement.", co:"CO6" },
+        { q:27, text:"How to compute cyclomatic complexity?", co:"CO6" },
+        { q:28, text:"Example of requirement metrics.", co:"CO6" },
+        { q:29, text:"What is function point metric?", co:"CO6" },
+        { q:30, text:"Types of measurement.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain preliminary and detailed design.", co:"CO4" },
+        { q:32, text:"Explain cohesion and coupling with importance.", co:"CO4" },
+        { q:33, text:"Explain structured analysis and tools.", co:"CO4" },
+        { q:34, text:"Explain DFD with symbols and example.", co:"CO4" },
+        { q:35, text:"Explain functional design approaches.", co:"CO4" },
+        { q:36, text:"Explain types of cohesion.", co:"CO4" },
+        { q:37, text:"Explain testing types.", co:"CO5" },
+        { q:38, text:"Compare unit and integration testing.", co:"CO5" },
+        { q:39, text:"Explain system testing and types.", co:"CO5" },
+        { q:40, text:"Explain maintenance and reengineering.", co:"CO5" },
+        { q:41, text:"Explain validation testing.", co:"CO5" },
+        { q:42, text:"Explain unit testing with example.", co:"CO5" },
+        { q:43, text:"Explain cyclomatic complexity.", co:"CO6" },
+        { q:44, text:"Explain requirement model metrics.", co:"CO6" },
+        { q:45, text:"Explain maintenance metrics.", co:"CO6" },
+        { q:46, text:"Explain design model metrics.", co:"CO6" },
+        { q:47, text:"Explain metrics importance and types.", co:"CO6" },
+        { q:48, text:"Explain testing metrics.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Software Engineering — Year 2022 — Assignment 2
+// ============================================
+const se2022A2 = {
+    sectionA: [
+        { q:1, text:"What is software design?", co:"CO4" },
+        { q:2, text:"Differentiate preliminary and detailed design.", co:"CO4" },
+        { q:3, text:"What are design document features?", co:"CO4" },
+        { q:4, text:"What are good design characteristics?", co:"CO4" },
+        { q:5, text:"What is ERD?", co:"CO4" },
+        { q:6, text:"What are design principles?", co:"CO4" },
+        { q:7, text:"Difference between coupling and cohesion.", co:"CO4" },
+        { q:8, text:"What is DFD?", co:"CO4" },
+        { q:9, text:"What is a UML class diagram?", co:"CO4" },
+        { q:10, text:"What is object-oriented design?", co:"CO4" },
+        { q:11, text:"Define software testing.", co:"CO5" },
+        { q:12, text:"What is unit testing?", co:"CO5" },
+        { q:13, text:"Why is testing important?", co:"CO5" },
+        { q:14, text:"Compare top-down and bottom-up testing.", co:"CO5" },
+        { q:15, text:"What is integration testing?", co:"CO5" },
+        { q:16, text:"What is the purpose of testing?", co:"CO5" },
+        { q:17, text:"What is software maintenance?", co:"CO5" },
+        { q:18, text:"What is black-box testing?", co:"CO5" },
+        { q:19, text:"What is white-box testing?", co:"CO5" },
+        { q:20, text:"What is reengineering?", co:"CO5" },
+        { q:21, text:"Define metric.", co:"CO6" },
+        { q:22, text:"Name types of metrics.", co:"CO6" },
+        { q:23, text:"Define measurement.", co:"CO6" },
+        { q:24, text:"Define indicator.", co:"CO6" },
+        { q:25, text:"Define cyclomatic complexity.", co:"CO6" },
+        { q:26, text:"Differentiate metrics and measurement.", co:"CO6" },
+        { q:27, text:"How to calculate cyclomatic complexity?", co:"CO6" },
+        { q:28, text:"What are requirement metrics?", co:"CO6" },
+        { q:29, text:"What is function point metric?", co:"CO6" },
+        { q:30, text:"Types of measurement.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain preliminary and detailed design activities.", co:"CO4" },
+        { q:32, text:"Explain cohesion and coupling.", co:"CO4" },
+        { q:33, text:"Explain structured analysis tools.", co:"CO4" },
+        { q:34, text:"Explain DFD with symbols and example.", co:"CO4" },
+        { q:35, text:"Explain functional design approaches.", co:"CO4" },
+        { q:36, text:"Explain types of cohesion.", co:"CO4" },
+        { q:37, text:"Explain types of testing.", co:"CO5" },
+        { q:38, text:"Compare unit and integration testing.", co:"CO5" },
+        { q:39, text:"Explain system testing types.", co:"CO5" },
+        { q:40, text:"Explain maintenance and reengineering.", co:"CO5" },
+        { q:41, text:"Explain validation testing.", co:"CO5" },
+        { q:42, text:"Explain unit testing with example.", co:"CO5" },
+        { q:43, text:"Explain cyclomatic complexity.", co:"CO6" },
+        { q:44, text:"Explain requirement metrics.", co:"CO6" },
+        { q:45, text:"Explain maintenance metrics.", co:"CO6" },
+        { q:46, text:"Explain design metrics.", co:"CO6" },
+        { q:47, text:"Explain metrics importance and types.", co:"CO6" },
+        { q:48, text:"Explain testing metrics.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -5467,10 +5702,10 @@ const subjects = {
         code: "BCA24308",
         courseOutcomes: seCO,
         data: {
-            "2022": { "1": se2022A1 },
-            "2023": { "1": se2023A1 },
-            "2024": { "1": se2024A1 },
-            "2025": { "1": se2025A1 }
+            "2022": { "1": se2022A1, "2": se2022A2 },
+            "2023": { "1": se2023A1, "2": se2023A2 },
+            "2024": { "1": se2024A1, "2": se2024A2 },
+            "2025": { "1": se2025A1, "2": se2025A2 }
         }
     }
 };
