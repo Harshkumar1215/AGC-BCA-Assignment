@@ -1383,6 +1383,250 @@ const hvpe2025A2 = {
 };
 
 // ============================================
+// Environmental Studies — COs
+// ============================================
+const evsCO = {
+    "CO1": "Attribute the knowledge of multidisciplinary nature of environmental studies.",
+    "CO2": "Understand the Climatic Conditions and its adaptation and mitigation techniques.",
+    "CO3": "Evaluate the interlink between Biotic and Abiotic Components of ecosystem.",
+    "CO4": "Differentiate the terms of biodiversity and understand its role in society.",
+    "CO5": "Apply the knowledge to understand the problems of pollution and its remedies by citing the case studies.",
+    "CO6": "Relate the importance of environmental sciences for sustainable development."
+};
+
+// ============================================
+// Environmental Studies — Year 2025 — Assignment 1
+// ============================================
+const evs2025A1 = {
+    sectionA: [
+        { q:1, text:"Define Environment and Habitat.", co:"CO1" },
+        { q:2, text:"When and why World's Environment Day is celebrated?", co:"CO1" },
+        { q:3, text:"Enlist differences between Renewable and Non-Renewable resources.", co:"CO1" },
+        { q:4, text:"What is the importance of Environmental studies?", co:"CO1" },
+        { q:5, text:"What are the various segments of Environment?", co:"CO1" },
+        { q:6, text:"How can we differ the atmosphere on temperature basis?", co:"CO1" },
+        { q:7, text:"What do you understand by Multidisciplinary nature of Environment?", co:"CO1" },
+        { q:8, text:"Discuss the scope of Environmental studies?", co:"CO1" },
+        { q:9, text:"Who coined the term Environment and when?", co:"CO1" },
+        { q:10, text:"What is Green Advocacy and Green Market?", co:"CO1" },
+        { q:11, text:"Define Climate. How it varies from weather?", co:"CO2" },
+        { q:12, text:"Define Mitigation and Adaptation.", co:"CO2" },
+        { q:13, text:"What is Life? What is its importance?", co:"CO2" },
+        { q:14, text:"Which human activities are responsible for Climate change?", co:"CO2" },
+        { q:15, text:"Which natural factors are responsible for Climate Change?", co:"CO2" },
+        { q:16, text:"Which 5 countries are leading in Fossil fuel consumption?", co:"CO2" },
+        { q:17, text:"What is the full form of IPCC? When was it established?", co:"CO2" },
+        { q:18, text:"What is the importance of COP reports?", co:"CO2" },
+        { q:19, text:"What is the exposure of Climate Change and what are its hazards?", co:"CO2" },
+        { q:20, text:"What do you understand by Climate Change Action Plan?", co:"CO2" },
+        { q:21, text:"Define the term Ecosystem?", co:"CO3" },
+        { q:22, text:"What is meant by Food Chain? Give examples.", co:"CO3" },
+        { q:23, text:"What is Food Web? Show diagrammatically.", co:"CO3" },
+        { q:24, text:"How does energy flow in the ecosystem?", co:"CO3" },
+        { q:25, text:"Who coined the term Ecosystem and when?", co:"CO3" },
+        { q:26, text:"What are the various components of Ecosystem?", co:"CO3" },
+        { q:27, text:"What is Lentic and Lotic ecosystem?", co:"CO3" },
+        { q:28, text:"Which ecological pyramid is always upright?", co:"CO3" },
+        { q:29, text:"What are producer, consumer and decomposers?", co:"CO3" },
+        { q:30, text:"How Primary, Secondary and Tertiary consumers does depends on each other?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Why environmental studies is known as Multidisciplinary subject?", co:"CO1" },
+        { q:32, text:"What is the scope and importance of environmental studies?", co:"CO1" },
+        { q:33, text:"What is the need of Public awareness in environmental studies?", co:"CO1" },
+        { q:34, text:"What is the role of an individual in protection of Environment?", co:"CO1" },
+        { q:35, text:"What are the threats of environment these days and also provide suitable solutions to the problems?", co:"CO1" },
+        { q:36, text:"Explain the various segments of environment in detail.", co:"CO1" },
+        { q:37, text:"How can we adapt according to Climate change? What are various adaptation techniques?", co:"CO2" },
+        { q:38, text:"What is Climate change? What are its mitigation techniques?", co:"CO2" },
+        { q:39, text:"Elaborate the COP27 report in detail.", co:"CO2" },
+        { q:40, text:"Write in detail about Climate Change Action plan.", co:"CO2" },
+        { q:41, text:"What is the role of an individual in reducing Carbon Footprints?", co:"CO2" },
+        { q:42, text:"Enlist differences between (a) Weather and Climate (b) Adaptation and Mitigation.", co:"CO2" },
+        { q:43, text:"Explain in detail the energy flow in the ecosystem.", co:"CO3" },
+        { q:44, text:"What are DECOMPOSERS? What is their role in maintaining Ecological Balance?", co:"CO3" },
+        { q:45, text:"Give a detailed classification of the components of Ecosystem?", co:"CO3" },
+        { q:46, text:"What is Food Chain? How does it vary from the Food Web?", co:"CO3" },
+        { q:47, text:"Explain all the ecological pyramids in details.", co:"CO3" },
+        { q:48, text:"Explain in detail the desert and aquatic ecosystem.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Environmental Studies — Year 2024 — Assignment 1
+// ============================================
+const evs2024A1 = {
+    sectionA: [
+        { q:1, text:"What is Environment? Explain its types.", co:"CO1" },
+        { q:2, text:"What is the importance of World Environment Day?", co:"CO1" },
+        { q:3, text:"What is the difference between renewable and non-renewable resources?", co:"CO1" },
+        { q:4, text:"Why do we need to study Environmental Studies?", co:"CO1" },
+        { q:5, text:"What are the different segments of the environment?", co:"CO1" },
+        { q:6, text:"How is the atmosphere classified based on temperature?", co:"CO1" },
+        { q:7, text:"Why is Environmental Studies called a multidisciplinary subject?", co:"CO1" },
+        { q:8, text:"What is the scope of Environmental Studies?", co:"CO1" },
+        { q:9, text:"Who first used the term \"Environment\" and when?", co:"CO1" },
+        { q:10, text:"What is Green Advocacy and Green Market?", co:"CO1" },
+        { q:11, text:"What is climate? How is it different from weather?", co:"CO2" },
+        { q:12, text:"What is mitigation and adaptation in climate change?", co:"CO2" },
+        { q:13, text:"Why is life important on Earth?", co:"CO2" },
+        { q:14, text:"How do human activities cause climate change?", co:"CO2" },
+        { q:15, text:"What natural factors contribute to climate change?", co:"CO2" },
+        { q:16, text:"Which five countries consume the most fossil fuels?", co:"CO2" },
+        { q:17, text:"What is IPCC? When was it established?", co:"CO2" },
+        { q:18, text:"Why are COP reports important?", co:"CO2" },
+        { q:19, text:"What are the hazards of climate change?", co:"CO2" },
+        { q:20, text:"What is a Climate Change Action Plan?", co:"CO2" },
+        { q:21, text:"What is an ecosystem?", co:"CO3" },
+        { q:22, text:"What is a food chain? Give examples.", co:"CO3" },
+        { q:23, text:"What is a food web? Explain with a diagram.", co:"CO3" },
+        { q:24, text:"How does energy flow in an ecosystem?", co:"CO3" },
+        { q:25, text:"Who coined the term ecosystem and when?", co:"CO3" },
+        { q:26, text:"What are the components of an ecosystem?", co:"CO3" },
+        { q:27, text:"What is the difference between lentic and lotic ecosystems?", co:"CO3" },
+        { q:28, text:"Which ecological pyramid is always upright?", co:"CO3" },
+        { q:29, text:"What are producers, consumers, and decomposers?", co:"CO3" },
+        { q:30, text:"How do primary, secondary, and tertiary consumers depend on each other?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Why is Environmental Studies considered a multidisciplinary subject?", co:"CO1" },
+        { q:32, text:"Explain the scope and importance of Environmental Studies.", co:"CO1" },
+        { q:33, text:"Why is public awareness needed in Environmental Studies?", co:"CO1" },
+        { q:34, text:"What is the role of an individual in protecting the environment?", co:"CO1" },
+        { q:35, text:"What are the current environmental threats and their solutions?", co:"CO1" },
+        { q:36, text:"Explain the different segments of the environment in detail.", co:"CO1" },
+        { q:37, text:"What are the adaptation techniques for climate change?", co:"CO2" },
+        { q:38, text:"What is climate change? Explain its mitigation techniques.", co:"CO2" },
+        { q:39, text:"Explain the COP27 report in detail.", co:"CO2" },
+        { q:40, text:"Write about the Climate Change Action Plan.", co:"CO2" },
+        { q:41, text:"How can an individual reduce their carbon footprint?", co:"CO2" },
+        { q:42, text:"Differentiate between: (a) Weather and Climate (b) Adaptation and Mitigation.", co:"CO2" },
+        { q:43, text:"Explain the energy flow in an ecosystem.", co:"CO3" },
+        { q:44, text:"What are decomposers? What is their role in maintaining ecological balance?", co:"CO3" },
+        { q:45, text:"Classify the components of an ecosystem.", co:"CO3" },
+        { q:46, text:"What is a food chain? How is it different from a food web?", co:"CO3" },
+        { q:47, text:"Explain the different ecological pyramids.", co:"CO3" },
+        { q:48, text:"Explain the desert and aquatic ecosystems in detail.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Environmental Studies — Year 2023 — Assignment 1
+// ============================================
+const evs2023A1 = {
+    sectionA: [
+        { q:1, text:"What is meant by Environment?", co:"CO1" },
+        { q:2, text:"When is World Environment Day celebrated?", co:"CO1" },
+        { q:3, text:"Differentiate between Renewable and Non-Renewable resources.", co:"CO1" },
+        { q:4, text:"What is the significance of Environmental Studies?", co:"CO1" },
+        { q:5, text:"Name the various segments of the environment.", co:"CO1" },
+        { q:6, text:"How can we classify the atmosphere based on temperature?", co:"CO1" },
+        { q:7, text:"What is the multidisciplinary nature of the environment?", co:"CO1" },
+        { q:8, text:"Explain the scope of Environmental Studies.", co:"CO1" },
+        { q:9, text:"Who coined the term environment?", co:"CO1" },
+        { q:10, text:"What is Green Advocacy?", co:"CO1" },
+        { q:11, text:"Define climate and distinguish it from weather.", co:"CO2" },
+        { q:12, text:"What is mitigation and adaptation?", co:"CO2" },
+        { q:13, text:"What is life and why is it important?", co:"CO2" },
+        { q:14, text:"What human activities cause climate change?", co:"CO2" },
+        { q:15, text:"What natural factors contribute to climate change?", co:"CO2" },
+        { q:16, text:"Which countries are the top consumers of fossil fuels?", co:"CO2" },
+        { q:17, text:"What is IPCC and when was it formed?", co:"CO2" },
+        { q:18, text:"What is the significance of COP reports?", co:"CO2" },
+        { q:19, text:"What are the hazards of climate change?", co:"CO2" },
+        { q:20, text:"What is the Climate Change Action Plan?", co:"CO2" },
+        { q:21, text:"Define ecosystem.", co:"CO3" },
+        { q:22, text:"What is a food chain? Give an example.", co:"CO3" },
+        { q:23, text:"Explain food web with a diagram.", co:"CO3" },
+        { q:24, text:"How does energy flow in an ecosystem?", co:"CO3" },
+        { q:25, text:"Who coined the term ecosystem?", co:"CO3" },
+        { q:26, text:"What are the components of an ecosystem?", co:"CO3" },
+        { q:27, text:"What is the difference between lentic and lotic ecosystems?", co:"CO3" },
+        { q:28, text:"Which ecological pyramid is always upright?", co:"CO3" },
+        { q:29, text:"What are producers, consumers, and decomposers?", co:"CO3" },
+        { q:30, text:"How do primary, secondary, and tertiary consumers depend on each other?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Why is Environmental Studies multidisciplinary?", co:"CO1" },
+        { q:32, text:"Explain the scope and importance of Environmental Studies.", co:"CO1" },
+        { q:33, text:"Why is public awareness important in environmental studies?", co:"CO1" },
+        { q:34, text:"What is the role of individuals in environmental protection?", co:"CO1" },
+        { q:35, text:"What are the major environmental threats and their solutions?", co:"CO1" },
+        { q:36, text:"Explain the different segments of the environment.", co:"CO1" },
+        { q:37, text:"What are the adaptation techniques for climate change?", co:"CO2" },
+        { q:38, text:"Explain climate change and its mitigation techniques.", co:"CO2" },
+        { q:39, text:"Explain the COP27 report.", co:"CO2" },
+        { q:40, text:"Write about the Climate Change Action Plan.", co:"CO2" },
+        { q:41, text:"How can individuals reduce their carbon footprint?", co:"CO2" },
+        { q:42, text:"Differentiate between weather and climate, and adaptation and mitigation.", co:"CO2" },
+        { q:43, text:"Explain energy flow in an ecosystem.", co:"CO3" },
+        { q:44, text:"What are decomposers and their role in ecological balance?", co:"CO3" },
+        { q:45, text:"Classify the components of an ecosystem.", co:"CO3" },
+        { q:46, text:"Differentiate between food chain and food web.", co:"CO3" },
+        { q:47, text:"Explain the ecological pyramids.", co:"CO3" },
+        { q:48, text:"Explain desert and aquatic ecosystems.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Environmental Studies — Year 2022 — Assignment 1
+// ============================================
+const evs2022A1 = {
+    sectionA: [
+        { q:1, text:"What is Environment?", co:"CO1" },
+        { q:2, text:"When is World Environment Day celebrated and why?", co:"CO1" },
+        { q:3, text:"What is the difference between renewable and non-renewable resources?", co:"CO1" },
+        { q:4, text:"Why are Environmental Studies important?", co:"CO1" },
+        { q:5, text:"What are the different segments of the environment?", co:"CO1" },
+        { q:6, text:"How is the atmosphere classified based on temperature?", co:"CO1" },
+        { q:7, text:"Why is the environment called multidisciplinary?", co:"CO1" },
+        { q:8, text:"What is the scope of Environmental Studies?", co:"CO1" },
+        { q:9, text:"Who coined the term \"Environment\"?", co:"CO1" },
+        { q:10, text:"What is Green Advocacy?", co:"CO1" },
+        { q:11, text:"What is climate? How is it different from weather?", co:"CO2" },
+        { q:12, text:"What is mitigation and adaptation?", co:"CO2" },
+        { q:13, text:"Why is life important?", co:"CO2" },
+        { q:14, text:"How do human activities affect climate?", co:"CO2" },
+        { q:15, text:"What natural factors cause climate change?", co:"CO2" },
+        { q:16, text:"Which countries are the largest consumers of fossil fuels?", co:"CO2" },
+        { q:17, text:"What is IPCC? When was it established?", co:"CO2" },
+        { q:18, text:"Why are COP reports important?", co:"CO2" },
+        { q:19, text:"What are the hazards of climate change?", co:"CO2" },
+        { q:20, text:"What is the Climate Change Action Plan?", co:"CO2" },
+        { q:21, text:"What is an ecosystem?", co:"CO3" },
+        { q:22, text:"What is a food chain? Give examples.", co:"CO3" },
+        { q:23, text:"What is a food web? Explain with a diagram.", co:"CO3" },
+        { q:24, text:"How does energy flow in an ecosystem?", co:"CO3" },
+        { q:25, text:"Who coined the term ecosystem?", co:"CO3" },
+        { q:26, text:"What are the components of an ecosystem?", co:"CO3" },
+        { q:27, text:"What is the difference between lentic and lotic ecosystems?", co:"CO3" },
+        { q:28, text:"Which ecological pyramid is always upright?", co:"CO3" },
+        { q:29, text:"What are producers, consumers, and decomposers?", co:"CO3" },
+        { q:30, text:"How do primary, secondary, and tertiary consumers depend on each other?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Why is Environmental Studies considered multidisciplinary?", co:"CO1" },
+        { q:32, text:"Explain the scope and importance of Environmental Studies.", co:"CO1" },
+        { q:33, text:"Why is public awareness needed in Environmental Studies?", co:"CO1" },
+        { q:34, text:"What is the role of an individual in environmental protection?", co:"CO1" },
+        { q:35, text:"What are the current environmental threats and their solutions?", co:"CO1" },
+        { q:36, text:"Explain the different segments of the environment in detail.", co:"CO1" },
+        { q:37, text:"What are the adaptation techniques for climate change?", co:"CO2" },
+        { q:38, text:"What is climate change and how can it be mitigated?", co:"CO2" },
+        { q:39, text:"Explain the COP27 report.", co:"CO2" },
+        { q:40, text:"What is the Climate Change Action Plan?", co:"CO2" },
+        { q:41, text:"How can individuals reduce their carbon footprint?", co:"CO2" },
+        { q:42, text:"Differentiate between weather and climate, and adaptation and mitigation.", co:"CO2" },
+        { q:43, text:"Explain the energy flow in an ecosystem.", co:"CO3" },
+        { q:44, text:"What are decomposers and their role in ecological balance?", co:"CO3" },
+        { q:45, text:"Classify the components of an ecosystem.", co:"CO3" },
+        { q:46, text:"Differentiate between food chain and food web.", co:"CO3" },
+        { q:47, text:"Explain the ecological pyramids in detail.", co:"CO3" },
+        { q:48, text:"Explain the desert and aquatic ecosystems in detail.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -1436,6 +1680,19 @@ const subjects = {
             "2023": { "1": hvpe2025A1, "2": hvpe2025A2 },
             "2024": { "1": hvpe2024A1, "2": hvpe2024A2 },
             "2025": { "1": hvpe2025A1, "2": hvpe2025A2 }
+        }
+    },
+    "evs": {
+        semester: 2,
+        icon: "🌍",
+        name: "Environmental Studies",
+        code: "VAC-24201",
+        courseOutcomes: evsCO,
+        data: {
+            "2022": { "1": evs2022A1 },
+            "2023": { "1": evs2023A1 },
+            "2024": { "1": evs2024A1 },
+            "2025": { "1": evs2025A1 }
         }
     }
 };
