@@ -2466,6 +2466,238 @@ const english22023A2 = english22024A2;
 const english22022A2 = english22024A2;
 
 // ============================================
+// Object Oriented Programming using C++ — Year 2025 — Assignment 2
+// ============================================
+const cpp2025A2 = {
+    sectionA: [
+        { q:1, text:"Explain the concept of inheritance in C++ programming.", co:"CO4" },
+        { q:2, text:"Mention the data members that a derived class cannot directly use.", co:"CO4" },
+        { q:3, text:"Demonstrate how multiple inheritance works in C++.", co:"CO4" },
+        { q:4, text:"List the advantages of using inheritance in C++.", co:"CO4" },
+        { q:5, text:"Highlight the main features of hierarchical inheritance.", co:"CO4" },
+        { q:6, text:"Comparison Between Base Class and Derived Class in Inheritance.", co:"CO4" },
+        { q:7, text:"Explain the difference between public and private inheritance modes.", co:"CO4" },
+        { q:8, text:"Provide the syntax for inheriting a class in C++.", co:"CO4" },
+        { q:9, text:"Differentiate between Multilevel Inheritance and Hierarchical Inheritance.", co:"CO4" },
+        { q:10, text:"How many base classes are involved in multiple inheritance?", co:"CO4" },
+        { q:11, text:"Name two operators that cannot be overloaded in C++.", co:"CO5" },
+        { q:12, text:"List two key advantages of operator overloading in C++.", co:"CO5" },
+        { q:13, text:"Describe how a binary operator is overloaded in C++ with an example.", co:"CO5" },
+        { q:14, text:"Discuss the disadvantages of operator overloading.", co:"CO5" },
+        { q:15, text:"Compare unary and binary operator overloading in C++.", co:"CO5" },
+        { q:16, text:"Outline the key rules for operator overloading.", co:"CO5" },
+        { q:17, text:"Give the syntax for operator overloading in C++.", co:"CO5" },
+        { q:18, text:"Mention the limitations of operator overloading.", co:"CO5" },
+        { q:19, text:"Describe the importance of operator overloading in C++.", co:"CO5" },
+        { q:20, text:"Give an example demonstrating unary operator overloading in C++.", co:"CO5" },
+        { q:21, text:"Name the various file opening modes in C++.", co:"CO6" },
+        { q:22, text:"Provide a C++ example of function overriding.", co:"CO6" },
+        { q:23, text:"Explain the significance of a pure virtual function in C++.", co:"CO6" },
+        { q:24, text:"Describe the concept of function overloading in C++.", co:"CO6" },
+        { q:25, text:"Mention the types of streams used in file handling in C++.", co:"CO6" },
+        { q:26, text:"State the purpose of virtual functions in C++.", co:"CO6" },
+        { q:27, text:"Describe the concept of input and output streams.", co:"CO6" },
+        { q:28, text:"Explain the concept of an abstract class.", co:"CO6" },
+        { q:29, text:"Compare Early Binding and Late Binding.", co:"CO6" },
+        { q:30, text:"Mention the different methods for opening a file in C++.", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Describe the functionality of multilevel inheritance in C++ along with its syntax and a suitable example.", co:"CO4" },
+        { q:32, text:"Describe the impact of access specifiers (private, protected, and public) on inheritance in C++. Explain their significance with suitable examples.", co:"CO4" },
+        { q:33, text:"Explain in detail the structure of multiple inheritance and hierarchical inheritance in C++ with proper syntax.", co:"CO4" },
+        { q:34, text:"Illustrate any two types of inheritance with a detailed explanation and example program.", co:"CO4" },
+        { q:35, text:"Explain hybrid inheritance and how it is implemented in C++. Provide an example to illustrate its execution.", co:"CO4" },
+        { q:36, text:"Describe the process of single inheritance and how it enables a class to inherit properties from another class.", co:"CO4" },
+        { q:37, text:"Demonstrate the overloading of arithmetic operators in C++ with a step-by-step explanation and example program.", co:"CO5" },
+        { q:38, text:"Explain the concept of operator overloading in C++. How can it be achieved? Provide an example program.", co:"CO5" },
+        { q:39, text:"Demonstrate the addition of two complex numbers in C++ using binary operator overloading.", co:"CO5" },
+        { q:40, text:"Implement a C++ program to overload logical operators and explain its significance and functionality.", co:"CO5" },
+        { q:41, text:"Explain the rules for operator overloading in C++. Support your explanation with a suitable example.", co:"CO5" },
+        { q:42, text:"Write a C++ program to overload the unary + and unary - operators.", co:"CO5" },
+        { q:43, text:"Explain file handling in C++ and discuss various file handling modes with a suitable program.", co:"CO6" },
+        { q:44, text:"Implement a C++ program to showcase the functionality of a pure virtual function.", co:"CO6" },
+        { q:45, text:"Discuss the implementation of polymorphism through function overloading in C++ and support it with a program.", co:"CO6" },
+        { q:46, text:"Describe the use of streams in file handling. Identify the stream required to open a file and provide a C++ program to demonstrate file opening.", co:"CO6" },
+        { q:47, text:"Explain virtual functions and how they differ from pure virtual functions. Provide a C++ program demonstrating the use of a virtual function.", co:"CO6" },
+        { q:48, text:"Explain the process of reading and writing files in C++ with an example.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Object Oriented Programming using C++ — Year 2024 — Assignment 2
+// ============================================
+const cpp2024A2 = {
+    sectionA: [
+        { q:1, text:"What is inheritance in C++? Explain.", co:"CO4" },
+        { q:2, text:"Which data members cannot be accessed by a derived class?", co:"CO4" },
+        { q:3, text:"What is multiple inheritance? Give an example.", co:"CO4" },
+        { q:4, text:"What are the advantages of inheritance?", co:"CO4" },
+        { q:5, text:"What is hierarchical inheritance? Explain its features.", co:"CO4" },
+        { q:6, text:"Differentiate between base class and derived class.", co:"CO4" },
+        { q:7, text:"What is the difference between public and private inheritance?", co:"CO4" },
+        { q:8, text:"Write the syntax for inheriting a class in C++.", co:"CO4" },
+        { q:9, text:"Differentiate between multilevel and hierarchical inheritance.", co:"CO4" },
+        { q:10, text:"How many base classes are used in multiple inheritance?", co:"CO4" },
+        { q:11, text:"Which operators cannot be overloaded in C++?", co:"CO5" },
+        { q:12, text:"What are the advantages of operator overloading?", co:"CO5" },
+        { q:13, text:"How is a binary operator overloaded in C++? Explain with example.", co:"CO5" },
+        { q:14, text:"What are the disadvantages of operator overloading?", co:"CO5" },
+        { q:15, text:"Differentiate between unary and binary operator overloading.", co:"CO5" },
+        { q:16, text:"What are the rules for operator overloading?", co:"CO5" },
+        { q:17, text:"Write the syntax for operator overloading in C++.", co:"CO5" },
+        { q:18, text:"What are the limitations of operator overloading?", co:"CO5" },
+        { q:19, text:"Why is operator overloading important in C++?", co:"CO5" },
+        { q:20, text:"Write an example of unary operator overloading.", co:"CO5" },
+        { q:21, text:"What are the file opening modes in C++?", co:"CO6" },
+        { q:22, text:"Explain function overriding with an example in C++.", co:"CO6" },
+        { q:23, text:"What is a pure virtual function? Why is it used?", co:"CO6" },
+        { q:24, text:"What is function overloading? Explain with example.", co:"CO6" },
+        { q:25, text:"What are the types of streams in file handling?", co:"CO6" },
+        { q:26, text:"What is the purpose of a virtual function in C++?", co:"CO6" },
+        { q:27, text:"What are input and output streams?", co:"CO6" },
+        { q:28, text:"What is an abstract class in C++?", co:"CO6" },
+        { q:29, text:"Differentiate between Early Binding and Late Binding.", co:"CO6" },
+        { q:30, text:"What are the different ways to open a file in C++?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain multilevel inheritance with syntax and example.", co:"CO4" },
+        { q:32, text:"How do access specifiers (private, protected, public) affect inheritance? Explain with examples.", co:"CO4" },
+        { q:33, text:"Explain multiple inheritance and hierarchical inheritance with syntax.", co:"CO4" },
+        { q:34, text:"Explain any two types of inheritance with examples.", co:"CO4" },
+        { q:35, text:"What is hybrid inheritance? Explain with an example.", co:"CO4" },
+        { q:36, text:"Explain single inheritance with an example program.", co:"CO4" },
+        { q:37, text:"Write a program to overload arithmetic operators in C++.", co:"CO5" },
+        { q:38, text:"What is operator overloading? How is it achieved? Write a program.", co:"CO5" },
+        { q:39, text:"Write a program to add two complex numbers using binary operator overloading.", co:"CO5" },
+        { q:40, text:"Write a program to overload logical operators in C++.", co:"CO5" },
+        { q:41, text:"Explain the rules for operator overloading with examples.", co:"CO5" },
+        { q:42, text:"Write a program to overload unary + and unary - operators.", co:"CO5" },
+        { q:43, text:"Explain file handling in C++ with different modes and a program.", co:"CO6" },
+        { q:44, text:"Write a program to demonstrate a pure virtual function.", co:"CO6" },
+        { q:45, text:"Explain polymorphism through function overloading with a program.", co:"CO6" },
+        { q:46, text:"Explain streams in file handling. Write a program to open a file.", co:"CO6" },
+        { q:47, text:"Explain virtual functions and pure virtual functions with a program.", co:"CO6" },
+        { q:48, text:"Write a program to read from and write to a file in C++.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Object Oriented Programming using C++ — Year 2023 — Assignment 2
+// ============================================
+const cpp2023A2 = {
+    sectionA: [
+        { q:1, text:"What is inheritance? Explain its types.", co:"CO4" },
+        { q:2, text:"Which members of a base class are not inherited by derived class?", co:"CO4" },
+        { q:3, text:"What is multiple inheritance? Give syntax.", co:"CO4" },
+        { q:4, text:"What are the benefits of inheritance?", co:"CO4" },
+        { q:5, text:"Explain hierarchical inheritance with example.", co:"CO4" },
+        { q:6, text:"Compare base class and derived class.", co:"CO4" },
+        { q:7, text:"Differentiate between public and private inheritance.", co:"CO4" },
+        { q:8, text:"Write the syntax of inheritance in C++.", co:"CO4" },
+        { q:9, text:"What is the difference between multilevel and hierarchical inheritance?", co:"CO4" },
+        { q:10, text:"How many base classes can be used in multiple inheritance?", co:"CO4" },
+        { q:11, text:"Which operators cannot be overloaded?", co:"CO5" },
+        { q:12, text:"What are the benefits of operator overloading?", co:"CO5" },
+        { q:13, text:"Explain binary operator overloading with example.", co:"CO5" },
+        { q:14, text:"What are the drawbacks of operator overloading?", co:"CO5" },
+        { q:15, text:"Differentiate between unary and binary operator overloading.", co:"CO5" },
+        { q:16, text:"What are the rules of operator overloading?", co:"CO5" },
+        { q:17, text:"Write the general syntax for operator overloading.", co:"CO5" },
+        { q:18, text:"What are the limitations of operator overloading?", co:"CO5" },
+        { q:19, text:"Why is operator overloading important?", co:"CO5" },
+        { q:20, text:"Give an example of unary operator overloading.", co:"CO5" },
+        { q:21, text:"Name the file opening modes in C++.", co:"CO6" },
+        { q:22, text:"What is function overriding? Give example.", co:"CO6" },
+        { q:23, text:"What is a pure virtual function?", co:"CO6" },
+        { q:24, text:"What is function overloading? Explain.", co:"CO6" },
+        { q:25, text:"Name the streams used in file handling.", co:"CO6" },
+        { q:26, text:"What is a virtual function? Why is it used?", co:"CO6" },
+        { q:27, text:"Explain input and output streams in C++.", co:"CO6" },
+        { q:28, text:"What is an abstract class? Explain.", co:"CO6" },
+        { q:29, text:"Differentiate between Early and Late Binding.", co:"CO6" },
+        { q:30, text:"How can you open a file in C++?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain multilevel inheritance with syntax and example program.", co:"CO4" },
+        { q:32, text:"How do access specifiers affect inheritance? Explain with examples.", co:"CO4" },
+        { q:33, text:"Explain multiple and hierarchical inheritance with syntax.", co:"CO4" },
+        { q:34, text:"Explain two types of inheritance with example programs.", co:"CO4" },
+        { q:35, text:"What is hybrid inheritance? Explain with example.", co:"CO4" },
+        { q:36, text:"Explain single inheritance with example program.", co:"CO4" },
+        { q:37, text:"Write a program to overload arithmetic operators.", co:"CO5" },
+        { q:38, text:"Explain operator overloading with an example program.", co:"CO5" },
+        { q:39, text:"Write a program to add two complex numbers using operator overloading.", co:"CO5" },
+        { q:40, text:"Write a program to overload logical operators.", co:"CO5" },
+        { q:41, text:"Explain the rules of operator overloading with examples.", co:"CO5" },
+        { q:42, text:"Write a program to overload unary + and - operators.", co:"CO5" },
+        { q:43, text:"Explain file handling with all modes and an example program.", co:"CO6" },
+        { q:44, text:"Write a program to demonstrate a pure virtual function.", co:"CO6" },
+        { q:45, text:"Explain function overloading with a program.", co:"CO6" },
+        { q:46, text:"Explain file streams and write a program to open a file.", co:"CO6" },
+        { q:47, text:"Explain virtual functions and pure virtual functions with a program.", co:"CO6" },
+        { q:48, text:"Write a program to read and write data from a file.", co:"CO6" }
+    ]
+};
+
+// ============================================
+// Object Oriented Programming using C++ — Year 2022 — Assignment 2
+// ============================================
+const cpp2022A2 = {
+    sectionA: [
+        { q:1, text:"Define inheritance in C++.", co:"CO4" },
+        { q:2, text:"What data members are not accessible to derived class?", co:"CO4" },
+        { q:3, text:"Explain multiple inheritance with syntax.", co:"CO4" },
+        { q:4, text:"List the advantages of inheritance.", co:"CO4" },
+        { q:5, text:"What is hierarchical inheritance?", co:"CO4" },
+        { q:6, text:"Differentiate between base and derived class.", co:"CO4" },
+        { q:7, text:"What is the difference between public and private inheritance?", co:"CO4" },
+        { q:8, text:"Write the syntax for inheritance in C++.", co:"CO4" },
+        { q:9, text:"Compare multilevel inheritance and hierarchical inheritance.", co:"CO4" },
+        { q:10, text:"How many base classes are used in multiple inheritance?", co:"CO4" },
+        { q:11, text:"Which operators cannot be overloaded?", co:"CO5" },
+        { q:12, text:"What are the advantages of operator overloading?", co:"CO5" },
+        { q:13, text:"Explain binary operator overloading with example.", co:"CO5" },
+        { q:14, text:"What are the disadvantages of operator overloading?", co:"CO5" },
+        { q:15, text:"Compare unary and binary operator overloading.", co:"CO5" },
+        { q:16, text:"What are the rules for operator overloading?", co:"CO5" },
+        { q:17, text:"Write the syntax for operator overloading.", co:"CO5" },
+        { q:18, text:"What are the limitations of operator overloading?", co:"CO5" },
+        { q:19, text:"Why is operator overloading important?", co:"CO5" },
+        { q:20, text:"Give an example of unary operator overloading.", co:"CO5" },
+        { q:21, text:"What are the file opening modes?", co:"CO6" },
+        { q:22, text:"What is function overriding? Give example.", co:"CO6" },
+        { q:23, text:"What is a pure virtual function?", co:"CO6" },
+        { q:24, text:"Define function overloading with example.", co:"CO6" },
+        { q:25, text:"What are the types of streams?", co:"CO6" },
+        { q:26, text:"What is a virtual function?", co:"CO6" },
+        { q:27, text:"Explain input and output streams.", co:"CO6" },
+        { q:28, text:"What is an abstract class?", co:"CO6" },
+        { q:29, text:"Differentiate between Early and Late Binding.", co:"CO6" },
+        { q:30, text:"How to open a file in C++?", co:"CO6" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain multilevel inheritance with syntax and example.", co:"CO4" },
+        { q:32, text:"Explain how access specifiers affect inheritance with examples.", co:"CO4" },
+        { q:33, text:"Explain multiple and hierarchical inheritance with syntax.", co:"CO4" },
+        { q:34, text:"Explain any two types of inheritance with example programs.", co:"CO4" },
+        { q:35, text:"Explain hybrid inheritance with example.", co:"CO4" },
+        { q:36, text:"Explain single inheritance with example.", co:"CO4" },
+        { q:37, text:"Write a program to overload arithmetic operators.", co:"CO5" },
+        { q:38, text:"Explain operator overloading with example program.", co:"CO5" },
+        { q:39, text:"Write a program to add two complex numbers using binary operator overloading.", co:"CO5" },
+        { q:40, text:"Write a program to overload logical operators.", co:"CO5" },
+        { q:41, text:"Explain the rules of operator overloading with examples.", co:"CO5" },
+        { q:42, text:"Write a program to overload unary + and - operators.", co:"CO5" },
+        { q:43, text:"Explain file handling with all modes and a program.", co:"CO6" },
+        { q:44, text:"Write a program to demonstrate pure virtual function.", co:"CO6" },
+        { q:45, text:"Explain function overloading with a program.", co:"CO6" },
+        { q:46, text:"Explain file streams and write a program to open a file.", co:"CO6" },
+        { q:47, text:"Explain virtual functions and pure virtual functions with a program.", co:"CO6" },
+        { q:48, text:"Write a program to read and write data from a file.", co:"CO6" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -2554,10 +2786,10 @@ const subjects = {
         code: "BCA24203",
         courseOutcomes: cppCO,
         data: {
-            "2022": { "1": cpp2022A1 },
-            "2023": { "1": cpp2023A1 },
-            "2024": { "1": cpp2024A1 },
-            "2025": { "1": cpp2025A1 }
+            "2022": { "1": cpp2022A1, "2": cpp2022A2 },
+            "2023": { "1": cpp2023A1, "2": cpp2023A2 },
+            "2024": { "1": cpp2024A1, "2": cpp2024A2 },
+            "2025": { "1": cpp2025A1, "2": cpp2025A2 }
         }
     }
 };
