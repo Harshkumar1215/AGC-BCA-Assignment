@@ -2103,6 +2103,250 @@ const english22022A1 = {
 };
 
 // ============================================
+// Object Oriented Programming using C++ — COs
+// ============================================
+const cppCO = {
+    "CO1": "Outline the role of programming for solving real world problems.",
+    "CO2": "Able to Understand and Apply the concepts of Classes & Objects.",
+    "CO3": "Understand dynamic memory management techniques using constructors and destructors.",
+    "CO4": "To learn how containment and inheritance promote code reuse in C++.",
+    "CO5": "To learn how to overload functions and operators in C++.",
+    "CO6": "Understand polymorphism, virtual functions and I/O statements."
+};
+
+// ============================================
+// Object Oriented Programming using C++ — Year 2025 — Assignment 1
+// ============================================
+const cpp2025A1 = {
+    sectionA: [
+        { q:1, text:"Write a program in C++ of displaying hello world.", co:"CO1" },
+        { q:2, text:"What is the role of main ()?", co:"CO1" },
+        { q:3, text:"What is the purpose of iostream.h header file?", co:"CO1" },
+        { q:4, text:"Define Encapsulation.", co:"CO1" },
+        { q:5, text:"How to Compiling & Executing C++ program?", co:"CO1" },
+        { q:6, text:"What is the need of Object Oriented Programming?", co:"CO1" },
+        { q:7, text:"Who invented C++?", co:"CO1" },
+        { q:8, text:"What is the extension of C++ file?", co:"CO1" },
+        { q:9, text:"Can you compile a program without the main function?", co:"CO1" },
+        { q:10, text:"What are the benefits of C++?", co:"CO1" },
+        { q:11, text:"Write down the Syntax of Friend Function in C++.", co:"CO2" },
+        { q:12, text:"What is the purpose of Access Specifiers.", co:"CO2" },
+        { q:13, text:"How Inline function works in C++?", co:"CO2" },
+        { q:14, text:"Write down the names of class member functions in C++.", co:"CO2" },
+        { q:15, text:"Write down the syntax and example to create a class.", co:"CO2" },
+        { q:16, text:"Define the term objects in C++.", co:"CO2" },
+        { q:17, text:"What is the purpose of array of objects?", co:"CO2" },
+        { q:18, text:"What is the use of scope resolution operator? Give example.", co:"CO2" },
+        { q:19, text:"Difference between local and global variables?", co:"CO2" },
+        { q:20, text:"Which types of data members are accessible outside a class?", co:"CO2" },
+        { q:21, text:"What is the purpose of a copy constructor?", co:"CO3" },
+        { q:22, text:"What is the purpose of using a destructor in C++?", co:"CO3" },
+        { q:23, text:"How constructor is different from destructor?", co:"CO3" },
+        { q:24, text:"Describe the use of constructor.", co:"CO3" },
+        { q:25, text:"Is the default constructor created even if we create any other constructor?", co:"CO3" },
+        { q:26, text:"How many parameters does a default constructor require?", co:"CO3" },
+        { q:27, text:"How many types of constructors are there in C++?", co:"CO3" },
+        { q:28, text:"What is dynamic initialization, and how is it achieved in C++?", co:"CO3" },
+        { q:29, text:"How many times a constructor is called in the life-time of an object?", co:"CO3" },
+        { q:30, text:"Does C++ compiler create default constructor when we write our own?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Elaborate the term 'Object Oriented Programming'. Differentiate between Procedure Oriented Language(C) and Object Oriented Language (C++).", co:"CO1" },
+        { q:32, text:"How data hiding and encapsulation is implemented in C++? Explain with program.", co:"CO1" },
+        { q:33, text:"What is object oriented programming. Briefly define OOPs concept in C++.", co:"CO1" },
+        { q:34, text:"How is C++ different from C language? What are the object oriented features of C++?", co:"CO1" },
+        { q:35, text:"Why it is necessary to include header files at the beginning of the program? What role do they play?", co:"CO1" },
+        { q:36, text:"Describe the structure of a C++ program, highlighting the importance of proper organization in facilitating code readability and maintenance.", co:"CO1" },
+        { q:37, text:"Define the term class. Write a program to store and display employee information using classes and objects.", co:"CO2" },
+        { q:38, text:"Differentiate between Classes and Objects. How you can create and access a class through objects? Support your answer with program example.", co:"CO2" },
+        { q:39, text:"What is static member function and const member function? Write a C++ program demonstrating the use of it.", co:"CO2" },
+        { q:40, text:"Differentiate between Private and Public access specifiers with the help of an example.", co:"CO2" },
+        { q:41, text:"Explain the role of class, object, data member, member function and access specifiers in C++ with an example.", co:"CO2" },
+        { q:42, text:"Describe the concept of an array of objects and how it extends the capabilities of using multiple instances of a class with program.", co:"CO2" },
+        { q:43, text:"What are constructors in C++? Enlist its various types which are available in C++. Write a program in C++ of parameterized constructor.", co:"CO3" },
+        { q:44, text:"Differentiate between constructor and destructor? Write a program to demonstrate default constructor.", co:"CO3" },
+        { q:45, text:"What is constructor? Discuss in detail the concept of copy constructor with the help of program?", co:"CO3" },
+        { q:46, text:"What do you mean by constructor overloading? Give suitable program to explain the concept.", co:"CO3" },
+        { q:47, text:"Define the term constructor? List some of the special properties of the constructor functions. Describe the importance of destructor.", co:"CO3" },
+        { q:48, text:"Explore the concept of having multiple constructors in a class, including both default and parameterized constructors.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Object Oriented Programming using C++ — Year 2024 — Assignment 1
+// ============================================
+const cpp2024A1 = {
+    sectionA: [
+        { q:1, text:"What is C++? Explain its features.", co:"CO1" },
+        { q:2, text:"What is the use of main() function in C++?", co:"CO1" },
+        { q:3, text:"What is iostream.h header file used for?", co:"CO1" },
+        { q:4, text:"What is encapsulation? Explain with example.", co:"CO1" },
+        { q:5, text:"Write the steps to compile and execute a C++ program.", co:"CO1" },
+        { q:6, text:"Why do we need Object Oriented Programming?", co:"CO1" },
+        { q:7, text:"Who developed C++ language?", co:"CO1" },
+        { q:8, text:"What is the file extension of a C++ program?", co:"CO1" },
+        { q:9, text:"Can we compile a program without main() function?", co:"CO1" },
+        { q:10, text:"What are the advantages of C++ over C?", co:"CO1" },
+        { q:11, text:"What is the syntax of a friend function in C++?", co:"CO2" },
+        { q:12, text:"Why are access specifiers used in C++?", co:"CO2" },
+        { q:13, text:"How does an inline function work in C++?", co:"CO2" },
+        { q:14, text:"What are the types of member functions in a class?", co:"CO2" },
+        { q:15, text:"Write the syntax to create a class with an example.", co:"CO2" },
+        { q:16, text:"What is an object in C++?", co:"CO2" },
+        { q:17, text:"Why do we use an array of objects?", co:"CO2" },
+        { q:18, text:"What is the scope resolution operator? Give an example.", co:"CO2" },
+        { q:19, text:"Differentiate between local and global variables.", co:"CO2" },
+        { q:20, text:"Which data members of a class are accessible outside the class?", co:"CO2" },
+        { q:21, text:"What is a copy constructor? What is its purpose?", co:"CO3" },
+        { q:22, text:"What is the purpose of a destructor in C++?", co:"CO3" },
+        { q:23, text:"How is a constructor different from a destructor?", co:"CO3" },
+        { q:24, text:"What is the use of a constructor?", co:"CO3" },
+        { q:25, text:"Is a default constructor created if we define other constructors?", co:"CO3" },
+        { q:26, text:"How many parameters does a default constructor take?", co:"CO3" },
+        { q:27, text:"How many types of constructors are there in C++?", co:"CO3" },
+        { q:28, text:"What is dynamic initialization in C++?", co:"CO3" },
+        { q:29, text:"How many times is a constructor called for an object?", co:"CO3" },
+        { q:30, text:"Does the C++ compiler create a default constructor if we write our own constructor?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Object Oriented Programming. Differentiate between Procedure Oriented and Object Oriented Programming.", co:"CO1" },
+        { q:32, text:"Explain how data hiding and encapsulation are implemented in C++ with a program.", co:"CO1" },
+        { q:33, text:"What is OOP? Briefly explain the OOP concepts in C++.", co:"CO1" },
+        { q:34, text:"How is C++ different from C? What are the OOP features of C++?", co:"CO1" },
+        { q:35, text:"Why are header files included in a C++ program? What role do they play?", co:"CO1" },
+        { q:36, text:"Explain the structure of a C++ program.", co:"CO1" },
+        { q:37, text:"Define a class. Write a program to store and display employee information using classes and objects.", co:"CO2" },
+        { q:38, text:"Differentiate between a class and an object. How do you create and access a class through objects? Explain with a program.", co:"CO2" },
+        { q:39, text:"What are static member functions and const member functions? Write a program to demonstrate them.", co:"CO2" },
+        { q:40, text:"Differentiate between private and public access specifiers with an example.", co:"CO2" },
+        { q:41, text:"Explain the role of class, object, data member, member function, and access specifiers with an example.", co:"CO2" },
+        { q:42, text:"Explain the concept of an array of objects with a program.", co:"CO2" },
+        { q:43, text:"What are constructors in C++? List their types. Write a program for a parameterized constructor.", co:"CO3" },
+        { q:44, text:"Differentiate between constructor and destructor. Write a program for a default constructor.", co:"CO3" },
+        { q:45, text:"What is a constructor? Explain the copy constructor in detail with a program.", co:"CO3" },
+        { q:46, text:"What is constructor overloading? Write a program to demonstrate it.", co:"CO3" },
+        { q:47, text:"Define constructor. List its special properties and explain the importance of destructors.", co:"CO3" },
+        { q:48, text:"Explain the concept of multiple constructors in a class with default and parameterized constructors.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Object Oriented Programming using C++ — Year 2023 — Assignment 1
+// ============================================
+const cpp2023A1 = {
+    sectionA: [
+        { q:1, text:"What is C++? Explain its features.", co:"CO1" },
+        { q:2, text:"What is the use of main() function in C++?", co:"CO1" },
+        { q:3, text:"What is iostream.h header file used for?", co:"CO1" },
+        { q:4, text:"What is encapsulation? Explain with example.", co:"CO1" },
+        { q:5, text:"Write the steps to compile and execute a C++ program.", co:"CO1" },
+        { q:6, text:"Why do we need Object Oriented Programming?", co:"CO1" },
+        { q:7, text:"Who developed C++ language?", co:"CO1" },
+        { q:8, text:"What is the file extension of a C++ program?", co:"CO1" },
+        { q:9, text:"Can we compile a program without main() function?", co:"CO1" },
+        { q:10, text:"What are the advantages of C++ over C?", co:"CO1" },
+        { q:11, text:"What is the syntax of a friend function in C++?", co:"CO2" },
+        { q:12, text:"Why are access specifiers used in C++?", co:"CO2" },
+        { q:13, text:"How does an inline function work in C++?", co:"CO2" },
+        { q:14, text:"What are the types of member functions in a class?", co:"CO2" },
+        { q:15, text:"Write the syntax to create a class with an example.", co:"CO2" },
+        { q:16, text:"What is an object in C++?", co:"CO2" },
+        { q:17, text:"Why do we use an array of objects?", co:"CO2" },
+        { q:18, text:"What is the scope resolution operator? Give an example.", co:"CO2" },
+        { q:19, text:"Differentiate between local and global variables.", co:"CO2" },
+        { q:20, text:"Which data members of a class are accessible outside the class?", co:"CO2" },
+        { q:21, text:"What is a copy constructor? What is its purpose?", co:"CO3" },
+        { q:22, text:"What is the purpose of a destructor in C++?", co:"CO3" },
+        { q:23, text:"How is a constructor different from a destructor?", co:"CO3" },
+        { q:24, text:"What is the use of a constructor?", co:"CO3" },
+        { q:25, text:"Is a default constructor created if we define other constructors?", co:"CO3" },
+        { q:26, text:"How many parameters does a default constructor take?", co:"CO3" },
+        { q:27, text:"How many types of constructors are there in C++?", co:"CO3" },
+        { q:28, text:"What is dynamic initialization in C++?", co:"CO3" },
+        { q:29, text:"How many times is a constructor called for an object?", co:"CO3" },
+        { q:30, text:"Does the C++ compiler create a default constructor if we write our own constructor?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Object Oriented Programming. Differentiate between Procedure Oriented and Object Oriented Programming.", co:"CO1" },
+        { q:32, text:"Explain how data hiding and encapsulation are implemented in C++ with a program.", co:"CO1" },
+        { q:33, text:"What is OOP? Briefly explain the OOP concepts in C++.", co:"CO1" },
+        { q:34, text:"How is C++ different from C? What are the OOP features of C++?", co:"CO1" },
+        { q:35, text:"Why are header files included in a C++ program? What role do they play?", co:"CO1" },
+        { q:36, text:"Explain the structure of a C++ program.", co:"CO1" },
+        { q:37, text:"Define a class. Write a program to store and display employee information using classes and objects.", co:"CO2" },
+        { q:38, text:"Differentiate between a class and an object. How do you create and access a class through objects? Explain with a program.", co:"CO2" },
+        { q:39, text:"What are static member functions and const member functions? Write a program to demonstrate them.", co:"CO2" },
+        { q:40, text:"Differentiate between private and public access specifiers with an example.", co:"CO2" },
+        { q:41, text:"Explain the role of class, object, data member, member function, and access specifiers with an example.", co:"CO2" },
+        { q:42, text:"Explain the concept of an array of objects with a program.", co:"CO2" },
+        { q:43, text:"What are constructors in C++? List their types. Write a program for a parameterized constructor.", co:"CO3" },
+        { q:44, text:"Differentiate between constructor and destructor. Write a program for a default constructor.", co:"CO3" },
+        { q:45, text:"What is a constructor? Explain the copy constructor in detail with a program.", co:"CO3" },
+        { q:46, text:"What is constructor overloading? Write a program to demonstrate it.", co:"CO3" },
+        { q:47, text:"Define constructor. List its special properties and explain the importance of destructors.", co:"CO3" },
+        { q:48, text:"Explain the concept of multiple constructors in a class with default and parameterized constructors.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Object Oriented Programming using C++ — Year 2022 — Assignment 1
+// ============================================
+const cpp2022A1 = {
+    sectionA: [
+        { q:1, text:"What is C++? Explain its features.", co:"CO1" },
+        { q:2, text:"What is the use of main() function in C++?", co:"CO1" },
+        { q:3, text:"What is iostream.h header file used for?", co:"CO1" },
+        { q:4, text:"What is encapsulation? Explain with example.", co:"CO1" },
+        { q:5, text:"Write the steps to compile and execute a C++ program.", co:"CO1" },
+        { q:6, text:"Why do we need Object Oriented Programming?", co:"CO1" },
+        { q:7, text:"Who developed C++ language?", co:"CO1" },
+        { q:8, text:"What is the file extension of a C++ program?", co:"CO1" },
+        { q:9, text:"Can we compile a program without main() function?", co:"CO1" },
+        { q:10, text:"What are the advantages of C++ over C?", co:"CO1" },
+        { q:11, text:"What is the syntax of a friend function in C++?", co:"CO2" },
+        { q:12, text:"Why are access specifiers used in C++?", co:"CO2" },
+        { q:13, text:"How does an inline function work in C++?", co:"CO2" },
+        { q:14, text:"What are the types of member functions in a class?", co:"CO2" },
+        { q:15, text:"Write the syntax to create a class with an example.", co:"CO2" },
+        { q:16, text:"What is an object in C++?", co:"CO2" },
+        { q:17, text:"Why do we use an array of objects?", co:"CO2" },
+        { q:18, text:"What is the scope resolution operator? Give an example.", co:"CO2" },
+        { q:19, text:"Differentiate between local and global variables.", co:"CO2" },
+        { q:20, text:"Which data members of a class are accessible outside the class?", co:"CO2" },
+        { q:21, text:"What is a copy constructor? What is its purpose?", co:"CO3" },
+        { q:22, text:"What is the purpose of a destructor in C++?", co:"CO3" },
+        { q:23, text:"How is a constructor different from a destructor?", co:"CO3" },
+        { q:24, text:"What is the use of a constructor?", co:"CO3" },
+        { q:25, text:"Is a default constructor created if we define other constructors?", co:"CO3" },
+        { q:26, text:"How many parameters does a default constructor take?", co:"CO3" },
+        { q:27, text:"How many types of constructors are there in C++?", co:"CO3" },
+        { q:28, text:"What is dynamic initialization in C++?", co:"CO3" },
+        { q:29, text:"How many times is a constructor called for an object?", co:"CO3" },
+        { q:30, text:"Does the C++ compiler create a default constructor if we write our own constructor?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain Object Oriented Programming. Differentiate between Procedure Oriented and Object Oriented Programming.", co:"CO1" },
+        { q:32, text:"Explain how data hiding and encapsulation are implemented in C++ with a program.", co:"CO1" },
+        { q:33, text:"What is OOP? Briefly explain the OOP concepts in C++.", co:"CO1" },
+        { q:34, text:"How is C++ different from C? What are the OOP features of C++?", co:"CO1" },
+        { q:35, text:"Why are header files included in a C++ program? What role do they play?", co:"CO1" },
+        { q:36, text:"Explain the structure of a C++ program.", co:"CO1" },
+        { q:37, text:"Define a class. Write a program to store and display employee information using classes and objects.", co:"CO2" },
+        { q:38, text:"Differentiate between a class and an object. How do you create and access a class through objects? Explain with a program.", co:"CO2" },
+        { q:39, text:"What are static member functions and const member functions? Write a program to demonstrate them.", co:"CO2" },
+        { q:40, text:"Differentiate between private and public access specifiers with an example.", co:"CO2" },
+        { q:41, text:"Explain the role of class, object, data member, member function, and access specifiers with an example.", co:"CO2" },
+        { q:42, text:"Explain the concept of an array of objects with a program.", co:"CO2" },
+        { q:43, text:"What are constructors in C++? List their types. Write a program for a parameterized constructor.", co:"CO3" },
+        { q:44, text:"Differentiate between constructor and destructor. Write a program for a default constructor.", co:"CO3" },
+        { q:45, text:"What is a constructor? Explain the copy constructor in detail with a program.", co:"CO3" },
+        { q:46, text:"What is constructor overloading? Write a program to demonstrate it.", co:"CO3" },
+        { q:47, text:"Define constructor. List its special properties and explain the importance of destructors.", co:"CO3" },
+        { q:48, text:"Explain the concept of multiple constructors in a class with default and parameterized constructors.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -2182,6 +2426,19 @@ const subjects = {
             "2023": { "1": english22023A1 },
             "2024": { "1": english22024A1 },
             "2025": { "1": english22025A1 }
+        }
+    },
+    "cpp": {
+        semester: 2,
+        icon: "🖥️",
+        name: "Object Oriented Programming using C++",
+        code: "BCA24203",
+        courseOutcomes: cppCO,
+        data: {
+            "2022": { "1": cpp2022A1 },
+            "2023": { "1": cpp2023A1 },
+            "2024": { "1": cpp2024A1 },
+            "2025": { "1": cpp2025A1 }
         }
     }
 };
