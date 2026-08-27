@@ -1859,6 +1859,250 @@ const evs2022A2 = {
 };
 
 // ============================================
+// Foundation Course in English II — COs
+// ============================================
+const english2CO = {
+    "CO1": "Demonstrate effective listening skills to enhance communication.",
+    "CO2": "Apply fundamental grammar rules in writing and speaking.",
+    "CO3": "Summarize information from various sources to assess their understanding.",
+    "CO4": "Enhance their understanding of vocabulary in various contexts.",
+    "CO5": "Understand the fundamentals of business letter writing.",
+    "CO6": "Develop their ability to connect literary themes to real world contexts."
+};
+
+// ============================================
+// Foundation Course in English II — Year 2025 — Assignment 1
+// ============================================
+const english22025A1 = {
+    sectionA: [
+        { q:1, text:"What do you mean by the term 'Listening'?", co:"CO1" },
+        { q:2, text:"List the various effective listening skills.", co:"CO1" },
+        { q:3, text:"What are the differences between Listening and Hearing?", co:"CO1" },
+        { q:4, text:"What are the signs of poor listening?", co:"CO1" },
+        { q:5, text:"List the various characteristics of good listening.", co:"CO1" },
+        { q:6, text:"How do psychological factors affect listening?", co:"CO1" },
+        { q:7, text:"Why is Hearing not a part of the communication process?", co:"CO1" },
+        { q:8, text:"List the various barriers to effective listening.", co:"CO1" },
+        { q:9, text:"How does effective listening affect relationships?", co:"CO1" },
+        { q:10, text:"What are the characteristics of Listening?", co:"CO1" },
+        { q:11, text:"Identify the underlined part of speech in the sentence: \"I will run to the store.\" Also define that part of speech.", co:"CO2" },
+        { q:12, text:"Give any 2 rules of subject verb agreement with examples.", co:"CO2" },
+        { q:13, text:"Identify the two Adjectives in the sentence: \"Varun hung the old painting in the largest bedroom.\"", co:"CO2" },
+        { q:14, text:"Identify the preposition: a) Keep the book on the study table. b) The students are waiting for the bus at the corner of the street.", co:"CO2" },
+        { q:15, text:"Identify the two Adverbs in the sentence: \"The teacher kindly told her to write carefully in the exam.\"", co:"CO2" },
+        { q:16, text:"Fill in the blanks with appropriate conjunction: a) I wanted to go to the beach, _______ the weather was too cold. b) She had completed the assignment on time, _____ she could not submit it.", co:"CO2" },
+        { q:17, text:"What are Interjections? Give examples.", co:"CO2" },
+        { q:18, text:"Correct the subject verb agreement: \"Either Raman or Riya have completed the assignment.\"", co:"CO2" },
+        { q:19, text:"What is Subject-Verb Agreement?", co:"CO2" },
+        { q:20, text:"Fill in the blanks with the correct form of Subject-Verb agreement: a) One of the rooms in the house _______ used only for storage. b) Her mother _____ bought a new dress.", co:"CO2" },
+        { q:21, text:"What do you mean by art of condensation?", co:"CO3" },
+        { q:22, text:"Define paraphrasing.", co:"CO3" },
+        { q:23, text:"Why is it important to review your Precis?", co:"CO3" },
+        { q:24, text:"What is an abstract?", co:"CO3" },
+        { q:25, text:"Discuss any two principles of the art of condensation.", co:"CO3" },
+        { q:26, text:"What is a Precis?", co:"CO3" },
+        { q:27, text:"List a few the uses of Precis-Writing?", co:"CO3" },
+        { q:28, text:"What things would you keep in mind while writing a Precis?", co:"CO3" },
+        { q:29, text:"What are the differences between Paraphrasing and Precis?", co:"CO3" },
+        { q:30, text:"List the various forms of condensation?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the difference between hearing and listening. How does listening go beyond just hearing? Provide examples to support your answer.", co:"CO1" },
+        { q:32, text:"Explain the main barriers to effective listening.", co:"CO1" },
+        { q:33, text:"What are the characteristics of poor listening? How can poor listening impact communication in both personal and professional environments?", co:"CO1" },
+        { q:34, text:"Discuss the key listening skills that contribute to effective communication.", co:"CO1" },
+        { q:35, text:"What are the advantages of Effective Listening?", co:"CO1" },
+        { q:36, text:"Discuss various types of listening in detail.", co:"CO1" },
+        { q:37, text:"Define parts of speech. Also define Adverb, Preposition and Interjection with examples.", co:"CO2" },
+        { q:38, text:"Identify the Underlined Parts of Speech: a) The children were playing happily in the park. b) John is always very helpful to his classmates. c) The green grass swayed gently in the wind. d) Because of the rain, the event was postponed.", co:"CO2" },
+        { q:39, text:"Do as Directed: a) The teacher asked us to write a ___ story for homework. (Adjective) b) The children are ___ about the upcoming trip to the zoo. (Verb) c) He apologized ___ being late to the meeting. (Preposition) d) We should leave now, ___ miss the train. (Conjunction)", co:"CO2" },
+        { q:40, text:"Identify the Error and Correct the Subject-Verb Agreement: a) Neither the teacher nor the students was aware of the schedule change. b) The team of scientists have published their research findings. c) The group of musicians were rehearsing for the performance tomorrow. d) The police have increased their presence in the area due to recent events.", co:"CO2" },
+        { q:41, text:"Define Pronoun, Adjective, Verb and Conjunction. Give two examples of each.", co:"CO2" },
+        { q:42, text:"Fill in the Correct Verb for Subject-Verb Agreement: a) Either the manager or the employees ___ (is/are) responsible for this error. b) The team ___ (has/have) won every match this season. c) The committee ___ (decides/decide) on the new policy tomorrow. d) Neither the teacher nor the students ___ (was/were) prepared for the sudden change in schedule.", co:"CO2" },
+        { q:43, text:"Make a precis of following paragraph and give suitable title: (Education paragraph)", co:"CO3" },
+        { q:44, text:"Make a precis of following paragraph and give suitable title: (Reading paragraph)", co:"CO3" },
+        { q:45, text:"Make a precis of following paragraph and give suitable title: (Climate Change paragraph)", co:"CO3" },
+        { q:46, text:"Make a precis of following paragraph and give suitable title: (Exercise paragraph)", co:"CO3" },
+        { q:47, text:"Make a precis of following paragraph and give suitable title: (Social Media paragraph)", co:"CO3" },
+        { q:48, text:"Make a precis of following paragraph and give suitable title: (Environmental Conservation paragraph)", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Foundation Course in English II — Year 2024 — Assignment 1
+// ============================================
+const english22024A1 = {
+    sectionA: [
+        { q:1, text:"What is listening? Explain its importance.", co:"CO1" },
+        { q:2, text:"What are the effective listening skills?", co:"CO1" },
+        { q:3, text:"Differentiate between listening and hearing.", co:"CO1" },
+        { q:4, text:"What are the signs of poor listening?", co:"CO1" },
+        { q:5, text:"What are the characteristics of good listening?", co:"CO1" },
+        { q:6, text:"How do psychological factors affect listening?", co:"CO1" },
+        { q:7, text:"Why is hearing not considered a communication skill?", co:"CO1" },
+        { q:8, text:"What are the barriers to effective listening?", co:"CO1" },
+        { q:9, text:"How does effective listening help in building relationships?", co:"CO1" },
+        { q:10, text:"What are the features of listening?", co:"CO1" },
+        { q:11, text:"Identify the part of speech of the underlined word: \"I will run to the store.\" Define it.", co:"CO2" },
+        { q:12, text:"What is subject-verb agreement? Give two rules with examples.", co:"CO2" },
+        { q:13, text:"Find the adjectives: \"Varun hung the old painting in the largest bedroom.\"", co:"CO2" },
+        { q:14, text:"Identify the prepositions: a) Keep the book on the study table. b) The students are waiting for the bus at the corner of the street.", co:"CO2" },
+        { q:15, text:"Find the adverbs: \"The teacher kindly told her to write carefully in the exam.\"", co:"CO2" },
+        { q:16, text:"Fill in the blanks with conjunctions: a) I wanted to go to the beach, ___ the weather was too cold. b) She had completed the assignment on time, ___ she could not submit it.", co:"CO2" },
+        { q:17, text:"What are interjections? Give examples.", co:"CO2" },
+        { q:18, text:"Correct the sentence: \"Either Raman or Riya have completed the assignment.\"", co:"CO2" },
+        { q:19, text:"What is subject-verb agreement?", co:"CO2" },
+        { q:20, text:"Fill in the blanks: a) One of the rooms in the house ___ used only for storage. b) Her mother ___ bought a new dress.", co:"CO2" },
+        { q:21, text:"What is the art of condensation?", co:"CO3" },
+        { q:22, text:"What is paraphrasing?", co:"CO3" },
+        { q:23, text:"Why should you review your precis?", co:"CO3" },
+        { q:24, text:"What is an abstract?", co:"CO3" },
+        { q:25, text:"What are the principles of condensation?", co:"CO3" },
+        { q:26, text:"What is a precis?", co:"CO3" },
+        { q:27, text:"What are the uses of precis writing?", co:"CO3" },
+        { q:28, text:"What should you keep in mind while writing a precis?", co:"CO3" },
+        { q:29, text:"Differentiate between paraphrasing and precis.", co:"CO3" },
+        { q:30, text:"What are the forms of condensation?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the difference between hearing and listening with examples.", co:"CO1" },
+        { q:32, text:"Explain the barriers to effective listening.", co:"CO1" },
+        { q:33, text:"What are the characteristics of poor listening and its impact on communication?", co:"CO1" },
+        { q:34, text:"Discuss the key listening skills for effective communication.", co:"CO1" },
+        { q:35, text:"What are the advantages of effective listening?", co:"CO1" },
+        { q:36, text:"Discuss the types of listening in detail.", co:"CO1" },
+        { q:37, text:"Define parts of speech. Explain adverb, preposition, and interjection with examples.", co:"CO2" },
+        { q:38, text:"Identify the parts of speech: a) happily b) John c) green d) Because", co:"CO2" },
+        { q:39, text:"Fill in the blanks: a) ___ story (Adjective) b) ___ about (Verb) c) apologized ___ (Preposition) d) leave now, ___ miss (Conjunction)", co:"CO2" },
+        { q:40, text:"Correct the subject-verb agreement errors.", co:"CO2" },
+        { q:41, text:"Define pronoun, adjective, verb, and conjunction with examples.", co:"CO2" },
+        { q:42, text:"Fill in the correct verb: a) Either the manager or the employees ___ (is/are) b) The team ___ (has/have) c) The committee ___ (decides/decide) d) Neither the teacher nor the students ___ (was/were)", co:"CO2" },
+        { q:43, text:"Write a precis of the Education paragraph.", co:"CO3" },
+        { q:44, text:"Write a precis of the Reading paragraph.", co:"CO3" },
+        { q:45, text:"Write a precis of the Climate Change paragraph.", co:"CO3" },
+        { q:46, text:"Write a precis of the Exercise paragraph.", co:"CO3" },
+        { q:47, text:"Write a precis of the Social Media paragraph.", co:"CO3" },
+        { q:48, text:"Write a precis of the Environmental Conservation paragraph.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Foundation Course in English II — Year 2023 — Assignment 1
+// ============================================
+const english22023A1 = {
+    sectionA: [
+        { q:1, text:"What is listening?", co:"CO1" },
+        { q:2, text:"What are the skills required for effective listening?", co:"CO1" },
+        { q:3, text:"What is the difference between listening and hearing?", co:"CO1" },
+        { q:4, text:"What are the signs of poor listening?", co:"CO1" },
+        { q:5, text:"What are the qualities of a good listener?", co:"CO1" },
+        { q:6, text:"How do emotions affect listening?", co:"CO1" },
+        { q:7, text:"Why is hearing not considered a communication skill?", co:"CO1" },
+        { q:8, text:"What are the obstacles to effective listening?", co:"CO1" },
+        { q:9, text:"How does listening improve relationships?", co:"CO1" },
+        { q:10, text:"What are the main features of listening?", co:"CO1" },
+        { q:11, text:"What is a verb? Identify the verb in: \"I will run to the store.\"", co:"CO2" },
+        { q:12, text:"Explain subject-verb agreement with two rules.", co:"CO2" },
+        { q:13, text:"Identify adjectives: \"Varun hung the old painting in the largest bedroom.\"", co:"CO2" },
+        { q:14, text:"Find prepositions: a) on the study table b) at the corner of the street.", co:"CO2" },
+        { q:15, text:"Identify adverbs: \"The teacher kindly told her to write carefully.\"", co:"CO2" },
+        { q:16, text:"Fill with conjunctions: a) I wanted to go ___ it was cold. b) She finished ___ she couldn't submit.", co:"CO2" },
+        { q:17, text:"What are interjections? Give examples.", co:"CO2" },
+        { q:18, text:"Correct: \"Either Raman or Riya have completed.\"", co:"CO2" },
+        { q:19, text:"Define subject-verb agreement.", co:"CO2" },
+        { q:20, text:"Fill: a) One of the rooms ___ used. b) Her mother ___ bought.", co:"CO2" },
+        { q:21, text:"What is condensation?", co:"CO3" },
+        { q:22, text:"What is paraphrasing?", co:"CO3" },
+        { q:23, text:"Why review a precis?", co:"CO3" },
+        { q:24, text:"What is an abstract?", co:"CO3" },
+        { q:25, text:"What are the principles of condensation?", co:"CO3" },
+        { q:26, text:"What is a precis?", co:"CO3" },
+        { q:27, text:"What are the uses of precis?", co:"CO3" },
+        { q:28, text:"What to remember while writing a precis?", co:"CO3" },
+        { q:29, text:"Differentiate between paraphrasing and precis.", co:"CO3" },
+        { q:30, text:"What are the forms of condensation?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the difference between hearing and listening.", co:"CO1" },
+        { q:32, text:"What are the barriers to effective listening?", co:"CO1" },
+        { q:33, text:"How does poor listening affect communication?", co:"CO1" },
+        { q:34, text:"What are the listening skills for effective communication?", co:"CO1" },
+        { q:35, text:"What are the advantages of effective listening?", co:"CO1" },
+        { q:36, text:"Explain the types of listening.", co:"CO1" },
+        { q:37, text:"Define parts of speech with examples of adverb, preposition, interjection.", co:"CO2" },
+        { q:38, text:"Identify parts of speech in given sentences.", co:"CO2" },
+        { q:39, text:"Fill in blanks with appropriate parts of speech.", co:"CO2" },
+        { q:40, text:"Correct subject-verb agreement errors.", co:"CO2" },
+        { q:41, text:"Define pronoun, adjective, verb, conjunction with examples.", co:"CO2" },
+        { q:42, text:"Fill with correct verbs.", co:"CO2" },
+        { q:43, text:"Precis of Education paragraph.", co:"CO3" },
+        { q:44, text:"Precis of Reading paragraph.", co:"CO3" },
+        { q:45, text:"Precis of Climate Change paragraph.", co:"CO3" },
+        { q:46, text:"Precis of Exercise paragraph.", co:"CO3" },
+        { q:47, text:"Precis of Social Media paragraph.", co:"CO3" },
+        { q:48, text:"Precis of Environmental Conservation paragraph.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Foundation Course in English II — Year 2022 — Assignment 1
+// ============================================
+const english22022A1 = {
+    sectionA: [
+        { q:1, text:"What do you understand by listening?", co:"CO1" },
+        { q:2, text:"What are effective listening skills?", co:"CO1" },
+        { q:3, text:"Differentiate between listening and hearing.", co:"CO1" },
+        { q:4, text:"What are the signs of poor listening?", co:"CO1" },
+        { q:5, text:"What are the characteristics of good listening?", co:"CO1" },
+        { q:6, text:"How do psychological factors affect listening?", co:"CO1" },
+        { q:7, text:"Why is hearing not part of the communication process?", co:"CO1" },
+        { q:8, text:"What are the barriers to effective listening?", co:"CO1" },
+        { q:9, text:"How does listening affect relationships?", co:"CO1" },
+        { q:10, text:"What are the features of listening?", co:"CO1" },
+        { q:11, text:"Identify the verb in: \"I will run to the store.\" Define it.", co:"CO2" },
+        { q:12, text:"Give rules of subject-verb agreement with examples.", co:"CO2" },
+        { q:13, text:"Identify adjectives in the given sentence.", co:"CO2" },
+        { q:14, text:"Identify prepositions.", co:"CO2" },
+        { q:15, text:"Identify adverbs.", co:"CO2" },
+        { q:16, text:"Fill with conjunctions.", co:"CO2" },
+        { q:17, text:"What are interjections? Give examples.", co:"CO2" },
+        { q:18, text:"Correct the subject-verb agreement error.", co:"CO2" },
+        { q:19, text:"What is subject-verb agreement?", co:"CO2" },
+        { q:20, text:"Fill with correct subject-verb agreement.", co:"CO2" },
+        { q:21, text:"What is condensation?", co:"CO3" },
+        { q:22, text:"Define paraphrasing.", co:"CO3" },
+        { q:23, text:"Why is reviewing a precis important?", co:"CO3" },
+        { q:24, text:"What is an abstract?", co:"CO3" },
+        { q:25, text:"What are the principles of condensation?", co:"CO3" },
+        { q:26, text:"What is a precis?", co:"CO3" },
+        { q:27, text:"What are the uses of precis writing?", co:"CO3" },
+        { q:28, text:"What should be kept in mind while writing a precis?", co:"CO3" },
+        { q:29, text:"Difference between paraphrasing and precis.", co:"CO3" },
+        { q:30, text:"What are the forms of condensation?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the difference between hearing and listening with examples.", co:"CO1" },
+        { q:32, text:"Explain the barriers to effective listening.", co:"CO1" },
+        { q:33, text:"How does poor listening affect communication?", co:"CO1" },
+        { q:34, text:"Discuss the key listening skills.", co:"CO1" },
+        { q:35, text:"What are the advantages of effective listening?", co:"CO1" },
+        { q:36, text:"Discuss the types of listening.", co:"CO1" },
+        { q:37, text:"Define parts of speech with examples of adverb, preposition, interjection.", co:"CO2" },
+        { q:38, text:"Identify parts of speech.", co:"CO2" },
+        { q:39, text:"Fill with appropriate parts of speech.", co:"CO2" },
+        { q:40, text:"Correct subject-verb agreement errors.", co:"CO2" },
+        { q:41, text:"Define pronoun, adjective, verb, conjunction with examples.", co:"CO2" },
+        { q:42, text:"Fill with correct verbs.", co:"CO2" },
+        { q:43, text:"Precis of Education paragraph.", co:"CO3" },
+        { q:44, text:"Precis of Reading paragraph.", co:"CO3" },
+        { q:45, text:"Precis of Climate Change paragraph.", co:"CO3" },
+        { q:46, text:"Precis of Exercise paragraph.", co:"CO3" },
+        { q:47, text:"Precis of Social Media paragraph.", co:"CO3" },
+        { q:48, text:"Precis of Environmental Conservation paragraph.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -1925,6 +2169,19 @@ const subjects = {
             "2023": { "1": evs2023A1, "2": evs2023A2 },
             "2024": { "1": evs2024A1, "2": evs2024A2 },
             "2025": { "1": evs2025A1, "2": evs2025A2 }
+        }
+    },
+    "english-2": {
+        semester: 2,
+        icon: "📖",
+        name: "Foundation Course in English II",
+        code: "AEC-24201",
+        courseOutcomes: english2CO,
+        data: {
+            "2022": { "1": english22022A1 },
+            "2023": { "1": english22023A1 },
+            "2024": { "1": english22024A1 },
+            "2025": { "1": english22025A1 }
         }
     }
 };
