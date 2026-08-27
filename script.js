@@ -151,28 +151,16 @@ function buildCOChips() {
     }
 
     const allCOs = Object.keys(subj.courseOutcomes);
-    const yearData = subj.data ? subj.data[state.year] : null;
-    const presentCOs = new Set();
-    if (yearData && yearData[state.assignment]) {
-        const assignData = yearData[state.assignment];
-        (assignData.sectionA || []).forEach(q => q.co && presentCOs.add(q.co));
-        (assignData.sectionB || []).forEach(q => q.co && presentCOs.add(q.co));
-    }
 
     let cosToDisplay = [];
     if (state.assignment === "1") {
-        // Assignment 1: Only CO1, CO2, CO3
+        // Assignment 1 -> Only show CO1, CO2, CO3
         cosToDisplay = allCOs.filter(co => ["CO1", "CO2", "CO3"].includes(co));
     } else if (state.assignment === "2") {
-        // Assignment 2: Only CO4, CO5, CO6 (or CO3 if present in assignment 2 questions)
-        if (presentCOs.has("CO3")) {
-            cosToDisplay = allCOs.filter(co => ["CO3", "CO4", "CO5", "CO6"].includes(co));
-        } else {
-            cosToDisplay = allCOs.filter(co => ["CO4", "CO5", "CO6"].includes(co));
-        }
+        // Assignment 2 -> Only show CO4, CO5, CO6
+        cosToDisplay = allCOs.filter(co => ["CO4", "CO5", "CO6"].includes(co));
     } else {
-        // Fallback for other assignments
-        cosToDisplay = presentCOs.size > 0 ? allCOs.filter(co => presentCOs.has(co)) : allCOs;
+        cosToDisplay = allCOs;
     }
 
     coChips.innerHTML = cosToDisplay.map(co =>
