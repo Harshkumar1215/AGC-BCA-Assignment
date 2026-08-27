@@ -3174,6 +3174,250 @@ const csa2022A2 = {
 };
 
 // ============================================
+// COURSE OUTCOMES: Fundamentals of Statistics
+// ============================================
+const statCO = {
+    "CO1": "Comprehend the fundamental concepts of statistics, its importance, scope and Distrust of statistics.",
+    "CO2": "Understand the basic concepts of collection and Classification of data.",
+    "CO3": "Acquaint the students with the knowledge of presenting the data with different methods.",
+    "CO4": "Familiarize the students with the calculation of Arithmetic mean, median and mode.",
+    "CO5": "Enable the students with the basics of Dispersion and Range.",
+    "CO6": "Recall the concepts of Standard deviation, variation and its application."
+};
+
+// ============================================
+// Fundamentals of Statistics — Year 2025 — Assignment 1
+// ============================================
+const stat2025A1 = {
+    sectionA: [
+        { q:1, text:"Write a short note on statistics.", co:"CO1" },
+        { q:2, text:"Brief about a Singular Sense.", co:"CO1" },
+        { q:3, text:"What do you mean by Plural Sense?", co:"CO1" },
+        { q:4, text:"Give any two advantages of Statistics.", co:"CO1" },
+        { q:5, text:"State two uses of Statistics.", co:"CO1" },
+        { q:6, text:"A short note on unpublished sources.", co:"CO1" },
+        { q:7, text:"Discuss about Origin of Statistics.", co:"CO1" },
+        { q:8, text:"Write any two features of statistics.", co:"CO1" },
+        { q:9, text:"A brief note on Distrust of Data.", co:"CO1" },
+        { q:10, text:"Discuss two limitations of statistics.", co:"CO1" },
+        { q:11, text:"What do you mean by Collection of Data?", co:"CO2" },
+        { q:12, text:"A short note on Primary Data.", co:"CO2" },
+        { q:13, text:"Brief note on Secondary Data.", co:"CO2" },
+        { q:14, text:"Give two objectives of Collection of Data.", co:"CO2" },
+        { q:15, text:"Define Rounding off Data in brief.", co:"CO2" },
+        { q:16, text:"State two methods of collecting Secondary Data.", co:"CO2" },
+        { q:17, text:"What is the Data Frequency?", co:"CO2" },
+        { q:18, text:"Give any two ways of Classifying the numerical Data.", co:"CO2" },
+        { q:19, text:"State two methods of Classification of Data.", co:"CO2" },
+        { q:20, text:"Brief note on Raw Data.", co:"CO2" },
+        { q:21, text:"What do you mean by Presentation of data?", co:"CO3" },
+        { q:22, text:"A short note on tabular presentation of Data.", co:"CO3" },
+        { q:23, text:"State two rules for the construction of a Table.", co:"CO3" },
+        { q:24, text:"Define two types of tables.", co:"CO3" },
+        { q:25, text:"Brief note on Diagrammatic Presentation of Data.", co:"CO3" },
+        { q:26, text:"What is diagrammatic Presentation of Data?", co:"CO3" },
+        { q:27, text:"Discuss about Pictogram and Cartogram.", co:"CO3" },
+        { q:28, text:"What do you mean by sub divided bar diagrams drawn on Percentage Basis.", co:"CO3" },
+        { q:29, text:"Give a brief note on rectangular diagram.", co:"CO3" },
+        { q:30, text:"What is the False Base line?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain in detail about the Distrust of Statistics.", co:"CO1" },
+        { q:32, text:"Discuss in detail the features of statistics.", co:"CO1" },
+        { q:33, text:"Define statistics and discuss its limitations in detail.", co:"CO1" },
+        { q:34, text:"Write a detail note on the functions of statistics.", co:"CO1" },
+        { q:35, text:"Explain in detail the various applications of Statistics.", co:"CO1" },
+        { q:36, text:"Define the Scope of Statistics.", co:"CO1" },
+        { q:37, text:"Distinguish between primary data and Secondary Data.", co:"CO2" },
+        { q:38, text:"State the basic rules of approximating the data and their utility in Stats.", co:"CO2" },
+        { q:39, text:"Explain in detail the various methods collecting Data.", co:"CO2" },
+        { q:40, text:"Define classification of Data and its various objectives.", co:"CO2" },
+        { q:41, text:"What are the different rules of framing frequency distribution?", co:"CO2" },
+        { q:42, text:"Explain the different ways to classify Numerical Data or Raw data.", co:"CO2" },
+        { q:43, text:"Explain the Tabular Presentation of data and its types.", co:"CO3" },
+        { q:44, text:"What do you mean by diagrammatic presentation of Data and its types?", co:"CO3" },
+        { q:45, text:"Define Bar Diagram and its different types.", co:"CO3" },
+        { q:46, text:"Explain in detail the Graphic Presentation of Data and its Utility.", co:"CO3" },
+        { q:47, text:"Discuss in detail the types of Graphs.", co:"CO3" },
+        { q:48, text:"Define the Frequency Distribution Graphs.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Statistics — Year 2024 — Assignment 1
+// ============================================
+const stat2024A1 = {
+    sectionA: [
+        { q:1, text:"What is statistics? Explain its meaning.", co:"CO1" },
+        { q:2, text:"What is Singular Sense of statistics?", co:"CO1" },
+        { q:3, text:"What is Plural Sense of statistics?", co:"CO1" },
+        { q:4, text:"What are the advantages of statistics?", co:"CO1" },
+        { q:5, text:"What are the uses of statistics?", co:"CO1" },
+        { q:6, text:"What are unpublished sources of data?", co:"CO1" },
+        { q:7, text:"Where did statistics originate?", co:"CO1" },
+        { q:8, text:"What are the features of statistics?", co:"CO1" },
+        { q:9, text:"Why is there distrust of statistics?", co:"CO1" },
+        { q:10, text:"What are the limitations of statistics?", co:"CO1" },
+        { q:11, text:"What is data collection?", co:"CO2" },
+        { q:12, text:"What is primary data?", co:"CO2" },
+        { q:13, text:"What is secondary data?", co:"CO2" },
+        { q:14, text:"What are the objectives of data collection?", co:"CO2" },
+        { q:15, text:"What is rounding off data?", co:"CO2" },
+        { q:16, text:"What are the methods of collecting secondary data?", co:"CO2" },
+        { q:17, text:"What is frequency of data?", co:"CO2" },
+        { q:18, text:"What are the ways to classify numerical data?", co:"CO2" },
+        { q:19, text:"What are the methods of data classification?", co:"CO2" },
+        { q:20, text:"What is raw data?", co:"CO2" },
+        { q:21, text:"What is data presentation?", co:"CO3" },
+        { q:22, text:"What is tabular presentation of data?", co:"CO3" },
+        { q:23, text:"What are the rules for constructing a table?", co:"CO3" },
+        { q:24, text:"What are the types of tables?", co:"CO3" },
+        { q:25, text:"What is diagrammatic presentation of data?", co:"CO3" },
+        { q:26, text:"Explain diagrammatic presentation of data.", co:"CO3" },
+        { q:27, text:"What are pictograms and cartograms?", co:"CO3" },
+        { q:28, text:"What are subdivided bar diagrams on percentage basis?", co:"CO3" },
+        { q:29, text:"What is a rectangular diagram?", co:"CO3" },
+        { q:30, text:"What is a false baseline?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the distrust of statistics in detail.", co:"CO1" },
+        { q:32, text:"Discuss the features of statistics.", co:"CO1" },
+        { q:33, text:"Define statistics and discuss its limitations.", co:"CO1" },
+        { q:34, text:"Write a note on the functions of statistics.", co:"CO1" },
+        { q:35, text:"Explain the applications of statistics.", co:"CO1" },
+        { q:36, text:"Define the scope of statistics.", co:"CO1" },
+        { q:37, text:"Distinguish between primary and secondary data.", co:"CO2" },
+        { q:38, text:"What are the rules of approximating data?", co:"CO2" },
+        { q:39, text:"Explain the methods of collecting data.", co:"CO2" },
+        { q:40, text:"Define classification of data and its objectives.", co:"CO2" },
+        { q:41, text:"What are the rules for frequency distribution?", co:"CO2" },
+        { q:42, text:"Explain the ways to classify numerical data.", co:"CO2" },
+        { q:43, text:"Explain tabular presentation and its types.", co:"CO3" },
+        { q:44, text:"What is diagrammatic presentation and its types?", co:"CO3" },
+        { q:45, text:"Define bar diagram and its types.", co:"CO3" },
+        { q:46, text:"Explain graphic presentation of data and its utility.", co:"CO3" },
+        { q:47, text:"Discuss the types of graphs.", co:"CO3" },
+        { q:48, text:"Define frequency distribution graphs.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Statistics — Year 2023 — Assignment 1
+// ============================================
+const stat2023A1 = {
+    sectionA: [
+        { q:1, text:"Define statistics and explain its importance.", co:"CO1" },
+        { q:2, text:"What is the Singular Sense of statistics?", co:"CO1" },
+        { q:3, text:"Explain the Plural Sense of statistics.", co:"CO1" },
+        { q:4, text:"What are the benefits of statistics?", co:"CO1" },
+        { q:5, text:"What are the applications of statistics?", co:"CO1" },
+        { q:6, text:"What are unpublished sources in statistics?", co:"CO1" },
+        { q:7, text:"Discuss the origin and development of statistics.", co:"CO1" },
+        { q:8, text:"What are the characteristics of statistics?", co:"CO1" },
+        { q:9, text:"Why is there distrust about statistical data?", co:"CO1" },
+        { q:10, text:"What are the drawbacks of statistics?", co:"CO1" },
+        { q:11, text:"What is meant by collection of data?", co:"CO2" },
+        { q:12, text:"Define primary data with examples.", co:"CO2" },
+        { q:13, text:"Define secondary data with examples.", co:"CO2" },
+        { q:14, text:"What are the purposes of data collection?", co:"CO2" },
+        { q:15, text:"What is rounding off data?", co:"CO2" },
+        { q:16, text:"What are the methods of secondary data collection?", co:"CO2" },
+        { q:17, text:"Define frequency of data.", co:"CO2" },
+        { q:18, text:"How is numerical data classified?", co:"CO2" },
+        { q:19, text:"What are the methods of data classification?", co:"CO2" },
+        { q:20, text:"Define raw data with an example.", co:"CO2" },
+        { q:21, text:"What is data presentation?", co:"CO3" },
+        { q:22, text:"Explain tabular presentation of data.", co:"CO3" },
+        { q:23, text:"What are the rules for table construction?", co:"CO3" },
+        { q:24, text:"What are the types of statistical tables?", co:"CO3" },
+        { q:25, text:"What is diagrammatic data presentation?", co:"CO3" },
+        { q:26, text:"Explain diagrammatic representation of data.", co:"CO3" },
+        { q:27, text:"Explain pictograms and cartograms.", co:"CO3" },
+        { q:28, text:"What are subdivided bar diagrams?", co:"CO3" },
+        { q:29, text:"What is a rectangular diagram?", co:"CO3" },
+        { q:30, text:"What is a false baseline in diagrams?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain in detail why there is distrust in statistics.", co:"CO1" },
+        { q:32, text:"Discuss the features of statistics in detail.", co:"CO1" },
+        { q:33, text:"Define statistics and explain its limitations.", co:"CO1" },
+        { q:34, text:"Write a detailed note on the functions of statistics.", co:"CO1" },
+        { q:35, text:"Explain the applications of statistics in various fields.", co:"CO1" },
+        { q:36, text:"Discuss the scope of statistics.", co:"CO1" },
+        { q:37, text:"Differentiate between primary and secondary data with examples.", co:"CO2" },
+        { q:38, text:"Explain the rules for approximating data.", co:"CO2" },
+        { q:39, text:"Explain the various methods of data collection.", co:"CO2" },
+        { q:40, text:"Define classification of data and its objectives.", co:"CO2" },
+        { q:41, text:"What are the rules for frequency distribution?", co:"CO2" },
+        { q:42, text:"Explain the ways to classify raw data.", co:"CO2" },
+        { q:43, text:"Explain tabular presentation and its types with examples.", co:"CO3" },
+        { q:44, text:"What is diagrammatic presentation? Explain its types.", co:"CO3" },
+        { q:45, text:"Explain bar diagrams and their types.", co:"CO3" },
+        { q:46, text:"Explain graphic presentation of data and its uses.", co:"CO3" },
+        { q:47, text:"Discuss the types of graphs used in statistics.", co:"CO3" },
+        { q:48, text:"Define frequency distribution graphs.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Fundamentals of Statistics — Year 2022 — Assignment 1
+// ============================================
+const stat2022A1 = {
+    sectionA: [
+        { q:1, text:"What is statistics? Explain its meaning and definition.", co:"CO1" },
+        { q:2, text:"Explain Singular Sense of statistics.", co:"CO1" },
+        { q:3, text:"Explain Plural Sense of statistics.", co:"CO1" },
+        { q:4, text:"What are the advantages of studying statistics?", co:"CO1" },
+        { q:5, text:"What are the practical uses of statistics?", co:"CO1" },
+        { q:6, text:"What are unpublished sources in statistics?", co:"CO1" },
+        { q:7, text:"Discuss the origin of statistics.", co:"CO1" },
+        { q:8, text:"What are the main features of statistics?", co:"CO1" },
+        { q:9, text:"What is meant by distrust of statistics?", co:"CO1" },
+        { q:10, text:"What are the limitations of statistical data?", co:"CO1" },
+        { q:11, text:"What is data collection?", co:"CO2" },
+        { q:12, text:"What is primary data? Give examples.", co:"CO2" },
+        { q:13, text:"What is secondary data? Give examples.", co:"CO2" },
+        { q:14, text:"What are the objectives of data collection?", co:"CO2" },
+        { q:15, text:"What is rounding off data?", co:"CO2" },
+        { q:16, text:"What are the methods of collecting secondary data?", co:"CO2" },
+        { q:17, text:"Define frequency in statistics.", co:"CO2" },
+        { q:18, text:"How is numerical data classified?", co:"CO2" },
+        { q:19, text:"What are the methods of classification of data?", co:"CO2" },
+        { q:20, text:"What is raw data?", co:"CO2" },
+        { q:21, text:"What is data presentation?", co:"CO3" },
+        { q:22, text:"Explain tabular presentation of data.", co:"CO3" },
+        { q:23, text:"What are the rules for table construction?", co:"CO3" },
+        { q:24, text:"What are the types of statistical tables?", co:"CO3" },
+        { q:25, text:"What is diagrammatic presentation?", co:"CO3" },
+        { q:26, text:"Explain diagrammatic presentation of data.", co:"CO3" },
+        { q:27, text:"What are pictograms and cartograms?", co:"CO3" },
+        { q:28, text:"What are subdivided bar diagrams?", co:"CO3" },
+        { q:29, text:"What is a rectangular diagram?", co:"CO3" },
+        { q:30, text:"What is a false baseline?", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Explain the distrust of statistics in detail.", co:"CO1" },
+        { q:32, text:"Discuss the features of statistics in detail.", co:"CO1" },
+        { q:33, text:"Define statistics and discuss its limitations.", co:"CO1" },
+        { q:34, text:"Write a detailed note on the functions of statistics.", co:"CO1" },
+        { q:35, text:"Explain the various applications of statistics.", co:"CO1" },
+        { q:36, text:"Define the scope of statistics.", co:"CO1" },
+        { q:37, text:"Distinguish between primary and secondary data.", co:"CO2" },
+        { q:38, text:"Explain the rules for approximating data.", co:"CO2" },
+        { q:39, text:"Explain the methods of collecting data.", co:"CO2" },
+        { q:40, text:"Define classification of data and its objectives.", co:"CO2" },
+        { q:41, text:"What are the rules for frequency distribution?", co:"CO2" },
+        { q:42, text:"Explain the ways to classify numerical data.", co:"CO2" },
+        { q:43, text:"Explain tabular presentation and its types.", co:"CO3" },
+        { q:44, text:"What is diagrammatic presentation and its types?", co:"CO3" },
+        { q:45, text:"Explain bar diagrams and their types.", co:"CO3" },
+        { q:46, text:"Explain graphic presentation of data and its utility.", co:"CO3" },
+        { q:47, text:"Discuss the types of graphs.", co:"CO3" },
+        { q:48, text:"Define frequency distribution graphs.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -3279,6 +3523,19 @@ const subjects = {
             "2023": { "1": csa2023A1, "2": csa2023A2 },
             "2024": { "1": csa2024A1, "2": csa2024A2 },
             "2025": { "1": csa2025A1, "2": csa2025A2 }
+        }
+    },
+    "stat": {
+        semester: 2,
+        icon: "📊",
+        name: "Fundamentals of Statistics",
+        code: "BCA-24205",
+        courseOutcomes: statCO,
+        data: {
+            "2022": { "1": stat2022A1 },
+            "2023": { "1": stat2023A1 },
+            "2024": { "1": stat2024A1 },
+            "2025": { "1": stat2025A1 }
         }
     }
 };
