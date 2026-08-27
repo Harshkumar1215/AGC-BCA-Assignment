@@ -1139,6 +1139,134 @@ const fcit2025A2 = {
 };
 
 // ============================================
+// Human Values — COs
+// ============================================
+const hvpeCO = {
+    "CO1": "Understand need and process of value education.",
+    "CO2": "Identify and analyse basic human aspirations.",
+    "CO3": "Understand co-existence of self and body.",
+    "CO4": "Understand and analyse harmony in body and family.",
+    "CO5": "Identify comprehensive human goal and existence as co-existence.",
+    "CO6": "Implement Right Understanding for holistic development."
+};
+
+// ============================================
+// Human Values — Year 2024 — Assignment 1
+// ============================================
+const hvpe2024A1 = {
+    sectionA: [
+        { q:1, text:"What do you understand by the term Value Education?", co:"CO1" },
+        { q:2, text:"Why there is a need of Value Education?", co:"CO1" },
+        { q:3, text:"How does Values varies from Skills?", co:"CO1" },
+        { q:4, text:"Write two basic guidelines of Human Values?", co:"CO1" },
+        { q:5, text:"How are Skills and Values complementary to each other?", co:"CO1" },
+        { q:6, text:"What is Self Exploration?", co:"CO1" },
+        { q:7, text:"Why there is a need of Value Education in today's scenario?", co:"CO1" },
+        { q:8, text:"What is the content of Self Exploration?", co:"CO1" },
+        { q:9, text:"Define Value Education? What are the basic guidelines of Value Education?", co:"CO1" },
+        { q:10, text:"Self Exploration is a dialogue between' what you are' and 'what you want to be'.Comment.", co:"CO1" },
+        { q:11, text:"How does Values Education helps in fulfilling one's aspirations?", co:"CO2" },
+        { q:12, text:"Define the term Natural Acceptance.", co:"CO2" },
+        { q:13, text:"What are the basic human aspirations?", co:"CO2" },
+        { q:14, text:"How can one correctly identify his or her aspirations on the basis of Value Education?", co:"CO2" },
+        { q:15, text:"Is Natural Acceptance Innate, Invariant and Universal. Comment.", co:"CO2" },
+        { q:16, text:"For success in any human endeavour both values and skills are required.'Comment.", co:"CO2" },
+        { q:17, text:"What is the difference between Prosperity and Wealth?", co:"CO2" },
+        { q:18, text:"What is the present vision of Prosperity and Happiness?", co:"CO2" },
+        { q:19, text:"How can we verify proposals on the basis of Natural Acceptance?", co:"CO2" },
+        { q:20, text:"Out of Prosperity and Wealth which is naturally acceptable to us?", co:"CO2" },
+        { q:21, text:"Comment on this statement,\" Human Body is more than just a body.\"", co:"CO3" },
+        { q:22, text:"What are the activities going on in body?", co:"CO3" },
+        { q:23, text:"What are the activities of 'I'?", co:"CO3" },
+        { q:24, text:"Differentiate between the needs of Self and Body.", co:"CO3" },
+        { q:25, text:"What do you understand by right utilization of body?", co:"CO3" },
+        { q:26, text:"How does assuming without knowing affect our self?", co:"CO3" },
+        { q:27, text:"How self enjoys the activities of the body?", co:"CO3" },
+        { q:28, text:"The needs of body are quantitative. Illustrate.", co:"CO3" },
+        { q:29, text:"What is the program for ensuring health in body?", co:"CO3" },
+        { q:30, text:"Human Being is co-existence of the Self and Body- Elaborate on this statement.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define Value Education? Why there is a need of Value Education?", co:"CO1" },
+        { q:32, text:"Write a short note on need of Value Education in Today's scenario?", co:"CO1" },
+        { q:33, text:"\"For success of Human Endeavour both values and skills are required.\" Explain.", co:"CO1" },
+        { q:34, text:"Explain in detail the complementarity of production skills and human values.", co:"CO1" },
+        { q:35, text:"Explain the Basic Guidelines of Value Education?", co:"CO1" },
+        { q:36, text:"How can we evaluate our beliefs with the help of Human Values?", co:"CO1" },
+        { q:37, text:"Define Natural Acceptance? Is it Innate, Invariant and universal?", co:"CO2" },
+        { q:38, text:"How can one be transformed from animal consciousness to Human Consciousness?", co:"CO2" },
+        { q:39, text:"What are the requirements to fulfill basic human aspiration?", co:"CO2" },
+        { q:40, text:"What do you mean by Human and Animal Consciousness? Explain with the help of a diagram.", co:"CO2" },
+        { q:41, text:"\"Natural Acceptance is innate, invariant and universal.\" Explain with the help of an example.", co:"CO2" },
+        { q:42, text:"What do abbreviations given SVDD, SSDD and SSSS signify?", co:"CO2" },
+        { q:43, text:"Distinguish between Sukh and Suvidha in detail taking yourself as an example.", co:"CO3" },
+        { q:44, text:"Explain the activities of Knowing, assuming, recognizing and fulfillment with one example.", co:"CO3" },
+        { q:45, text:"What is Pre Conditioning? What is the source of Pre- Conditioning?", co:"CO3" },
+        { q:46, text:"\"I am a seer, doer and enjoyer. The body is an instrument\". Explain.", co:"CO3" },
+        { q:47, text:"Discuss the problems created by having desire, thoughts and expectations on the basis of preconditioning?", co:"CO3" },
+        { q:48, text:"How Human mind gets influenced or conditioned? Explain.", co:"CO3" }
+    ]
+};
+
+// ============================================
+// Human Values — Year 2025/2023/2022 — Assignment 1
+// ============================================
+const hvpe2025A1 = {
+    sectionA: [
+        { q:1, text:"What is Value Education? Explain its importance.", co:"CO1" },
+        { q:2, text:"Why do we need Value Education?", co:"CO1" },
+        { q:3, text:"What is the difference between values and skills?", co:"CO1" },
+        { q:4, text:"What are the basic guidelines of Value Education?", co:"CO1" },
+        { q:5, text:"How are values and skills complementary to each other?", co:"CO1" },
+        { q:6, text:"What is self-exploration?", co:"CO1" },
+        { q:7, text:"Why is Value Education important in today's world?", co:"CO1" },
+        { q:8, text:"What is the content of self-exploration?", co:"CO1" },
+        { q:9, text:"What are the basic guidelines of Value Education?", co:"CO1" },
+        { q:10, text:"\"Self-exploration is a dialogue between what you are and what you want to be.\" Comment.", co:"CO1" },
+        { q:11, text:"How does Value Education help in fulfilling aspirations?", co:"CO2" },
+        { q:12, text:"What is natural acceptance?", co:"CO2" },
+        { q:13, text:"What are the basic human aspirations?", co:"CO2" },
+        { q:14, text:"How can we identify our aspirations through Value Education?", co:"CO2" },
+        { q:15, text:"Is natural acceptance innate, invariant, and universal? Comment.", co:"CO2" },
+        { q:16, text:"\"Both values and skills are required for success.\" Comment.", co:"CO2" },
+        { q:17, text:"What is the difference between prosperity and wealth?", co:"CO2" },
+        { q:18, text:"What is the current vision of prosperity and happiness?", co:"CO2" },
+        { q:19, text:"How can we verify proposals based on natural acceptance?", co:"CO2" },
+        { q:20, text:"Which is naturally acceptable — prosperity or wealth?", co:"CO2" },
+        { q:21, text:"\"Human body is more than just a body.\" Comment.", co:"CO3" },
+        { q:22, text:"What are the activities in the body?", co:"CO3" },
+        { q:23, text:"What are the activities of 'I'?", co:"CO3" },
+        { q:24, text:"Differentiate between the needs of Self and Body.", co:"CO3" },
+        { q:25, text:"What is the right utilization of the body?", co:"CO3" },
+        { q:26, text:"How does assuming without knowing affect our self?", co:"CO3" },
+        { q:27, text:"How does the self enjoy the activities of the body?", co:"CO3" },
+        { q:28, text:"\"The needs of the body are quantitative.\" Illustrate.", co:"CO3" },
+        { q:29, text:"What is the program for ensuring health in the body?", co:"CO3" },
+        { q:30, text:"\"Human being is co-existence of self and body.\" Elaborate.", co:"CO3" }
+    ],
+    sectionB: [
+        { q:31, text:"Define Value Education. Why is it needed?", co:"CO1" },
+        { q:32, text:"Write a note on the need for Value Education in today's scenario.", co:"CO1" },
+        { q:33, text:"\"Both values and skills are required for success.\" Explain.", co:"CO1" },
+        { q:34, text:"Explain the complementarity of production skills and human values.", co:"CO1" },
+        { q:35, text:"Explain the basic guidelines of Value Education.", co:"CO1" },
+        { q:36, text:"How can we evaluate our beliefs with the help of human values?", co:"CO1" },
+        { q:37, text:"Define natural acceptance. Is it innate, invariant, and universal?", co:"CO2" },
+        { q:38, text:"How can one transform from animal consciousness to human consciousness?", co:"CO2" },
+        { q:39, text:"What are the requirements to fulfill basic human aspirations?", co:"CO2" },
+        { q:40, text:"What is human and animal consciousness? Explain with a diagram.", co:"CO2" },
+        { q:41, text:"\"Natural acceptance is innate, invariant, and universal.\" Explain with an example.", co:"CO2" },
+        { q:42, text:"What do SVDD, SSDD, and SSSS signify?", co:"CO2" },
+        { q:43, text:"Distinguish between Sukh and Suvidha with an example.", co:"CO3" },
+        { q:44, text:"Explain the activities of knowing, assuming, recognizing, and fulfillment with an example.", co:"CO3" },
+        { q:45, text:"What is preconditioning? What is its source?", co:"CO3" },
+        { q:46, text:"\"I am a seer, doer, and enjoyer. The body is an instrument.\" Explain.", co:"CO3" },
+        { q:47, text:"Discuss the problems created by desires, thoughts, and expectations based on preconditioning.", co:"CO3" },
+        { q:48, text:"How does the human mind get influenced or conditioned? Explain.", co:"CO3" }
+    ]
+};
+
+// ============================================
 // Master Subject Config
 // ============================================
 const subjects = {
@@ -1173,6 +1301,17 @@ const subjects = {
             "2023": { "1": fcit2025A1, "2": fcit2025A2 },
             "2024": { "1": fcit2024A1, "2": fcit2024A2 },
             "2025": { "1": fcit2025A1, "2": fcit2025A2 }
+        }
+    },
+    "hvpe": {
+        name: "Human Values",
+        code: "HVPE 101-18",
+        courseOutcomes: hvpeCO,
+        data: {
+            "2022": { "1": hvpe2025A1 },
+            "2023": { "1": hvpe2025A1 },
+            "2024": { "1": hvpe2024A1 },
+            "2025": { "1": hvpe2025A1 }
         }
     }
 };
